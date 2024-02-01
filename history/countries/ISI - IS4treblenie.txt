@@ -18,6 +18,8 @@ set_technology = {
 }
 
 recruit_character = ISI_roman_polivka
+recruit_character = ISI_luda_korostina
+recruit_character = ISI_aleksandr_malishev
 
 set_politics = {
 	ruling_party = neutrality
