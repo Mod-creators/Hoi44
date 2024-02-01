@@ -2,3 +2,6 @@
 Демократия - liberalizm
 Нейтролитет - despotism
 Комунизм - stalinism 
+Генирал - corps_comander
+Главнокомандующий - field_marshal
+Советник - advisor 

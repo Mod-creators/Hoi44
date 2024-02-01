@@ -22,6 +22,16 @@ recruit_character = ISI_luda_korostina
 recruit_character = ISI_aleksandr_malishev
 recruit_character = ISI_artem_naygolnow
 recruit_character = ISI_nikita_bananow
+recruit_character = ISI_ruslan_usherbnii
+recruit_character = ISI_dan_scala
+recruit_character = ISI_lesha_neprixod
+recruit_character = ISI_nikita_xyida
+recruit_character = ISI_valera_redan
+recruit_character = ISI_vlad_student
+recruit_character = ISI_irina_kovid
+recruit_character = ISI_vlad_neprilotov
+
+
 
 
 set_politics = {

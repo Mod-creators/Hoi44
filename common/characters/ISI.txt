@@ -64,11 +64,129 @@ characters = {
 	}
 	field_marshal = {
 		traits = {}
-		attack_skill - 5;
-		defense_skill - 4;
-		planning_skill - 7;
-		logistics_skill - 5;
+		attack_skill=5;
+		defense_skill=4;
+		planning_skill=7;
+		logistics_skill=5;
 		}
 	}
+	ISI_ruslan_usherbnii = {
+	name = "ruslan usherbnii"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	corps_comander = {
+		traits = {}
+		attack_skill=1;
+		defense_skill=1;
+		planning_skill=1;
+		logistics_skill=1;
+		}
+	}
+	ISI_dan_scala = {
+	name = "dan scala"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	corps_comander = {
+		traits = {}
+		attack_skill=3;
+		defense_skill=4;
+		planning_skill=4;
+		logistics_skill=2;
+		}
+	}
+	ISI_lesha_neprixod = {
+	name = "lesha neprixod"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	corps_comander = {
+		traits = {}
+		attack_skill=1;
+		defense_skill=5;
+		planning_skill=3;
+		logistics_skill=2;
+		}
+	}
+	ISI_nikita_xyida = {
+	name = "nikita xyida"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	field_marshal = {
+		traits = {}
+		attack_skill=7;
+		defense_skill=2;
+		planning_skill=2;
+		logistics_skill=5;
+		}
+	}
+	ISI_valera_redan = {
+	name = "valera redan"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	corps_comander = {
+		traits = {}
+		attack_skill=6;
+		defense_skill=4;
+		planning_skill=5;
+		logistics_skill=1;
+		}
+	}
+	ISI_vlad_student = {
+	name = "vlad student"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	corps_comander = {
+		traits = {}
+		attack_skill=4;
+		defense_skill=4;
+		planning_skill=4;
+		logistics_skill=4;
+		}
+	}
+	ISI_irina_kovid = {
+	name = "irina kovid"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	corps_comander = {
+		traits = {}
+		attack_skill=6;
+		defense_skill=2;
+		planning_skill=3;
+		logistics_skill=3;
+		}
+	}
+	ISI_vlad_neprilotov = {
+	name = "vlad neprilotov"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	
 	
 }
