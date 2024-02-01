@@ -27,7 +27,7 @@ characters = {
 		id = -1
 		}
 	}
-		ISI_aleksandr_malishev = {
+	ISI_aleksandr_malishev = {
 	name = "aleksandr malishev"
 	portraits = {
 		civilian = {
@@ -39,6 +39,35 @@ characters = {
 		traits = {}
 		expire="1965.1.1.1"
 		id = -1
+		}
+	}
+	ISI_artem_naygolnow = {
+	name = "artem naygolnow"
+	portraits = {
+		civilian = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	country_leader = {
+		ideology = stalinism 
+		traits = {}
+		expire="1965.1.1.1"
+		id = -1
+		}
+	}
+	ISI_nikita_bananow = {
+	name = "nikita bananow"
+	portraits = {
+		army = {
+		large = GFX_portrait_King_Zog
+		}
+	}
+	field_marshal = {
+		traits = {}
+		attack_skill - 5;
+		defense_skill - 4;
+		planning_skill - 7;
+		logistics_skill - 5;
 		}
 	}
 	
