@@ -14,9 +14,48 @@ leader_traits = {
 
     dictator_luser = {
         random = no
-		research_speed_factor = 0.5
+		research_speed_factor = -0.25
+		political_advisor_cost_factor = 0.5
+		political_power_cost = 0.4
+		stability_factor = -0.3
+		war_stability_factor = -0.1
         ai_will_do = {
             factor = 1
         }
     }
+	vecnoe_pms = {
+	
+	}
+	uvil_bananov = {
+	
+	}
+	usherb = {
+	
+	}
+	usilenie_scali = {
+	
+	}
+	uxod_leshi = {
+	
+	}
+	prilet_vlad = {
+	
+	}
+	hz_proxorov = {
+	
+	}
+	sale_chain = {
+	
+	}
+	activ_volk = {
+	
+	}
+	smoke_koko = {
+	
+	}
+	propiv_imusestva = {
+	
+	}
+	
+	
 }

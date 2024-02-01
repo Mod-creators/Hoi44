@@ -2,7 +2,7 @@ ISI_contry.gfx
 spriteTypes = {
 
     spriteType = {
-        name = "GFX_Portrait_Africa_Generic_1"
-        texturefile = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+        name = "GFX_Portrait_luda_korostina"
+        texturefile = "gfx/leaders/ISI/ISI_luda_korostina.dds"
     }
 }
