@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = despotism
-			traits = {}
+			traits = {dictator_luser}
 			expire="1965.1.1.1"
 			id = -1
 		}
@@ -47,6 +47,11 @@ characters = {
 		civilian = {
 		large = GFX_portrait_King_Zog
 		}
+	advisor = {
+	slot = theorist
+	traits = {}
+	cost = 300
+	}
 	}
 	country_leader = {
 		ideology = stalinism 
@@ -69,7 +74,7 @@ characters = {
 		planning_skill=7;
 		logistics_skill=5;
 		}
-	advisor{
+	advisor = {
 	slot = high_command
 	traits = {}
 	cost = 100
