@@ -69,6 +69,11 @@ characters = {
 		planning_skill=7;
 		logistics_skill=5;
 		}
+	advisor{
+	slot = high_command
+	traits = {}
+	cost = 100
+	}
 	}
 	ISI_ruslan_usherbnii = {
 	name = "ruslan usherbnii"
@@ -129,6 +134,11 @@ characters = {
 		planning_skill=2;
 		logistics_skill=5;
 		}
+	advisor = {
+	slot = high_command
+	traits = {}
+	cost = 100
+	}
 	}
 	ISI_valera_redan = {
 	name = "valera redan"
