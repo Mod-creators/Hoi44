@@ -187,6 +187,198 @@ characters = {
 		traits = {}
 		}
 	}
+	ISI_danil_proxorod = {
+	name = "danil proxorod"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_ivan_chain = {
+	name = "ivan chain"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_dima_volkov = {
+	name = "dima volkov"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_artem_koko = {
+	name = "artem koko"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_tox_gandon = {
+	name = "tox gandon"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_vlad_surovikin = {
+	name = "vlad surovikin"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_aleksey_morda = {
+	name = "aleksey morda"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_daria_nuxclei = {
+	name = "daria nuxclei"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=political_advisor
+		traits = {}
+		}
+	}
+	ISI_nikolai_zurov = {
+	name = "nikolai zurov"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=theorist
+		traits = {}
+		}
+	}
+	ISI_andrei_amoral = {
+	name = "andrei amoral"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=theorist
+		traits = {}
+		}
+	}
+	ISI_aleksandr_voitenko = {
+	name = "aleksandr voitenko"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=army_chief
+		traits = {}
+		}
+	}
+	ISI_nasta_vodka = {
+	name = "nasta vodka"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=army_chief
+		traits = {}
+		}
+	}
+	ISI_pavel_pandora = {
+	name = "pavel pandora"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=navy_chief
+		traits = {}
+		}
+	}
+	ISI_dima_groznov = {
+	name = "dima groznov"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=navy_chief
+		traits = {}
+		}
+	}
+	ISI_iaroslavna_upala = {
+	name = "iaroslavna upala"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=air_chief
+		traits = {}
+		}
+	}
+	ISI_danil_minenko = {
+	name = "iaroslavna upala"
+	portraits = {
+		army = {
+		small = GFX_portrait_King_Zog
+		}
+	}
+	advisor = {
+		slot=air_chief
+		traits = {}
+		}
+	}
 	
 	
 }
