@@ -17,7 +17,7 @@ characters = {
 	name = "luda korostina"
 	portraits = {
 		civilian = {
-		large = GFX_Portrait_luda_korostina
+		large = GFX_portrait_luda_korostina
 		}
 	}
 	country_leader = {

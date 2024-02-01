@@ -8457,8 +8457,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ITA/portrait_MNT_blazo_dukanovic.dds"
 	}
 	spriteType = {
-		name = "GFX_Portrait_luda_korostina"
-        texturefile = "gfx/leaders/ISI/ISI_luda_korostina.dds"
+		name = "GFX_portrait_luda_korostina"
+        texturefile = "gfx/leaders/ISI/portrait_luda_korostina.dds"
 	}
 	
 }
