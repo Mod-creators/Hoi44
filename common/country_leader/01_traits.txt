@@ -54,33 +54,69 @@ leader_traits = {
         }
 	}
 	uvil_bananov = {
-	
+			        random = no
+		experience_gain_army = 0.4
+		army_armor_attack_factor = 0.15
+        ai_will_do = {
+            factor = 1
+        }
 	}
-	usherb = {
-	
-	}
-	usilenie_scali = {
-	
-	}
-	uxod_leshi = {
-	
+	big_small_xuy = {
+				        random = no
+		army_artillery_attack_factor = 0.08
+		army_morale = 0.03
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	prilet_vlad = {
-	
+				        random = no
+		political_power_factor = 0.1
+		stability_factor = 0.05
+		party_popularity_stability_factor = 0.1
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	hz_proxorov = {
+					     random = no
+		line_change_production_efficiency_factor = 0.05
+		production_lack_of_resource_penalty_factor = -0.1
+		production_cost_industrial_complex_factor = -0.1
+        ai_will_do = {
+            factor = 1
+        }
 	
 	}
 	sale_chain = {
-	
+						     random = no
+		industrial_capacity_factory = 0.08
+		weekly_manpower = 100
+		transport_capacity = 0.1
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	activ_volk = {
+							     random = no
+		agency_upgrade_time = 0.2
+		intelligence_agency_defense = 0.3
+		operative_slot = 1
+        ai_will_do = {
+            factor = 1
+        }
 	
 	}
 	smoke_koko = {
+								   random = no
+		command_power_gain = 0.1
+		conscription_factor = 0.05
+        ai_will_do = {
+            factor = 1
+        }
 	
 	}
-	propiv_imusestva = {
+	propiv_imyhestva = {
 	
 	}
 	
