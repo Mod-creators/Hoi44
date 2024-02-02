@@ -88,7 +88,7 @@ characters = {
 		large = GFX_portrait_ruslan_usherbnii
 		}
 	}
-	corps_comander = {
+	corps_commander = {
 		traits = {media_personality}
 		attack_skill=1;
 		defense_skill=1;
@@ -103,7 +103,7 @@ characters = {
 		large = GFX_portrait_dan_scala
 		}
 	}
-	corps_comander = {
+	corps_commander = {
 		traits = {armor_officer commando}
 		attack_skill=3;
 		defense_skill=4;
@@ -118,7 +118,7 @@ characters = {
 		large = GFX_portrait_lesha_neprixod
 		}
 	}
-	corps_comander = {
+	corps_commander = {
 		traits = {paratroopers commando}
 		attack_skill=1;
 		defense_skill=5;
@@ -153,7 +153,7 @@ characters = {
 		large = GFX_portrait_valera_redan
 		}
 	}
-	corps_comander = {
+	corps_commander = {
 		traits = {infantry_officer engineer}
 		attack_skill=6;
 		defense_skill=4;
@@ -168,7 +168,7 @@ characters = {
 		large = GFX_portrait_vlad_student
 		}
 	}
-	corps_comander = {
+	corps_commander = {
 		traits = {panzer_leader panzer_expert}
 		attack_skill=4;
 		defense_skill=4;
@@ -183,7 +183,7 @@ characters = {
 		large = GFX_portrait_irina_kovid
 		}
 	}
-	corps_comander = {
+	corps_commander = {
 		traits = {invader naval_liaison amphibious}
 		attack_skill=6;
 		defense_skill=2;
