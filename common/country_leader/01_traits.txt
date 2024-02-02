@@ -24,7 +24,34 @@ leader_traits = {
         }
     }
 	vecnoe_pms = {
-	
+	        random = no
+		enemy_declare_war_tension = 0.1
+		air_volunteer_cap = 300
+		production_factory_efficiency_gain_factor = 0.15
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	big_ambal = {
+	        random = no
+		local_resources_factor = 0.15
+		offensive_war_stability_factor = 0.3
+		political_power_factor = 0.1
+		annex_cost_factor = -0.05
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	big_boss = {
+		        random = no
+		research_speed_factor = 0.4
+		stability_weekly = -0.01
+		war_support_factor = -0.1
+		production_speed_buildings_factor = -0.1
+		consumer_goods_factor = 0.1
+        ai_will_do = {
+            factor = 1
+        }
 	}
 	uvil_bananov = {
 	
