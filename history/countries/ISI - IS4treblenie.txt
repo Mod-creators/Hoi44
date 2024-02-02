@@ -33,7 +33,6 @@ recruit_character = ISI_ivan_chain
 recruit_character = ISI_dima_volkov
 recruit_character = ISI_artem_koko
 recruit_character = ISI_tox_gandon
-recruit_character = ISI_vlad_surovikin
 recruit_character = ISI_aleksey_morda
 recruit_character = ISI_daria_nuxclei
 recruit_character = ISI_nikolai_zurov

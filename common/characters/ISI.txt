@@ -259,19 +259,7 @@ characters = {
 	}
 	advisor = {
 		slot=political_advisor
-		traits = {}
-		}
-	}
-	ISI_vlad_surovikin = {
-	name = "vlad surovikin"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=political_advisor
-		traits = {}
+		traits = {gan_tox}
 		}
 	}
 	ISI_aleksey_morda = {
@@ -283,7 +271,7 @@ characters = {
 	}
 	advisor = {
 		slot=political_advisor
-		traits = {}
+		traits = {mordoboy}
 		}
 	}
 	ISI_daria_nuxclei = {
@@ -295,7 +283,7 @@ characters = {
 	}
 	advisor = {
 		slot=political_advisor
-		traits = {}
+		traits = {vcid_cleem}
 		}
 	}
 	ISI_nikolai_zurov = {
@@ -307,7 +295,7 @@ characters = {
 	}
 	advisor = {
 		slot=theorist
-		traits = {}
+		traits = {zurov_koncilsa}
 		}
 	}
 	ISI_andrei_amoral = {
@@ -319,7 +307,7 @@ characters = {
 	}
 	advisor = {
 		slot=theorist
-		traits = {}
+		traits = {amoral}
 		}
 	}
 	ISI_aleksandr_voitenko = {
@@ -331,7 +319,7 @@ characters = {
 	}
 	advisor = {
 		slot=army_chief
-		traits = {}
+		traits = {voitenko}
 		}
 	}
 	ISI_nasta_vodka = {
@@ -343,7 +331,7 @@ characters = {
 	}
 	advisor = {
 		slot=army_chief
-		traits = {}
+		traits = {propiv_imyhestva}
 		}
 	}
 	ISI_pavel_pandora = {
@@ -355,7 +343,7 @@ characters = {
 	}
 	advisor = {
 		slot=navy_chief
-		traits = {}
+		traits = {pandore}
 		}
 	}
 	ISI_dima_groznov = {
@@ -367,7 +355,7 @@ characters = {
 	}
 	advisor = {
 		slot=navy_chief
-		traits = {}
+		traits = {grozn}
 		}
 	}
 	ISI_iaroslavna_upala = {
@@ -379,7 +367,7 @@ characters = {
 	}
 	advisor = {
 		slot=air_chief
-		traits = {}
+		traits = {upala}
 		}
 	}
 	ISI_danil_minenko = {
@@ -391,7 +379,7 @@ characters = {
 	}
 	advisor = {
 		slot=air_chief
-		traits = {}
+		traits = {minenko}
 		}
 	}
 	
