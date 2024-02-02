@@ -371,7 +371,7 @@ characters = {
 		}
 	}
 	ISI_danil_minenko = {
-	name = "iaroslavna upala"
+	name = "danil minenko"
 	portraits = {
 		army = {
 		small = GFX_portrait_King_Zog
