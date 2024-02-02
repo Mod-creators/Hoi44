@@ -64,8 +64,8 @@ characters = {
 	name = "nikita bananow"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
-		small = GFX_portrait_nikita_bananow
+		large = GFX_portrait_nikita_bananow_big
+		small = GFX_portrait_nikita_bananow_small
 		}
 	}
 	field_marshal = {
