@@ -8460,5 +8460,36 @@ spriteTypes = {
 		name = "GFX_portrait_luda_korostina"
         texturefile = "gfx/leaders/ISI/portrait_luda_korostina.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_dan_scala"
+        texturefile = "gfx/leaders/ISI/dan_scala.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_dima_groznov"
+        texturefile = "gfx/leaders/ISI/dima_groznov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_irina_kovid"
+        texturefile = "gfx/leaders/ISI/irina_kovid.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_lesha_neprixod"
+        texturefile = "gfx/leaders/ISI/lesha_neprixod.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ruslan_usherbnii"
+        texturefile = "gfx/leaders/ISI/ruslan_usherbnii.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_valera_redan"
+        texturefile = "gfx/leaders/ISI/valera_redan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_vlad_student"
+        texturefile = "gfx/leaders/ISI/vlad_student.dds"
+	}
+	
+	
+	
 	
 }

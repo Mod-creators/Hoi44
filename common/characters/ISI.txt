@@ -84,7 +84,7 @@ characters = {
 	name = "ruslan usherbnii"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
+		large = GFX_portrait_ruslan_usherbnii
 		}
 	}
 	corps_comander = {
@@ -99,7 +99,7 @@ characters = {
 	name = "dan scala"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
+		large = GFX_portrait_dan_scala
 		}
 	}
 	corps_comander = {
@@ -114,7 +114,7 @@ characters = {
 	name = "lesha neprixod"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
+		large = GFX_portrait_lesha_neprixod
 		}
 	}
 	corps_comander = {
@@ -149,7 +149,7 @@ characters = {
 	name = "valera redan"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
+		large = GFX_portrait_valera_redan
 		}
 	}
 	corps_comander = {
@@ -164,7 +164,7 @@ characters = {
 	name = "vlad student"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
+		large = GFX_portrait_vlad_student
 		}
 	}
 	corps_comander = {
@@ -179,7 +179,7 @@ characters = {
 	name = "irina kovid"
 	portraits = {
 		army = {
-		large = GFX_portrait_King_Zog
+		large = GFX_portrait_irina_kovid
 		}
 	}
 	corps_comander = {
@@ -350,7 +350,7 @@ characters = {
 	name = "dima groznov"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = GFX_portrait_dima_groznov
 		}
 	}
 	advisor = {
