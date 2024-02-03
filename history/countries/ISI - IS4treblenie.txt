@@ -16,6 +16,8 @@ set_technology = {
 }
 add_ideas = {
 	old_power
+	impending_mutiny
+	poor_population
 }
 
 recruit_character = ISI_roman_polivka
