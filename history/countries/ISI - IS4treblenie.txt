@@ -2,7 +2,7 @@
 oob = "ISI_1936"
 set_research_slots = 2
 
-
+set_oob = "ISI_1936_nsb"
 
 set_technology = {
 	infantry_weapons = 1
@@ -43,6 +43,7 @@ recruit_character = ISI_pavel_pandora
 recruit_character = ISI_dima_groznov
 recruit_character = ISI_iaroslavna_upala
 recruit_character = ISI_danil_minenko
+recruit_character = ISI_veronica_vedma
 
 
 

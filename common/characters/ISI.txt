@@ -1,9 +1,10 @@
+### Лидеры ###
 characters = {
 	ISI_roman_polivka = {
-		name = "roman polivka"
+		name = "ISI_roman_polivka"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_King_Zog
+				large = 
 			}
 		}
 		country_leader = {
@@ -14,7 +15,7 @@ characters = {
 		}
 	}
 	ISI_luda_korostina = {
-	name = "luda korostina"
+	name = "ISI_luda_korostina"
 	portraits = {
 		civilian = {
 		large = GFX_portrait_luda_korostina
@@ -27,11 +28,12 @@ characters = {
 		id = -1
 		}
 	}
+	
 	ISI_aleksandr_malishev = {
-	name = "aleksandr malishev"
+	name = "ISI_aleksandr_malishev"
 	portraits = {
 		civilian = {
-		large = GFX_portrait_King_Zog
+		large = 
 		}
 	}
 	country_leader = {
@@ -41,17 +43,13 @@ characters = {
 		id = -1
 		}
 	}
+	
 	ISI_artem_naygolnow = {
-	name = "artem naygolnow"
+	name = "ISI_artem_naygolnow"
 	portraits = {
 		civilian = {
-		large = GFX_portrait_King_Zog
+		large = 
 		}
-	advisor = {
-	slot = theorist
-	traits = {big_boss}
-	cost = 300
-	}
 	}
 	country_leader = {
 		ideology = stalinism 
@@ -60,8 +58,10 @@ characters = {
 		id = -1
 		}
 	}
+	### Фельдмаршалы и по совместительству главы военного совета ###
+	
 	ISI_nikita_bananow = {
-	name = "nikita bananow"
+	name = "ISI_nikita_bananow"
 	portraits = {
 		army = {
 		large = GFX_portrait_nikita_bananow_big
@@ -77,12 +77,178 @@ characters = {
 		}
 	advisor = {
 	slot = high_command
-	traits = {uvil_bananov}
+	traits = {veteran_first_war}
 	cost = 100
 	}
 	}
+	
+	ISI_nikita_xyida = {
+	name = "ISI_nikita_xyida"
+	portraits = {
+		army = {
+		large = 
+		}
+	}
+	field_marshal = {
+		traits = {career_officer mountaineer organization_first}
+		attack_skill=7;
+		defense_skill=2;
+		planning_skill=2;
+		logistics_skill=5;
+		}
+	advisor = {
+	slot = high_command
+	traits = {right_arm_alexandr}
+	cost = 100
+	}
+	}
+	
+	###Просто главы военного правительства###
+	
+	ISI_veronica_vedma = {
+	name = "ISI_veronica_vedma"
+	portraits = {
+		army = {
+		large = 
+		}
+	}
+	advisor = {
+	slot = high_command
+	traits = {night_vedma}
+	cost = 100
+	}
+	}
+	
+	ISI_danil_proxorod = {
+	name = "ISI_danil_proxorod"
+	portraits = {
+		army = {
+		small = 
+		}
+	}
+	advisor = {
+	slot = high_command
+	traits = {hz_proxorov}
+	cost = 100
+	}
+	}
+	
+	
+	
+	
+	###Главы военных отделений###
+	##Армия##
+	
+	ISI_aleksandr_voitenko = {
+	name = "ISI_aleksandr_voitenko"
+	portraits = {
+		army = {
+		small = 
+		}
+	}
+	advisor = {
+		slot=army_chief
+		traits = {voitenko}
+		}
+	}
+	
+	ISI_nasta_vodka = {
+	name = "ISI_nasta_vodka"
+	portraits = {
+		army = {
+		small = 
+		}
+	}
+	advisor = {
+		slot=army_chief
+		traits = {propiv_imyhestva}
+		}
+	}
+	
+	
+	##Флот##
+	
+	ISI_pavel_pandora = {
+	name = "ISI_pavel_pandora"
+	portraits = {
+		army = {
+		}
+	}
+	advisor = {
+		slot=navy_chief
+		traits = {pandore}
+		}
+		
+		navy_leader={
+			traits={ navy_career_officer seawolf }
+			skill=5
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=1
+		}
+		
+	}
+
+	
+	ISI_dima_groznov = {
+	name = "ISI_dima_groznov"
+	portraits = {
+		army = {
+		small = GFX_portrait_dima_groznov
+		large = GFX_portrait_dima_groznov
+		}
+	}
+	advisor = {
+		slot=navy_chief
+		traits = {grozn}
+		}
+		
+		navy_leader={
+			traits={seawolf }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=5
+		}
+		
+	}
+	
+	##Авиация##
+	
+	ISI_iaroslavna_upala = {
+	name = "ISI_iaroslavna_upala"
+	portraits = {
+		army = {
+		small = 
+		}
+	}
+	advisor = {
+		slot=air_chief
+		traits = {upala}
+		}
+	}
+	
+	ISI_danil_minenko = {
+	name = "ISI_danil_minenko"
+	portraits = {
+		army = {
+		small = 
+		}
+	}
+	advisor = {
+		slot=air_chief
+		traits = {minenko}
+		}
+	}
+	
+	
+	
+	### Обычные коммандиры ###
+	
 	ISI_ruslan_usherbnii = {
-	name = "ruslan usherbnii"
+	name = "ISI_ruslan_usherbnii"
 	portraits = {
 		army = {
 		large = GFX_portrait_ruslan_usherbnii
@@ -96,8 +262,9 @@ characters = {
 		logistics_skill=1;
 		}
 	}
+	
 	ISI_dan_scala = {
-	name = "dan scala"
+	name = "ISI_dan_scala"
 	portraits = {
 		army = {
 		large = GFX_portrait_dan_scala
@@ -111,8 +278,9 @@ characters = {
 		logistics_skill=2;
 		}
 	}
+	
 	ISI_lesha_neprixod = {
-	name = "lesha neprixod"
+	name = "ISI_lesha_neprixod"
 	portraits = {
 		army = {
 		large = GFX_portrait_lesha_neprixod
@@ -126,28 +294,10 @@ characters = {
 		logistics_skill=2;
 		}
 	}
-	ISI_nikita_xyida = {
-	name = "nikita xyida"
-	portraits = {
-		army = {
-		large = GFX_portrait_King_Zog
-		}
-	}
-	field_marshal = {
-		traits = {career_officer mountaineer organization_first}
-		attack_skill=7;
-		defense_skill=2;
-		planning_skill=2;
-		logistics_skill=5;
-		}
-	advisor = {
-	slot = high_command
-	traits = {big_small_xuy}
-	cost = 100
-	}
-	}
+	
+	
 	ISI_valera_redan = {
-	name = "valera redan"
+	name = "ISI_valera_redan"
 	portraits = {
 		army = {
 		large = GFX_portrait_valera_redan
@@ -161,8 +311,9 @@ characters = {
 		logistics_skill=1;
 		}
 	}
+	
 	ISI_vlad_student = {
-	name = "vlad student"
+	name = "ISI_vlad_student"
 	portraits = {
 		army = {
 		large = GFX_portrait_vlad_student
@@ -176,8 +327,9 @@ characters = {
 		logistics_skill=4;
 		}
 	}
+	
 	ISI_irina_kovid = {
-	name = "irina kovid"
+	name = "ISI_irina_kovid"
 	portraits = {
 		army = {
 		large = GFX_portrait_irina_kovid
@@ -191,11 +343,13 @@ characters = {
 		logistics_skill=3;
 		}
 	}
+	
+	###Политические советники###
 	ISI_vlad_neprilotov = {
-	name = "vlad neprilotov"
+	name = "ISI_vlad_neprilotov"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -203,23 +357,14 @@ characters = {
 		traits = {prilet_vlad}
 		}
 	}
-	ISI_danil_proxorod = {
-	name = "danil proxorod"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=political_advisor
-		traits = {hz_proxorov}
-		}
-	}
+	
+	
+	
 	ISI_ivan_chain = {
-	name = "ivan chain"
+	name = "ISI_ivan_chain"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -227,11 +372,12 @@ characters = {
 		traits = {sale_chain}
 		}
 	}
+	
 	ISI_dima_volkov = {
-	name = "dima volkov"
+	name = "ISI_dima_volkov"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -239,11 +385,12 @@ characters = {
 		traits = {activ_volk}
 		}
 	}
+	
 	ISI_artem_koko = {
-	name = "artem koko"
+	name = "ISI_artem_koko"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -251,11 +398,12 @@ characters = {
 		traits = {smoke_koko}
 		}
 	}
+	
 	ISI_tox_gandon = {
-	name = "tox gandon"
+	name = "ISI_tox_gandon"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -263,11 +411,12 @@ characters = {
 		traits = {gan_tox}
 		}
 	}
+	
 	ISI_aleksey_morda = {
-	name = "aleksey morda"
+	name = "ISI_aleksey_morda"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -275,11 +424,12 @@ characters = {
 		traits = {mordoboy}
 		}
 	}
+	
 	ISI_daria_nuxclei = {
-	name = "daria nuxclei"
+	name = "ISI_daria_nuxclei"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -287,11 +437,14 @@ characters = {
 		traits = {vcid_cleem}
 		}
 	}
+	
+	###Теористы###
+	
 	ISI_nikolai_zurov = {
-	name = "nikolai zurov"
+	name = "ISI_nikolai_zurov"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -299,11 +452,12 @@ characters = {
 		traits = {zurov_koncilsa}
 		}
 	}
+	
 	ISI_andrei_amoral = {
-	name = "andrei amoral"
+	name = "ISI_andrei_amoral"
 	portraits = {
 		army = {
-		small = GFX_portrait_King_Zog
+		small = 
 		}
 	}
 	advisor = {
@@ -311,78 +465,9 @@ characters = {
 		traits = {amoral}
 		}
 	}
-	ISI_aleksandr_voitenko = {
-	name = "aleksandr voitenko"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=army_chief
-		traits = {voitenko}
-		}
-	}
-	ISI_nasta_vodka = {
-	name = "nasta vodka"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=army_chief
-		traits = {propiv_imyhestva}
-		}
-	}
-	ISI_pavel_pandora = {
-	name = "pavel pandora"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=navy_chief
-		traits = {pandore}
-		}
-	}
-	ISI_dima_groznov = {
-	name = "dima groznov"
-	portraits = {
-		army = {
-		small = GFX_portrait_dima_groznov
-		}
-	}
-	advisor = {
-		slot=navy_chief
-		traits = {grozn}
-		}
-	}
-	ISI_iaroslavna_upala = {
-	name = "iaroslavna upala"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=air_chief
-		traits = {upala}
-		}
-	}
-	ISI_danil_minenko = {
-	name = "danil minenko"
-	portraits = {
-		army = {
-		small = GFX_portrait_King_Zog
-		}
-	}
-	advisor = {
-		slot=air_chief
-		traits = {minenko}
-		}
-	}
+	
+	
+	
 	
 	
 }

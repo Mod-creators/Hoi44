@@ -1,0 +1,95 @@
+division_template = {
+	name = "Поливский Гарнизон"
+
+	division_names_group = ISI_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Гномья гвардия"
+
+	division_names_group = ISI_Inf_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+ division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9914
+		division_template = "Гномья гвардия"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9914
+		division_template = "Гномья гвардия"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9914
+		division_template = "Гномья гвардия"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9914
+		division_template = "Гномья гвардия"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3865
+		division_template = "Поливский Гарнизон"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 914
+		division_template = "Поливский Гарнизон"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9821
+		division_template = "Поливский Гарнизон"
+		start_experience_factor = 0.3
+	}
+}
