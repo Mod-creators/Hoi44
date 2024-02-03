@@ -14,6 +14,9 @@ set_technology = {
 	tech_trucks = 1
 	basic_train = 1
 }
+add_ideas = {
+	old_power
+}
 
 recruit_character = ISI_roman_polivka
 recruit_character = ISI_luda_korostina

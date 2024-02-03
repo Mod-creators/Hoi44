@@ -22,5 +22,26 @@ ideas = {
 			traits = { industrial_concern }
 		}
 	}
+	
+	country = {
+		old_power = {
+			
+			allowed = {
+				original_tag = ISI
+			}
+			
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.1
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}
+			
+			
+			
+		}
+	}
 
 }
