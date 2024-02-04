@@ -8502,4 +8502,85 @@ spriteTypes = {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	spriteType = {
+		name = "GFX_focus_proizvod_11"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_11.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_12"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_12.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_21"
+       texturefile = "gfx/interface/focus/GFX_focus_proizvod_21.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_31"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_31.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_32"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_31.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_33"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_33.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_34"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_34.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_41"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_41.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_51"
+       texturefile = "gfx/interface/focus/GFX_focus_proizvod_51.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_52"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_52.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_53"
+       texturefile = "gfx/interface/focus/GFX_focus_proizvod_53.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_61"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_61.dds"
+	}spriteType = {
+		name = "GFX_focus_proizvod_62"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_62.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_proizvod_71"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_71.dds"
+	}
+	
+	
+	
+	
+	
+	
 }

@@ -18,7 +18,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.1.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_11
 		cost = 10,00
 		x = 102
 		y = 0
@@ -26,7 +26,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.1.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_12
 		cost = 10,00
 		x = 111
 		y = 0
@@ -881,7 +881,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.2.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_21
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.1.1
@@ -895,7 +895,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.3.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_31
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.2.1
@@ -906,7 +906,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.3.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_32
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.2.1
@@ -917,7 +917,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.3.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_33
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.2.1
@@ -928,7 +928,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.3.4
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_34
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.2.1
@@ -939,7 +939,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.4.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_41
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.3.1
@@ -953,7 +953,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.5.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_51
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.4.1
@@ -964,7 +964,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.5.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_52
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.4.1
@@ -975,7 +975,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.7.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_71
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.5.1
@@ -989,7 +989,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.5.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_53
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.4.1
@@ -1003,7 +1003,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.5.4
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_54
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.4.1
@@ -1017,7 +1017,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.6.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_63
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.5.3
@@ -2432,7 +2432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.6.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_61
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.5.1
@@ -2446,7 +2446,7 @@ focus_tree = {
 	}
 	focus = {
 		id = proizvod.6.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_proizvod_62
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.5.1
