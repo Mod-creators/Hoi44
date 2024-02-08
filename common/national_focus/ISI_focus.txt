@@ -11,17 +11,38 @@ focus_tree = {
 	focus = {
 		id = info.0.1
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 2
 		x = 29
 		y = 0
+		completion_reward = {
+		country_event = { id = isi.1 }
+		}
+		
 
 	}
 	focus = {
-		id = proizvod.1.1
+		id = proizvod.1.5
 		icon = GFX_focus_proizvod_11
 		cost = 10,00
 		x = 102
 		y = 0
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -30,6 +51,14 @@ focus_tree = {
 		cost = 10,00
 		x = 111
 		y = 0
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.5
+				uses = 1
+				category = industry
+			}
+		}
 
 	}
 	focus = {
@@ -43,23 +72,29 @@ focus_tree = {
 	focus = {
 		id = info.0.2
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 2
 		prerequisite = {
 			focus = info.0.1
 		}
 		x = 29
 		y = 1
+		completion_reward = {
+		country_event = { id = isi.2 }
+		}
 
 	}
 	focus = {
 		id = info0.3
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_focus_info_03
+		cost = 2
 		prerequisite = {
 			focus = info.0.2
 		}
 		x = 29
 		y = 2
+		completion_reward = {
+		country_event = { id = isi.3 }
+		}
 
 	}
 	focus = {
@@ -75,6 +110,11 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
+		completion_reward = {
+		custom_effect_tooltip = ISI_alexandr_civilian
+		country_event = { id = isi.alexandr }
+
+		}
 
 	}
 	focus = {
@@ -884,13 +924,16 @@ focus_tree = {
 		icon = GFX_focus_proizvod_21
 		cost = 10,00
 		prerequisite = {
-			focus = proizvod.1.1
+			focus = proizvod.1.5
 		}
 		prerequisite = {
 			focus = proizvod.1.2
 		}
 		x = 105
 		y = 1
+		completion_reward = {
+			add_ideas = industrialization_1
+		}
 
 	}
 	focus = {
@@ -902,6 +945,16 @@ focus_tree = {
 		}
 		x = 102
 		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -913,6 +966,16 @@ focus_tree = {
 		}
 		x = 104
 		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -924,6 +987,16 @@ focus_tree = {
 		}
 		x = 106
 		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -935,6 +1008,16 @@ focus_tree = {
 		}
 		x = 108
 		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -943,12 +1026,25 @@ focus_tree = {
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.3.1
+		}
+		prerequisite = {
 			focus = proizvod.3.2
+		}
+		prerequisite = {
 			focus = proizvod.3.3
+		}
+		prerequisite = {
 			focus = proizvod.3.4
 		}
 		x = 105
 		y = 3
+		completion_reward = {
+			add_research_slot = 1
+			hidden_effect = {
+				remove_ideas = industrialization_1
+			}
+			add_ideas =industrialization_2
+		}
 
 	}
 	focus = {
@@ -960,6 +1056,56 @@ focus_tree = {
 		}
 		x = 102
 		y = 4
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+		}
 
 	}
 	focus = {
@@ -971,6 +1117,190 @@ focus_tree = {
 		}
 		x = 104
 		y = 4
+		completion_reward = {
+				if = { 
+					limit = { 
+						country_exists = GER
+						GER = { has_opinion = { target = ISI value > 80 } } 
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				
+				if = { 
+					limit = { 
+						country_exists = LUX
+						LUX = { has_opinion = { target = ISI value > 100 } } 
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = arms_factory
+							level = 5
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 5
+						add_building_construction = {
+							type = industrial_complex
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				if = { 
+					limit = { 
+						country_exists = FRA
+						FRA = { has_opinion = { target = ISI value > 80 } } 
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				if = { 
+					limit = { 
+						country_exists = SOV
+						SOV = { has_opinion = { target = ISI value > 80 } } 
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				if = { 
+					limit = { 
+						country_exists = ENG
+						ENG = { has_opinion = { target = ISI value > 80 } } 
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = arms_factory
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			
+		}
 
 	}
 	focus = {
@@ -985,6 +1315,14 @@ focus_tree = {
 		}
 		x = 103
 		y = 6
+		completion_reward = {
+		
+		add_research_slot = 1
+		hidden_effect = {
+		remove_ideas = industrialization_3
+		}
+		add_ideas = industrialization_4
+		}
 
 	}
 	focus = {
@@ -999,6 +1337,11 @@ focus_tree = {
 		}
 		x = 106
 		y = 4
+		completion_reward = {
+add_ideas = monopoly
+		
+
+		}
 
 	}
 	focus = {
@@ -1013,6 +1356,11 @@ focus_tree = {
 		}
 		x = 108
 		y = 4
+		completion_reward = {
+		
+	add_ideas = friend
+
+		}
 
 	}
 	focus = {
@@ -1025,6 +1373,13 @@ focus_tree = {
 		}
 		x = 107
 		y = 5
+		completion_reward = {
+		hidden_effect = {
+		remove_ideas = ISI_overcharged
+		}
+		add_ideas = ISI_overcharged_2
+		}
+		
 
 	}
 	focus = {
@@ -1032,7 +1387,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = proizvod.1.1
+			focus = proizvod.1.5
 		}
 		prerequisite = {
 			focus = proizvod.1.2
@@ -1049,7 +1404,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = proizvod.1.1
+			focus = proizvod.1.5
 		}
 		prerequisite = {
 			focus = proizvod.1.2
@@ -1109,7 +1464,7 @@ focus_tree = {
 			focus = proizvod.1.2
 		}
 		prerequisite = {
-			focus = proizvod.1.1
+			focus = proizvod.1.5
 		}
 		x = 115
 		y = 1
@@ -1171,7 +1526,7 @@ focus_tree = {
 			focus = proizvod.1.2
 		}
 		prerequisite = {
-			focus = proizvod.1.1
+			focus = proizvod.1.5
 		}
 		x = 118
 		y = 1
@@ -2440,6 +2795,14 @@ focus_tree = {
 		prerequisite = {
 			focus = proizvod.5.2
 		}
+		completion_reward = {
+		hidden_effect ={
+		remove_ideas = industrialization_2
+		}
+		add_ideas = industrialization_3
+		
+		}
+		
 		x = 102
 		y = 5
 
@@ -2456,6 +2819,18 @@ focus_tree = {
 		}
 		x = 104
 		y = 5
+		completion_reward = {
+		44 = {
+		add_building_construction = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+		}
+	
+		
+		}
+		
 
 	}
 	focus = {

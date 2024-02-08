@@ -8578,6 +8578,21 @@ spriteTypes = {
         texturefile = "gfx/interface/focus/GFX_focus_proizvod_71.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_proizvod_54"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_54.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_proizvod_63"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_63.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_info_03"
+        texturefile = "gfx/interface/focus/GFX_focus_info_03.dds"
+	}
+	
 	
 	
 	

@@ -1,0 +1,154 @@
+
+add_namespace = isi
+
+country_event = {
+	id = isi.1
+	title = isi.1.t
+	desc = isi.1.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.1.a
+				add_stability = -0.1
+		        add_war_support = 0.1
+	}
+
+	option = { 
+		name = isi.1.b
+				add_stability = 0.1
+		        add_war_support = -0.1
+		
+	}
+}
+
+country_event = {
+	id = isi.2
+	title = isi.2.t
+	desc = isi.2.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.2.a
+
+
+	}
+
+}
+
+country_event = {
+	id = isi.3
+	title = isi.3.t
+	desc = isi.3.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.3.a
+    add_popularity = { 
+				ideology = fascism
+				popularity = 0.15
+			}
+
+	}
+
+	option = { 
+		name = isi.3.b
+		add_popularity = { 
+				ideology = communism
+				popularity = 0.15
+			}
+		
+		
+	}
+	
+	option = { 
+		name = isi.3.c
+		add_popularity = { 
+				ideology = democratic
+				popularity = 0.15
+			}
+		
+		
+	}
+}
+
+country_event = {
+	id = isi.alexandr
+	title = isi.alexandr.t
+	desc = isi.alexandr.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.alexandr.a
+
+
+	}
+
+}
+
+country_event = {
+	id = isi.4razved
+	title = isi.4razved.t
+	desc = isi.4razved.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.4razved.a
+		
+
+
+	}
+
+}
+
+country_event = {
+	id = isi.5danil
+	title = isi.5danil.t
+	desc = isi.5danil.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.5danil.a
+		custom_effect_tooltip = ISI_den_dead
+
+
+	}
+
+}
+
+country_event = {
+	id = isi.6dima
+	title = isi.6dima.t
+	desc = isi.6dima.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.6dima.a
+		custom_effect_tooltip = ISI_dima_dead
+
+
+	}
+
+}
+
+
+country_event = {
+	id = isi.7vlad
+	title = isi.7vlad.t
+	desc = isi.7vlad.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.7vlad.a
+custom_effect_tooltip = ISI_vlad_dead
+
+	}
+
+}

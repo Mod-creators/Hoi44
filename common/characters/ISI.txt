@@ -202,6 +202,9 @@ characters = {
 	advisor = {
 		slot=navy_chief
 		traits = {grozn}
+		available = {
+			NOT = {has_country_flag = ISI_dead_dima}}
+			visible = { NOT = {has_country_flag = ISI_dead_dima}}
 		}
 		
 		navy_leader={
@@ -211,6 +214,9 @@ characters = {
 			defense_skill=1
 			maneuvering_skill=2
 			coordination_skill=5
+			available = {
+			NOT = {has_country_flag = ISI_dead_dima}}
+			visible = { NOT = {has_country_flag = ISI_dead_dima}}
 		}
 		
 	}
@@ -265,6 +271,7 @@ characters = {
 	
 	ISI_dan_scala = {
 	name = "ISI_dan_scala"
+	
 	portraits = {
 		army = {
 		large = GFX_portrait_dan_scala
@@ -276,6 +283,9 @@ characters = {
 		defense_skill=4;
 		planning_skill=4;
 		logistics_skill=2;
+		available = {
+			NOT = {has_country_flag = ISI_dead_den}}
+			visible = { NOT = {has_country_flag = ISI_dead_den}}
 		}
 	}
 	
@@ -355,6 +365,9 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {prilet_vlad}
+		available = {
+			NOT = {has_country_flag = ISI_dead_vlad}}
+			visible = { NOT = {has_country_flag = ISI_dead_vlad}}
 		}
 	}
 	

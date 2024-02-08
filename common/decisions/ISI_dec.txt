@@ -1,0 +1,62 @@
+ISI_alexandr_war = {
+
+ISI_razvedka{
+ icon = generic_army_support
+ cost = 50
+ fire_only_once = yes 
+ days_remove = 20
+ remove_effect = {
+ 
+ hidden_effect = {
+				set_country_flag = ISI_razvedka_flag
+			}
+ country_event = { id = isi.4razved }
+ }
+}
+
+ISI_danil{
+ icon = generic_army_support
+ cost = 50
+ fire_only_once = yes 
+ days_remove = 70
+
+ available = { has_country_flag = ISI_razvedka_flag}
+ remove_effect = {
+ hidden_effect = {
+				set_country_flag = ISI_dead_den
+			}
+ country_event = { id = isi.5danil }
+ }
+ 
+}
+
+ISI_dima{
+ icon = generic_army_support
+ cost = 50
+ fire_only_once = yes 
+ days_remove = 70
+ available = { has_country_flag = ISI_razvedka_flag}
+ remove_effect = {
+  hidden_effect = {
+				set_country_flag = ISI_dead_dima
+			}
+ country_event = { id = isi.6dima }
+ }
+ 
+}
+
+ISI_vlad{
+ icon = generic_army_support
+ cost = 50
+ fire_only_once = yes 
+ days_remove = 70
+ available = { has_country_flag = ISI_razvedka_flag}
+ remove_effect = {
+ hidden_effect = {
+				set_country_flag = ISI_dead_vlad
+			}
+ 
+ country_event = { id = isi.7vlad }
+ }
+ 
+}
