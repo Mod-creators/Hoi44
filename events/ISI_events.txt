@@ -150,5 +150,67 @@ country_event = {
 custom_effect_tooltip = ISI_vlad_dead
 
 	}
+	
 
 }
+country_event = {
+	id = isi.8proizvod #11proizvod#
+	title = isi.8proizvod.t
+	desc = isi.8proizvod.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.8proizvod.a
+
+	}
+}
+country_event = {
+	id = isi.9proizvod #21proivod#
+	title = isi.9proizvod.t
+	desc = isi.9proizvod.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.9proizvod.a
+
+	}
+}
+country_event = {
+	id = isi.10proizvod #41proivod#
+	title = isi.10proizvod.t
+	desc = isi.10proizvod.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.10proizvod.a
+
+	}
+}
+country_event = {
+	id = isi.11proizvod #63proivod#
+	title = isi.11proizvod.t
+	desc = isi.11proizvod.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.11proizvod.a
+
+	}
+}
+country_event = {
+	id = isi.12proizvod #71proivod#
+	title = isi.12proizvod.t
+	desc = isi.12proizvod.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.12proizvod.a
+
+	}
+}
+	

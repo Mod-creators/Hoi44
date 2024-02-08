@@ -27,6 +27,7 @@ focus_tree = {
 		x = 102
 		y = 0
 		completion_reward = {
+		country_event = { id = isi.8roizvod }
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -932,6 +933,7 @@ focus_tree = {
 		x = 105
 		y = 1
 		completion_reward = {
+		country_event = { id = isi.9proizvod }
 			add_ideas = industrialization_1
 		}
 
@@ -1039,6 +1041,7 @@ focus_tree = {
 		x = 105
 		y = 3
 		completion_reward = {
+		country_event = { id = isi.10proizvod }
 			add_research_slot = 1
 			hidden_effect = {
 				remove_ideas = industrialization_1
@@ -1316,7 +1319,7 @@ focus_tree = {
 		x = 103
 		y = 6
 		completion_reward = {
-		
+		country_event = { id = isi.12proizvod }
 		add_research_slot = 1
 		hidden_effect = {
 		remove_ideas = industrialization_3
@@ -1374,6 +1377,7 @@ add_ideas = monopoly
 		x = 107
 		y = 5
 		completion_reward = {
+		country_event = { id = isi.11proizvod }
 		hidden_effect = {
 		remove_ideas = ISI_overcharged
 		}
@@ -1384,7 +1388,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.2.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_22
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.1.5
@@ -1401,7 +1405,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.2.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_23
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.1.5
@@ -1430,7 +1434,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.4.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_42
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.3.5
@@ -1444,7 +1448,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.4.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_43
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.3.5
@@ -1458,7 +1462,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.2.4
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_24
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.1.2
@@ -1494,7 +1498,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.5.5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_55
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.4.4
@@ -1520,7 +1524,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.2.5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_25
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.1.2
@@ -1534,7 +1538,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = proizvod.3.7
-		icon = GFX_goal_unknown
+		icon = GFX_focus_info_37
 		cost = 10,00
 		prerequisite = {
 			focus = proizvod.2.5
