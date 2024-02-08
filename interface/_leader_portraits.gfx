@@ -8625,40 +8625,40 @@ spriteTypes = {
         texturefile = "gfx/interface/focus/GFX_focus_info_55.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_36"
-        texturefile = "gfx/interface/focus/GFX_focus_info_36.dds"
+		name = "GFX_focus_proizvod_36"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_36.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_44"
-        texturefile = "gfx/interface/focus/GFX_focus_info_44.dds"
+		name = "GFX_focus_proizvod_44"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_44.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_38"
-        texturefile = "gfx/interface/focus/GFX_focus_info_38.dds"
+		name = "GFX_focus_proizvod_38"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_38.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_39"
-        texturefile = "gfx/interface/focus/GFX_focus_info_39.dds"
+		name = "GFX_focus_proizvod_39"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_39.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_45"
-        texturefile = "gfx/interface/focus/GFX_focus_info_45.dds"
+		name = "GFX_focus_proizvod_45"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_45.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_46"
-        texturefile = "gfx/interface/focus/GFX_focus_info_46.dds"
+		name = "GFX_focus_proizvod_46"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_46.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_65"
-        texturefile = "gfx/interface/focus/GFX_focus_info_65.dds"
+		name = "GFX_focus_proizvod_65"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_65.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_66"
-        texturefile = "gfx/interface/focus/GFX_focus_info_66.dds"
+		name = "GFX_focus_proizvod_66"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_66.dds"
 	}
 	spriteType = {
-		name = "GFX_focus_info_64"
-        texturefile = "gfx/interface/focus/GFX_focus_info_64.dds"
+		name = "GFX_focus_proizvod_64"
+        texturefile = "gfx/interface/focus/GFX_focus_proizvod_64.dds"
 	}
 	
 	
