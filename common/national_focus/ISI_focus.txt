@@ -1519,6 +1519,13 @@ add_ideas = monopoly
 		prerequisite = {
 			focus = proizvod.1.5
 		}
+		completion_reward = {
+		add_equipment_to_stockpile = {
+				type = train_equipment
+				amount = 35
+			}
+
+		}
 		x = 115
 		y = 1
 
@@ -1532,7 +1539,14 @@ add_ideas = monopoly
 		}
 		x = 114
 		y = 2
-
+	completion_reward = {
+	add_tech_bonus = {
+	name = SOV_the_builder_of_the_red_army
+				ahead_reduction = 1
+				uses = 1
+				category = artillery
+	}
+	}
 	}
 	focus = {
 		id = proizvod.4.4
@@ -1543,7 +1557,13 @@ add_ideas = monopoly
 		}
 		x = 115
 		y = 3
+	completion_reward = {
+		add_equipment_to_stockpile = {
+				type = train_equipment
+				amount = 35
+			}
 
+		}
 	}
 	focus = {
 		id = proizvod.5.5
@@ -1589,6 +1609,16 @@ add_ideas = monopoly
 		prerequisite = {
 			focus = proizvod.1.5
 		}
+		
+		completion_reward = {
+		
+		add_tech_bonus = {
+		name = nav_bomber_bonus
+					bonus = 1.0
+					uses = 1
+					category = light_air
+		}
+		}
 		x = 118
 		y = 1
 
@@ -1602,7 +1632,9 @@ add_ideas = monopoly
 		}
 		x = 117
 		y = 2
-
+		completion_reward = {
+		add_ideas = nachduxcarabl
+		}
 	}
 	focus = {
 		id = proizvod.3.8
@@ -1613,7 +1645,11 @@ add_ideas = monopoly
 		}
 		x = 119
 		y = 2
-
+	completion_reward = {
+		add_ideas =	nachduxsam
+			}
+			
+			
 	}
 	focus = {
 		id = proizvod.4.5
@@ -1625,7 +1661,15 @@ add_ideas = monopoly
 		}
 		x = 118
 		y = 3
+		completion_reward = {
+		add_tech_bonus = {
+				name = uk_carrier_focus
+				bonus = 3.0
+				uses = 1
+				category = cv_tech
+			}
 
+		}
 	}
 	focus = {
 		id = proizvod.3.9
@@ -1636,7 +1680,9 @@ add_ideas = monopoly
 		}
 		x = 121
 		y = 2
-
+		completion_reward = {
+		add_ideas =	nachduarm
+			}
 	}
 	focus = {
 		id = proizvod.4.6
@@ -1650,7 +1696,14 @@ add_ideas = monopoly
 		}
 		x = 120
 		y = 3
-
+	completion_reward = {
+	add_doctrine_cost_reduction = {
+				name = strat_dest_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = battlefield_support_tree
+			}
+	}
 	}
 	focus = {
 		id = proizvod.6.5
@@ -1669,7 +1722,11 @@ add_ideas = monopoly
 			focus = proizvod.6.6
 		}
 		x = 117
-		y = 5
+		y = 5 
+		
+		completion_reward = {
+		add_ideas = nachshipcost
+		}
 
 	}
 	focus = {

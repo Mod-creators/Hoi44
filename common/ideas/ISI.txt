@@ -169,6 +169,44 @@ ideas = {
 			consumer_goods_factor = -0.1
 			}
 		}
+		nachduxcarabl {
+		allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+			industrial_capacity_dockyard = 0.1
+			}
+		}
+		nachduxsam {
+		allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+			industrial_capacity_dockyard = 0.1
+			}
+		}
+		nachduarm{
+		allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+			industrial_capacity_dockyard = 0.1
+			}
+		}
+		nachshipcost{
+		allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+			production_cost_max_convoy = 0.15
+			production_cost_max_ship_hull_carrier = 0.15
+			production_cost_max_ship_hull_cruiser = 0.15
+			production_cost_max_ship_hull_heavy = 0.15
+			production_cost_max_ship_hull_light = 0.15
+			production_cost_max_ship_hull_submarine = 0.15
+			}
+		}
+		
 	}
 
 }
