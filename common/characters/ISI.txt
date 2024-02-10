@@ -74,6 +74,12 @@ characters = {
 		defense_skill=4;
 		planning_skill=7;
 		logistics_skill=5;
+		available = {
+			NOT = {has_country_flag = ISI_dead_grec}
+			NOT = {has_country_flag = ISI_dead_plen}
+			}
+			visible = { NOT = {has_country_flag = ISI_dead_grec}
+			NOT = {has_country_flag = ISI_greck_plen}}
 		}
 	advisor = {
 	slot = high_command
@@ -95,8 +101,15 @@ characters = {
 		defense_skill=2;
 		planning_skill=2;
 		logistics_skill=5;
+		available = {
+			NOT = {has_country_flag = ISI_dead_huida}}
+			visible = { NOT = {has_country_flag = ISI_dead_huida}}
+		
 		}
 	advisor = {
+	available = {
+			NOT = {has_country_flag = ISI_dead_huida}}
+			visible = { NOT = {has_country_flag = ISI_dead_huida}}
 	slot = high_command
 	traits = {right_arm_alexandr}
 	cost = 100
@@ -335,6 +348,9 @@ characters = {
 		defense_skill=4;
 		planning_skill=4;
 		logistics_skill=4;
+		available = {
+			NOT = {has_country_flag = ISI_dead_student}}
+			visible = { NOT = {has_country_flag = ISI_dead_student}}
 		}
 	}
 	
@@ -351,6 +367,9 @@ characters = {
 		defense_skill=2;
 		planning_skill=3;
 		logistics_skill=3;
+		available = {
+			NOT = {has_country_flag = ISI_dead_irina}}
+			visible = { NOT = {has_country_flag = ISI_dead_irina}}
 		}
 	}
 	

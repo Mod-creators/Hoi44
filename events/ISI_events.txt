@@ -201,6 +201,7 @@ country_event = {
 
 	}
 }
+
 country_event = {
 	id = isi.12proizvod #71proivod#
 	title = isi.12proizvod.t
@@ -213,4 +214,337 @@ country_event = {
 
 	}
 }
+
+country_event = {
+	id = isi.13artemfriend
+	title = isi.13artemfriend.t
+	desc = isi.13artemfriend.desc
+
+	is_triggered_only = yes
+
+	option = { 
+	add_political_power = 100
+		name = isi.13artemfriend.a
+		custom_effect_tooltip = ISI_artem_help
+		hidden_effect = {
+				set_country_flag = ISI_artem_help
+			}
+
+	}
+}
+
+country_event = {
+	id = isi.14ludahelp
+	title = isi.14ludahelp.t
+	desc = isi.14ludahelp.desc
+
+	is_triggered_only = yes
+
+	option = { 
+	add_political_power = 100
+		name = isi.14ludahelp.a
+		custom_effect_tooltip = ISI_ludahelp
+		hidden_effect = {
+				set_country_flag = ISI_ludahelp
+			}
+
+	}
+}
+
+country_event = {
+	id = isi.15kill_greck
+	title = isi.15kill_greck.t
+	desc = isi.15kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.15kill_greck.a
+				country_event = { id = isi.115kill_greck }
+				hidden_effect = {
+				set_country_flag = ISI_attack_day
+			}
+
+	}
 	
+	option = { 
+		name = isi.15kill_greck.b
+				country_event = { id = isi.115kill_greck }
+				hidden_effect = {
+				set_country_flag = ISI_attack_night
+			}
+				
+	}
+}
+
+country_event = {
+	id = isi.115kill_greck
+	title = isi.115kill_greck.t
+	desc = isi.115kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.115kill_greck.a
+		country_event = { id = isi.116kill_greck }
+		hidden_effect = {
+				set_country_flag = ISI_attack_ring
+			}
+
+	}
+	
+	option = { 
+		name = isi.115kill_greck.b
+		country_event = { id = isi.116kill_greck }
+		hidden_effect = {
+				set_country_flag = ISI_attack_mass
+			}
+	}
+}
+ ##Ветвитель атаки##
+country_event = {
+	id = isi.116kill_greck
+	title = isi.116kill_greck.t
+	desc = isi.116kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.116kill_greck.a
+		if = {
+		limit = {
+		ISI = { has_country_flag = ISI_attack_day }
+		ISI = { has_country_flag = ISI_attack_ring }
+		}
+		country_event = { id = isi.1171kill_greck }
+		}
+		
+		if = {
+		limit = {
+		ISI = { has_country_flag = ISI_attack_day }
+		ISI = { has_country_flag = ISI_attack_mass }
+		}
+		country_event = { id = isi.1172kill_greck }
+		}
+		
+		if = {
+		limit = {
+		ISI = { has_country_flag = ISI_attack_night }
+		ISI = { has_country_flag = ISI_attack_ring }
+		}
+		country_event = { id = isi.1173kill_greck }
+		}
+		
+		if = {
+		limit = {
+		ISI = { has_country_flag = ISI_attack_night }
+		ISI = { has_country_flag = ISI_attack_mass }
+		ISI = { NOT = {has_country_flag = ISI_ludahelp}}
+		}
+		country_event = { id = isi.1173kill_greck }
+		}
+		
+		if = {
+		limit = {
+		ISI = { has_country_flag = ISI_attack_night }
+		ISI = { has_country_flag = ISI_attack_mass }
+		ISI = { has_country_flag = ISI_ludahelp}
+		}
+		country_event = { id = isi.1174kill_greck }
+		}
+
+	}
+	
+}
+
+##День-круг##
+
+country_event = {
+	id = isi.1171kill_greck
+	title = isi.1171kill_greck.t
+	desc = isi.1171kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.1171kill_greck.a
+		country_event = { id = isi.117kill_greck }
+
+	}
+	option = { 
+		name = isi.1171kill_greck.b
+		country_event = { id = isi.118kill_greck }
+
+	}
+	
+}
+
+country_event = {
+	id = isi.117kill_greck
+	title = isi.117kill_greck.t
+	desc = isi.117kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.117kill_greck.a
+		custom_effect_tooltip = ISI_day_krug_lose
+		hidden_effect = {
+				set_country_flag = ISI_day_krug_lose
+				set_country_flag = ISI_dead_huida
+				
+			}
+
+	}
+	
+}
+
+country_event = {
+	id = isi.118kill_greck
+	title = isi.118kill_greck.t
+	desc = isi.118kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.118kill_greck.a
+		custom_effect_tooltip = ISI_day_krug_lose_little
+		hidden_effect = {
+				set_country_flag = ISI_day_krug_lose
+				
+			}
+
+	}
+	
+}
+
+#День-Кулак#
+
+country_event = {
+	id = isi.1172kill_greck
+	title = isi.1172kill_greck.t
+	desc = isi.1172kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.1172kill_greck.a
+		custom_effect_tooltip = ISI_day_fist_win
+		hidden_effect = {
+				set_country_flag = ISI_day_fist_win
+				set_country_flag = ISI_dead_irina
+				set_country_flag = ISI_dead_student
+				set_country_flag = ISI_dead_grec
+				
+			}
+
+
+	}
+	
+}
+
+#Ночь круг#
+
+
+country_event = {
+	id = isi.1173kill_greck
+	title = isi.1173kill_greck.t
+	desc = isi.1173kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.1173kill_greck.a
+		custom_effect_tooltip = ISI_best_win
+		hidden_effect = {
+				set_country_flag = ISI_best_win
+				set_country_flag = ISI_greck_plen
+				
+			}
+
+
+	}
+	
+}
+
+### ночь кулак###
+
+country_event = {
+	id = isi.1174kill_greck
+	title = isi.1174kill_greck.t
+	desc = isi.1174kill_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.1174kill_greck.a
+		custom_effect_tooltip = ISI_ludmila_night_attack
+		hidden_effect = {
+				set_country_flag = ISI_ludmila_night_attack
+				set_country_flag = ISI_dead_grec
+			}
+
+
+	}
+	
+}
+
+#Мирный Вариант Вербовки Грека#
+
+
+country_event = {
+	id = isi.119friend_greck
+	title = isi.119friend_greck.t
+	desc = isi.119friend_greck.desc
+
+	is_triggered_only = yes
+
+	option = { 
+	custom_effect_tooltip = ISI_friend_nikita
+		name = isi.119friend_greck.a
+		
+		hidden_effect = {
+				set_country_flag = ISI_friend_nikita
+			}
+
+	}
+	
+}
+
+	
+country_event = {
+	id = isi.20cevilwar
+	title = isi.20cevilwar.t
+	desc = isi.20cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.20cevilwar.a
+		army_experience = 100
+		add_political_power = 100
+		add_stability = -0.10
+		add_war_support = 0.20
+		
+		
+
+	}
+	
+}
+
+#Штурм дворца, спасииитееее#
+
+country_event = {
+	id = isi.21cevilwar
+	title = isi.21cevilwar.t
+	desc = isi.21cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.21cevilwar.a
+
+
+	}
+	
+}

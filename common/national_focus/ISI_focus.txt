@@ -130,6 +130,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
+		completion_reward = {
+		country_event = { id = isi.13artemfriend }
+		}
 
 	}
 	focus = {
@@ -144,6 +147,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 4
+		completion_reward = {
+		country_event = { id = isi.14ludahelp }
+		}
 
 	}
 	focus = {
@@ -1924,6 +1930,9 @@ add_ideas = monopoly
 		}
 		x = 15
 		y = 5
+		completion_reward = {
+		country_event = { id = isi.15kill_greck }
+		}
 
 	}
 	focus = {
@@ -1939,18 +1948,9 @@ add_ideas = monopoly
 		}
 		x = 18
 		y = 5
-
-	}
-	focus = {
-		id = kill_place.0.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = kill.0.2
-			focus = place.0.2
+		completion_reward = {
+		country_event = { id = isi.119friend_greck }
 		}
-		x = 15
-		y = 6
 
 	}
 	focus = {
@@ -1958,7 +1958,11 @@ add_ideas = monopoly
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = kill_place.0.1
+			focus = kill.0.2
+			focus = place.0.2
+		}
+		completion_reward = {
+		country_event = { id = isi.20cevilwar }
 		}
 		x = 15
 		y = 7
@@ -1973,6 +1977,9 @@ add_ideas = monopoly
 		}
 		x = 15
 		y = 8
+		completion_reward = {
+		country_event = { id = isi.21cevilwar }
+		}
 
 	}
 	focus = {
