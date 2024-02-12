@@ -1096,7 +1096,6 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				set_state_flag = GER_german_war_economy
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -1112,7 +1111,7 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				set_state_flag = GER_german_war_economy
+
 			}
 		}
 

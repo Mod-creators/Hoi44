@@ -410,7 +410,7 @@ country_event = {
 		name = isi.118kill_greck.a
 		custom_effect_tooltip = ISI_day_krug_lose_little
 		hidden_effect = {
-				set_country_flag = ISI_day_krug_lose
+				set_country_flag = ISI_day_krug_lose_little
 				
 			}
 
@@ -543,6 +543,147 @@ country_event = {
 
 	option = { 
 		name = isi.21cevilwar.a
+		country_event = { id = isi.22cevilwar }
+
+
+	}
+	
+}
+#Штурм дворца, первый ветвитель#
+country_event = {
+	id = isi.22cevilwar
+	title = isi.22cevilwar.t
+	desc = isi.22cevilwar.desc
+
+	is_triggered_only = yes
+ 
+ option = { 
+		name = isi.22cevilwar.a
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_ludmila_night_attack } }
+		country_event = { id = isi.23cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_best_win } }
+		country_event = { id = isi.24cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_friend_nikita } }
+		country_event = { id = isi.25cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_day_krug_lose } }
+		country_event = { id = isi.26cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_day_krug_lose_little } }
+		country_event = { id = isi.27cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_day_fist_win } ISI = { has_country_flag = ISI_ludahelp } }
+		country_event = { id = isi.28cevilwar }
+		}
+		if = {
+		limit = {ISI = { has_country_flag = ISI_day_fist_win } ISI = { has_country_flag = ISI_artem_help } }
+		country_event = { id = isi.28cevilwar }
+		}
+		
+	}
+}
+
+
+country_event = {
+	id = isi.28cevilwar
+	title = isi.28cevilwar.t
+	desc = isi.28cevilwar.desc
+
+	is_triggered_only = yes
+ 
+ option = { 
+		name = isi.28cevilwar.a
+		country_event = { id = isi.28cevilwar }
+		}
+		
+		
+		
+	}
+}
+
+country_event = {
+	id = isi.23cevilwar
+	title = isi.23cevilwar.t
+	desc = isi.23cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.23cevilwar.a
+
+
+	}
+	
+}
+
+country_event = {
+	id = isi.24cevilwar
+	title = isi.24cevilwar.t
+	desc = isi.24cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.24cevilwar.a
+
+
+	}
+	
+}
+
+country_event = {
+	id = isi.25cevilwar
+	title = isi.25cevilwar.t
+	desc = isi.25cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.25cevilwar.a
+
+
+	}
+	
+}
+
+country_event = {
+	id = isi.26cevilwar
+	title = isi.26cevilwar.t
+	desc = isi.26cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.26cevilwar.a
+
+
+	}
+	
+}
+
+country_event = {
+	id = isi.27cevilwar
+	title = isi.27cevilwar.t
+	desc = isi.27cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.27cevilwar.a
 
 
 	}
