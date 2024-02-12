@@ -8661,6 +8661,75 @@ spriteTypes = {
         texturefile = "gfx/interface/focus/GFX_focus_proizvod_64.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_voi_11"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_11.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_21"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_21.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_22"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_22.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_31"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_31.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_32"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_32.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_33"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_33.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_34"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_34.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_41"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_41.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_42"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_42.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_43"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_43.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_44"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_44.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_51"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_51.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_52"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_52.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_53"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_53.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_61"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_61.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_62"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_62.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_71"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_71.dds"
+	}
+	
 	
 	
 	
