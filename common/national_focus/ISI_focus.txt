@@ -1927,7 +1927,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.2.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_23
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.1.1
@@ -1938,7 +1938,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.3.5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_35
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.2.3
@@ -1952,7 +1952,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.4.5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_45
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.3.5
@@ -1963,7 +1963,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.5.4
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_54
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.4.5
@@ -1974,7 +1974,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.3.6
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_36
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.2.3
@@ -1988,7 +1988,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.4.6
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_46
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.3.6
@@ -1999,7 +1999,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.5.5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_55
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.4.5
@@ -2953,7 +2953,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.5.6
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_56
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.4.6
@@ -2975,7 +2975,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = warfocus.6.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_voi_63
 		cost = 10,00
 		prerequisite = {
 			focus = warfocus.5.5

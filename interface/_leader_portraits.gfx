@@ -8729,6 +8729,43 @@ spriteTypes = {
 		name = "GFX_focus_voi_71"
         texturefile = "gfx/interface/focus/GFX_focus_voi_71.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_voi_23"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_23.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_35"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_35.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_36"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_36.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_45"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_45.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_46"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_46.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_54"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_54.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_55"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_55.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_56"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_56.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_voi_63"
+        texturefile = "gfx/interface/focus/GFX_focus_voi_63.dds"
+	}
+	
 	
 	
 	
