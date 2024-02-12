@@ -591,7 +591,7 @@ country_event = {
 		}
 		if = {
 		limit = {ISI = { has_country_flag = ISI_day_fist_win } ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.28cevilwar }
+		country_event = { id = isi.29cevilwar }
 		}
 		
 	}
@@ -607,8 +607,24 @@ country_event = {
  
  option = { 
 		name = isi.28cevilwar.a
-		country_event = { id = isi.28cevilwar }
+		country_event = { id = isi.36cevilwar }
 		}
+		
+		
+		
+	}
+}
+
+country_event = {
+	id = isi.29cevilwar
+	title = isi.29cevilwar.t
+	desc = isi.29cevilwar.desc
+
+	is_triggered_only = yes
+ 
+ option = { 
+		name = isi.29cevilwar.a
+		country_event = { id = isi.37cevilwar }
 		
 		
 		
@@ -623,7 +639,8 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = isi.23cevilwar.a
+	name = isi.23cevilwar.a
+		country_event = { id = isi.30cevilwar }
 
 
 	}
@@ -639,6 +656,15 @@ country_event = {
 
 	option = { 
 		name = isi.24cevilwar.a
+		if = {
+		limit = {ISI = { has_country_flag = ISI_ludahelp } }
+		country_event = { id = isi.31cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_artem_help } }
+		country_event = { id = isi.32cevilwar }
+		}
 
 
 	}
@@ -654,6 +680,16 @@ country_event = {
 
 	option = { 
 		name = isi.25cevilwar.a
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_ludahelp } }
+		country_event = { id = isi.31cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_artem_help } }
+		country_event = { id = isi.32cevilwar }
+		}
 
 
 	}
@@ -669,6 +705,16 @@ country_event = {
 
 	option = { 
 		name = isi.26cevilwar.a
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_ludahelp } }
+		country_event = { id = isi.33cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_artem_help } }
+		country_event = { id = isi.34cevilwar }
+		}
 
 
 	}
@@ -684,8 +730,130 @@ country_event = {
 
 	option = { 
 		name = isi.27cevilwar.a
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_ludahelp } }
+		country_event = { id = isi.35cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_artem_help } }
+		country_event = { id = isi.32cevilwar }
+		}
 
 
+	}
+	
+}
+
+country_event = {
+	id = isi.30cevilwar
+	title = isi.30cevilwar.t
+	desc = isi.30cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+	name = isi.30cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.31cevilwar
+	title = isi.31cevilwar.t
+	desc = isi.31cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.31cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.32cevilwar
+	title = isi.32cevilwar.t
+	desc = isi.32cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.32cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.33cevilwar
+	title = isi.33cevilwar.t
+	desc = isi.33cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.33cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.34cevilwar
+	title = isi.34cevilwar.t
+	desc = isi.34cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.34cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.35cevilwar
+	title = isi.35cevilwar.t
+	desc = isi.35cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.35cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.36cevilwar
+	title = isi.36cevilwar.t
+	desc = isi.36cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.36cevilwar.a
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.37cevilwar
+	title = isi.37cevilwar.t
+	desc = isi.37cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.37cevilwar.a
+		
 	}
 	
 }

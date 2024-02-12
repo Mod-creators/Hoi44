@@ -23,7 +23,7 @@ leader_traits = {
             factor = 1
         }
     }
-	vecnoe_pms = {
+	vedma = {
 	    random = no
 		enemy_declare_war_tension = 0.1
 		air_volunteer_cap = 300
