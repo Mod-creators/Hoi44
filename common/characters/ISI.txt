@@ -107,7 +107,7 @@ characters = {
 		available = {
 			NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
 			}
-			visible = { NOT = OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
+			visible = { NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}}
 		}
 	advisor = {
 	slot = high_command
