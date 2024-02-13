@@ -122,7 +122,7 @@ characters = {
 	name = "ISI_veronica_vedma"
 	portraits = {
 		army = {
-		large = 
+		small = GFX_portrait_nika 
 		}
 	}
 	advisor = {
@@ -169,7 +169,7 @@ characters = {
 	name = "ISI_nasta_vodka"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_Nasta
 		}
 	}
 	advisor = {

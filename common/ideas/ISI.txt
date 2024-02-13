@@ -207,6 +207,13 @@ ideas = {
 			}
 		}
 		
+		clenvshatbedubaet{
+		allowed = {
+			}
+			removal_cost = -1
+			modifier = {}
+		}
+		
 	}
 
 }
