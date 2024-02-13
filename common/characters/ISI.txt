@@ -12,6 +12,10 @@ characters = {
 			traits = {dictator_luser}
 			expire="1965.1.1.1"
 			id = -1
+			available = {
+			NOT = {has_country_flag = ISI_roma_dead}
+			}
+			visible = { NOT = {has_country_flag = ISI_roma_dead}}
 		}
 	}
 	ISI_luda_korostina = {
@@ -20,6 +24,9 @@ characters = {
 		civilian = {
 		large = GFX_portrait_luda_korostina
 		}
+		army = {
+		small = 
+		}
 	}
 	country_leader = {
 		ideology = liberalism
@@ -27,7 +34,18 @@ characters = {
 		expire="1965.1.1.1"
 		id = -1
 		}
-	}
+		
+		advisor = {
+		slot=political_advisor
+		traits = {vedma_like_allexandr}
+		available = {
+			 has_country_flag = ISI_luda_like_alexandr
+			}
+			visible = { 
+			has_country_flag = ISI_luda_like_alexandr
+			}
+		}
+}
 	
 	ISI_aleksandr_malishev = {
 	name = "ISI_aleksandr_malishev"
@@ -58,6 +76,18 @@ characters = {
 		id = -1
 		}
 	}
+	advisor = {
+		slot=theorist
+		traits = {very_smart}
+		available = {
+			 has_country_flag = ISI_artem_theorist
+			}
+			visible = { 
+			has_country_flag = ISI_artem_theorist
+			}
+		}
+	
+	
 	### Фельдмаршалы и по совместительству главы военного совета ###
 	
 	ISI_nikita_bananow = {
@@ -75,17 +105,19 @@ characters = {
 		planning_skill=7;
 		logistics_skill=5;
 		available = {
-			NOT = {has_country_flag = ISI_dead_grec}
-			NOT = {has_country_flag = ISI_dead_plen}
+			NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
 			}
-			visible = { NOT = {has_country_flag = ISI_dead_grec}
-			NOT = {has_country_flag = ISI_greck_plen}}
+			visible = { NOT = OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
 		}
 	advisor = {
 	slot = high_command
 	traits = {veteran_first_war}
 	cost = 100
-	}
+	available = {
+			NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
+			}
+			visible = { NOT = OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
+			}
 	}
 	
 	ISI_nikita_xyida = {
@@ -332,6 +364,9 @@ characters = {
 		defense_skill=4;
 		planning_skill=5;
 		logistics_skill=1;
+		available = {
+			NOT = {has_country_flag = ISI_dead_redan}}
+			visible = { NOT = {has_country_flag = ISI_dead_redan}}
 		}
 	}
 	
@@ -368,8 +403,19 @@ characters = {
 		planning_skill=3;
 		logistics_skill=3;
 		available = {
-			NOT = {has_country_flag = ISI_dead_irina}}
-			visible = { NOT = {has_country_flag = ISI_dead_irina}}
+			NOT = {OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga}}}
+			visible = { NOT = OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga}}
+		}
+		
+		advisor = {
+		slot=political_advisor
+		traits = {vedma_like_allexandr}
+		available = {
+			 has_country_flag = ISI_irina_bes_noga
+			}
+			visible = { 
+			has_country_flag = ISI_irina_bes_noga
+			}
 		}
 	}
 	

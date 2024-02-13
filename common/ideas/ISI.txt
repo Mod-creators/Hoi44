@@ -54,6 +54,25 @@ ideas = {
 	}
 	
 	country = {
+	
+	nikita_want_vlast = {
+			
+			removal_cost = -1
+			
+			
+		}
+		
+		armia_protiv = {
+			
+			removal_cost = -1
+			
+			
+		}
+	
+	
+	
+	
+	
 		old_power = {
 			
 			allowed = {

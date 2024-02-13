@@ -60,3 +60,43 @@ ISI_vlad{
  }
  
 }
+}
+
+
+
+ISI_civilwar_posledstvia = {
+
+ISI_poxron = {
+ cost = 1
+  fire_only_once = yes 
+   available = {  OR = {has_country_flag = ISI_dead_student has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_valera has_country_flag = ISI_dead_huida  }}
+   visible = {  OR = {has_country_flag = ISI_dead_student has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_valera has_country_flag = ISI_dead_huida }}
+  complete_effect = {country_event = { id = isi.50poxron } }
+}
+
+ISI_vedmin_vopros = {
+ cost = 50
+  fire_only_once = yes 
+   available = { has_country_flag = ISI_vedmin_vopros }
+   visible = {  has_country_flag = ISI_vedmin_vopros}
+  complete_effect = {country_event = { id = isi.51poxron } }
+}
+
+ISI_vostanov_labs = {
+ cost = 100
+  fire_only_once = yes 
+   available = { has_country_flag = ISI_artem_theorist }
+   visible = {  has_country_flag = ISI_artem_theorist}
+  complete_effect = {country_event = { id = isi.52poxron } }
+}
+
+ISI_gree_quest = {
+ cost = 100
+  fire_only_once = yes 
+   available = { has_country_flag = ISI_greak_vrag }
+   visible = {  has_country_flag = ISI_greak_vrag}
+  complete_effect = {country_event = { id = isi.53poxron } }
+}
+
+
+}

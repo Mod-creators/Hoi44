@@ -608,7 +608,6 @@ country_event = {
  option = { 
 		name = isi.28cevilwar.a
 		country_event = { id = isi.36cevilwar }
-		}
 		
 		
 		
@@ -738,7 +737,7 @@ country_event = {
 		
 		if = {
 		limit = {ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.32cevilwar }
+		country_event = { id = isi.37cevilwar }
 		}
 
 
@@ -755,6 +754,7 @@ country_event = {
 
 	option = { 
 	name = isi.30cevilwar.a
+	country_event = { id = isi.38cevilwar }
 		
 	}
 	
@@ -769,6 +769,15 @@ country_event = {
 
 	option = { 
 		name = isi.31cevilwar.a
+		if = {
+		limit = {ISI = { has_country_flag = ISI_friend_nikita } }
+		country_event = { id = isi.39cevilwar }
+		}
+		
+		if = {
+		limit = {ISI = { has_country_flag = ISI_best_win } }
+		country_event = { id = isi.46cevilwar }
+		}
 		
 	}
 	
@@ -783,6 +792,10 @@ country_event = {
 
 	option = { 
 		name = isi.32cevilwar.a
+		country_event = { id = isi.40cevilwar }
+
+	
+		
 		
 	}
 	
@@ -797,6 +810,7 @@ country_event = {
 
 	option = { 
 		name = isi.33cevilwar.a
+		country_event = { id = isi.41cevilwar }
 		
 	}
 	
@@ -811,6 +825,7 @@ country_event = {
 
 	option = { 
 		name = isi.34cevilwar.a
+		country_event = { id = isi.42cevilwar }
 		
 	}
 	
@@ -825,6 +840,7 @@ country_event = {
 
 	option = { 
 		name = isi.35cevilwar.a
+		country_event = { id = isi.38cevilwar }
 		
 	}
 	
@@ -839,6 +855,7 @@ country_event = {
 
 	option = { 
 		name = isi.36cevilwar.a
+		country_event = { id = isi.43cevilwar }
 		
 	}
 	
@@ -853,6 +870,235 @@ country_event = {
 
 	option = { 
 		name = isi.37cevilwar.a
+		country_event = { id = isi.44cevilwar }
+		
+	}
+	
+}
+
+# Смотри ивент 45#
+country_event = {
+	id = isi.40cevilwar
+	title = isi.40cevilwar.t
+	desc = isi.40cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.40cevilwar.a
+				
+				if = {
+		limit = {ISI = { has_country_flag = ISI_friend_nikita } }
+		country_event = { id = isi.45cevilwar }
+		}
+		if = {
+		limit = {ISI = { has_country_flag = ISI_best_win } }
+		country_event = { id = isi.47cevilwar }
+		}
+		
+	}
+	
+}
+
+
+
+#Александр во всех аспектах позволил Людмиле помочь себе, она запала на него, Роман мертв, Студеникин мертв, Грек мертв#
+country_event = {
+	id = isi.38cevilwar
+	title = isi.38cevilwar.t
+	desc = isi.38cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.38cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		
+		add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
+			set_country_flag = ISI_dead_student
+			set_country_flag = ISI_roma_dead
+			set_country_flag = ISI_luda_like_alexandr
+			set_country_flag = ISI_civilwar_posledstvia
+		
+	}
+	
+}
+
+#Александр заключил союз с Ниитой, за что Людмила обиделась на него и не пришла на штурм дворца, Роман похоронен заживо, вся команда жива#
+country_event = {
+	id = isi.39cevilwar
+	title = isi.39cevilwar.t
+	desc = isi.39cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.39cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+			set_country_flag = ISI_roma_dead
+			set_country_flag = ISI_civilwar_posledstvia
+			set_country_flag = ISI_vedmin_vopros
+			add_ideas = ISI_nikita_want_vlast
+			set_country_flag = ISI_nikita_want_vlast
+		}
+		
+		
+	}
+	
+}
+
+#Александр идеально взял  военные части, Людмиле не нужен идальный тактик, Грек мертв Роман похоронен заживо, вся команда жива#
+country_event = {
+	id = isi.46cevilwar
+	title = isi.46cevilwar.t
+	desc = isi.46cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.46cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+			set_country_flag = ISI_roma_dead
+			set_country_flag = ISI_civilwar_posledstvia
+			set_country_flag = ISI_vedmin_vopros
+		}
+		
+	}
+	
+}
+
+
+
+Александр заключил союз с артемом и прошел через лабаратории, Грек Жив, Ирина осталась без ноги и переведена в роль советника, Роман захвачен живым.
+country_event = {
+	id = isi.45cevilwar
+	title = isi.45cevilwar.t
+	desc = isi.45cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.45cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_artem_theorist
+		add_ideas = ISI_nikita_want_vlast
+			set_country_flag = ISI_nikita_want_vlast
+			set_country_flag = irina_bes_noga
+		
+		
+	}
+	
+}
+
+Александр заключил союз с артемом и прошел через лабаратории, Грек мертв, Ирина осталась без ноги и переведена в роль советника, Роман захвачен живым.
+country_event = {
+	id = isi.47cevilwar
+	title = isi.47cevilwar.t
+	desc = isi.47cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.47cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_artem_theorist
+			set_country_flag = irina_bes_noga
+		
+	}
+	
+}
+
+
+
+#Александр  проиграл Греку, но Людмила спасла енго взамен забрав его душу.  Все боевые товарищи Александра мертвы. Рома сожжен теневым пламенем, Грек жив. Александр стал марионеткой Людмилы. 
+country_event = {
+	id = isi.41cevilwar
+	title = isi.41cevilwar.t
+	desc = isi.41cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.41cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_dead_huida
+		set_country_flag = ISI_dead_irina
+		set_country_flag = ISI_dead_student
+		set_country_flag = ISI_dead_redan
+		set_country_flag = ISI_greak_vrag
+		add_ideas = armia_protiv
+		set_country_flag = ISI_armia_protiv
+		
+		
+	}
+	
+}
+#Артем спас Александра в самый последний момент  и показал ему тайные пути. Роман убит, все боевые товарищи Александра мервтвы. Грек жив.
+country_event = {
+	id = isi.42cevilwar
+	title = isi.42cevilwar.t
+	desc = isi.42cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.42cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_country_flag = ISI_civilwar_posledstvia
+		
+	}
+	
+}
+# Людмила захватила душу Романа и он пропал с радаров. Дворец захвачен почти мирно, Александр имеет исключительно деловые отношение с Людмилой, она преследует только свою выгоду. Ирина и студент умерли еще при штурме части#
+country_event = {
+	id = isi.43cevilwar
+	title = isi.43cevilwar.t
+	desc = isi.43cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.43cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_country_flag = ISI_civilwar_posledstvia
+		
+	}
+	
+}
+#Артем Превратил дворец в газовую камеру наполненую хлором, абсолютно все обитатели дворца умерли ужасной смертью.Хлор осен на всех уровнях и еще как минимум пол года в него без спец средств защиты нельзя будет зайти.#
+country_event = {
+	id = isi.44cevilwar
+	title = isi.44cevilwar.t
+	desc = isi.44cevilwar.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.44cevilwar.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_country_flag = ISI_civilwar_posledstvia
 		
 	}
 	
