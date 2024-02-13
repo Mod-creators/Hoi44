@@ -495,7 +495,7 @@ characters = {
 	name = "ISI_aleksey_morda"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_aleksey_mort
 		}
 	}
 	advisor = {

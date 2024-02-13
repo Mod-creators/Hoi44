@@ -8506,7 +8506,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_nikita_xuida"
-        texturefile = "gfx/interface/leaders/ISI/nikita_xuida.dds"
+        texturefile = "gfx/leaders/ISI/nikita_xuida.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_nikita_xuida_small"
@@ -8520,6 +8520,15 @@ spriteTypes = {
 		name = "GFX_portrait_nikolai_zurov"
         texturefile = "gfx/interface/ideas/nikolai_zurov.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_nikolai_zurov"
+        texturefile = "gfx/interface/ideas/nikolai_zurov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aleksey_mort"
+        texturefile = "gfx/interface/ideas/aleksey_mort.dds"
+	}
+	
 	
 	
 	
