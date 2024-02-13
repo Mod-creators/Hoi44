@@ -8504,6 +8504,25 @@ spriteTypes = {
 		name = "GFX_portrait_Nasta"
         texturefile = "gfx/interface/ideas/Nasta.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_nikita_xuida"
+        texturefile = "gfx/interface/leaders/ISI/nikita_xuida.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nikita_xuida_small"
+        texturefile = "gfx/interface/ideas/nikita_xuida_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_daria_nuxclei"
+        texturefile = "gfx/interface/ideas/daria_nuxclei.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_nikolai_zurov"
+        texturefile = "gfx/interface/ideas/nikolai_zurov.dds"
+	}
+	
+	
+	
 	
 	
 	

@@ -124,7 +124,8 @@ characters = {
 	name = "ISI_nikita_xyida"
 	portraits = {
 		army = {
-		large = 
+		large = GFX_portrait_nikita_xuida
+		small = GFX_portrait_nikita_xuida_small
 		}
 	}
 	field_marshal = {
@@ -507,7 +508,7 @@ characters = {
 	name = "ISI_daria_nuxclei"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_daria_nuxclei
 		}
 	}
 	advisor = {
