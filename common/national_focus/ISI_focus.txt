@@ -75,7 +75,6 @@ focus_tree = {
 	}
 	
 	}
-	}
 	focus = {
 		id = info.0.2
 		icon = GFX_focus_info_02
