@@ -5,7 +5,7 @@ country_event = {
 	id = isi.1
 	title = isi.1.t
 	desc = isi.1.desc
-
+	picture = GFX_portrait_first
 	is_triggered_only = yes
 
 	option = { 

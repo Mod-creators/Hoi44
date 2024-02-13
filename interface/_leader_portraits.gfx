@@ -8852,7 +8852,10 @@ spriteTypes = {
 	}
 	
 	
-	
+	spriteType = {
+		name = "GFX_portrait_first"
+        texturefile = "gfx/interface/events/first.dds"
+	}
 	
 	
 	
