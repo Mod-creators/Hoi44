@@ -11,3 +11,17 @@ ISI_alexandr_war = {
 	}
 	priority = 10
 }
+
+ISI_civilwar_posledstvia = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_country_flag = ISI_civilwar_posledstvia
+	}
+	priority = 10
+}
