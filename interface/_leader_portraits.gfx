@@ -8521,10 +8521,6 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/nikolai_zurov.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_nikolai_zurov"
-        texturefile = "gfx/interface/ideas/nikolai_zurov.dds"
-	}
-	spriteType = {
 		name = "GFX_portrait_aleksey_mort"
         texturefile = "gfx/interface/ideas/aleksey_mort.dds"
 	}
