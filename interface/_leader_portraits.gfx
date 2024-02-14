@@ -9076,6 +9076,12 @@ spriteTypes = {
         texturefile = "gfx/interface/events/ISI.3.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_over"
+        texturefile = "gfx/interface/ideas/over.dds"
+	}
+	
+	
 	
 	
 }
