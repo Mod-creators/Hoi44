@@ -8468,10 +8468,14 @@ spriteTypes = {
 		name = "GFX_portrait_Artem"
         texturefile = "gfx/leaders/ISI/Artem.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_artem_small"
+        texturefile = "gfx/interface/ideas/artem_small.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_luda_korostina_small"
-        texturefile = "gfx/interface/ideas/luda.dds"
+        texturefile = "gfx/interface/ideas/luda_small.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_dan_scala"

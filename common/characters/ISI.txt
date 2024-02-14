@@ -25,7 +25,7 @@ characters = {
 		large = GFX_portrait_luda_korostina
 		}
 		army = {
-		small = 
+		small = GFX_portrait_luda_korostina_small
 		}
 	}
 	country_leader = {
@@ -70,7 +70,7 @@ characters = {
 		large = GFX_portrait_Artem
 		}
 		army = {
-		small = 
+		small = GFX_portrait_artem_small
 		}
 	}
 	country_leader = {
