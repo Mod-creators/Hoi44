@@ -6,7 +6,7 @@ ideas = {
 		ISI_overcharged = {
 		
 			name = ISI_overcharged
-			picture = generic_industrial_concern_1
+			picture = GFX_portrait_over
 
 			allowed = {
 				original_tag = ISI
@@ -30,7 +30,7 @@ ideas = {
 		ISI_overcharged_2 = {
 		
 			name = ISI_overcharged_2
-			picture = generic_industrial_concern_1
+			picture = GFX_portrait_over
 
 			allowed = {
 				original_tag = ISI
