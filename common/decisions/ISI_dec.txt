@@ -77,9 +77,9 @@ ISI_poxron = {
 ISI_vedmin_vopros = {
  cost = 50
   fire_only_once = yes 
-   available = { has_country_flag = ISI_vedmin_vopros }
+   available = { has_country_flag = ISI_vedmin_vopros has_completed_focus = rebuld.0.2 }
    visible = {  has_country_flag = ISI_vedmin_vopros}
-  complete_effect = {country_event = { id = isi.51poxron } }
+  complete_effect = {country_event = { id = isi.51vedmin_vopros } }
 }
 
 ISI_vostanov_labs = {
@@ -87,17 +87,8 @@ ISI_vostanov_labs = {
   fire_only_once = yes 
    available = { has_country_flag = ISI_artem_theorist }
    visible = {  has_country_flag = ISI_artem_theorist}
-  complete_effect = {country_event = { id = isi.52poxron } }
+  complete_effect = {country_event = { id = isi.52vostanov_labs } }
 }
-
-ISI_gree_quest = {
- cost = 100
-  fire_only_once = yes 
-   available = { has_country_flag = ISI_greak_vrag }
-   visible = {  has_country_flag = ISI_greak_vrag}
-  complete_effect = {country_event = { id = isi.53poxron } }
-}
-
 
 }
 

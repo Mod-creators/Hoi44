@@ -1135,6 +1135,87 @@ country_event = {
 	
 }
 
+
+country_event = {
+	id = isi.50poxron
+	title = isi.50poxron.t
+	desc = isi.50poxron.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.50poxron.a
+		add_war_support = 0.05
+		add_popularity = 0.05
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.51vedmin_vopros
+	title = isi.51vedmin_vopros.t
+	desc = isi.51vedmin_vopros.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.51vedmin_vopros.a
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.52vostanov_labs
+	title = isi.52vostanov_labs.t
+	desc = isi.52vostanov_labs.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.52vostanov_labs.a
+		add_ideas = ISI_new_laba
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.53gree_quest
+	title = isi.53gree_quest.t
+	desc = isi.53gree_quest.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.53gree_quest.a
+
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 country_event = {
 	id = isi.55rebild
 	title = isi.55rebild.t

@@ -55,6 +55,17 @@ ideas = {
 	
 	country = {
 	
+	ISI_new_laba = {
+	modifier = {
+		research_bonus = 0.075
+			}
+			removal_cost = -1
+			
+			
+		}
+	
+	
+	
 	nikita_want_vlast = {
 			
 			removal_cost = -1
