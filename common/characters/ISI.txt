@@ -62,6 +62,7 @@ characters = {
 		}
 	}
 	
+	
 	ISI_artem_naygolnow = {
 	name = "ISI_artem_naygolnow"
 	portraits = {
@@ -135,8 +136,9 @@ characters = {
 		planning_skill=2;
 		logistics_skill=5;
 		available = {
+		has_government = fascism
 			NOT = {has_country_flag = ISI_dead_huida}}
-			visible = { NOT = {has_country_flag = ISI_dead_huida}}
+			visible = { NOT = {has_country_flag = ISI_dead_huida} has_government = fascism}
 		
 		}
 	advisor = {
@@ -195,6 +197,8 @@ characters = {
 	advisor = {
 		slot=army_chief
 		traits = {voitenko}
+		available = {has_government = fascism}
+		visible = {has_government = fascism}
 		}
 	}
 	
@@ -223,6 +227,8 @@ characters = {
 	advisor = {
 		slot=navy_chief
 		traits = {pandore}
+		available = {has_government = fascism}
+		visible = {has_government = fascism}
 		}
 		
 		navy_leader={
@@ -232,6 +238,8 @@ characters = {
 			defense_skill=2
 			maneuvering_skill=2
 			coordination_skill=1
+			available = {has_government = fascism}
+		visible = {has_government = fascism}
 		}
 		
 	}
@@ -279,6 +287,8 @@ characters = {
 	advisor = {
 		slot=air_chief
 		traits = {upala}
+		available = { NOT = {has_country_flag = ISI_dead_iaroslavna}}
+		visible = {}
 		}
 	}
 	
@@ -330,8 +340,8 @@ characters = {
 		planning_skill=4;
 		logistics_skill=2;
 		available = {
-			NOT = {has_country_flag = ISI_dead_den}}
-			visible = { NOT = {has_country_flag = ISI_dead_den}}
+			NOT = {has_country_flag = ISI_dead_den} has_government = fascism}
+			visible = { NOT = {has_country_flag = ISI_dead_den} has_government = fascism}
 		}
 	}
 	
@@ -366,8 +376,8 @@ characters = {
 		planning_skill=5;
 		logistics_skill=1;
 		available = {
-			NOT = {has_country_flag = ISI_dead_redan}}
-			visible = { NOT = {has_country_flag = ISI_dead_redan}}
+			NOT = {has_country_flag = ISI_dead_redan} has_government = fascism}
+			visible = { NOT = {has_country_flag = ISI_dead_redan} has_government = fascism}
 		}
 	}
 	
@@ -385,8 +395,8 @@ characters = {
 		planning_skill=4;
 		logistics_skill=4;
 		available = {
-			NOT = {has_country_flag = ISI_dead_student}}
-			visible = { NOT = {has_country_flag = ISI_dead_student}}
+			NOT = {has_country_flag = ISI_dead_student} has_government = fascism}
+			visible = { NOT = {has_country_flag = ISI_dead_student} has_government = fascism}
 		}
 	}
 	
@@ -404,8 +414,8 @@ characters = {
 		planning_skill=3;
 		logistics_skill=3;
 		available = {
-			NOT = {OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga}}}
-			visible = { NOT = OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga}}
+			NOT = {OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga}} has_government = fascism}
+			visible = { NOT = OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga} has_government = fascism}
 		}
 		
 		advisor = {
@@ -413,9 +423,11 @@ characters = {
 		traits = {vedma_like_allexandr}
 		available = {
 			 has_country_flag = ISI_irina_bes_noga
+			 has_government = fascism
 			}
 			visible = { 
 			has_country_flag = ISI_irina_bes_noga
+			has_government = fascism
 			}
 		}
 	}

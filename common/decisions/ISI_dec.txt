@@ -100,3 +100,43 @@ ISI_gree_quest = {
 
 
 }
+
+ISI_raskopki = {
+
+ISI_raskopki_stage_one = {
+ cost = 50
+ fire_only_once = yes 
+ days_remove = 25
+ available = {has_completed_focus = rebuld.0.1}
+ remove_effect = {
+ country_event = { id = isi.54rackopc }
+ hidden_effect ={
+ set_country_flag = ISI_stage_one_complete}
+ }
+
+}
+
+ISI_raskopki_stage_two ={
+ fire_only_once = yes 
+ days_remove = 50
+ available = {has_country_flag = ISI_stage_one_complete has_completed_focus = rebuld.0.1.1}
+ remove_effect = {
+ country_event = { id = isi.57rackopc }
+ hidden_effect ={
+ set_country_flag = ISI_stage_two_complete}
+ }
+ }
+
+ISI_raskopki_stage_free ={
+ fire_only_once = yes 
+ days_remove = 150
+ available = {has_country_flag = ISI_stage_two_complete has_completed_focus = rebuld.0.1.2}
+ remove_effect = {
+ country_event = { id = isi.56rackopc }
+ }
+ }
+
+
+
+
+}

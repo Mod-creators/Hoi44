@@ -1042,8 +1042,27 @@ country_event = {
 		set_country_flag = ISI_dead_student
 		set_country_flag = ISI_dead_redan
 		set_country_flag = ISI_greak_vrag
+		set_country_flag = ISI_roma_dead
 		add_ideas = armia_protiv
 		set_country_flag = ISI_armia_protiv
+		set_country_flag = ISI_alexandr-marionetka
+		 hidden_effect ={ISI_aleksandr_malishev = {
+				remove_country_leader_role = {
+					ideology = nazism
+				}
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {
+							big_ambal soulless_puppet
+						}
+					}
+					promote_leader = yes
+				}
+			}}
+		
+		
 		
 		
 	}
@@ -1063,6 +1082,14 @@ country_event = {
 			ruling_party = fascism
 		}
 		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_dead_huida
+		set_country_flag = ISI_dead_irina
+		set_country_flag = ISI_dead_student
+		set_country_flag = ISI_dead_redan
+		set_country_flag = ISI_greak_vrag
+		set_country_flag = ISI_roma_dead
+		add_ideas = armia_protiv
+		set_country_flag = ISI_armia_protiv
 		
 	}
 	
@@ -1081,11 +1108,13 @@ country_event = {
 			ruling_party = fascism
 		}
 		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_roma_dead
+		set_country_flag = vedmin_udar_spina
 		
 	}
 	
 }
-#Артем Превратил дворец в газовую камеру наполненую хлором, абсолютно все обитатели дворца умерли ужасной смертью.Хлор осен на всех уровнях и еще как минимум пол года в него без спец средств защиты нельзя будет зайти.#
+#Артем Превратил дворец в газовую камеру наполненую хлором, абсолютно все обитатели дворца умерли ужасной смертью. Хлор осен на всех уровнях и неизвестно сколько еще он продержится.#
 country_event = {
 	id = isi.44cevilwar
 	title = isi.44cevilwar.t
@@ -1099,6 +1128,68 @@ country_event = {
 			ruling_party = fascism
 		}
 		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_roma_dead
+		set_country_flag = gas_toxic
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.55rebild
+	title = isi.55rebild.t
+	desc = isi.55rebild.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.55rebild.a
+		hidden_effect = { set_country_flag = ISI_dead_iaroslavna}
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.54rackopc
+	title = isi.54rackopc.t
+	desc = isi.54rackopc.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.54rackopc.a
+
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.57rackopc
+	title = isi.57rackopc.t
+	desc = isi.57rackopc.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.57rackopc.a
+	}
+	
+}
+
+country_event = {
+	id = isi.56rackopc
+	title = isi.56rackopc.t
+	desc = isi.56rackopc.desc
+
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.56rackopc.a
+
 		
 	}
 	

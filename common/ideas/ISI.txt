@@ -69,7 +69,17 @@ ideas = {
 			
 		}
 	
-	
+	 big_ambitions = {
+			
+			removal_cost = -1
+			modifier = {
+			conscription_factor = 0.10
+			war_support_factor = 0.20
+		   
+			}
+			
+			
+		}
 	
 	
 	
@@ -177,9 +187,12 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 			production_speed_buildings_factor = 0.1
-		consumer_goods_factor = -0.15
+		consumer_goods_factor = -0.1
 			}
 		}
+		
+		
+		#Военные идеи, абсолютно не проработанные#
 		nachdux = {
 			allowed = {
 			}

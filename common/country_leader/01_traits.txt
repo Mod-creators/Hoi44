@@ -66,6 +66,16 @@ leader_traits = {
             factor = 1
         }
 	}
+	soulless_puppet = {
+	    random = no
+	compliance_growth_on_our_occupied_states = -0.15
+	resistance_activity = 0.2
+	command_power_gain = -0.1
+	
+        ai_will_do = {
+            factor = 1
+        }
+	}
 	big_boss = {
 		random = no
 		research_speed_factor = 0.4
