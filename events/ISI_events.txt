@@ -41,7 +41,7 @@ country_event = {
 	id = isi.3
 	title = isi.3.t
 	desc = isi.3.desc
-	
+	picture = GFX_portrait_ISI_3
 	is_triggered_only = yes
 
 	option = { 

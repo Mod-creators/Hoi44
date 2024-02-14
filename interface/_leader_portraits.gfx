@@ -9020,6 +9020,10 @@ spriteTypes = {
 		name = "GFX_portrait_ISI_26_27"
         texturefile = "gfx/interface/events/ISI.26-27.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_ISI_3"
+        texturefile = "gfx/interface/events/ISI.3.dds"
+	}
 	
 	
 	
