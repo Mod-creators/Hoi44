@@ -56,11 +56,11 @@ ideas = {
 	country = {
 	
 	ISI_new_laba = {
-	modifier = {
-		research_bonus = 0.075
-			}
+	
 			removal_cost = -1
-			
+			modifier = {
+		research_speed_factor = 0.075
+			}
 			
 		}
 	
