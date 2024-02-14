@@ -4,7 +4,7 @@ characters = {
 		name = "ISI_roman_polivka"
 		portraits = {
 			civilian = {
-				large = 
+				large = GFX_portrait_roma
 			}
 		}
 		country_leader = {
@@ -51,7 +51,7 @@ characters = {
 	name = "ISI_aleksandr_malishev"
 	portraits = {
 		civilian = {
-		large = 
+		large = GFX_portrait_Sana
 		}
 	}
 	country_leader = {
@@ -67,7 +67,10 @@ characters = {
 	name = "ISI_artem_naygolnow"
 	portraits = {
 		civilian = {
-		large = 
+		large = GFX_portrait_Artem
+		}
+		army = {
+		small = 
 		}
 	}
 	country_leader = {
@@ -191,7 +194,7 @@ characters = {
 	name = "ISI_aleksandr_voitenko"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_isus
 		}
 	}
 	advisor = {
@@ -222,6 +225,7 @@ characters = {
 	name = "ISI_pavel_pandora"
 	portraits = {
 		army = {
+		small = GFX_portrait_vino
 		}
 	}
 	advisor = {
@@ -281,7 +285,7 @@ characters = {
 	name = "ISI_iaroslavna_upala"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_negr
 		}
 	}
 	advisor = {
@@ -486,7 +490,7 @@ characters = {
 	name = "ISI_dima_volkov"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_ia
 		}
 	}
 	advisor = {
@@ -499,7 +503,7 @@ characters = {
 	name = "ISI_artem_koko"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_artem_koko
 		}
 	}
 	advisor = {
@@ -512,7 +516,7 @@ characters = {
 	name = "ISI_tox_gandon"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_hz
 		}
 	}
 	advisor = {
@@ -566,7 +570,7 @@ characters = {
 	name = "ISI_andrei_amoral"
 	portraits = {
 		army = {
-		small = 
+		small = GFX_portrait_snejok
 		}
 	}
 	advisor = {

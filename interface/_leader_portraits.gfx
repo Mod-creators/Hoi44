@@ -8458,7 +8458,20 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_luda_korostina"
-        texturefile = "gfx/leaders/ISI/portrait_luda_korostina.dds"
+        texturefile = "gfx/leaders/ISI/luda.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Sana"
+        texturefile = "gfx/leaders/ISI/Sana.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Artem"
+        texturefile = "gfx/leaders/ISI/Artem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_luda_korostina_small"
+        texturefile = "gfx/interface/ideas/luda.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_dan_scala"
@@ -8524,6 +8537,40 @@ spriteTypes = {
 		name = "GFX_portrait_aleksey_mort"
         texturefile = "gfx/interface/ideas/aleksey_mort.dds"
 	}
+		spriteType = {
+		name = "GFX_portrait_roma"
+        texturefile = "gfx/leaders/ISI/Roma.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_artem_koko"
+        texturefile = "gfx/interface/ideas/artemkok.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ia"
+        texturefile = "gfx/interface/ideas/ia.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_negr"
+        texturefile = "gfx/interface/ideas/negr.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_snejok"
+        texturefile = "gfx/interface/ideas/snejok.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_vino"
+        texturefile = "gfx/interface/ideas/vino.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_isus"
+        texturefile = "gfx/interface/ideas/isus.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hz"
+        texturefile = "gfx/interface/ideas/hz.dds"
+	}
+	
+	
 	
 	
 	
