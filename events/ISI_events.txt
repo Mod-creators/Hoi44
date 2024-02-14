@@ -26,7 +26,7 @@ country_event = {
 	id = isi.2
 	title = isi.2.t
 	desc = isi.2.desc
-
+	picture = GFX_portrait_ISI_2	
 	is_triggered_only = yes
 
 	option = { 
@@ -41,7 +41,7 @@ country_event = {
 	id = isi.3
 	title = isi.3.t
 	desc = isi.3.desc
-
+	
 	is_triggered_only = yes
 
 	option = { 
@@ -78,7 +78,7 @@ country_event = {
 	id = isi.alexandr
 	title = isi.alexandr.t
 	desc = isi.alexandr.desc
-
+	picture = GFX_portrait_ISI_ALEXUNDER			
 	is_triggered_only = yes
 
 	option = { 
@@ -93,7 +93,7 @@ country_event = {
 	id = isi.4razved
 	title = isi.4razved.t
 	desc = isi.4razved.desc
-
+	picture = GFX_portrait_ISI_4
 	is_triggered_only = yes
 
 	option = { 
@@ -109,7 +109,7 @@ country_event = {
 	id = isi.5danil
 	title = isi.5danil.t
 	desc = isi.5danil.desc
-
+	picture = GFX_portrait_ISI_5
 	is_triggered_only = yes
 
 	option = { 
@@ -125,7 +125,7 @@ country_event = {
 	id = isi.6dima
 	title = isi.6dima.t
 	desc = isi.6dima.desc
-
+	picture = GFX_portrait_ISI_6
 	is_triggered_only = yes
 
 	option = { 
@@ -142,7 +142,7 @@ country_event = {
 	id = isi.7vlad
 	title = isi.7vlad.t
 	desc = isi.7vlad.desc
-
+	picture = GFX_portrait_ISI_7
 	is_triggered_only = yes
 
 	option = { 
@@ -157,7 +157,7 @@ country_event = {
 	id = isi.8proizvod #11proizvod#
 	title = isi.8proizvod.t
 	desc = isi.8proizvod.desc
-
+	
 	is_triggered_only = yes
 
 	option = { 
@@ -169,7 +169,7 @@ country_event = {
 	id = isi.9proizvod #21proivod#
 	title = isi.9proizvod.t
 	desc = isi.9proizvod.desc
-
+	
 	is_triggered_only = yes
 
 	option = { 
@@ -219,7 +219,7 @@ country_event = {
 	id = isi.13artemfriend
 	title = isi.13artemfriend.t
 	desc = isi.13artemfriend.desc
-
+	picture = GFX_portrait_ISI_13
 	is_triggered_only = yes
 
 	option = { 
@@ -237,7 +237,7 @@ country_event = {
 	id = isi.14ludahelp
 	title = isi.14ludahelp.t
 	desc = isi.14ludahelp.desc
-
+	picture = GFX_portrait_ISI_14
 	is_triggered_only = yes
 
 	option = { 
@@ -255,7 +255,7 @@ country_event = {
 	id = isi.15kill_greck
 	title = isi.15kill_greck.t
 	desc = isi.15kill_greck.desc
-
+	picture = GFX_portrait_ISI_15	
 	is_triggered_only = yes
 
 	option = { 
@@ -281,7 +281,7 @@ country_event = {
 	id = isi.115kill_greck
 	title = isi.115kill_greck.t
 	desc = isi.115kill_greck.desc
-
+	picture = GFX_portrait_ISI_115
 	is_triggered_only = yes
 
 	option = { 
@@ -306,7 +306,7 @@ country_event = {
 	id = isi.116kill_greck
 	title = isi.116kill_greck.t
 	desc = isi.116kill_greck.desc
-
+	picture = GFX_portrait_ISI_116
 	is_triggered_only = yes
 
 	option = { 
@@ -363,7 +363,7 @@ country_event = {
 	id = isi.1171kill_greck
 	title = isi.1171kill_greck.t
 	desc = isi.1171kill_greck.desc
-
+	picture = GFX_portrait_ISI_1171
 	is_triggered_only = yes
 
 	option = { 
@@ -383,7 +383,7 @@ country_event = {
 	id = isi.117kill_greck
 	title = isi.117kill_greck.t
 	desc = isi.117kill_greck.desc
-
+	picture = GFX_portrait_ISI_117
 	is_triggered_only = yes
 
 	option = { 
@@ -403,7 +403,7 @@ country_event = {
 	id = isi.118kill_greck
 	title = isi.118kill_greck.t
 	desc = isi.118kill_greck.desc
-
+	picture = GFX_portrait_ISI_118
 	is_triggered_only = yes
 
 	option = { 
@@ -424,7 +424,7 @@ country_event = {
 	id = isi.1172kill_greck
 	title = isi.1172kill_greck.t
 	desc = isi.1172kill_greck.desc
-
+	picture = GFX_portrait_ISI_1172
 	is_triggered_only = yes
 
 	option = { 
@@ -450,7 +450,7 @@ country_event = {
 	id = isi.1173kill_greck
 	title = isi.1173kill_greck.t
 	desc = isi.1173kill_greck.desc
-
+	picture = GFX_portrait_ISI_1173
 	is_triggered_only = yes
 
 	option = { 
@@ -473,7 +473,7 @@ country_event = {
 	id = isi.1174kill_greck
 	title = isi.1174kill_greck.t
 	desc = isi.1174kill_greck.desc
-
+	picture = GFX_portrait_ISI_1174
 	is_triggered_only = yes
 
 	option = { 
@@ -496,7 +496,7 @@ country_event = {
 	id = isi.119friend_greck
 	title = isi.119friend_greck.t
 	desc = isi.119friend_greck.desc
-
+	picture = GFX_portrait_ISI_119
 	is_triggered_only = yes
 
 	option = { 
@@ -516,7 +516,7 @@ country_event = {
 	id = isi.20cevilwar
 	title = isi.20cevilwar.t
 	desc = isi.20cevilwar.desc
-
+	picture = GFX_portrait_ISI_20
 	is_triggered_only = yes
 
 	option = { 
@@ -538,7 +538,7 @@ country_event = {
 	id = isi.21cevilwar
 	title = isi.21cevilwar.t
 	desc = isi.21cevilwar.desc
-
+	picture = GFX_portrait_ISI_21
 	is_triggered_only = yes
 
 	option = { 
@@ -554,7 +554,7 @@ country_event = {
 	id = isi.22cevilwar
 	title = isi.22cevilwar.t
 	desc = isi.22cevilwar.desc
-
+	picture = GFX_portrait_ISI_22
 	is_triggered_only = yes
  
  option = { 
@@ -602,7 +602,7 @@ country_event = {
 	id = isi.28cevilwar
 	title = isi.28cevilwar.t
 	desc = isi.28cevilwar.desc
-
+	picture = GFX_portrait_ISI_28
 	is_triggered_only = yes
  
  option = { 
@@ -618,7 +618,7 @@ country_event = {
 	id = isi.29cevilwar
 	title = isi.29cevilwar.t
 	desc = isi.29cevilwar.desc
-
+	picture = GFX_portrait_ISI_29
 	is_triggered_only = yes
  
  option = { 
@@ -634,7 +634,7 @@ country_event = {
 	id = isi.23cevilwar
 	title = isi.23cevilwar.t
 	desc = isi.23cevilwar.desc
-
+	picture = GFX_portrait_ISI_23
 	is_triggered_only = yes
 
 	option = { 
@@ -650,7 +650,7 @@ country_event = {
 	id = isi.24cevilwar
 	title = isi.24cevilwar.t
 	desc = isi.24cevilwar.desc
-
+	picture = GFX_portrait_ISI_24
 	is_triggered_only = yes
 
 	option = { 
@@ -674,7 +674,7 @@ country_event = {
 	id = isi.25cevilwar
 	title = isi.25cevilwar.t
 	desc = isi.25cevilwar.desc
-
+	picture = GFX_portrait_ISI_25
 	is_triggered_only = yes
 
 	option = { 
@@ -699,7 +699,7 @@ country_event = {
 	id = isi.26cevilwar
 	title = isi.26cevilwar.t
 	desc = isi.26cevilwar.desc
-
+	picture = GFX_portrait_ISI_26_27
 	is_triggered_only = yes
 
 	option = { 
@@ -724,7 +724,7 @@ country_event = {
 	id = isi.27cevilwar
 	title = isi.27cevilwar.t
 	desc = isi.27cevilwar.desc
-
+	picture = GFX_portrait_ISI_26_27
 	is_triggered_only = yes
 
 	option = { 
@@ -749,7 +749,7 @@ country_event = {
 	id = isi.30cevilwar
 	title = isi.30cevilwar.t
 	desc = isi.30cevilwar.desc
-
+	picture = GFX_portrait_ISI_30
 	is_triggered_only = yes
 
 	option = { 
@@ -764,7 +764,7 @@ country_event = {
 	id = isi.31cevilwar
 	title = isi.31cevilwar.t
 	desc = isi.31cevilwar.desc
-
+	picture = GFX_portrait_ISI_31
 	is_triggered_only = yes
 
 	option = { 
@@ -787,7 +787,7 @@ country_event = {
 	id = isi.32cevilwar
 	title = isi.32cevilwar.t
 	desc = isi.32cevilwar.desc
-
+	picture = GFX_portrait_ISI_32
 	is_triggered_only = yes
 
 	option = { 
@@ -805,7 +805,7 @@ country_event = {
 	id = isi.33cevilwar
 	title = isi.33cevilwar.t
 	desc = isi.33cevilwar.desc
-
+	picture = GFX_portrait_ISI_33
 	is_triggered_only = yes
 
 	option = { 
@@ -820,7 +820,7 @@ country_event = {
 	id = isi.34cevilwar
 	title = isi.34cevilwar.t
 	desc = isi.34cevilwar.desc
-
+	picture = GFX_portrait_ISI_34
 	is_triggered_only = yes
 
 	option = { 
@@ -835,7 +835,7 @@ country_event = {
 	id = isi.35cevilwar
 	title = isi.35cevilwar.t
 	desc = isi.35cevilwar.desc
-
+	picture = GFX_portrait_ISI_35
 	is_triggered_only = yes
 
 	option = { 
@@ -850,7 +850,7 @@ country_event = {
 	id = isi.36cevilwar
 	title = isi.36cevilwar.t
 	desc = isi.36cevilwar.desc
-
+	picture = GFX_portrait_ISI_36
 	is_triggered_only = yes
 
 	option = { 
@@ -865,7 +865,7 @@ country_event = {
 	id = isi.37cevilwar
 	title = isi.37cevilwar.t
 	desc = isi.37cevilwar.desc
-
+	picture = GFX_portrait_ISI_37
 	is_triggered_only = yes
 
 	option = { 
@@ -881,7 +881,7 @@ country_event = {
 	id = isi.40cevilwar
 	title = isi.40cevilwar.t
 	desc = isi.40cevilwar.desc
-
+	picture = GFX_portrait_ISI_40
 	is_triggered_only = yes
 
 	option = { 
@@ -907,7 +907,7 @@ country_event = {
 	id = isi.38cevilwar
 	title = isi.38cevilwar.t
 	desc = isi.38cevilwar.desc
-
+	picture = GFX_portrait_ISI_38
 	is_triggered_only = yes
 
 	option = { 
@@ -934,7 +934,7 @@ country_event = {
 	id = isi.39cevilwar
 	title = isi.39cevilwar.t
 	desc = isi.39cevilwar.desc
-
+	picture = GFX_portrait_ISI_39
 	is_triggered_only = yes
 
 	option = { 
@@ -958,7 +958,7 @@ country_event = {
 	id = isi.46cevilwar
 	title = isi.46cevilwar.t
 	desc = isi.46cevilwar.desc
-
+	picture = GFX_portrait_ISI_46
 	is_triggered_only = yes
 
 	option = { 
@@ -981,7 +981,7 @@ country_event = {
 	id = isi.45cevilwar
 	title = isi.45cevilwar.t
 	desc = isi.45cevilwar.desc
-
+	picture = GFX_portrait_ISI_45
 	is_triggered_only = yes
 
 	option = { 
@@ -1005,7 +1005,7 @@ country_event = {
 	id = isi.47cevilwar
 	title = isi.47cevilwar.t
 	desc = isi.47cevilwar.desc
-
+	picture = GFX_portrait_ISI_47
 	is_triggered_only = yes
 
 	option = { 
@@ -1028,7 +1028,7 @@ country_event = {
 	id = isi.41cevilwar
 	title = isi.41cevilwar.t
 	desc = isi.41cevilwar.desc
-
+	picture = GFX_portrait_ISI_41
 	is_triggered_only = yes
 
 	option = { 
@@ -1073,7 +1073,7 @@ country_event = {
 	id = isi.42cevilwar
 	title = isi.42cevilwar.t
 	desc = isi.42cevilwar.desc
-
+	picture = GFX_portrait_ISI_42
 	is_triggered_only = yes
 
 	option = { 
@@ -1099,7 +1099,7 @@ country_event = {
 	id = isi.43cevilwar
 	title = isi.43cevilwar.t
 	desc = isi.43cevilwar.desc
-
+	picture = GFX_portrait_ISI_43
 	is_triggered_only = yes
 
 	option = { 
@@ -1119,7 +1119,7 @@ country_event = {
 	id = isi.44cevilwar
 	title = isi.44cevilwar.t
 	desc = isi.44cevilwar.desc
-
+	picture = GFX_portrait_ISI_44
 	is_triggered_only = yes
 
 	option = { 
@@ -1139,7 +1139,7 @@ country_event = {
 	id = isi.55rebild
 	title = isi.55rebild.t
 	desc = isi.55rebild.desc
-
+	picture = GFX_portrait_ISI_55
 	is_triggered_only = yes
 
 	option = { 
@@ -1155,7 +1155,7 @@ country_event = {
 	id = isi.54rackopc
 	title = isi.54rackopc.t
 	desc = isi.54rackopc.desc
-
+	picture = GFX_portrait_ISI_54
 	is_triggered_only = yes
 
 	option = { 
@@ -1171,7 +1171,7 @@ country_event = {
 	id = isi.57rackopc
 	title = isi.57rackopc.t
 	desc = isi.57rackopc.desc
-
+	picture = GFX_portrait_ISI_57
 	is_triggered_only = yes
 
 	option = { 
@@ -1184,7 +1184,7 @@ country_event = {
 	id = isi.56rackopc
 	title = isi.56rackopc.t
 	desc = isi.56rackopc.desc
-
+	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
 
 	option = { 

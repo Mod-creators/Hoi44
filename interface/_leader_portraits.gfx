@@ -8856,8 +8856,170 @@ spriteTypes = {
 		name = "GFX_portrait_first"
         texturefile = "gfx/interface/events/first.dds"
 	}
-	
-	
+	spriteType = {
+		name = "GFX_portrait_ISI_2"
+        texturefile = "gfx/interface/events/ISI.2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_4"
+        texturefile = "gfx/interface/events/ISI.4.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_5"
+        texturefile = "gfx/interface/events/ISI.5.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_6"
+        texturefile = "gfx/interface/events/ISI.6.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_7"
+        texturefile = "gfx/interface/events/ISI.7.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_13"
+        texturefile = "gfx/interface/events/ISI.13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_14"
+        texturefile = "gfx/interface/events/ISI.14.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_15"
+        texturefile = "gfx/interface/events/ISI.15.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_21"
+        texturefile = "gfx/interface/events/ISI.21.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_22"
+        texturefile = "gfx/interface/events/ISI.22.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_23"
+        texturefile = "gfx/interface/events/ISI.23.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_24"
+        texturefile = "gfx/interface/events/ISI.24.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_25"
+        texturefile = "gfx/interface/events/ISI.25.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_28"
+        texturefile = "gfx/interface/events/ISI.28.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_29"
+        texturefile = "gfx/interface/events/ISI.29.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_30"
+        texturefile = "gfx/interface/events/ISI.30.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_31"
+        texturefile = "gfx/interface/events/ISI.31.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_32"
+        texturefile = "gfx/interface/events/ISI.32.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_33"
+        texturefile = "gfx/interface/events/ISI.33.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_34"
+        texturefile = "gfx/interface/events/ISI.34.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_35"
+        texturefile = "gfx/interface/events/ISI.35.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_36"
+        texturefile = "gfx/interface/events/ISI.36.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_37"
+        texturefile = "gfx/interface/events/ISI.37.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_38"
+        texturefile = "gfx/interface/events/ISI.38.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_39"
+        texturefile = "gfx/interface/events/ISI.39.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_40"
+        texturefile = "gfx/interface/events/ISI.40.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_41"
+        texturefile = "gfx/interface/events/ISI.41.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_42"
+        texturefile = "gfx/interface/events/ISI.42.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_43"
+        texturefile = "gfx/interface/events/ISI.43.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_44"
+        texturefile = "gfx/interface/events/ISI.44.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_115"
+        texturefile = "gfx/interface/events/ISI.115.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_116"
+        texturefile = "gfx/interface/events/ISI.6.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_117"
+        texturefile = "gfx/interface/events/ISI.117.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_118"
+        texturefile = "gfx/interface/events/ISI.118.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_119"
+        texturefile = "gfx/interface/events/ISI.119.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_1171"
+        texturefile = "gfx/interface/events/ISI.1171.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_1172"
+        texturefile = "gfx/interface/events/ISI.1172.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_1173"
+        texturefile = "gfx/interface/events/ISI.1173.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_1174"
+        texturefile = "gfx/interface/events/ISI.1174.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_ALEXUNDER"
+        texturefile = "gfx/interface/events/ISI.ALEXUNDER.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ISI_26_27"
+        texturefile = "gfx/interface/events/ISI.26-27.dds"
+	}
 	
 	
 	
