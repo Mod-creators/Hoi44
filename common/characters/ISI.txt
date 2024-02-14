@@ -325,6 +325,24 @@ characters = {
 		}
 	}
 	
+	ISI_nikita_muziko = {
+	name = "ISI_nikita_muziko"
+	portraits = {
+		army = {
+		large = 
+		}
+	}
+	corps_commander = {
+		traits = {}
+		attack_skill=5;
+		defense_skill=3;
+		planning_skill=6;
+		logistics_skill=8;
+		available = {has_country_flag = ISI_find_musiko}
+		visible = {has_country_flag = ISI_find_musiko}
+		}
+	}
+	
 	ISI_dan_scala = {
 	name = "ISI_dan_scala"
 	

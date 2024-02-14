@@ -1176,6 +1176,7 @@ country_event = {
 
 	option = { 
 		name = isi.57rackopc.a
+		set_country_flag = ISI_find_musiko
 	}
 	
 }
