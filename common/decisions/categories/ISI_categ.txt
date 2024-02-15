@@ -12,6 +12,28 @@ ISI_alexandr_war = {
 	priority = 10
 }
 
+ISI_paranoia_system = {
+
+	priority = 101
+
+	icon = SOV_paranoia
+
+	scripted_gui = isi_paranoia_system_ui
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		OR = {
+			has_country_flag = ISI_paranoia_system_active_flag
+			has_country_flag = ISI_debug_show_paranoia_system_flag #Debug
+		}
+	}
+
+	visible_when_empty = yes
+}
+
 ISI_civilwar_posledstvia = {
 	
 	icon = saf_anti_colonialist_crusade

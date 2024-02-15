@@ -52,8 +52,81 @@ recruit_character = ISI_veronica_vedma
 
 
 
+set_variable = { ISI_paranoia = 0 } # Intitial Paranoia value
+set_variable = { ISI_paranoia_very_low_increase = 5 } #Paranoia very low increment
+set_variable = { ISI_paranoia_low_increase = 10 } #Paranoia low increment
+set_variable = { ISI_paranoia_medium_increase = 20 } #Paranoia medium increment
+set_variable = { ISI_paranoia_high_increase = 30 } #Paranoia high increment
+set_variable = { ISI_paranoia_very_high_increase = 50 } #Paranoia very high increment
+set_variable = { ISI_paranoia_low_decrease = -10 } #Paranoia low decrement --------> (prev -5)
+set_variable = { ISI_paranoia_medium_decrease = -20 } #Paranoia medium decrement --------> (prev -10)
+set_variable = { ISI_paranoia_high_decrease = -30 } #Paranoia high decrement --------> (prev -15)
+set_variable = { ISI_paranoia_very_high_decrease = -50 } #Paranoia very high decrement --------> (prev -25)
+set_variable = { ISI_paranoia_lower_threshold = 25 } #Lower Threshold -> Below Stalin doesn't purge
+set_variable = { ISI_paranoia_higher_threshold = 75 } #Higher Threshold -> Below Stalin purges occasionally / Above Stalin can start a Great Purge
+set_variable = { ISI_paranoia_modifier_increase = 1 } #Paranoia weekly increase via modifiers (Stalin's Paranoid leader trait) // WARNING: CUSTOM TOOLTIP DOES NOT WORK WITH VARS so needs to be updated
+set_variable = { ISI_paranoia_weekly_modifiers_amount = 1 } #Number of Weekly Paranoia Modifiers currently active (Stalin's trait, Heads of NKVD, etc.). This value will be mulptiplied by ISI_paranoia_modifier_increase in order to apply the final weekly modifier
+ISI_paranoia_modifier_update_gui_tooltip = yes #Used in the Paranoia GUI to show total weekly increase/decrease of Paranoia
+set_country_flag = ISI_paranoia_modifier_active_flag
+set_variable = { ISI_paranoia_great_purge_administration_number_of_targets = 4 } #Max amount of targets to be purged by the appropriate Great Purge (so that it can be changed if necessary)
+set_variable = { ISI_paranoia_great_purge_army_number_of_targets = 4 } #Max amount of targets to be purged by the appropriate Great Purge (so that it can be changed if necessary)
+set_variable = { ISI_paranoia_great_purge_navy_number_of_targets = 4 } #Max amount of targets to be purged by the appropriate Great Purge (so that it can be changed if necessary)
+set_variable = { ISI_paranoia_great_purge_air_number_of_targets = 3 } #Max amount of targets to be purged by the appropriate Great Purge (so that it can be changed if necessary)
+set_variable = { ISI_specific_random_purge_targets_override = -1 } #-1 = default random people will be purged // 0+ = that many chars will be randomly targeted - Then the var is reset to -1
 
+#Purge-Related Decs Vars
+set_variable = { ISI_reinforce_officer_ranks_days = 360 }
+set_variable = { ISI_reinstate_aircraft_designer_days = 180 }
 
+set_variable = { ISI_total_purge_counter = 0 } #Total Purges Counter
+set_variable = { ISI_regular_purge_counter = 0 } #Regular Purges Counter
+set_variable = { ISI_great_purge_counter = 0 } #Great Purges Counter
+set_country_flag = ISI_last_purge_flag #Used for Cooldown between purges
+set_variable = { ISI_paranoia_weekly_bucket = 0 }
+set_variable = { ISI_medium_paranoia_days = 0 }
+set_variable = { ISI_high_paranoia_days = 0 }
+
+set_variable = { ISI_paranoia_based_on_level_multiplier = 5 } #Used in certain situations where unit leaders are purged and paranoia should be affected based on their level
+
+set_variable = { ISI_moscow_trial_index = 1 }
+
+set_variable = { ISI_last_regular_purge_area = 0 } # 1=ADMIN | 2=ARMY | 3=NAVY | 4=AIRFORCE // Used to prevent an area (army, administration...) to be purged twice in a row
+set_variable = { ISI_last_great_purge_area = 0 } # 1=ADMIN | 2=ARMY | 3=NAVY | 4=AIRFORCE // Used to prevent an area (army, administration...) to be GREATLY purged twice in a row
+
+set_variable = { ISI_purge_event_pp_to_avoid_regular = 0 } #PP Required to show the option to avoid a regular purge
+set_variable = { ISI_purge_event_pp_to_avoid_great = 0 } #PP Required to show the option to avoid a great purge
+set_variable = { ISI_purge_event_pp_to_avoid_regular_pay = -60 } #PP to be paid to avoid a regular purge
+set_variable = { ISI_purge_event_pp_to_avoid_great_pay = -120 } #PP to be paid to avoid a great purge
+
+set_variable = { ISI_paranoia_calm_down_stalin_re_enable_days = 180 } #Calm Down Stalin decision cooldown
+set_variable = { ISI_paranoia_calm_down_stalin_decision_cost = 25 } #Calm Down Stalin decision cost
+set_variable = { ISI_paranoia_inspection_re_enable_days = 180 } #Inpsection decisions cooldown
+set_variable = { ISI_paranoia_inspection_remove_days = 7 } #Inspection decisions time to complete
+set_variable = { ISI_paranoia_inspection_decision_cost = 50 } #Inspection decisions cost
+
+#UI Elements
+set_variable = { ISI_paranoia_photo_zinovyev = 1 }
+set_variable = { ISI_paranoia_photo_radek = 1 }
+set_variable = { ISI_paranoia_photo_bukharin = 1 }
+set_variable = { ISI_paranoia_photo_trotsky = 1 }
+set_variable = { ISI_paranoia_photo_tukhachevsky = 1 }
+set_variable = { ISI_paranoia_main_paranoiameter = 1 }
+
+#POLITICAL PARANOIA UI
+	#Custom
+	set_variable = { ISI_paranoia_photo_zinovyev = 8 }
+	set_variable = { ISI_paranoia_photo_radek = 9 }
+	set_variable = { ISI_paranoia_photo_bukharin = 10 }
+	set_variable = { ISI_paranoia_photo_tukhachevsky = 12 }
+
+	#SET PURGE FLAGS
+	set_country_flag = ISI_first_moscow_trial_flag
+	set_country_flag = ISI_second_moscow_trial_flag
+	set_country_flag = ISI_third_moscow_trial_flag
+	set_country_flag = ISI_trial_of_the_generals_flag
+
+	#PURGE ALL THESE PEOPLES
+	ISI_grigory_zinovyev = { ISI_purge_character_effect = yes }
 
 set_politics = {
 	ruling_party = neutrality
