@@ -1,4 +1,7 @@
 ﻿l_russian:
+UNITED_ALEXANDRIA_fascism: "Александрия"
+UNITED_ALEXANDRIA_fascism_DEF: "Александрия"
+UNITED_ALEXANDRIA_fascism_ADJ: "Александрия"
 
 ISI_fascism: "Балканская автономная хунта Александра"
 ISI_communism: "Балканское обьединение Артема"
@@ -12,11 +15,12 @@ ISI_fascism_ADJ: "Балканская хунта"
 ISI_communism_ADJ: "Обьединение"
 ISI_democratic_ADJ: "Балканская республика"
 ISI_neutrality_ADJ: "Поливия"
-ISI_fascism_party: "DICK"
+ISI_fascism_party: "С.А.Н.Я"
 ISI_communism_party: "PIVO"
-ISI_democratic_party: "PMS"
+ISI_democratic_party: "Демон-кратия"
 ISI_neutrality_party: "ROM"
 ISI_fascism_party_long: "Диктатура Александра"
 ISI_communism_party_long: "Коллективизм артема"
 ISI_democratic_party_long: "Свободное общество Люды"
 ISI_neutrality_party_long: "Ромизм"
+

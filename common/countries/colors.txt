@@ -882,7 +882,10 @@ GRN = {
 	color_ui = rgb { 179 0 0 }
 }
 
+
+
 ISI = {
 color = rgb { 161 35 18 }
 color_ui = rgb { 165 32 25 }
 }
+

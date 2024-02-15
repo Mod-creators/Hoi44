@@ -39,3 +39,31 @@ ISI_raskopki = {
 	}
 	priority = 9
 }
+
+ISI_nationalization = {
+icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = rebuld.0.2.2
+	}
+	priority = 9
+}
+
+ISI_nationalization_annexion = {
+icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = whatnext.3.1
+		has_completed_focus = whatnext.3.2
+		has_completed_focus = whatnext.3.3
+	}
+	priority = 9
+}

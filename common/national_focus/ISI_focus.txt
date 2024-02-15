@@ -2255,6 +2255,7 @@ add_ideas = monopoly
 		id = whatnext.0.1
 		icon = GFX_goal_unknown
 		cost = 10,00
+		available = {has_country_flag = ISI_artemfriend }
 		prerequisite = {
 			focus = rebuld.0.2.2
 		}
@@ -2263,12 +2264,17 @@ add_ideas = monopoly
 		}
 		x = 7
 		y = 12
+		completion_reward = {
+		country_event = { id = isi.61artembrother }
+		
+		}
 
 	}
 	focus = {
 		id = whatnext.0.2
 		icon = GFX_goal_unknown
 		cost = 10,00
+		available = {has_country_flag = ISI_luda_like_alexandr}
 		prerequisite = {
 			focus = rebuld.0.2.2
 		}
@@ -2277,28 +2283,44 @@ add_ideas = monopoly
 		}
 		x = 17
 		y = 12
+		completion_reward = {
+		country_event = { id = isi.60vedminalove }
+		
+		}
 
 	}
 	focus = {
 		id = whatnext.1.1
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 1,00
 		prerequisite = {
 			focus = whatnext.0.1
 		}
 		x = 7
 		y = 14
+		completion_reward = {
+		custom_effect_tooltip = ISI_artem_naslednik
+		hidden_effect = {
+				set_country_flag = ISI_artem_naslednik
+			}
+		}
 
 	}
 	focus = {
 		id = whatnext.2.1
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 1,00
 		prerequisite = {
 			focus = whatnext.0.2
 		}
 		x = 17
 		y = 14
+		completion_reward = {
+		custom_effect_tooltip = ISI_luda_naslednik
+		hidden_effect = {
+				set_country_flag = ISI_luda_naslednik
+			}
+		}
 
 	}
 	focus = {
@@ -2306,11 +2328,16 @@ add_ideas = monopoly
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = whatnext.0.1
-			focus = whatnext.0.2
+		focus = rebuld.0.2.2
 		}
 		x = 9
 		y = 13
+		completion_reward = {
+		declare_war_on = {
+				target = GRE
+				type = take_state_focus
+			}
+		}
 
 	}
 	focus = {
@@ -2318,11 +2345,16 @@ add_ideas = monopoly
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = whatnext.0.1
-			focus = whatnext.0.2
+		focus = rebuld.0.2.2
 		}
 		x = 12
 		y = 13
+		completion_reward = {
+		declare_war_on = {
+				target = BUL
+				type = take_state_focus
+			}
+		}
 
 	}
 	focus = {
@@ -2330,11 +2362,16 @@ add_ideas = monopoly
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = whatnext.0.1
-			focus = whatnext.0.2
+			focus = rebuld.0.2.2
 		}
 		x = 15
 		y = 13
+		completion_reward = {
+		declare_war_on = {
+				target = YUG
+				type = take_state_focus
+			}
+		}
 
 	}
 	focus = {
@@ -2349,6 +2386,11 @@ add_ideas = monopoly
 		}
 		x = 10
 		y = 14
+		completion_reward = {declare_war_on = {
+				target = TUR
+				type = take_state_focus
+			}}
+		
 
 	}
 	focus = {
@@ -2363,6 +2405,10 @@ add_ideas = monopoly
 		}
 		x = 14
 		y = 14
+		completion_reward = {declare_war_on = {
+				target = ROM
+				type = take_state_focus
+			}}
 
 	}
 	focus = {
@@ -2374,6 +2420,10 @@ add_ideas = monopoly
 		}
 		x = 8
 		y = 15
+		completion_reward = {declare_war_on = {
+				target = HUN
+				type = take_state_focus
+			}}
 
 	}
 	focus = {
@@ -2385,6 +2435,10 @@ add_ideas = monopoly
 		}
 		x = 10
 		y = 16
+		completion_reward = {
+		add_manpower = 300000
+		
+		}
 
 	}
 	focus = {
@@ -2399,6 +2453,13 @@ add_ideas = monopoly
 		}
 		x = 12
 		y = 15
+		completion_reward = {
+		
+		        78 = { add_core_of = ROOT }
+				79 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				76 = { add_core_of = ROOT }
+		}
 
 	}
 	focus = {
@@ -2413,6 +2474,14 @@ add_ideas = monopoly
 		}
 		x = 16
 		y = 15
+		completion_reward = {
+		46 = {
+		add_resource = {
+					type = oil
+					amount = 50
+					
+				}}
+		}
 
 	}
 	focus = {
@@ -2423,8 +2492,65 @@ add_ideas = monopoly
 			focus = whatnext.3.8
 			focus = whatnext.3.9
 		}
+		prerequisite = {
+			focus = whatnext.3.7
+		}
 		x = 14
-		y = 16
+		y = 18
+		completion_reward = {
+		if = {
+		limit = {has_country_flag = ISI_luda_naslednik}
+		country_event = { id = isi.62cevilwar }
+		}
+		
+		if = {
+		limit = { NOT = {has_country_flag = ISI_luda_naslednik} has_country_flag = ISI_luda_like_alexandr}
+		country_event = { id = isi.64cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = ISI_vedmin_vopros  has_country_flag = ISI_nikita_want_vlast}
+		country_event = { id = isi.63cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = ISI_vedmin_vopros has_country_flag = ISI_dead_grec }
+		country_event = { id = isi.64cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = ISI_artem_help has_country_flag = ISI_nikita_want_vlast}
+		country_event = { id = isi.65cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = ISI_artem_help has_country_flag = ISI_dead_grec}
+		country_event = { id = isi.66cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = ISI_alexandr-marionetka}
+		country_event = { id = isi.67cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = ISI_artem_help has_country_flag = ISI_dead_huida has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_student has_country_flag = ISI_dead_redan}
+		country_event = { id = isi.68cevilwar }
+		}
+		
+		if = {
+		limit = {has_country_flag = vedmin_udar_spina}
+		country_event = { id = isi.69cevilwar }
+		}
+		
+			if = {
+		limit = {has_country_flag = gas_toxic}
+		country_event = { id = isi.69cevilwar }
+		}
+		
+		
+		
+		}
 
 	}
 	focus = {

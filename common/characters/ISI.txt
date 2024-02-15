@@ -30,7 +30,7 @@ characters = {
 	}
 	country_leader = {
 		ideology = liberalism
-		traits = {vecnoe_pms}
+		traits = {vedma}
 		expire="1965.1.1.1"
 		id = -1
 		}

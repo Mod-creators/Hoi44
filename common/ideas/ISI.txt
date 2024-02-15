@@ -6,13 +6,13 @@ ideas = {
 		ISI_overcharged = {
 		
 			name = ISI_overcharged
-			picture = GFX_portrait_over
+			icon = GFX_portrait_over
 
 			allowed = {
 				original_tag = ISI
 			}
 			available = {
-				has_completed_focus = proizvod.1.1
+				has_completed_focus = proizvod.1.5
 			}
 			
 			cost = 150
@@ -24,7 +24,6 @@ ideas = {
 				electronics = 0.5
 			}
 			
-			traits = { industrial_concern }
 		}
 		
 		ISI_overcharged_2 = {
@@ -49,7 +48,6 @@ ideas = {
 				
 			}
 			
-			traits = { industrial_concern }
 		}
 	}
 	

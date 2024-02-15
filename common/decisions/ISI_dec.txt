@@ -69,7 +69,7 @@ ISI_civilwar_posledstvia = {
 ISI_poxron = {
  cost = 1
   fire_only_once = yes 
-   available = {  OR = {has_country_flag = ISI_dead_student has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_valera has_country_flag = ISI_dead_huida  }}
+   available = { hidden_effect = {OR = {has_country_flag = ISI_dead_student has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_valera has_country_flag = ISI_dead_huida  }}  }
    visible = {  OR = {has_country_flag = ISI_dead_student has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_valera has_country_flag = ISI_dead_huida }}
   complete_effect = {country_event = { id = isi.50poxron } }
 }
@@ -127,7 +127,193 @@ ISI_raskopki_stage_free ={
  }
  }
 
+}
 
+ISI_nationalization = {
+ISI_create_Alexandria ={
+ fire_only_once = yes 
+ available = {custom_trigger_tooltip = {
+				tooltip = form_country_Alexandria
+				controls_state = 185
+				controls_state = 731
+				controls_state = 47
+				controls_state = 186
+				controls_state = 184
+				controls_state = 187
+				controls_state = 182
+				controls_state = 48
+				controls_state = 212
+				controls_state = 801
+				controls_state = 211
+				controls_state = 803
+				controls_state = 108
+				controls_state = 107
+				controls_state = 104
+				controls_state = 804
+				controls_state = 103
+				controls_state = 764
+				controls_state = 45
+				controls_state = 109
+				controls_state = 102
+				controls_state = 853
+			}}
+ complete_effect ={
+ set_cosmetic_tag = UNITED_ALEXANDRIA
+ set_province_name = { id = 9914 name = "Магадан" }
+ hidden_effect = {
+				185 = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				731 = { add_core_of = ROOT }
+				184 = { add_core_of = ROOT }
+				182 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				48 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				803 = { add_core_of = ROOT }
+				108= { add_core_of = ROOT }
+				104= { add_core_of = ROOT }
+				804= { add_core_of = ROOT }
+				103= { add_core_of = ROOT }
+				764= { add_core_of = ROOT }
+				45= { add_core_of = ROOT }
+				109= { add_core_of = ROOT }
+				102= { add_core_of = ROOT }
+				853= { add_core_of = ROOT }
+				186= { add_core_of = ROOT }
+				107= { add_core_of = ROOT }
+				
+				
+ 
+ }
+ }
+}
+}
+
+ISI_nationalization_annexion = {
+ISI_turc_hotel = {
+fire_only_once = yes 
+available = {custom_trigger_tooltip = {
+				tooltip = ISI_fuck_tur
+				controls_state = 797
+				controls_state = 341
+				controls_state = 340
+				controls_state = 339
+				controls_state = 342
+				controls_state = 343
+				controls_state = 347
+				controls_state = 49
+				controls_state = 798
+				controls_state = 346
+				controls_state = 345
+				controls_state = 356
+				controls_state = 348
+				controls_state = 344
+				controls_state = 355
+				controls_state = 349
+				controls_state = 350
+				controls_state = 354
+				controls_state = 353
+				controls_state = 352
+				controls_state = 800
+			}}
+complete_effect = {
+hidden_effect = {
+				341 = { add_core_of = ROOT }
+
+				340 = { add_core_of = ROOT }
+			
+				339 = { add_core_of = ROOT }
+			
+	
+				342 = { add_core_of = ROOT }
+		
+		
+				343 = { add_core_of = ROOT }
+			
+			
+				347 = { add_core_of = ROOT }
+			
+			
+				49 = { add_core_of = ROOT }
+			
+				
+				346 = { add_core_of = ROOT }
+		
+				
+				345 = { add_core_of = ROOT }
+		
+	
+				356 = { add_core_of = ROOT }
+			
+			
+				348 = { add_core_of = ROOT }
+			
+			
+				344 = { add_core_of = ROOT }
+			
+			
+				355 = { add_core_of = ROOT }
+			
+				
+				349 = { add_core_of = ROOT }
+			
+			
+				798 = { add_core_of = ROOT }
+			
+				
+				350 = { add_core_of = ROOT }
+				
+				
+				354 = { add_core_of = ROOT }
+			
+			
+				353 = { add_core_of = ROOT }
+				
+				
+				352 = { add_core_of = ROOT }
+			
+		
+				800 = { add_core_of = ROOT }
+			
+				799 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+			
+	
+			}
+}
+
+
+}
+
+
+
+
+ISI_rom_oil = {
+fire_only_once = yes 
+available = {custom_trigger_tooltip = {
+				tooltip = ISI_rom_oil_tool
+				controls_state = 82
+				controls_state = 81
+				controls_state = 46
+				controls_state = 77
+				controls_state = 766
+			}}
+complete_effect = {
+hidden_effect = {
+				82 = { add_core_of = ROOT }
+				81 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				766 = { add_core_of = ROOT }
+				
+			}
+}
+
+
+}
 
 
 }

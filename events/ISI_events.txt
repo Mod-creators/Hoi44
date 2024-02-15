@@ -458,7 +458,7 @@ country_event = {
 		custom_effect_tooltip = ISI_best_win
 		hidden_effect = {
 				set_country_flag = ISI_best_win
-				set_country_flag = ISI_greck_plen
+				set_country_flag = ISI_dead_grec
 				
 			}
 
@@ -941,13 +941,17 @@ country_event = {
 		name = isi.39cevilwar.a
 		set_politics = {
 			ruling_party = fascism
+		
+		}
 			set_country_flag = ISI_roma_dead
 			set_country_flag = ISI_civilwar_posledstvia
 			set_country_flag = ISI_vedmin_vopros
 			add_ideas = ISI_nikita_want_vlast
 			set_country_flag = ISI_nikita_want_vlast
-		}
-		
+			add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 	}
 	
@@ -965,10 +969,15 @@ country_event = {
 		name = isi.46cevilwar.a
 		set_politics = {
 			ruling_party = fascism
-			set_country_flag = ISI_roma_dead
+			
+		}
+		set_country_flag = ISI_roma_dead
 			set_country_flag = ISI_civilwar_posledstvia
 			set_country_flag = ISI_vedmin_vopros
-		}
+			add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 	}
 	
@@ -994,6 +1003,10 @@ country_event = {
 		add_ideas = ISI_nikita_want_vlast
 			set_country_flag = ISI_nikita_want_vlast
 			set_country_flag = irina_bes_noga
+			add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 		
 	}
@@ -1016,6 +1029,10 @@ country_event = {
 		set_country_flag = ISI_civilwar_posledstvia
 		set_country_flag = ISI_artem_theorist
 			set_country_flag = irina_bes_noga
+			add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 	}
 	
@@ -1046,6 +1063,10 @@ country_event = {
 		add_ideas = armia_protiv
 		set_country_flag = ISI_armia_protiv
 		set_country_flag = ISI_alexandr-marionetka
+		add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		 hidden_effect ={ISI_aleksandr_malishev = {
 				remove_country_leader_role = {
 					ideology = nazism
@@ -1090,6 +1111,10 @@ country_event = {
 		set_country_flag = ISI_roma_dead
 		add_ideas = armia_protiv
 		set_country_flag = ISI_armia_protiv
+		add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 	}
 	
@@ -1110,6 +1135,10 @@ country_event = {
 		set_country_flag = ISI_civilwar_posledstvia
 		set_country_flag = ISI_roma_dead
 		set_country_flag = vedmin_udar_spina
+		add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 	}
 	
@@ -1130,6 +1159,10 @@ country_event = {
 		set_country_flag = ISI_civilwar_posledstvia
 		set_country_flag = ISI_roma_dead
 		set_country_flag = gas_toxic
+		add_popularity = {
+   				ideology = fascism
+   	 			popularity = 0.5
+			}
 		
 	}
 	
@@ -1182,36 +1215,6 @@ country_event = {
 	}
 	
 }
-country_event = {
-	id = isi.53gree_quest
-	title = isi.53gree_quest.t
-	desc = isi.53gree_quest.desc
-	picture = GFX_portrait_ISI_56
-	is_triggered_only = yes
-
-	option = { 
-		name = isi.53gree_quest.a
-
-		
-	}
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1271,6 +1274,256 @@ country_event = {
 
 	option = { 
 		name = isi.56rackopc.a
+
+		
+	}
+	
+}
+
+
+
+country_event = {
+	id = isi.60vedminalove
+	title = isi.60vedminalove.t
+	desc = isi.60vedminalove.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.60vedminalove.a
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.61artembrother
+	title = isi.61artembrother.t
+	desc = isi.61artembrother.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.61artembrother.a
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.62apilog
+	title = isi.62apilog.t
+	desc = isi.62apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.62apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_luda_korostina = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {
+							vedma_like_allexandr
+						}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+}
+country_event = {
+	id = isi.63apilog
+	title = isi.63apilog.t
+	desc = isi.63apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.63apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_nikita_bananow = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {veteran_first_war}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.64apilog
+	title = isi.64apilog.t
+	desc = isi.64apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.64apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_nikita_xyida = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+					traits = {right_arm_alexandr}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.65apilog
+	title = isi.65apilog.t
+	desc = isi.65apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.65apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_artem_naygolnow = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+					traits = {very_smart}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.66apilog
+	title = isi.66apilog.t
+	desc = isi.66apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.66apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_artem_naygolnow = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+					traits = {very_smart}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.67apilog
+	title = isi.67apilog.t
+	desc = isi.67apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.67apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_luda_korostina = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {
+							vedma
+						}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.68apilog
+	title = isi.68apilog.t
+	desc = isi.68apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.68apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_artem_naygolnow = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+					traits = {very_smart}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.69apilog
+	title = isi.69apilog.t
+	desc = isi.69apilog.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = { 
+		name = isi.69apilog.a
+		kill_country_leader = yes
+		hidden_effect ={
+		ISI_nikita_xyida = {
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+					traits = {right_arm_alexandr}
+					}
+					promote_leader = yes
+				}
+			}
+			}
 
 		
 	}

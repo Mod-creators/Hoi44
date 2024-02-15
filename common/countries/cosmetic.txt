@@ -1,0 +1,4 @@
+UNITED_ALEXANDRIA = { 
+ color = rgb { 51 102 204 } 
+ color_ui = rgb { 51 15 199 } 
+}
