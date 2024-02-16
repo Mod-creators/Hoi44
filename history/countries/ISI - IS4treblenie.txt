@@ -49,7 +49,7 @@ recruit_character = ISI_dima_groznov
 recruit_character = ISI_iaroslavna_upala
 recruit_character = ISI_danil_minenko
 recruit_character = ISI_veronica_vedma
-
+recruit_character = ISI_nikita_muziko
 
 
 set_variable = { ISI_paranoia = 0 } # Intitial Paranoia value

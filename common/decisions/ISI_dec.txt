@@ -109,6 +109,42 @@ ISI_paranoia_system = {
 
 }
 
+ISI_war_never_change = {
+ISI_war = {
+cost = 100
+days_remove = 25
+ remove_effect = {
+ add_manpower = 10000
+ add_war_support = -0.1
+		add_stability = -0.1
+ }
+
+}
+
+ISI_war_2 = {
+cost = 100
+days_remove = 25
+ remove_effect = {
+ add_manpower = 50000
+ add_war_support = -0.15
+		add_stability = -0.25
+ }
+
+}
+
+ISI_war_3 = {
+cost = 100
+days_remove = 25
+ remove_effect = {
+ add_manpower = 100000
+ add_war_support = -0.20
+		add_stability = -0.40
+ }
+
+}
+}
+
+
 ISI_civilwar_posledstvia = {
 
 ISI_poxron = {
@@ -134,6 +170,57 @@ ISI_vostanov_labs = {
    visible = {  has_country_flag = ISI_artem_theorist}
   complete_effect = {country_event = { id = isi.52vostanov_labs } }
 }
+
+ISI_alexandr_fieldmarshal = {
+ cost = 250
+  fire_only_once = yes 
+   available = { has_government = fascism }
+   visible = {  has_government = fascism }
+   complete_effect = {
+   
+   ISI_aleksandr_malishev = {
+				add_field_marshal_role = {	
+					skill = 7
+		traits = {career_officer organization_first}
+		attack_skill=5;
+		defense_skill=3;
+		planning_skill=3;
+		logistics_skill=5;
+				}
+			}
+   }
+   
+}
+
+}
+
+ISI_posledstvia = {
+
+ISI_svadba ={
+cost = 10
+ fire_only_once = yes 
+ available = { has_country_flag = ISI_luda_like_alexandr}
+   visible = { has_country_flag = ISI_luda_like_alexandr}
+   complete_effect = { hidden_effect = {set_country_flag = ISI_like_predlog} country_event = { id = isi.60svadba } }
+}
+
+ISI_svadba_2 ={
+cost = 100
+ fire_only_once = yes 
+ available = { has_country_flag = ISI_like_predlog}
+  visible = { has_country_flag = ISI_luda_like_alexandr}
+   complete_effect = { country_event = { id = isi.61svadba } }
+}
+
+
+ISI_bratstvo = {
+cost = 100
+ fire_only_once = yes 
+ available = { has_country_flag = ISI_artem_help has_completed_focus = rebuld.0.2.2}
+  visible = { has_country_flag = ISI_artem_help}
+   complete_effect = { add_ideas = ISI_bratstvo}
+}
+
 
 }
 
