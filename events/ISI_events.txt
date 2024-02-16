@@ -1196,6 +1196,22 @@ country_event = {
 
 	option = { 
 		name = isi.51vedmin_vopros.a
+		hidden_effect = {scoped_play_song = mogilas
+		set_politics = {
+			ruling_party = democratic
+		}
+		kill_country_leader = yes
+		}
+		custom_effect_tooltip = ISI_dead_luda
+		hidden_effect = {set_politics = {
+			ruling_party = fascism
+		}}
+		
+		
+		
+		
+		
+
 
 		
 	}
