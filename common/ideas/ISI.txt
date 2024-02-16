@@ -6,7 +6,7 @@ ideas = {
 		ISI_overcharged = {
 		
 			name = ISI_overcharged
-			icon = GFX_portrait_over
+			picture = portrait_over
 
 			allowed = {
 				original_tag = ISI
@@ -29,7 +29,7 @@ ideas = {
 		ISI_overcharged_2 = {
 		
 			name = ISI_overcharged_2
-			picture = GFX_portrait_over
+			picture = portrait_over
 
 			allowed = {
 				original_tag = ISI
@@ -58,6 +58,18 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 		research_speed_factor = 0.075
+			}
+			
+		}
+		
+		ISI_bratstvo = {
+	
+			removal_cost = -1
+			modifier = {
+			supply_node_range = 0.2
+			conscription = 0.05
+			max_command_power = 20
+			
 			}
 			
 		}

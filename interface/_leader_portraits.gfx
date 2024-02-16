@@ -8505,6 +8505,19 @@ spriteTypes = {
 		name = "GFX_portrait_vlad_student"
         texturefile = "gfx/leaders/ISI/vlad_student.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_nikita_musiko"
+        texturefile = "gfx/leaders/ISI/nikita_musiko.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	spriteType = {
 		name = "GFX_portrait_nikita_bananow_small"
         texturefile = "gfx/interface/ideas/nikita_bananow.dds"

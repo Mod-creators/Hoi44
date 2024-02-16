@@ -2,12 +2,14 @@
 characters = {
 	ISI_roman_polivka = {
 		name = "ISI_roman_polivka"
+		idea_token = ISI_roman_polivka
 		portraits = {
 			civilian = {
 				large = GFX_portrait_roma
 			}
 		}
 		country_leader = {
+		idea_token = ISI_roman_polivka
 			ideology = despotism
 			traits = {dictator_luser}
 			expire="1965.1.1.1"
@@ -20,6 +22,7 @@ characters = {
 	}
 	ISI_luda_korostina = {
 	name = "ISI_luda_korostina"
+	
 	portraits = {
 		civilian = {
 		large = GFX_portrait_luda_korostina
@@ -29,6 +32,7 @@ characters = {
 		}
 	}
 	country_leader = {
+	idea_token = ISI_luda_korostina
 		ideology = liberalism
 		traits = {vedma}
 		expire="1965.1.1.1"
@@ -36,6 +40,7 @@ characters = {
 		}
 		
 		advisor = {
+		idea_token = ISI_luda_korostina
 		slot=political_advisor
 		traits = {vedma_like_allexandr}
 		available = {
@@ -49,14 +54,16 @@ characters = {
 	
 	ISI_aleksandr_malishev = {
 	name = "ISI_aleksandr_malishev"
+	
 	portraits = {
 		civilian = {
 		large = GFX_portrait_Sana
 		}
 	}
 	country_leader = {
+	idea_token = ISI_aleksandr_malishev
 		ideology = nazism
-		traits = {big_ambal}
+		traits = {big_ambal nedjenat}
 		expire="1965.1.1.1"
 		id = -1
 		}
@@ -64,6 +71,7 @@ characters = {
 	
 	
 	ISI_artem_naygolnow = {
+	
 	name = "ISI_artem_naygolnow"
 	portraits = {
 		civilian = {
@@ -82,6 +90,7 @@ characters = {
 	}
 	advisor = {
 		slot=theorist
+		idea_token = ISI_artem_naygolnow
 		traits = {very_smart}
 		available = {
 			 has_country_flag = ISI_artem_theorist
@@ -95,7 +104,9 @@ characters = {
 	### Фельдмаршалы и по совместительству главы военного совета ###
 	
 	ISI_nikita_bananow = {
+	
 	name = "ISI_nikita_bananow"
+	
 	portraits = {
 		army = {
 		large = GFX_portrait_nikita_bananow_big
@@ -103,7 +114,9 @@ characters = {
 		}
 	}
 	field_marshal = {
+	
 		traits = {old_guard war_hero infantry_leader}
+		skill = 9
 		attack_skill=5;
 		defense_skill=4;
 		planning_skill=7;
@@ -114,6 +127,7 @@ characters = {
 			visible = { NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}}
 		}
 	advisor = {
+	idea_token = ISI_nikita_bananow
 	slot = high_command
 	traits = {veteran_first_war}
 	cost = 100
@@ -125,6 +139,7 @@ characters = {
 	}
 	
 	ISI_nikita_xyida = {
+	
 	name = "ISI_nikita_xyida"
 	portraits = {
 		army = {
@@ -133,7 +148,9 @@ characters = {
 		}
 	}
 	field_marshal = {
+	
 		traits = {career_officer mountaineer organization_first}
+		skill = 5
 		attack_skill=7;
 		defense_skill=2;
 		planning_skill=2;
@@ -145,6 +162,7 @@ characters = {
 		
 		}
 	advisor = {
+	idea_token = ISI_nikita_xyida
 	available = {
 			NOT = {has_country_flag = ISI_dead_huida}}
 			visible = { NOT = {has_country_flag = ISI_dead_huida}}
@@ -157,6 +175,7 @@ characters = {
 	###Просто главы военного правительства###
 	
 	ISI_veronica_vedma = {
+	
 	name = "ISI_veronica_vedma"
 	portraits = {
 		army = {
@@ -164,6 +183,7 @@ characters = {
 		}
 	}
 	advisor = {
+	idea_token = ISI_veronica_vedma
 	slot = high_command
 	traits = {night_vedma}
 	cost = 100
@@ -171,6 +191,7 @@ characters = {
 	}
 	
 	ISI_danil_proxorod = {
+	
 	name = "ISI_danil_proxorod"
 	portraits = {
 		army = {
@@ -178,6 +199,7 @@ characters = {
 		}
 	}
 	advisor = {
+	idea_token = ISI_danil_proxorod
 	slot = high_command
 	traits = {hz_proxorov}
 	cost = 100
@@ -191,6 +213,7 @@ characters = {
 	##Армия##
 	
 	ISI_aleksandr_voitenko = {
+	
 	name = "ISI_aleksandr_voitenko"
 	portraits = {
 		army = {
@@ -199,6 +222,7 @@ characters = {
 	}
 	advisor = {
 		slot=army_chief
+		idea_token = ISI_aleksandr_voitenko
 		traits = {voitenko}
 		available = {has_government = fascism}
 		visible = {has_government = fascism}
@@ -206,6 +230,7 @@ characters = {
 	}
 	
 	ISI_nasta_vodka = {
+	
 	name = "ISI_nasta_vodka"
 	portraits = {
 		army = {
@@ -213,6 +238,7 @@ characters = {
 		}
 	}
 	advisor = {
+	idea_token = ISI_nasta_vodka
 		slot=army_chief
 		traits = {propiv_imyhestva}
 		}
@@ -222,6 +248,7 @@ characters = {
 	##Флот##
 	
 	ISI_pavel_pandora = {
+	
 	name = "ISI_pavel_pandora"
 	portraits = {
 		army = {
@@ -231,6 +258,7 @@ characters = {
 	advisor = {
 		slot=navy_chief
 		traits = {pandore}
+		idea_token = ISI_pavel_pandora
 		available = {has_government = fascism}
 		visible = {has_government = fascism}
 		}
@@ -250,6 +278,7 @@ characters = {
 
 	
 	ISI_dima_groznov = {
+	
 	name = "ISI_dima_groznov"
 	portraits = {
 		army = {
@@ -260,6 +289,7 @@ characters = {
 	advisor = {
 		slot=navy_chief
 		traits = {grozn}
+		idea_token = ISI_dima_groznov
 		available = {
 			NOT = {has_country_flag = ISI_dead_dima}}
 			visible = { NOT = {has_country_flag = ISI_dead_dima}}
@@ -282,6 +312,7 @@ characters = {
 	##Авиация##
 	
 	ISI_iaroslavna_upala = {
+	
 	name = "ISI_iaroslavna_upala"
 	portraits = {
 		army = {
@@ -291,12 +322,14 @@ characters = {
 	advisor = {
 		slot=air_chief
 		traits = {upala}
+		idea_token = ISI_iaroslavna_upala
 		available = { NOT = {has_country_flag = ISI_dead_iaroslavna}}
 		visible = {}
 		}
 	}
 	
 	ISI_danil_minenko = {
+	
 	name = "ISI_danil_minenko"
 	portraits = {
 		army = {
@@ -306,6 +339,7 @@ characters = {
 	advisor = {
 		slot=air_chief
 		traits = {minenko}
+		idea_token = ISI_danil_minenko
 		}
 	}
 	
@@ -314,6 +348,8 @@ characters = {
 	### Обычные коммандиры ###
 	
 	ISI_ruslan_usherbnii = {
+	
+	idea_token = ISI_ruslan_usherbnii
 	name = "ISI_ruslan_usherbnii"
 	portraits = {
 		army = {
@@ -321,7 +357,9 @@ characters = {
 		}
 	}
 	corps_commander = {
+	
 		traits = {media_personality}
+		skill = 1
 		attack_skill=1;
 		defense_skill=1;
 		planning_skill=1;
@@ -333,11 +371,12 @@ characters = {
 	name = "ISI_nikita_muziko"
 	portraits = {
 		army = {
-		large = 
+		large = GFX_nikita_musiko
 		}
 	}
 	corps_commander = {
-		traits = {}
+		traits = {infantry_officer}
+		skill = 6
 		attack_skill=5;
 		defense_skill=3;
 		planning_skill=6;
@@ -348,6 +387,8 @@ characters = {
 	}
 	
 	ISI_dan_scala = {
+	
+	idea_token = ISI_dan_scala
 	name = "ISI_dan_scala"
 	
 	portraits = {
@@ -357,6 +398,7 @@ characters = {
 	}
 	corps_commander = {
 		traits = {armor_officer commando}
+		skill = 3
 		attack_skill=3;
 		defense_skill=4;
 		planning_skill=4;
@@ -368,6 +410,8 @@ characters = {
 	}
 	
 	ISI_lesha_neprixod = {
+	
+	idea_token = ISI_lesha_neprixod
 	name = "ISI_lesha_neprixod"
 	portraits = {
 		army = {
@@ -376,6 +420,7 @@ characters = {
 	}
 	corps_commander = {
 		traits = {paratroopers commando}
+		skill = 2
 		attack_skill=1;
 		defense_skill=5;
 		planning_skill=3;
@@ -385,6 +430,8 @@ characters = {
 	
 	
 	ISI_valera_redan = {
+	
+	idea_token = ISI_valera_redan
 	name = "ISI_valera_redan"
 	portraits = {
 		army = {
@@ -393,6 +440,7 @@ characters = {
 	}
 	corps_commander = {
 		traits = {infantry_officer engineer}
+		skill = 5
 		attack_skill=6;
 		defense_skill=4;
 		planning_skill=5;
@@ -404,6 +452,8 @@ characters = {
 	}
 	
 	ISI_vlad_student = {
+	
+	idea_token = ISI_vlad_student
 	name = "ISI_vlad_student"
 	portraits = {
 		army = {
@@ -411,7 +461,9 @@ characters = {
 		}
 	}
 	corps_commander = {
+	
 		traits = {panzer_leader panzer_expert}
+		skill = 4
 		attack_skill=4;
 		defense_skill=4;
 		planning_skill=4;
@@ -423,6 +475,7 @@ characters = {
 	}
 	
 	ISI_irina_kovid = {
+	
 	name = "ISI_irina_kovid"
 	portraits = {
 		army = {
@@ -430,7 +483,8 @@ characters = {
 		}
 	}
 	corps_commander = {
-		traits = {invader naval_liaison amphibious}
+		traits = {infantry_officer}
+		skill = 6
 		attack_skill=6;
 		defense_skill=2;
 		planning_skill=3;
@@ -442,7 +496,8 @@ characters = {
 		
 		advisor = {
 		slot=political_advisor
-		traits = {vedma_like_allexandr}
+		idea_token = ISI_irina_kovid
+		traits = { prosheshi_hell}
 		available = {
 			 has_country_flag = ISI_irina_bes_noga
 			 has_government = fascism
@@ -456,6 +511,7 @@ characters = {
 	
 	###Политические советники###
 	ISI_vlad_neprilotov = {
+	
 	name = "ISI_vlad_neprilotov"
 	portraits = {
 		army = {
@@ -465,6 +521,7 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {prilet_vlad}
+		idea_token = ISI_vlad_neprilotov
 		available = {
 			NOT = {has_country_flag = ISI_dead_vlad}}
 			visible = { NOT = {has_country_flag = ISI_dead_vlad}}
@@ -474,6 +531,7 @@ characters = {
 	
 	
 	ISI_ivan_chain = {
+	
 	name = "ISI_ivan_chain"
 	portraits = {
 		army = {
@@ -483,10 +541,12 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {sale_chain}
+		idea_token = ISI_ivan_chain
 		}
 	}
 	
 	ISI_dima_volkov = {
+	
 	name = "ISI_dima_volkov"
 	portraits = {
 		army = {
@@ -496,10 +556,12 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {activ_volk}
+		idea_token = ISI_dima_volkov
 		}
 	}
 	
 	ISI_artem_koko = {
+	
 	name = "ISI_artem_koko"
 	portraits = {
 		army = {
@@ -509,10 +571,12 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {smoke_koko}
+		idea_token = ISI_artem_koko
 		}
 	}
 	
 	ISI_tox_gandon = {
+	
 	name = "ISI_tox_gandon"
 	portraits = {
 		army = {
@@ -522,10 +586,12 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {gan_tox}
+		idea_token = ISI_tox_gandon
 		}
 	}
 	
 	ISI_aleksey_morda = {
+
 	name = "ISI_aleksey_morda"
 	portraits = {
 		army = {
@@ -535,10 +601,12 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {mordoboy}
+		idea_token = ISI_aleksey_morda
 		}
 	}
 	
 	ISI_daria_nuxclei = {
+
 	name = "ISI_daria_nuxclei"
 	portraits = {
 		army = {
@@ -548,12 +616,14 @@ characters = {
 	advisor = {
 		slot=political_advisor
 		traits = {vcid_cleem}
+			idea_token = ISI_daria_nuxclei
 		}
 	}
 	
 	###Теористы###
 	
 	ISI_nikolai_zurov = {
+
 	name = "ISI_nikolai_zurov"
 	portraits = {
 		army = {
@@ -563,10 +633,12 @@ characters = {
 	advisor = {
 		slot=theorist
 		traits = {zurov_koncilsa}
+			idea_token = ISI_nikolai_zurov
 		}
 	}
 	
 	ISI_andrei_amoral = {
+	
 	name = "ISI_andrei_amoral"
 	portraits = {
 		army = {
@@ -576,6 +648,7 @@ characters = {
 	advisor = {
 		slot=theorist
 		traits = {amoral}
+		idea_token = ISI_andrei_amoral
 		}
 	}
 	

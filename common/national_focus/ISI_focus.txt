@@ -2252,78 +2252,6 @@ add_ideas = monopoly
 
 	}
 	focus = {
-		id = whatnext.0.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		available = {has_country_flag = ISI_artemfriend }
-		prerequisite = {
-			focus = rebuld.0.2.2
-		}
-		mutually_exclusive = {
-			focus = whatnext.0.2
-		}
-		x = 7
-		y = 12
-		completion_reward = {
-		country_event = { id = isi.61artembrother }
-		
-		}
-
-	}
-	focus = {
-		id = whatnext.0.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		available = {has_country_flag = ISI_luda_like_alexandr}
-		prerequisite = {
-			focus = rebuld.0.2.2
-		}
-		mutually_exclusive = {
-			focus = whatnext.0.1
-		}
-		x = 17
-		y = 12
-		completion_reward = {
-		country_event = { id = isi.60vedminalove }
-		
-		}
-
-	}
-	focus = {
-		id = whatnext.1.1
-		icon = GFX_goal_unknown
-		cost = 1,00
-		prerequisite = {
-			focus = whatnext.0.1
-		}
-		x = 7
-		y = 14
-		completion_reward = {
-		custom_effect_tooltip = ISI_artem_naslednik
-		hidden_effect = {
-				set_country_flag = ISI_artem_naslednik
-			}
-		}
-
-	}
-	focus = {
-		id = whatnext.2.1
-		icon = GFX_goal_unknown
-		cost = 1,00
-		prerequisite = {
-			focus = whatnext.0.2
-		}
-		x = 17
-		y = 14
-		completion_reward = {
-		custom_effect_tooltip = ISI_luda_naslednik
-		hidden_effect = {
-				set_country_flag = ISI_luda_naslednik
-			}
-		}
-
-	}
-	focus = {
 		id = whatnext.3.1
 		icon = GFX_goal_unknown
 		cost = 10,00
@@ -2498,59 +2426,13 @@ add_ideas = monopoly
 		x = 14
 		y = 18
 		completion_reward = {
-		if = {
-		limit = {has_country_flag = ISI_luda_naslednik}
-		country_event = { id = isi.62cevilwar }
-		}
-		
-		if = {
-		limit = { NOT = {has_country_flag = ISI_luda_naslednik} has_country_flag = ISI_luda_like_alexandr}
-		country_event = { id = isi.64cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = ISI_vedmin_vopros  has_country_flag = ISI_nikita_want_vlast}
-		country_event = { id = isi.63cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = ISI_vedmin_vopros has_country_flag = ISI_dead_grec }
-		country_event = { id = isi.64cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = ISI_artem_help has_country_flag = ISI_nikita_want_vlast}
-		country_event = { id = isi.65cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = ISI_artem_help has_country_flag = ISI_dead_grec}
-		country_event = { id = isi.66cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = ISI_alexandr-marionetka}
-		country_event = { id = isi.67cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = ISI_artem_help has_country_flag = ISI_dead_huida has_country_flag = ISI_dead_irina has_country_flag = ISI_dead_student has_country_flag = ISI_dead_redan}
-		country_event = { id = isi.68cevilwar }
-		}
-		
-		if = {
-		limit = {has_country_flag = vedmin_udar_spina}
-		country_event = { id = isi.69cevilwar }
-		}
-		
-			if = {
-		limit = {has_country_flag = gas_toxic}
-		country_event = { id = isi.69cevilwar }
-		}
 		
 		
 		
-		}
+		declare_war_on = {
+				target = GER
+				type = take_state_focus
+			}}
 
 	}
 	focus = {
