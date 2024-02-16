@@ -1,11 +1,15 @@
-l_russian:
+﻿l_russian:
   ISI_paranoia_system: "Прирост политической власти"
   ISI_paranoia_system_desc: "Над государством [ROOT.GetNameDef] повисла атмосфера подозрительности и недоверия. [ROOT.GetLeader] беспокоится о зреющем в партии расколе, а НКВД тем временем расследует бесчисленные обвинения и подозрения в саботаже, вредительстве и шпионаже."
   ISI_paranoia_bg_tooltip: "Если значение £ISI_paranoia_text_icon §Yпаранойи§! превышает §Y25§!, может произойти случайная чистка. \nЧем выше значение £ISI_paranoia_text_icon §Yпаранойи§! и чем дольше оно держалось на этом уровне, тем выше вероятность чистки. \nЕсли значение £ISI_paranoia_text_icon §Yпаранойи§! превысит §R75§!, может произойти большая чистка. \n\nОпределенные §Yфокусы§!, §Yрешения§! и §Yэффекты§! будут немедленно повышать/понижать уровень £ISI_paranoia_text_icon §Yпаранойи§!, определенные черты советников и лидеров государства будут постепенно повышать §Yпаранойю§!. \n\nПо завершении фокуса §Y[GetAppropriateLastPurgeFocusName]§! система £ISI_paranoia_text_icon §Yпаранойи§! будет убрана."
   ISI_paranoia_text_tooltip: "[GetAppropriateParanoiaTooltip]"
-  ISI_paranoia_text_tooltip_default: "§YНа еженедельный уровень £SOV_paranoia_text_icon паранойи влияют:§! \n[GetLeaderTrait] \n[GetNKVDTrait]"
+  ISI_paranoia_text_tooltip_default: "§YНа еженедельный уровень £ISI_paranoia_text_icon паранойи влияют:§! \n[GetLeaderTrait] \n[GetNKVDTrait]"
   ISI_paranoia_text_tooltip_not_active: "Политическая паранойя больше не действует."
   ISI_paranoia_tooltip_stalin_default: "$ISI_iosif_stalin$ ($stalin_political_paranoia$): §R+1%§!"
   ISI_paranoia_tooltip_stalin_advanced: "$ISI_iosif_stalin$ ($stalin_political_paranoia$): §R+2%§!"
   ISI_paranoia_tooltip_stalin_undermined: "$ISI_iosif_stalin$ ($stalin_authority_undermined$): §R+2%§!"
-  ISI_paranoia_value_text: "£SOV_paranoia_text_icon Политическая паранойя: [GetParanoiaValueColor][?ISI_paranoia]%§! [GetParanoiaWeeklyModifier]"
+  ISI_paranoia_value_text: "£ISI_paranoia_text_icon Политическая паранойя: [GetParanoiaValueColor][?ISI_paranoia]%§! [GetParanoiaWeeklyModifier]"
+  ISI_color_red: "§R"
+  ISI_color_yellow: "§Y"
+  ISI_color_green: "§G"
+  ISI_paranoia_weekly_modifier_tt: "(Еженедельный прирост: [GetParanoiaModifierValueColor][?ROOT.ISI_paranoia_weekly_modifier_ui]%§!)"
