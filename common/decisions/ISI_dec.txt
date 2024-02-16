@@ -62,6 +62,52 @@ ISI_vlad{
 }
 }
 
+ISI_paranoia_system = {
+	ISI_sto_paranoia = {
+		cost = 1
+		fire_only_once = yes
+		visible = {
+			has_country_flag = ISI_paranoia_system_active_flag
+		}
+		complete_effect = {
+			ISI_paranoia_medium_increase_effect = yes
+		}
+	}
+	ISI_forge_production_reports = { #Repeatable decision to reduce Paranoia
+		priority = 310
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		allowed = {
+			original_tag = ISI
+		}
+
+		available = {
+			has_country_flag = ISI_paranoia_system_active_flag
+		}
+
+		visible = {
+			has_country_flag = ISI_paranoia_system_active_flag
+		}
+
+		cost = ISI_paranoia_calm_down_stalin_decision_cost
+
+		days_re_enable = ISI_paranoia_calm_down_stalin_re_enable_days
+
+		days_remove = 90
+
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			ISI_paranoia_medium_decrease_effect = yes
+
+			custom_effect_tooltip = SOV_paranoia_calm_down_stalin_cd_tt
+		}
+	}
+
+}
 
 ISI_war_never_change = {
 ISI_war = {
@@ -97,16 +143,6 @@ days_remove = 25
 
 }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 ISI_civilwar_posledstvia = {
