@@ -1345,7 +1345,135 @@ country_event = {
 	
 }
 
+country_event = {
+	id = isi.63ludahistory
+	title = isi.63ludahistory.t
+	desc = isi.63ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
 
+	option = { 
+		name = isi.63ludahistory.a
+		 country_event = { id = isi.64ludahistory }
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.64ludahistory
+	title = isi.64ludahistory.t
+	desc = isi.64ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.64ludahistory.a
+		country_event = { id = isi.65ludahistory }
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.65ludahistory
+	title = isi.65ludahistory.t
+	desc = isi.65ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.65ludahistory.a
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.66ludahistory
+	title = isi.66ludahistory.t
+	desc = isi.66ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.66ludahistory.a
+		country_event = { id = isi.67ludahistory }
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.67ludahistory
+	title = isi.67ludahistory.t
+	desc = isi.67ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.67ludahistory.a
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.68ludahistory
+	title = isi.68ludahistory.t
+	desc = isi.68ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.68ludahistory.a
+		country_event = { id = isi.69ludahistory }
+		
+
+		
+	}
+	
+}
+
+
+country_event = {
+	id = isi.69ludahistory
+	title = isi.69ludahistory.t
+	desc = isi.69ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.69ludahistory.a
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.70ludahistory
+	title = isi.70ludahistory.t
+	desc = isi.70ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.70ludahistory.a
+		
+
+		
+	}
+	
+}
 
 
 
