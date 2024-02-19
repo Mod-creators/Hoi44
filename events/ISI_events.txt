@@ -1475,6 +1475,57 @@ country_event = {
 	
 }
 
+country_event = {
+	id = isi.71ludahistory
+	title = isi.71ludahistory.t
+	desc = isi.71ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.71ludahistory.a
+		
+
+		
+	}
+	
+}
+
+
+country_event = {
+	id = isi.72ludahistory
+	title = isi.72ludahistory.t
+	desc = isi.72ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.72ludahistory.a
+		country_event = { id = isi.73ludahistory }
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.73ludahistory
+	title = isi.73ludahistory.t
+	desc = isi.73ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.73ludahistory.a
+		
+
+		
+	}
+	
+}
+
+
 
 
 	
