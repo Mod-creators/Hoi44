@@ -411,5 +411,24 @@ hidden_effect = {
 
 }
 
+}
+
+ISI_magic_items = {
+
+ISI_kindjal_desit =  {
+cost = 30
+ fire_only_once = yes 
+ available = {has_completed_focus = luda_3}
+ complete_effect = { country_event = { id = isi.70ludahistory }}
+}
+
+ISI_darc_graec =  {
+cost = 50
+ fire_only_once = yes 
+ available = {has_completed_focus = luda_9}
+ complete_effect = { country_event = { id = isi.75ludahistory }}
+}
+
+
 
 }

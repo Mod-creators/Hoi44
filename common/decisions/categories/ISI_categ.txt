@@ -95,3 +95,16 @@ icon = saf_anti_colonialist_crusade
 	}
 	priority = 9
 }
+
+ISI_magic_items = {
+icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = luda_2
+	}
+	priority = 9
+}

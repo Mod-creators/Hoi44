@@ -1355,6 +1355,7 @@ country_event = {
 	option = { 
 		name = isi.63ludahistory.a
 		 country_event = { id = isi.64ludahistory }
+		 
 
 		
 	}
@@ -1386,6 +1387,17 @@ country_event = {
 
 	option = { 
 		name = isi.65ludahistory.a
+		add_political_power = 100
+		add_popularity = { 
+				ideology = democratic
+				popularity = 0.05
+			}
+			
+			create_wargoal = {
+					type = annex_everything
+					target = AFG
+					expire = 0
+				}
 		
 
 		
@@ -1418,6 +1430,11 @@ country_event = {
 
 	option = { 
 		name = isi.67ludahistory.a
+		add_political_power = 100
+		add_popularity = { 
+				ideology = democratic
+				popularity = 0.05
+			}
 		
 
 		
@@ -1435,6 +1452,7 @@ country_event = {
 	option = { 
 		name = isi.68ludahistory.a
 		country_event = { id = isi.69ludahistory }
+	
 		
 
 		
@@ -1452,6 +1470,8 @@ country_event = {
 
 	option = { 
 		name = isi.69ludahistory.a
+			custom_effect_tooltip = ISI_ludas_father
+			recruit_character = ISI_vampire
 		
 
 		
@@ -1468,6 +1488,8 @@ country_event = {
 
 	option = { 
 		name = isi.70ludahistory.a
+		custom_effect_tooltip = ISI_kindjal
+		set_country_flag = ISI_kindjal_flag
 		
 
 		
@@ -1484,6 +1506,9 @@ country_event = {
 
 	option = { 
 		name = isi.71ludahistory.a
+		add_political_power = 50
+		add_stability =  -0.05
+		
 		
 
 		
@@ -1518,12 +1543,132 @@ country_event = {
 
 	option = { 
 		name = isi.73ludahistory.a
+		hidden_effect = {
+		set_country_flag = ISI_dead_grec
+		}
+		custom_effect_tooltip = ISI_deaddd_greack
+		add_war_support = -0.10
 		
 
 		
 	}
 	
 }
+
+country_event = {
+	id = isi.74ludahistory
+	title = isi.74ludahistory.t
+	desc = isi.74ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.74ludahistory.a
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.75ludahistory
+	title = isi.75ludahistory.t
+	desc = isi.75ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.75ludahistory.a
+		recruit_character = ISI_darc_greck
+		set_country_flag = ISI_darc_greck
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.76ludahistory
+	title = isi.76ludahistory.t
+	desc = isi.76ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.76ludahistory.a
+				country_event = { id = isi.77ludahistory }
+		
+
+		
+	}
+	
+}
+country_event = {
+	id = isi.77ludahistory
+	title = isi.77ludahistory.t
+	desc = isi.77ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.77ludahistory.a
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.78ludahistory
+	title = isi.78ludahistory.t
+	desc = isi.78ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.78ludahistory.a
+		country_event = { id = isi.79ludahistory }
+		
+
+		
+	}
+	
+}
+
+country_event = {
+	id = isi.79ludahistory
+	title = isi.79ludahistory.t
+	desc = isi.79ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+
+	option = { 
+		name = isi.79ludahistory.a
+		kill_country_leader = yes
+		
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = ISI_kindjal_add
+		add_stability = -0.20
+		add_war_support = 0.15
+		add_popularity = {
+   				ideology = democratic
+   	 			popularity = 0.4
+			}
+			hidden_effect = {set_country_flag = ISI_luda_vlast}
+		
+		
+		
+		
+
+		
+	}
+	
+}
+
 
 
 

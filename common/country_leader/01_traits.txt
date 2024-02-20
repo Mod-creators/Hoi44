@@ -297,6 +297,19 @@ leader_traits = {
         }
 	}
 	
+	vampire = {
+		random = no
+		
+own_operative_intel_extraction_rate = 0.2
+enemy_operative_detection_chance_factor = 0.5
+operative_slot = 2
+intel_network_gain = 0.4
+
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
 	
 	
 }

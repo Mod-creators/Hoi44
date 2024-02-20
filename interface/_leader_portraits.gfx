@@ -8538,6 +8538,14 @@ spriteTypes = {
 		name = "GFX_portrait_nikita_xuida"
         texturefile = "gfx/leaders/ISI/nikita_xuida.dds"
 	}
+		spriteType = {
+		name = "GFX_portrait_vampire_big"
+        texturefile = "gfx/leaders/ISI/vampire.dds"
+	}
+			spriteType = {
+		name = "GFX_portrait_dark_nokita"
+        texturefile = "gfx/leaders/ISI/dark_nokita.dds"
+	}
 	spriteType = {
 		name = "GFX_portrait_nikita_xuida_small"
         texturefile = "gfx/interface/ideas/nikita_xuida_small.dds"
@@ -8585,6 +8593,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_hz"
         texturefile = "gfx/interface/ideas/hz.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_vampire"
+        texturefile = "gfx/interface/ideas/vampire.dds"
 	}
 	
 	
@@ -8913,6 +8925,96 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_voi_63"
         texturefile = "gfx/interface/focus/GFX_focus_voi_63.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_c"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_c.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_1"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_1.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_2"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_2.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_3"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_3.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_4"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_4.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_5"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_5.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_6"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_6.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_7"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_7.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_8"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_8.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_9"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_9.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_10"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_10.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_11"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_11.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_12"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_12.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_13"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_13.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_14"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_14.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_15"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_15.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_16"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_luda_17"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_17.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_18"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_18.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_19"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_19.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_luda_20"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_20.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_luda_21"
+        texturefile = "gfx/interface/focus/GFX_focus_luda_21.dds"
 	}
 	
 	

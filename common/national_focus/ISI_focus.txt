@@ -195,51 +195,69 @@ focus_tree = {
 	
 	focus = {
 		id = luda_1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_1
 		cost = 10,00
 		x = 70
 		y = 4
 		prerequisite = {
 			focus = choise.0.3
 		}
+		completion_reward = {
+		country_event = {id = isi.66ludahistory}
+		add_stability = 0.1
+		army_experience = 10
+		}
 
 	}
+	
 	focus = {
 		id = luda_2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_2
 		cost = 10,00
 		prerequisite = {
 			focus = luda_1
 		}
 		x = 68
 		y = 5
+		completion_reward = {
+		custom_effect_tooltip = ISI_magick_desk
+		hidden_effect = {
+				set_country_flag = ISI_magick_desk
+			}
+		}
 
 	}
 	focus = {
 		id = luda_3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_3
 		cost = 10,00
 		prerequisite = {
 			focus = luda_1
 		}
 		x = 70
 		y = 6
+		completion_reward = {
+		country_event = {id = isi.68ludahistory}
+		}
 
 	}
 	focus = {
 		id = luda_4
-		icon = GFX_goal_unknown
+		icon = GFX_focus_kill_place_01
 		cost = 10,00
 		prerequisite = {
 			focus = luda_3
 		}
 		x = 70
 		y = 7
+		completion_reward = {
+		country_event = {id = isi.71ludahistory}
+		}
 
 	}
 	focus = {
 		id = luda_5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_5
 		cost = 10,00
 		prerequisite = {
 			focus = luda_4
@@ -250,41 +268,55 @@ focus_tree = {
 	}
 	focus = {
 		id = luda_8
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_8
 		cost = 10,00
+		available = {has_country_flag = ISI_kindjal_flag}
 		prerequisite = {
 			focus = luda_4
 		}
 		x = 70
 		y = 8
+		completion_reward = {
+		country_event = {id = isi.72ludahistory}
+		
+		}
 
 	}
 	focus = {
 		id = luda_9
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_9
 		cost = 10,00
 		prerequisite = {
 			focus = luda_8
 		}
 		x = 71
 		y = 9
+		completion_reward = {
+		country_event = {id = isi.74ludahistory}
+		
+		}
 
 	}
 	focus = {
 		id = luda_10
-		icon = GFX_goal_unknown
+		icon = GFX_focus_choise_01
 		cost = 10,00
 		prerequisite = {
 			focus = luda_4
 		}
 		x = 73
 		y = 8
+		completion_reward = {
+		country_event = {id = isi.76ludahistory}
+		
+		}
 
 	}
 	focus = {
 		id = luda_11
-		icon = GFX_goal_unknown
+		icon = GFX_focus_luda_11
 		cost = 10,00
+		available = {has_country_flag = ISI_darc_greck}
 		prerequisite = {
 			focus = luda_10
 		}
@@ -293,6 +325,10 @@ focus_tree = {
 		}
 		x = 74
 		y = 10
+		completion_reward = {
+		country_event = {id = isi.78ludahistory}
+		
+		}
 
 	}
 	focus = {
