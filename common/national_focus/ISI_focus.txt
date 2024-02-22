@@ -2203,6 +2203,9 @@ add_ideas = monopoly
 		id = artem.0.1
 		icon = GFX_goal_unknown
 		cost = 10,00
+		prerequisite = {
+			focus = choise.0.2
+		}
 		mutually_exclusive = {
 			focus = artem.0.2
 		}
@@ -2214,6 +2217,9 @@ add_ideas = monopoly
 		id = artem.0.2
 		icon = GFX_goal_unknown
 		cost = 10,00
+		prerequisite = {
+			focus = choise.0.2
+		}
 		mutually_exclusive = {
 			focus = artem.0.1
 		}
