@@ -216,6 +216,18 @@ characters = {
 	traits = {night_vedma}
 	cost = 100
 	}
+	
+	corps_commander = {
+		traits = {urban_assault_specialist career_officer}
+		skill = 4
+		attack_skill=4;
+		defense_skill=4;
+		planning_skill=4;
+		logistics_skill=4;
+		}
+	
+	
+	
 	}
 	
 	ISI_danil_proxorod = {
@@ -232,6 +244,18 @@ characters = {
 	traits = {hz_proxorov}
 	cost = 100
 	}
+	
+	corps_commander = {
+		traits = {bearer_of_artillery brilliant_strategist}
+		skill = 3
+		attack_skill=3;
+		defense_skill=2;
+		planning_skill=3;
+		logistics_skill=2;
+		}
+	
+	
+	
 	}
 	
 	
@@ -255,7 +279,17 @@ characters = {
 		available = {has_government = fascism}
 		visible = {has_government = fascism}
 		}
+		
+		corps_commander = {
+		traits = {armor_officer engineer_officer}
+		skill = 4
+		attack_skill=3;
+		defense_skill=3;
+		planning_skill=4;
+		logistics_skill=3;
+		}
 	}
+	
 	
 	ISI_nasta_vodka = {
 	
@@ -269,6 +303,17 @@ characters = {
 	idea_token = ISI_nasta_vodka
 		slot=army_chief
 		traits = {propiv_imyhestva}
+		}
+		
+		
+		
+		corps_commander = {
+		traits = {swamp_fox jungle_rat infantry_officer}
+		skill = 2
+		attack_skill=2;
+		defense_skill=2;
+		planning_skill=4;
+		logistics_skill=1;
 		}
 	}
 	
@@ -354,6 +399,16 @@ characters = {
 		available = { NOT = {has_country_flag = ISI_dead_iaroslavna}}
 		visible = {}
 		}
+		
+		corps_commander = {
+		traits = {commando hill_fighter}
+		skill = 3
+		attack_skill=3;
+		defense_skill=2;
+		planning_skill=4;
+		logistics_skill=3;
+		visible = {NOT = {has_country_flag = ISI_dead_iaroslavna}}
+		}
 	}
 	
 	ISI_danil_minenko = {
@@ -368,6 +423,15 @@ characters = {
 		slot=air_chief
 		traits = {minenko}
 		idea_token = ISI_danil_minenko
+		}
+		
+		corps_commander = {
+		traits = {cavalry_officer desert_fox}
+		skill = 3
+		attack_skill=2;
+		defense_skill=1;
+		planning_skill=6;
+		logistics_skill=3;
 		}
 	}
 	
@@ -395,6 +459,12 @@ characters = {
 		}
 	}
 	
+	
+
+	
+	
+	
+	
 	ISI_nikita_muziko = {
 	name = "ISI_nikita_muziko"
 	portraits = {
@@ -413,7 +483,7 @@ characters = {
 		visible = {has_country_flag = ISI_find_musiko}
 		}
 	}
-	
+
 	ISI_dan_scala = {
 	
 	idea_token = ISI_dan_scala
@@ -425,7 +495,7 @@ characters = {
 		}
 	}
 	corps_commander = {
-		traits = {armor_officer commando}
+		traits = {armor_officer commando trait_mountaineer}
 		skill = 3
 		attack_skill=3;
 		defense_skill=4;

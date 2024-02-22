@@ -1659,17 +1659,45 @@ country_event = {
    	 			popularity = 0.4
 			}
 			hidden_effect = {set_country_flag = ISI_luda_vlast}
-		
-		
-		
+			
+			
+			ISI_aleksandr_malishev = {
+				add_corps_commander_role = {
+		traits = { trait_reckless  war_hero trickster}
+		skill = 5
+		attack_skill=5;
+		defense_skill=4;
+		planning_skill=4;
+		logistics_skill=4;
+			visible = { has_completed_focus = luda_11}
+		}
+				}
+			}
+	
+}
+
+country_event = {
+	id = isi.80ludahistory
+	title = isi.80ludahistory.t
+	desc = isi.80ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	
+	trigger = {
+   has_completed_focus = luda_11
+}
+   mean_time_to_happen = {
+   days = 10
+    months = 1
+ }
+
+	option = { 
+		name = isi.80ludahistory.a
 		
 
 		
 	}
 	
 }
-
-
 
 
 

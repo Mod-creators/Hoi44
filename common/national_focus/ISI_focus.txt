@@ -257,13 +257,38 @@ focus_tree = {
 	}
 	focus = {
 		id = luda_5
-		icon = GFX_focus_luda_5
+		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
 			focus = luda_4
 		}
 		x = 67
 		y = 8
+		completion_reward = {
+		
+		}
+
+	}
+	focus = {
+		id = luda_6
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_5
+		}
+		x = 67
+		y = 9
+
+	}
+	focus = {
+		id = luda_7
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_6
+		}
+		x = 67
+		y = 11
 
 	}
 	focus = {
@@ -425,28 +450,7 @@ focus_tree = {
 		y = 14
 
 	}
-	focus = {
-		id = luda_6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda_5
-		}
-		x = 67
-		y = 9
-
-	}
-	focus = {
-		id = luda_7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda_6
-		}
-		x = 67
-		y = 11
-
-	}
+	
 	focus = {
 		id = luda_16
 		icon = GFX_goal_unknown
