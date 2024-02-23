@@ -110,6 +110,7 @@ defined_text = {
 	}
 }
 
+
 defined_text = { #Yes this is nonsense but atm gui loc needs to pass through scripted_loc in order to work with $$ 
 	name = GetAppropriateLastPurgeFocusName
 	text = {

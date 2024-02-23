@@ -50,6 +50,10 @@ recruit_character = ISI_iaroslavna_upala
 recruit_character = ISI_danil_minenko
 recruit_character = ISI_veronica_vedma
 recruit_character = ISI_nikita_muziko
+recruit_character = ISI_daria_kanibal
+recruit_character = ISI_daria_theoretic
+recruit_character = ISI_veronica_archiwitch
+recruit_character = ISI_nasta_admiral
 
 
 set_variable = { ISI_paranoia = 0 } # Intitial Paranoia value

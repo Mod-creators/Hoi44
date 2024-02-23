@@ -172,465 +172,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
-		id = artem.0.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = choise.0.2
-		}
-		mutually_exclusive = {
-			focus = artem.0.2
-		}
-		x = 26
-		y = 4
-
-	}
-	focus = {
-		id = artem.1.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-		}
-		x = 21
-		y = 5
-
-	}
-	focus = {
-		id = artem.1.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-		}
-		x = 24
-		y = 5
-
-	}
-	focus = {
-		id = artem.3.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.1
-		}
-		prerequisite = {
-			focus = artem.1.2
-		}
-		x = 22
-		y = 7
-
-	}
-	focus = {
-		id = artem.1.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-		}
-		x = 29
-		y = 5
-
-	}
-	focus = {
-		id = artem.2.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-		}
-		mutually_exclusive = {
-			focus = artem.2.3
-			focus = artem.2.4
-		}
-		x = 31
-		y = 6
-
-	}
-	focus = {
-		id = artem.0.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = choise.0.2
-		}
-		mutually_exclusive = {
-			focus = artem.0.1
-		}
-		x = 53
-		y = 4
-
-	}
-	focus = {
-		id = artem.1.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-			focus = artem.0.2
-		}
-		x = 33
-		y = 5
-
-	}
-	focus = {
-		id = artem.1.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-			focus = artem.0.2
-		}
-		x = 36
-		y = 5
-
-	}
-	focus = {
-		id = artem.1.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-			focus = artem.0.2
-		}
-		x = 39
-		y = 5
-
-	}
-	focus = {
-		id = artem.2.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.6
-		}
-		mutually_exclusive = {
-			focus = artem.2.2
-			focus = artem.2.4
-		}
-		x = 39
-		y = 6
-
-	}
-	focus = {
-		id = artem.3.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.3
-		}
-		x = 37
-		y = 7
-
-	}
-	focus = {
-		id = artem.6.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.3
-		}
-		mutually_exclusive = {
-			focus = artem.6.5
-			focus = artem.6.3
-		}
-		x = 39
-		y = 10
-
-	}
-	focus = {
-		id = artem.3.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.3
-		}
-		x = 41
-		y = 7
-
-	}
-	focus = {
-		id = artem.1.7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-			focus = artem.0.2
-		}
-		mutually_exclusive = {
-			focus = artem.1.8
-		}
-		x = 42
-		y = 5
-
-	}
-	focus = {
-		id = artem.1.8
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-			focus = artem.0.2
-		}
-		mutually_exclusive = {
-			focus = artem.1.7
-		}
-		x = 45
-		y = 5
-
-	}
-	focus = {
-		id = artem.1.9
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.2
-		}
-		x = 51
-		y = 5
-
-	}
-	focus = {
-		id = artem.2.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.9
-		}
-		mutually_exclusive = {
-			focus = artem.2.2
-			focus = artem.2.3
-		}
-		x = 45
-		y = 6
-
-	}
-	focus = {
-		id = artem.2.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.9
-		}
-		x = 48
-		y = 6
-
-	}
-	focus = {
-		id = artem.3.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.5
-		}
-		x = 46
-		y = 7
-
-	}
-	focus = {
-		id = artem.3.7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.5
-		}
-		x = 50
-		y = 7
-
-	}
-	focus = {
-		id = artem.4.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.3.6
-		}
-		prerequisite = {
-			focus = artem.3.7
-		}
-		x = 48
-		y = 8
-
-	}
-	focus = {
-		id = artem.2.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.9
-		}
-		x = 51
-		y = 6
-
-	}
-	focus = {
-		id = artem.5.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.6
-		}
-		x = 51
-		y = 9
-
-	}
-	focus = {
-		id = artem.6.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.5.2
-		}
-		mutually_exclusive = {
-			focus = artem.6.4
-			focus = artem.6.3
-		}
-		x = 45
-		y = 10
-
-	}
-	focus = {
-		id = artem.6.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.5.2
-		}
-		x = 48
-		y = 10
-
-	}
-	focus = {
-		id = artem.1.10
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.2
-		}
-		x = 56
-		y = 5
-
-	}
-	focus = {
-		id = artem.3.8
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.10
-		}
-		mutually_exclusive = {
-			focus = artem.3.9
-		}
-		x = 54
-		y = 7
-
-	}
-	focus = {
-		id = artem.6.7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.5.2
-		}
-		x = 54
-		y = 10
-
-	}
-	focus = {
-		id = artem.7.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.6.7
-		}
-		mutually_exclusive = {
-			focus = artem.7.4
-		}
-		x = 50
-		y = 11
-
-	}
-	focus = {
-		id = artem.7.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.6.7
-		}
-		x = 55
-		y = 11
-
-	}
-	focus = {
-		id = artem.8.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.6
-		}
-		x = 52
-		y = 12
-
-	}
-	focus = {
-		id = artem.8.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.6
-		}
-		x = 55
-		y = 12
-
-	}
-	focus = {
-		id = artem.9.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.8.6
-		}
-		x = 55
-		y = 13
-
-	}
-	focus = {
-		id = artem.3.9
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.1.10
-		}
-		mutually_exclusive = {
-			focus = artem.3.8
-		}
-		x = 58
-		y = 7
-
-	}
-	focus = {
-		id = artem.5.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.3.9
-		}
-		x = 58
-		y = 9
-
-	}
-	focus = {
-		id = artem.8.7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.6
-		}
-		x = 58
-		y = 12
-
-	}
+	
 	focus = {
 		id = choise.0.3
 		icon = GFX_focus_choise_03
@@ -642,295 +184,438 @@ focus_tree = {
 			focus = choise.0.1
 			focus = choise.0.2
 		}
+		completion_reward = {
+		country_event = {id = isi.63ludahistory}
+		
+		}
 		x = 70
 		y = 3
 
 	}
+	
 	focus = {
-		id = luda.1.1
-		icon = GFX_goal_unknown
+		id = luda_1
+		icon = GFX_focus_luda_1
 		cost = 10,00
+		x = 70
+		y = 4
 		prerequisite = {
 			focus = choise.0.3
 		}
-		mutually_exclusive = {
-			focus = luda.1.2
+		completion_reward = {
+		country_event = {id = isi.66ludahistory}
+		add_stability = 0.1
+		army_experience = 10
 		}
-		x = 69
-		y = 4
 
 	}
+	
 	focus = {
-		id = luda.2.1
-		icon = GFX_goal_unknown
+		id = luda_2
+		icon = GFX_focus_luda_2
 		cost = 10,00
 		prerequisite = {
-			focus = luda.1.1
-		}
-		x = 66
-		y = 5
-
-	}
-	focus = {
-		id = luda.3.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.2.1
-		}
-		x = 64
-		y = 6
-
-	}
-	focus = {
-		id = luda.2.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.1.1
-		}
-		x = 70
-		y = 5
-
-	}
-	focus = {
-		id = luda.4.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.2.2
-		}
-		x = 70
-		y = 7
-
-	}
-	focus = {
-		id = luda.6.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.4.2
-		}
-		x = 70
-		y = 9
-
-	}
-	focus = {
-		id = luda.7.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.6.2
+			focus = luda_1
 		}
 		x = 68
-		y = 10
-
-	}
-	focus = {
-		id = luda.5.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.4.2
-		}
-		x = 72
-		y = 8
-
-	}
-	focus = {
-		id = luda.7.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.6.2
-		}
-		x = 72
-		y = 10
-
-	}
-	focus = {
-		id = luda.2.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.1.1
-		}
-		x = 74
 		y = 5
+		completion_reward = {
+		custom_effect_tooltip = ISI_magick_desk
+		hidden_effect = {
+				set_country_flag = ISI_magick_desk
+			}
+		}
 
 	}
 	focus = {
-		id = luda.4.3
-		icon = GFX_goal_unknown
+		id = luda_3
+		icon = GFX_focus_luda_3
 		cost = 10,00
 		prerequisite = {
-			focus = luda.2.3
+			focus = luda_1
 		}
-		x = 74
+		x = 70
+		y = 6
+		completion_reward = {
+		country_event = {id = isi.68ludahistory}
+		}
+
+	}
+	focus = {
+		id = luda_4
+		icon = GFX_focus_kill_place_01
+		cost = 10,00
+		prerequisite = {
+			focus = luda_3
+		}
+		x = 70
 		y = 7
+		completion_reward = {
+		country_event = {id = isi.71ludahistory}
+		}
 
 	}
 	focus = {
-		id = luda.6.3
+		id = luda_5
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.4.3
+			focus = luda_4
 		}
-		x = 74
+		x = 67
+		y = 8
+		completion_reward = {
+		
+		}
+
+	}
+	focus = {
+		id = luda_6
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_5
+		}
+		x = 67
 		y = 9
 
 	}
 	focus = {
-		id = luda.3.2
+		id = luda_7
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.2.3
+			focus = luda_6
 		}
-		x = 76
-		y = 6
+		x = 67
+		y = 11
 
 	}
 	focus = {
-		id = luda.5.3
-		icon = GFX_goal_unknown
+		id = luda_8
+		icon = GFX_focus_luda_8
 		cost = 10,00
+		available = {has_country_flag = ISI_kindjal_flag}
 		prerequisite = {
-			focus = luda.4.3
+			focus = luda_4
 		}
-		x = 76
+		x = 70
 		y = 8
+		completion_reward = {
+		country_event = {id = isi.72ludahistory}
+		
+		}
 
 	}
 	focus = {
-		id = luda.7.3
+		id = luda_9
+		icon = GFX_focus_luda_9
+		cost = 10,00
+		prerequisite = {
+			focus = luda_8
+		}
+		x = 71
+		y = 9
+		completion_reward = {
+		country_event = {id = isi.74ludahistory}
+		
+		}
+
+	}
+	focus = {
+		id = luda_10
+		icon = GFX_focus_choise_01
+		cost = 10,00
+		prerequisite = {
+			focus = luda_4
+		}
+		x = 73
+		y = 8
+		completion_reward = {
+		country_event = {id = isi.76ludahistory}
+		
+		}
+
+	}
+	focus = {
+		id = luda_11
+		icon = GFX_focus_luda_11
+		cost = 10,00
+		available = {has_country_flag = ISI_darc_greck}
+		prerequisite = {
+			focus = luda_10
+		}
+		prerequisite = {
+			focus = luda_9
+		}
+		x = 74
+		y = 10
+		completion_reward = {
+		country_event = {id = isi.78ludahistory}
+		
+		}
+
+	}
+	focus = {
+		id = luda_12
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.6.3
-		}
-		prerequisite = {
-			focus = luda.5.3
+			focus = luda_11
 		}
 		x = 76
-		y = 10
+		y = 11
 
 	}
 	focus = {
-		id = luda.2.4
+		id = luda_13
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.1.1
+			focus = luda_12
 		}
-		x = 78
-		y = 5
+		x = 72
+		y = 12
 
 	}
 	focus = {
-		id = luda.1.2
+		id = luda_20
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = choise.0.3
+			focus = luda_13
+		}
+		x = 69
+		y = 13
+
+	}
+	focus = {
+		id = luda_23
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_20
+		}
+		x = 66
+		y = 14
+
+	}
+	focus = {
+		id = luda_30
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_13
+		}
+		x = 75
+		y = 13
+
+	}
+	focus = {
+		id = luda_14
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_12
+		}
+		x = 81
+		y = 12
+
+	}
+	focus = {
+		id = luda_15
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_14
 		}
 		mutually_exclusive = {
-			focus = luda.1.1
+			focus = luda_16
 		}
-		x = 86
-		y = 4
+		x = 83
+		y = 13
 
 	}
 	focus = {
-		id = luda.2.5
+		id = luda_17
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.1.2
+			focus = luda_15
 		}
-		x = 82
-		y = 5
+		prerequisite = {
+			focus = luda_15
+		}
+		x = 83
+		y = 14
 
 	}
+	
 	focus = {
-		id = luda.3.3
+		id = luda_16
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.2.5
-			focus = luda.2.4
+			focus = luda_14
 		}
-		x = 80
-		y = 6
-
-	}
-	focus = {
-		id = luda.2.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.1.2
-		}
-		x = 86
-		y = 5
-
-	}
-	focus = {
-		id = luda.3.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.2.6
-		}
-		x = 84
-		y = 6
-
-	}
-	focus = {
-		id = luda.4.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.3.4
-		}
-		x = 84
-		y = 7
-
-	}
-	focus = {
-		id = luda.3.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.2.6
+		mutually_exclusive = {
+			focus = luda_15
 		}
 		x = 87
-		y = 6
+		y = 13
 
 	}
 	focus = {
-		id = luda.2.7
+		id = luda_18
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.1.2
+			focus = luda_16
 		}
-		x = 90
-		y = 5
+		prerequisite = {
+			focus = luda_16
+		}
+		x = 87
+		y = 14
 
 	}
 	focus = {
-		id = luda.3.6
+		id = luda_19
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = luda.2.7
+			focus = luda_17
+			focus = luda_18
 		}
-		x = 90
-		y = 6
+		prerequisite = {
+			focus = luda_17
+			focus = luda_18
+		}
+		x = 85
+		y = 15
 
 	}
+	focus = {
+		id = luda_31
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_30
+		}
+		x = 75
+		y = 15
+
+	}
+	focus = {
+		id = luda_32
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_31
+		}
+		x = 75
+		y = 17
+
+	}
+	focus = {
+		id = luda_27
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_13
+		}
+		x = 72
+		y = 13
+
+	}
+	focus = {
+		id = luda_28
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_27
+		}
+		x = 72
+		y = 15
+
+	}
+	focus = {
+		id = luda_29
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_28
+		}
+		x = 72
+		y = 17
+
+	}
+	focus = {
+		id = luda_21
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_20
+		}
+		x = 69
+		y = 15
+
+	}
+	focus = {
+		id = luda_22
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_21
+		}
+		x = 69
+		y = 17
+
+	}
+	focus = {
+		id = luda_24
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_21
+		}
+		x = 66
+		y = 16
+
+	}
+	focus = {
+		id = luda_25
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_21
+		}
+		x = 66
+		y = 18
+
+	}
+	focus = {
+		id = luda_26
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = luda_22
+		}
+		prerequisite = {
+			focus = luda_29
+		}
+		prerequisite = {
+			focus = luda_32
+		}
+		x = 72
+		y = 19
+
+	}
+
+	
+	
+	
+	
 	focus = {
 		id = proizvod.2.1
 		icon = GFX_focus_proizvod_21
@@ -2016,21 +1701,7 @@ add_ideas = monopoly
 		y = 4
 
 	}
-	focus = {
-		id = artem.10.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.9.3
-		}
-		mutually_exclusive = {
-			focus = artem.10.3
-			focus = artem.10.4
-		}
-		x = 29
-		y = 14
-
-	}
+	
 	focus = {
 		id = kill.0.2
 		icon = GFX_goal_unknown
@@ -2435,533 +2106,7 @@ add_ideas = monopoly
 			}}
 
 	}
-	focus = {
-		id = artem.2.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.0.1
-		}
-		x = 26
-		y = 6
-
-	}
-	focus = {
-		id = artem.3.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.1
-		}
-		x = 25
-		y = 7
-
-	}
-	focus = {
-		id = artem.3.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.2.1
-		}
-		x = 28
-		y = 7
-
-	}
-	focus = {
-		id = artem.4.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.3.1
-			focus = artem.3.2
-			focus = artem.3.3
-		}
-		x = 23
-		y = 8
-
-	}
-	focus = {
-		id = artem.5.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.3.3
-			focus = artem.3.2
-		}
-		x = 27
-		y = 9
-
-	}
-	focus = {
-		id = artem.6.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.4.1
-		}
-		x = 23
-		y = 10
-
-	}
-	focus = {
-		id = artem.6.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.4.1
-		}
-		prerequisite = {
-			focus = artem.5.1
-		}
-		x = 29
-		y = 10
-
-	}
-	focus = {
-		id = artem.6.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.4.1
-		}
-		prerequisite = {
-			focus = artem.5.1
-		}
-		mutually_exclusive = {
-			focus = artem.6.4
-			focus = artem.6.5
-		}
-		x = 32
-		y = 10
-
-	}
-	focus = {
-		id = artem.7.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.3.1
-		}
-		x = 22
-		y = 11
-
-	}
-	focus = {
-		id = artem.7.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.6.2
-		}
-		mutually_exclusive = {
-			focus = artem.7.3
-		}
-		x = 28
-		y = 11
-
-	}
-	focus = {
-		id = artem.7.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.6.2
-		}
-		mutually_exclusive = {
-			focus = artem.7.2
-		}
-		x = 30
-		y = 11
-
-	}
-	focus = {
-		id = artem.7.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.6.7
-		}
-		mutually_exclusive = {
-			focus = artem.7.5
-		}
-		x = 48
-		y = 11
-
-	}
-	focus = {
-		id = artem.8.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.1
-		}
-		x = 22
-		y = 12
-
-	}
-	focus = {
-		id = artem.8.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.2
-			focus = artem.7.3
-		}
-		x = 26
-		y = 12
-
-	}
-	focus = {
-		id = artem.8.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.2
-			focus = artem.7.3
-		}
-		x = 29
-		y = 12
-
-	}
-	focus = {
-		id = artem.8.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.2
-			focus = artem.7.3
-		}
-		x = 32
-		y = 12
-
-	}
-	focus = {
-		id = artem.9.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.8.1
-		}
-		x = 21
-		y = 13
-
-	}
-	focus = {
-		id = artem.9.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.8.1
-		}
-		x = 23
-		y = 13
-
-	}
-	focus = {
-		id = artem.9.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.8.3
-		}
-		x = 29
-		y = 13
-
-	}
-	focus = {
-		id = artem.9.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.4
-			focus = artem.7.5
-		}
-		x = 48
-		y = 13
-
-	}
-	focus = {
-		id = artem.9.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.5
-			focus = artem.7.4
-		}
-		x = 50
-		y = 13
-
-	}
-	focus = {
-		id = artem.10.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.9.1
-			focus = artem.9.2
-		}
-		x = 22
-		y = 14
-
-	}
-	focus = {
-		id = artem.10.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.9.3
-			focus = artem.9.4
-		}
-		mutually_exclusive = {
-			focus = artem.10.2
-			focus = artem.10.4
-		}
-		x = 39
-		y = 14
-
-	}
-	focus = {
-		id = artem.10.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.9.4
-		}
-		prerequisite = {
-			focus = artem.9.5
-		}
-		mutually_exclusive = {
-			focus = artem.10.2
-			focus = artem.10.3
-		}
-		x = 48
-		y = 14
-
-	}
-	focus = {
-		id = artem.10.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.9.4
-		}
-		prerequisite = {
-			focus = artem.9.5
-		}
-		x = 50
-		y = 14
-
-	}
-	focus = {
-		id = artem.11.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.10.2
-		}
-		x = 29
-		y = 15
-
-	}
-	focus = {
-		id = artem.12.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.11.1
-		}
-		x = 29
-		y = 16
-
-	}
-	focus = {
-		id = artem.11.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.10.3
-		}
-		x = 39
-		y = 15
-
-	}
-	focus = {
-		id = artem.12.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.11.2
-		}
-		x = 39
-		y = 16
-
-	}
-	focus = {
-		id = artem.11.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.10.4
-		}
-		x = 48
-		y = 15
-
-	}
-	focus = {
-		id = artem.11.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.10.5
-		}
-		x = 50
-		y = 15
-
-	}
-	focus = {
-		id = artem.12.3
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.11.3
-		}
-		x = 48
-		y = 16
-
-	}
-	focus = {
-		id = luda.4.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.2.1
-		}
-		x = 66
-		y = 7
-
-	}
-	focus = {
-		id = luda.4.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.3.3
-		}
-		x = 80
-		y = 7
-
-	}
-	focus = {
-		id = luda.5.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.4.1
-		}
-		x = 64
-		y = 8
-
-	}
-	focus = {
-		id = luda.5.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.4.4
-		}
-		mutually_exclusive = {
-			focus = luda.5.5
-		}
-		x = 79
-		y = 8
-
-	}
-	focus = {
-		id = luda.5.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.4.4
-		}
-		mutually_exclusive = {
-			focus = luda.5.4
-		}
-		x = 81
-		y = 8
-
-	}
-	focus = {
-		id = luda.6.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.4.1
-		}
-		x = 66
-		y = 9
-
-	}
-	focus = {
-		id = luda.6.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.5.4
-			focus = luda.5.5
-		}
-		x = 79
-		y = 9
-
-	}
-	focus = {
-		id = luda.6.5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.5.4
-			focus = luda.5.5
-		}
-		x = 81
-		y = 9
-
-	}
-	focus = {
-		id = luda.7.4
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.6.4
-		}
-		prerequisite = {
-			focus = luda.6.5
-		}
-		x = 80
-		y = 10
-
-	}
-	focus = {
-		id = luda.8.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.7.4
-		}
-		x = 80
-		y = 11
-
-	}
-	focus = {
-		id = luda.9.1
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda.8.1
-		}
-		x = 80
-		y = 12
-
-	}
+	
 	focus = {
 		id = proizvod.6.1
 		icon = GFX_focus_proizvod_61
@@ -3052,6 +2197,725 @@ add_ideas = monopoly
 		}
 		x = 139
 		y = 6
+
+	}
+	focus = {
+		id = artem.0.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = choise.0.2
+		}
+		mutually_exclusive = {
+			focus = artem.0.2
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = artem.0.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = choise.0.2
+		}
+		mutually_exclusive = {
+			focus = artem.0.1
+		}
+		x = 53
+		y = 4
+
+	}
+	focus = {
+		id = artem.1.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.0.1
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = artem.1.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.0.1
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = artem.2.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.1.1
+		}
+		prerequisite = {
+			focus = artem.1.2
+		}
+		x = 26
+		y = 6
+
+	}
+	focus = {
+		id = artem.3.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.2.1
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = artem.4.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.3.1
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = artem.5.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.4.1
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = artem.5.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.4.1
+		}
+		x = 29
+		y = 9
+
+	}
+	focus = {
+		id = artem.6.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.5.1
+		}
+		prerequisite = {
+			focus = artem.5.2
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = artem.7.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.6.1
+		}
+		x = 26
+		y = 11
+		completion_reward = {
+			country_event = {
+				id = isi.1337artemanime1
+			}
+		}
+
+	}
+	focus = {
+		id = artem.8.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.1
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.1
+		}
+		x = 18
+		y = 13
+		completion_reward = {
+			set_country_flag = ISI_stanoc_zazheval
+		}
+
+	}
+	focus = {
+		id = artem.9.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.1
+		}
+		x = 22
+		y = 13
+		completion_reward = {
+			set_country_flag = ISI_amoralno_ubili
+		} 
+
+	}
+	focus = {
+		id = artem.8.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.1
+		}
+		x = 26
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.2
+		}
+		x = 26
+		y = 13
+
+	}
+	focus = {
+		id = artem.10.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.9.3
+		}
+		x = 26
+		y = 14
+		completion_reward = {
+			country_event = {
+				id = isi.1340artemanime3
+			}
+		}
+
+	}
+	focus = {
+		id = artem.10.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.9.1
+		}
+		prerequisite = {
+			focus = artem.9.2
+		}
+		x = 20
+		y = 14
+		completion_reward = {
+			country_event = {
+				id = isi.1339artemanime1
+			}
+		}
+
+	}
+	focus = {
+		id = artem.8.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.1
+		}
+		x = 31
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.4
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.3
+		}
+		x = 29
+		y = 13
+
+	}
+	focus = {
+		id = artem.10.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.9.4
+		}
+		x = 29
+		y = 14
+		completion_reward = {
+			country_event = {
+				id = isi.1341artemanime4
+			}
+		}
+
+	}
+	focus = {
+		id = artem.9.5
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.3
+		}
+		x = 33
+		y = 13
+
+	}
+	focus = {
+		id = artem.10.4
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.9.5
+		}
+		x = 33
+		y = 14
+		completion_reward = {
+			country_event = {
+				id = isi.1342artemanime2
+			}
+		}
+
+	}
+	focus = {
+		id = artem.11.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.10.1
+		}
+		prerequisite = {
+			focus = artem.10.2
+		}
+		prerequisite = {
+			focus = artem.10.3
+		}
+		prerequisite = {
+			focus = artem.10.4
+		}
+		x = 26
+		y = 16
+		completion_reward = {
+			country_event = {
+				id = isi.1343artemanime111
+			}
+		}
+
+	}
+	focus = {
+		id = artem.1.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.0.2
+		}
+		x = 53
+		y = 5
+
+	}
+	focus = {
+		id = artem.2.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.1.3
+		}
+		mutually_exclusive = {
+			focus = artem.2.3
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = artem.2.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.1.3
+		}
+		mutually_exclusive = {
+			focus = artem.2.2
+		}
+		x = 55
+		y = 6
+
+	}
+	focus = {
+		id = artem.3.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.2.2
+			focus = artem.2.3
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = artem.4.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.3.2
+		}
+		x = 53
+		y = 8
+
+	}
+	focus = {
+		id = artem.7.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.6.1
+			focus = artem.4.2
+		}
+		x = 36
+		y = 11
+
+	}
+	focus = {
+		id = artem.7.4
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.6.1
+			focus = artem.4.2
+		}
+		x = 40
+		y = 11
+
+	}
+	focus = {
+		id = artem.7.5
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.6.1
+			focus = artem.4.2
+		}
+		x = 44
+		y = 11
+
+	}
+	focus = {
+		id = artem.7.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.4.2
+		}
+		x = 53
+		y = 11
+		completion_reward = {
+			country_event = {
+				id = isi.1338arteminsane1
+			}
+		}
+
+	}
+	focus = {
+		id = artem.8.4
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.2
+		}
+		mutually_exclusive = {
+			focus = artem.8.5
+		}
+		x = 47
+		y = 12
+
+	}
+	focus = {
+		id = artem.8.5
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.2
+		}
+		mutually_exclusive = {
+			focus = artem.8.4
+		}
+		x = 49
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.6
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.4
+			focus = artem.8.5
+		}
+		x = 48
+		y = 13
+
+	}
+	focus = {
+		id = artem.8.6
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.2
+		}
+		mutually_exclusive = {
+			focus = artem.8.7
+		}
+		x = 52
+		y = 12
+
+	}
+	focus = {
+		id = artem.8.7
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.2
+		}
+		mutually_exclusive = {
+			focus = artem.8.6
+		}
+		x = 54
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.7
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.6
+			focus = artem.8.7
+		}
+		x = 53
+		y = 13
+
+	}
+	focus = {
+		id = artem.8.8
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.2
+		}
+		mutually_exclusive = {
+			focus = artem.8.9
+		}
+		x = 57
+		y = 12
+
+	}
+	focus = {
+		id = artem.8.9
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.2
+		}
+		mutually_exclusive = {
+			focus = artem.8.8
+		}
+		x = 59
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.8
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.8
+			focus = artem.8.9
+		}
+		x = 58
+		y = 13
+
+	}
+	focus = {
+		id = artem.10.5
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.9.7
+		}
+		prerequisite = {
+			focus = artem.9.6
+		}
+		prerequisite = {
+			focus = artem.9.8
+		}
+		x = 53
+		y = 14
+
+	}
+	focus = {
+		id = artem.11.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.10.5
+		}
+		mutually_exclusive = {
+			focus = artem.11.3
+		}
+		x = 51
+		y = 16
+
+	}
+	focus = {
+		id = artem.11.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.10.5
+		}
+		mutually_exclusive = {
+			focus = artem.11.2
+		}
+		x = 55
+		y = 16
+
+	}
+	focus = {
+		id = artem.12.1
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.11.1
+		}
+		x = 26
+		y = 18
+
+	}
+	focus = {
+		id = artem.12.2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.11.2
+		}
+		x = 51
+		y = 18
+
+	}
+	focus = {
+		id = artem.12.3
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.11.3
+		}
+		x = 55
+		y = 18
+
+	}
+	focus = {
+		id = artem.8.10
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.3
+		}
+		x = 36
+		y = 12
+
+	}
+	focus = {
+		id = artem.8.11
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.4
+		}
+		x = 40
+		y = 12
+
+	}
+	focus = {
+		id = artem.8.12
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.7.5
+		}
+		x = 44
+		y = 12
+
+	}
+	focus = {
+		id = artem.9.9
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.10
+		}
+		x = 36
+		y = 13
+
+	}
+	focus = {
+		id = artem.9.10
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.11
+		}
+		x = 40
+		y = 13
+
+	}
+	focus = {
+		id = artem.9.11
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.8.12
+		}
+		x = 44
+		y = 13
+
+	}
+	focus = {
+		id = artem.10.6
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = artem.9.9
+		}
+		prerequisite = {
+			focus = artem.9.10
+		}
+		prerequisite = {
+			focus = artem.9.11
+		}
+		x = 40
+		y = 14
 
 	}
 }
