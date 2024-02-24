@@ -427,7 +427,10 @@ focus_tree = {
 		completion_reward = {
 		ISI_veronica_vedma = {
 					advisor = {
-		traits = {night_vedma_2}
+					on_add = { 
+						traits = {night_vedma_2}
+}
+	
 
 		}
 			}
