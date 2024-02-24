@@ -1345,6 +1345,47 @@ country_event = {
 	
 }
 
+
+country_event = {
+	id = isi.62greck
+	title = isi.62greck.t
+	desc = isi.62greck.desc
+	picture = GFX_portrait_ISI_56
+	
+	trigger = {
+	has_completed_focus = place.0.2
+	has_completed_focus = rebuld.0.2.2
+	has_stability < 0.15
+	has_war = yes
+	
+}
+
+	option = { 
+		name = isi.62greck.a
+		kill_country_leader = yes
+		ISI_nikita_bananow = {
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {
+							veteran_first_war
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		
+		 
+
+		
+	}
+	
+}
+
+
+
+
 country_event = {
 	id = isi.63ludahistory
 	title = isi.63ludahistory.t

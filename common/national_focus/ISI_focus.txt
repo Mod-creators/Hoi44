@@ -425,15 +425,8 @@ focus_tree = {
 		x = 81
 		y = 12
 		completion_reward = {
-		ISI_veronica_vedma = {
-					advisor = {
-					on_add = { 
-						traits = {night_vedma_2}
-}
-	
-
-		}
-			}
+		custom_effect_tooltip = ISI_niggt_vedma_tool_1
+		set_country_flag = ISI_not_visible_nika
 		
 		}
 
@@ -450,6 +443,23 @@ focus_tree = {
 		}
 		x = 83
 		y = 13
+		completion_reward = {
+		custom_effect_tooltip = ISI_niggt_vedma_tool_2
+		
+hidden_effect = {ISI_veronica_vedma = {
+				add_advisor_role = {
+					advisor = {
+		idea_token = ISI_veronica_vedma
+	    slot = high_command
+		traits = {night_vedma_3}
+		
+		}
+
+				}
+			}}
+		
+		
+		}
 
 	}
 	focus = {
@@ -464,6 +474,10 @@ focus_tree = {
 		}
 		x = 83
 		y = 14
+		completion_reward = {
+		custom_effect_tooltip = ISI_niggt_vedma_tool_4
+		
+		}
 
 	}
 	
@@ -479,6 +493,25 @@ focus_tree = {
 		}
 		x = 87
 		y = 13
+		completion_reward = {
+		custom_effect_tooltip = ISI_niggt_vedma_tool_3
+		hidden_effect = {
+		
+		ISI_veronica_vedma = {
+				add_advisor_role = {
+					advisor = {
+		idea_token = ISI_veronica_vedma
+	    slot = high_command
+		traits = {night_vedma_4}
+		
+		}
+
+				}
+			}
+		
+		}
+		
+		}
 
 	}
 	focus = {
@@ -493,6 +526,10 @@ focus_tree = {
 		}
 		x = 87
 		y = 14
+		completion_reward = {
+		custom_effect_tooltip = ISI_niggt_vedma_tool_5
+		
+		}
 
 	}
 	focus = {
@@ -509,6 +546,12 @@ focus_tree = {
 		}
 		x = 85
 		y = 15
+	
+		completion_reward = {
+			custom_effect_tooltip = ISI_niggt_vedma_tool_6
+		
+		clr_country_flag = ISI_not_visible_nika}
+		
 
 	}
 	focus = {

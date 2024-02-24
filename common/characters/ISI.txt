@@ -215,6 +215,7 @@ characters = {
 	slot = high_command
 	traits = {night_vedma}
 	cost = 100
+	visible = {NOT = {has_country_flag = ISI_not_visible_nika}}
 	}
 	
 	corps_commander = {
