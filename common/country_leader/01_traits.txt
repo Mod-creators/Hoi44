@@ -21,6 +21,15 @@ leader_traits = {
         }
 	}
 
+	vremennoe_pravitelstvo = {
+		random = no
+		stability_factor = -0.2
+		war_support_factor = -0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	klei_kanibal = {
 		random = no
 		stability_factor = 0.2
@@ -38,6 +47,22 @@ leader_traits = {
 		air_night_penalty = -0.5
 		air_mission_efficiency = 0.1
         ai_will_do = {
+            factor = 1
+        }
+	}
+
+	silneyshiy_leader = {
+		random = no
+		weekly_manpower = 500
+		war_support_weekly_factor = 0.15
+	}
+
+	sadistic_anime = {
+		random = no
+		communism_drift = 0.1
+		drift_defence_factor = 0.5
+		stability_factor = 0.2
+		ai_will_do = {
             factor = 1
         }
 	}

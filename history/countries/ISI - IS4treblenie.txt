@@ -54,6 +54,8 @@ recruit_character = ISI_daria_kanibal
 recruit_character = ISI_daria_theoretic
 recruit_character = ISI_veronica_archiwitch
 recruit_character = ISI_nasta_admiral
+recruit_character = ISI_romino_pravitelstvo
+recruit_character = ISI_artem_anime
 
 
 set_variable = { ISI_paranoia = 0 } # Intitial Paranoia value

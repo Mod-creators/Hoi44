@@ -15,10 +15,31 @@ focus_tree = {
 		x = 29
 		y = 0
 		completion_reward = {
-		country_event = { id = isi.1 }
+			country_event = {
+				id = isi.1
+			}
+			promote_character = {
+				character = ISI_artem_anime
+				ideology = stalinism
+			}
+			hidden_effect = {
+				retire_ideology_leader = communism
+				remove_country_leader_role = {
+					character = ISI_artem_naygolnow
+				}
+				add_country_leader_role = {
+					character = ISI_artem_anime
+					promote_leader = yes
+					country_leader = {
+						ideology = communism
+						expire = "1965.1.1.1"
+						traits = {
+							sadistic_anime
+						}
+					}
+				}
+			}
 		}
-		
-
 	}
 	focus = {
 		id = proizvod.1.5
@@ -27,7 +48,9 @@ focus_tree = {
 		x = 102
 		y = 0
 		completion_reward = {
-		country_event = { id = isi.8roizvod }
+			country_event = {
+				id = isi.8roizvod
+			}
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -44,7 +67,6 @@ focus_tree = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = proizvod.1.2
@@ -60,7 +82,6 @@ focus_tree = {
 				category = industry
 			}
 		}
-
 	}
 	focus = {
 		id = warfocus.1.1
@@ -68,12 +89,9 @@ focus_tree = {
 		cost = 10,00
 		x = 138
 		y = 0
-	
-	completion_reward = {
-		army_experience = 50
-	
-	}
-	
+		completion_reward = {
+			army_experience = 50
+		}
 	}
 	focus = {
 		id = info.0.2
@@ -85,9 +103,10 @@ focus_tree = {
 		x = 29
 		y = 1
 		completion_reward = {
-		country_event = { id = isi.2 }
+			country_event = {
+				id = isi.2
+			}
 		}
-
 	}
 	focus = {
 		id = info0.3
@@ -99,9 +118,10 @@ focus_tree = {
 		x = 29
 		y = 2
 		completion_reward = {
-		country_event = { id = isi.3 }
+			country_event = {
+				id = isi.3
+			}
 		}
-
 	}
 	focus = {
 		id = choise.0.1
@@ -117,11 +137,11 @@ focus_tree = {
 		x = 17
 		y = 3
 		completion_reward = {
-		custom_effect_tooltip = ISI_alexandr_civilian
-		country_event = { id = isi.alexandr }
-
+			custom_effect_tooltip = ISI_alexandr_civilian
+			country_event = {
+				id = isi.alexandr
+			}
 		}
-
 	}
 	focus = {
 		id = kill.0.1
@@ -136,9 +156,10 @@ focus_tree = {
 		x = 15
 		y = 4
 		completion_reward = {
-		country_event = { id = isi.13artemfriend }
+			country_event = {
+				id = isi.13artemfriend
+			}
 		}
-
 	}
 	focus = {
 		id = place.0.1
@@ -153,9 +174,10 @@ focus_tree = {
 		x = 18
 		y = 4
 		completion_reward = {
-		country_event = { id = isi.14ludahelp }
+			country_event = {
+				id = isi.14ludahelp
+			}
 		}
-
 	}
 	focus = {
 		id = choise.0.2
@@ -170,9 +192,12 @@ focus_tree = {
 		}
 		x = 29
 		y = 3
-
+		completion_reward = {
+			country_event = {
+				id = isi.1488artemchoise
+			}
+		}
 	}
-	
 	focus = {
 		id = choise.0.3
 		icon = GFX_focus_choise_03
@@ -185,14 +210,13 @@ focus_tree = {
 			focus = choise.0.2
 		}
 		completion_reward = {
-		country_event = {id = isi.63ludahistory}
-		
+			country_event = {
+				id = isi.63ludahistory
+			}
 		}
 		x = 70
 		y = 3
-
 	}
-	
 	focus = {
 		id = luda_1
 		icon = GFX_focus_luda_1
@@ -203,13 +227,13 @@ focus_tree = {
 			focus = choise.0.3
 		}
 		completion_reward = {
-		country_event = {id = isi.66ludahistory}
-		add_stability = 0.1
-		army_experience = 10
+			country_event = {
+				id = isi.66ludahistory
+			}
+			add_stability = 0.1
+			army_experience = 10
 		}
-
 	}
-	
 	focus = {
 		id = luda_2
 		icon = GFX_focus_luda_2
@@ -220,12 +244,11 @@ focus_tree = {
 		x = 68
 		y = 5
 		completion_reward = {
-		custom_effect_tooltip = ISI_magick_desk
-		hidden_effect = {
+			custom_effect_tooltip = ISI_magick_desk
+			hidden_effect = {
 				set_country_flag = ISI_magick_desk
 			}
 		}
-
 	}
 	focus = {
 		id = luda_3
@@ -237,9 +260,10 @@ focus_tree = {
 		x = 70
 		y = 6
 		completion_reward = {
-		country_event = {id = isi.68ludahistory}
+			country_event = {
+				id = isi.68ludahistory
+			}
 		}
-
 	}
 	focus = {
 		id = luda_4
@@ -251,9 +275,10 @@ focus_tree = {
 		x = 70
 		y = 7
 		completion_reward = {
-		country_event = {id = isi.71ludahistory}
+			country_event = {
+				id = isi.71ludahistory
+			}
 		}
-
 	}
 	focus = {
 		id = luda_5
@@ -265,9 +290,7 @@ focus_tree = {
 		x = 67
 		y = 8
 		completion_reward = {
-		
 		}
-
 	}
 	focus = {
 		id = luda_6
@@ -278,7 +301,6 @@ focus_tree = {
 		}
 		x = 67
 		y = 9
-
 	}
 	focus = {
 		id = luda_7
@@ -289,23 +311,24 @@ focus_tree = {
 		}
 		x = 67
 		y = 11
-
 	}
 	focus = {
 		id = luda_8
 		icon = GFX_focus_luda_8
 		cost = 10,00
-		available = {has_country_flag = ISI_kindjal_flag}
+		available = {
+			has_country_flag = ISI_kindjal_flag
+		}
 		prerequisite = {
 			focus = luda_4
 		}
 		x = 70
 		y = 8
 		completion_reward = {
-		country_event = {id = isi.72ludahistory}
-		
+			country_event = {
+				id = isi.72ludahistory
+			}
 		}
-
 	}
 	focus = {
 		id = luda_9
@@ -317,10 +340,10 @@ focus_tree = {
 		x = 71
 		y = 9
 		completion_reward = {
-		country_event = {id = isi.74ludahistory}
-		
+			country_event = {
+				id = isi.74ludahistory
+			}
 		}
-
 	}
 	focus = {
 		id = luda_10
@@ -332,16 +355,18 @@ focus_tree = {
 		x = 73
 		y = 8
 		completion_reward = {
-		country_event = {id = isi.76ludahistory}
-		
+			country_event = {
+				id = isi.76ludahistory
+			}
 		}
-
 	}
 	focus = {
 		id = luda_11
 		icon = GFX_focus_luda_11
 		cost = 10,00
-		available = {has_country_flag = ISI_darc_greck}
+		available = {
+			has_country_flag = ISI_darc_greck
+		}
 		prerequisite = {
 			focus = luda_10
 		}
@@ -351,10 +376,10 @@ focus_tree = {
 		x = 74
 		y = 10
 		completion_reward = {
-		country_event = {id = isi.78ludahistory}
-		
+			country_event = {
+				id = isi.78ludahistory
+			}
 		}
-
 	}
 	focus = {
 		id = luda_12
@@ -365,7 +390,6 @@ focus_tree = {
 		}
 		x = 76
 		y = 11
-
 	}
 	focus = {
 		id = luda_13
@@ -376,7 +400,6 @@ focus_tree = {
 		}
 		x = 72
 		y = 12
-
 	}
 	focus = {
 		id = luda_20
@@ -387,7 +410,6 @@ focus_tree = {
 		}
 		x = 69
 		y = 13
-
 	}
 	focus = {
 		id = luda_23
@@ -398,7 +420,6 @@ focus_tree = {
 		}
 		x = 66
 		y = 14
-
 	}
 	focus = {
 		id = luda_30
@@ -409,7 +430,6 @@ focus_tree = {
 		}
 		x = 75
 		y = 13
-
 	}
 	focus = {
 		id = luda_14
@@ -420,7 +440,6 @@ focus_tree = {
 		}
 		x = 81
 		y = 12
-
 	}
 	focus = {
 		id = luda_15
@@ -434,7 +453,6 @@ focus_tree = {
 		}
 		x = 83
 		y = 13
-
 	}
 	focus = {
 		id = luda_17
@@ -448,9 +466,7 @@ focus_tree = {
 		}
 		x = 83
 		y = 14
-
 	}
-	
 	focus = {
 		id = luda_16
 		icon = GFX_goal_unknown
@@ -463,7 +479,6 @@ focus_tree = {
 		}
 		x = 87
 		y = 13
-
 	}
 	focus = {
 		id = luda_18
@@ -477,7 +492,6 @@ focus_tree = {
 		}
 		x = 87
 		y = 14
-
 	}
 	focus = {
 		id = luda_19
@@ -493,7 +507,6 @@ focus_tree = {
 		}
 		x = 85
 		y = 15
-
 	}
 	focus = {
 		id = luda_31
@@ -504,7 +517,6 @@ focus_tree = {
 		}
 		x = 75
 		y = 15
-
 	}
 	focus = {
 		id = luda_32
@@ -515,7 +527,6 @@ focus_tree = {
 		}
 		x = 75
 		y = 17
-
 	}
 	focus = {
 		id = luda_27
@@ -526,7 +537,6 @@ focus_tree = {
 		}
 		x = 72
 		y = 13
-
 	}
 	focus = {
 		id = luda_28
@@ -537,7 +547,6 @@ focus_tree = {
 		}
 		x = 72
 		y = 15
-
 	}
 	focus = {
 		id = luda_29
@@ -548,7 +557,6 @@ focus_tree = {
 		}
 		x = 72
 		y = 17
-
 	}
 	focus = {
 		id = luda_21
@@ -559,7 +567,6 @@ focus_tree = {
 		}
 		x = 69
 		y = 15
-
 	}
 	focus = {
 		id = luda_22
@@ -570,7 +577,6 @@ focus_tree = {
 		}
 		x = 69
 		y = 17
-
 	}
 	focus = {
 		id = luda_24
@@ -581,7 +587,6 @@ focus_tree = {
 		}
 		x = 66
 		y = 16
-
 	}
 	focus = {
 		id = luda_25
@@ -592,7 +597,6 @@ focus_tree = {
 		}
 		x = 66
 		y = 18
-
 	}
 	focus = {
 		id = luda_26
@@ -609,13 +613,7 @@ focus_tree = {
 		}
 		x = 72
 		y = 19
-
 	}
-
-	
-	
-	
-	
 	focus = {
 		id = proizvod.2.1
 		icon = GFX_focus_proizvod_21
@@ -629,10 +627,11 @@ focus_tree = {
 		x = 105
 		y = 1
 		completion_reward = {
-		country_event = { id = isi.9proizvod }
+			country_event = {
+				id = isi.9proizvod
+			}
 			add_ideas = industrialization_1
 		}
-
 	}
 	focus = {
 		id = proizvod.3.1
@@ -653,7 +652,6 @@ focus_tree = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = proizvod.3.2
@@ -674,7 +672,6 @@ focus_tree = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = proizvod.3.3
@@ -695,7 +692,6 @@ focus_tree = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = proizvod.3.4
@@ -716,7 +712,6 @@ focus_tree = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = proizvod.4.1
@@ -737,14 +732,15 @@ focus_tree = {
 		x = 105
 		y = 3
 		completion_reward = {
-		country_event = { id = isi.10proizvod }
+			country_event = {
+				id = isi.10proizvod
+			}
 			add_research_slot = 1
 			hidden_effect = {
 				remove_ideas = industrialization_1
 			}
-			add_ideas =industrialization_2
+			add_ideas = industrialization_2
 		}
-
 	}
 	focus = {
 		id = proizvod.5.1
@@ -801,10 +797,8 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-
 			}
 		}
-
 	}
 	focus = {
 		id = proizvod.5.2
@@ -816,190 +810,212 @@ focus_tree = {
 		x = 104
 		y = 4
 		completion_reward = {
-				if = { 
-					limit = { 
-						country_exists = GER
-						GER = { has_opinion = { target = ISI value > 80 } } 
-					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
+			if = {
+				limit = {
+					country_exists = GER
+					GER = {
+						has_opinion = {
+							target = ISI
+							value > 80
 						}
 					}
 				}
-				
-				if = { 
-					limit = { 
-						country_exists = LUX
-						LUX = { has_opinion = { target = ISI value > 100 } } 
-					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 5
-						add_building_construction = {
-							type = arms_factory
-							level = 5
-							instant_build = yes
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
 						}
 					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 0
-								include_locked = yes
-							}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
 						}
-						add_extra_state_shared_building_slots = 5
-						add_building_construction = {
-							type = industrial_complex
-							level = 5
-							instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = LUX
+					LUX = {
+						has_opinion = {
+							target = ISI
+							value > 100
 						}
 					}
 				}
-				if = { 
-					limit = { 
-						country_exists = FRA
-						FRA = { has_opinion = { target = ISI value > 80 } } 
-					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
 						}
 					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 0
-								include_locked = yes
-							}
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+						type = arms_factory
+						level = 5
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
 						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 5
+					add_building_construction = {
+						type = industrial_complex
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = FRA
+					FRA = {
+						has_opinion = {
+							target = ISI
+							value > 80
 						}
 					}
 				}
-				if = { 
-					limit = { 
-						country_exists = SOV
-						SOV = { has_opinion = { target = ISI value > 80 } } 
-					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
 						}
 					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 0
-								include_locked = yes
-							}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
 						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SOV
+					SOV = {
+						has_opinion = {
+							target = ISI
+							value > 80
 						}
 					}
 				}
-				if = { 
-					limit = { 
-						country_exists = ENG
-						ENG = { has_opinion = { target = ISI value > 80 } } 
-					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
 						}
 					}
-					random_owned_controlled_state = {
-						limit = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 0
-								include_locked = yes
-							}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
 						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = ENG
+					ENG = {
+						has_opinion = {
+							target = ISI
+							value > 80
 						}
 					}
 				}
-			
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
-
 	}
 	focus = {
 		id = proizvod.7.1
@@ -1014,14 +1030,15 @@ focus_tree = {
 		x = 103
 		y = 6
 		completion_reward = {
-		country_event = { id = isi.12proizvod }
-		add_research_slot = 1
-		hidden_effect = {
-		remove_ideas = industrialization_3
+			country_event = {
+				id = isi.12proizvod
+			}
+			add_research_slot = 1
+			hidden_effect = {
+				remove_ideas = industrialization_3
+			}
+			add_ideas = industrialization_4
 		}
-		add_ideas = industrialization_4
-		}
-
 	}
 	focus = {
 		id = proizvod.5.3
@@ -1036,11 +1053,8 @@ focus_tree = {
 		x = 106
 		y = 4
 		completion_reward = {
-add_ideas = monopoly
-		
-
+			add_ideas = monopoly
 		}
-
 	}
 	focus = {
 		id = proizvod.5.4
@@ -1055,11 +1069,8 @@ add_ideas = monopoly
 		x = 108
 		y = 4
 		completion_reward = {
-		
-	add_ideas = friend
-
+			add_ideas = friend
 		}
-
 	}
 	focus = {
 		id = proizvod.6.3
@@ -1072,14 +1083,14 @@ add_ideas = monopoly
 		x = 107
 		y = 5
 		completion_reward = {
-		country_event = { id = isi.11proizvod }
-		hidden_effect = {
-		remove_ideas = ISI_overcharged
+			country_event = {
+				id = isi.11proizvod
+			}
+			hidden_effect = {
+				remove_ideas = ISI_overcharged
+			}
+			add_ideas = ISI_overcharged_2
 		}
-		add_ideas = ISI_overcharged_2
-		}
-		
-
 	}
 	focus = {
 		id = proizvod.2.2
@@ -1095,17 +1106,15 @@ add_ideas = monopoly
 			focus = proizvod.2.3
 		}
 		completion_reward = {
-		add_tech_bonus = {
-						name = armor_bonus
-						bonus = 1.0
-						uses = 2
-						category = armor
-					}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 2
+				category = armor
+			}
 		}
-		
 		x = 110
 		y = 1
-
 	}
 	focus = {
 		id = proizvod.2.3
@@ -1130,7 +1139,6 @@ add_ideas = monopoly
 		}
 		x = 112
 		y = 1
-
 	}
 	focus = {
 		id = proizvod.3.5
@@ -1165,21 +1173,18 @@ add_ideas = monopoly
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
-			add_resource = {
+				add_resource = {
 					type = steel
 					amount = 25
-					
 				}
-			add_resource = {
+				add_resource = {
 					type = chromium
 					amount = 25
-					
-			}
+				}
 			}
 		}
 		x = 110
 		y = 3
-
 	}
 	focus = {
 		id = proizvod.4.3
@@ -1192,11 +1197,10 @@ add_ideas = monopoly
 			focus = proizvod.4.2
 		}
 		completion_reward = {
-		add_ideas = nachdux
+			add_ideas = nachdux
 		}
 		x = 112
 		y = 3
-
 	}
 	focus = {
 		id = proizvod.2.4
@@ -1209,15 +1213,13 @@ add_ideas = monopoly
 			focus = proizvod.1.5
 		}
 		completion_reward = {
-		add_equipment_to_stockpile = {
+			add_equipment_to_stockpile = {
 				type = train_equipment
 				amount = 35
 			}
-
 		}
 		x = 115
 		y = 1
-
 	}
 	focus = {
 		id = proizvod.3.6
@@ -1228,14 +1230,14 @@ add_ideas = monopoly
 		}
 		x = 114
 		y = 2
-	completion_reward = {
-	add_tech_bonus = {
-	name = SOV_the_builder_of_the_red_army
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOV_the_builder_of_the_red_army
 				ahead_reduction = 1
 				uses = 1
 				category = artillery
-	}
-	}
+			}
+		}
 	}
 	focus = {
 		id = proizvod.4.4
@@ -1246,12 +1248,11 @@ add_ideas = monopoly
 		}
 		x = 115
 		y = 3
-	completion_reward = {
-		add_equipment_to_stockpile = {
+		completion_reward = {
+			add_equipment_to_stockpile = {
 				type = train_equipment
 				amount = 35
 			}
-
 		}
 	}
 	focus = {
@@ -1263,7 +1264,6 @@ add_ideas = monopoly
 		}
 		x = 115
 		y = 4
-
 	}
 	focus = {
 		id = proizvod.6.4
@@ -1278,15 +1278,14 @@ add_ideas = monopoly
 		}
 		completion_reward = {
 			add_tech_bonus = {
-			name = secret_bonus
-			bonus = 1.0
-			uses = 1
-			category = nuclear
+				name = secret_bonus
+				bonus = 1
+				uses = 1
+				category = nuclear
 			}
 		}
 		x = 111
 		y = 5
-
 	}
 	focus = {
 		id = proizvod.2.5
@@ -1298,19 +1297,16 @@ add_ideas = monopoly
 		prerequisite = {
 			focus = proizvod.1.5
 		}
-		
 		completion_reward = {
-		
-		add_tech_bonus = {
-		name = nav_bomber_bonus
-					bonus = 1.0
-					uses = 1
-					category = light_air
-		}
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 1
+				uses = 1
+				category = light_air
+			}
 		}
 		x = 118
 		y = 1
-
 	}
 	focus = {
 		id = proizvod.3.7
@@ -1322,7 +1318,7 @@ add_ideas = monopoly
 		x = 117
 		y = 2
 		completion_reward = {
-		add_ideas = nachduxcarabl
+			add_ideas = nachduxcarabl
 		}
 	}
 	focus = {
@@ -1334,11 +1330,9 @@ add_ideas = monopoly
 		}
 		x = 119
 		y = 2
-	completion_reward = {
-		add_ideas =	nachduxsam
-			}
-			
-			
+		completion_reward = {
+			add_ideas = nachduxsam
+		}
 	}
 	focus = {
 		id = proizvod.4.5
@@ -1351,13 +1345,12 @@ add_ideas = monopoly
 		x = 118
 		y = 3
 		completion_reward = {
-		add_tech_bonus = {
+			add_tech_bonus = {
 				name = uk_carrier_focus
-				bonus = 3.0
+				bonus = 3
 				uses = 1
 				category = cv_tech
 			}
-
 		}
 	}
 	focus = {
@@ -1370,8 +1363,8 @@ add_ideas = monopoly
 		x = 121
 		y = 2
 		completion_reward = {
-		add_ideas =	nachduarm
-			}
+			add_ideas = nachduarm
+		}
 	}
 	focus = {
 		id = proizvod.4.6
@@ -1385,14 +1378,14 @@ add_ideas = monopoly
 		}
 		x = 120
 		y = 3
-	completion_reward = {
-	add_doctrine_cost_reduction = {
+		completion_reward = {
+			add_doctrine_cost_reduction = {
 				name = strat_dest_bonus
 				cost_reduction = 0.25
 				uses = 2
 				category = battlefield_support_tree
 			}
-	}
+		}
 	}
 	focus = {
 		id = proizvod.6.5
@@ -1411,12 +1404,10 @@ add_ideas = monopoly
 			focus = proizvod.6.6
 		}
 		x = 117
-		y = 5 
-		
+		y = 5
 		completion_reward = {
-		add_ideas = nachshipcost
+			add_ideas = nachshipcost
 		}
-
 	}
 	focus = {
 		id = proizvod.6.6
@@ -1433,7 +1424,6 @@ add_ideas = monopoly
 		}
 		x = 120
 		y = 5
-
 	}
 	focus = {
 		id = proizvod.7.2
@@ -1445,7 +1435,6 @@ add_ideas = monopoly
 		}
 		x = 118
 		y = 6
-
 	}
 	focus = {
 		id = warfocus.2.1
@@ -1472,7 +1461,6 @@ add_ideas = monopoly
 		}
 		x = 128
 		y = 2
-
 	}
 	focus = {
 		id = warfocus.4.1
@@ -1483,7 +1471,6 @@ add_ideas = monopoly
 		}
 		x = 128
 		y = 3
-
 	}
 	focus = {
 		id = warfocus.3.2
@@ -1497,7 +1484,6 @@ add_ideas = monopoly
 		}
 		x = 132
 		y = 2
-
 	}
 	focus = {
 		id = warfocus.4.2
@@ -1508,7 +1494,6 @@ add_ideas = monopoly
 		}
 		x = 132
 		y = 3
-
 	}
 	focus = {
 		id = warfocus.5.1
@@ -1520,7 +1505,6 @@ add_ideas = monopoly
 		}
 		x = 130
 		y = 4
-
 	}
 	focus = {
 		id = warfocus.2.2
@@ -1531,7 +1515,6 @@ add_ideas = monopoly
 		}
 		x = 139
 		y = 1
-
 	}
 	focus = {
 		id = warfocus.3.3
@@ -1542,7 +1525,6 @@ add_ideas = monopoly
 		}
 		x = 137
 		y = 2
-
 	}
 	focus = {
 		id = warfocus.4.3
@@ -1556,7 +1538,6 @@ add_ideas = monopoly
 		}
 		x = 137
 		y = 3
-
 	}
 	focus = {
 		id = warfocus.5.2
@@ -1567,7 +1548,6 @@ add_ideas = monopoly
 		}
 		x = 137
 		y = 4
-
 	}
 	focus = {
 		id = warfocus.3.4
@@ -1578,7 +1558,6 @@ add_ideas = monopoly
 		}
 		x = 141
 		y = 2
-
 	}
 	focus = {
 		id = warfocus.4.4
@@ -1592,7 +1571,6 @@ add_ideas = monopoly
 		}
 		x = 141
 		y = 3
-
 	}
 	focus = {
 		id = warfocus.5.3
@@ -1603,7 +1581,6 @@ add_ideas = monopoly
 		}
 		x = 141
 		y = 4
-
 	}
 	focus = {
 		id = warfocus.6.2
@@ -1615,7 +1592,6 @@ add_ideas = monopoly
 		}
 		x = 139
 		y = 5
-
 	}
 	focus = {
 		id = warfocus.2.3
@@ -1626,7 +1602,6 @@ add_ideas = monopoly
 		}
 		x = 148
 		y = 1
-
 	}
 	focus = {
 		id = warfocus.3.5
@@ -1640,7 +1615,6 @@ add_ideas = monopoly
 		}
 		x = 146
 		y = 2
-
 	}
 	focus = {
 		id = warfocus.4.5
@@ -1651,7 +1625,6 @@ add_ideas = monopoly
 		}
 		x = 146
 		y = 3
-
 	}
 	focus = {
 		id = warfocus.5.4
@@ -1662,7 +1635,6 @@ add_ideas = monopoly
 		}
 		x = 145
 		y = 4
-
 	}
 	focus = {
 		id = warfocus.3.6
@@ -1676,7 +1648,6 @@ add_ideas = monopoly
 		}
 		x = 150
 		y = 2
-
 	}
 	focus = {
 		id = warfocus.4.6
@@ -1687,7 +1658,6 @@ add_ideas = monopoly
 		}
 		x = 150
 		y = 3
-
 	}
 	focus = {
 		id = warfocus.5.5
@@ -1699,9 +1669,7 @@ add_ideas = monopoly
 		}
 		x = 148
 		y = 4
-
 	}
-	
 	focus = {
 		id = kill.0.2
 		icon = GFX_goal_unknown
@@ -1716,9 +1684,10 @@ add_ideas = monopoly
 		x = 15
 		y = 5
 		completion_reward = {
-		country_event = { id = isi.15kill_greck }
+			country_event = {
+				id = isi.15kill_greck
+			}
 		}
-
 	}
 	focus = {
 		id = place.0.2
@@ -1734,9 +1703,10 @@ add_ideas = monopoly
 		x = 18
 		y = 5
 		completion_reward = {
-		country_event = { id = isi.119friend_greck }
+			country_event = {
+				id = isi.119friend_greck
+			}
 		}
-
 	}
 	focus = {
 		id = cevilwar.0.1
@@ -1747,44 +1717,51 @@ add_ideas = monopoly
 			focus = place.0.2
 		}
 		completion_reward = {
-		country_event = { id = isi.20cevilwar }
+			country_event = {
+				id = isi.20cevilwar
+			}
 		}
 		x = 15
 		y = 7
-
 	}
 	focus = {
 		id = cevilwar.0.2
 		icon = GFX_focus_cevilwar_02
 		cost = 10,00
-		available = {has_country_flag = ISI_dead_vlad has_country_flag = ISI_dead_dima has_country_flag = ISI_dead_den}
+		available = {
+			has_country_flag = ISI_dead_vlad
+			has_country_flag = ISI_dead_dima
+			has_country_flag = ISI_dead_den
+		}
 		prerequisite = {
 			focus = cevilwar.0.1
 		}
 		x = 15
 		y = 8
 		completion_reward = {
-		country_event = { id = isi.21cevilwar }
+			country_event = {
+				id = isi.21cevilwar
+			}
 		}
-
 	}
 	focus = {
 		id = rebuld.0.1
 		icon = GFX_goal_unknown
 		cost = 10,00
 		available = {
-				NOT = {has_country_flag = gas_toxic}
+			NOT = {
+				has_country_flag = gas_toxic
 			}
+		}
 		prerequisite = {
 			focus = cevilwar.0.2
 		}
 		x = 12
 		y = 9
 		completion_reward = {
-		custom_effect_tooltip = ISI_raskopki_stage_one
-		add_manpower = -100
+			custom_effect_tooltip = ISI_raskopki_stage_one
+			add_manpower = -100
 		}
-
 	}
 	focus = {
 		id = rebuld.0.2
@@ -1795,13 +1772,13 @@ add_ideas = monopoly
 		}
 		x = 15
 		y = 9
-		
 		completion_reward = {
-		army_experience = 15
-		remove_ideas = old_power
-		country_event = { id = isi.55rebild}
+			army_experience = 15
+			remove_ideas = old_power
+			country_event = {
+				id = isi.55rebild
+			}
 		}
-
 	}
 	focus = {
 		id = rebuld.0.3
@@ -1829,7 +1806,6 @@ add_ideas = monopoly
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = rebuld.0.1.1
@@ -1841,10 +1817,9 @@ add_ideas = monopoly
 		x = 12
 		y = 10
 		completion_reward = {
-		custom_effect_tooltip = ISI_raskopki_stage_two
-		add_manpower = -500
+			custom_effect_tooltip = ISI_raskopki_stage_two
+			add_manpower = -500
 		}
-
 	}
 	focus = {
 		id = rebuld.0.1.2
@@ -1856,11 +1831,9 @@ add_ideas = monopoly
 		x = 12
 		y = 11
 		completion_reward = {
-		custom_effect_tooltip = ISI_raskopki_stage_free
-		add_manpower = -1500
+			custom_effect_tooltip = ISI_raskopki_stage_free
+			add_manpower = -1500
 		}
-		
-
 	}
 	focus = {
 		id = rebuld.0.2.1
@@ -1872,10 +1845,13 @@ add_ideas = monopoly
 		x = 15
 		y = 10
 		completion_reward = {
-		custom_effect_tooltip = ISI_elite_divisions
-		hidden_effect = {ISI = {load_oob = ISI_1936_alexandr_guardy}}
+			custom_effect_tooltip = ISI_elite_divisions
+			hidden_effect = {
+				ISI = {
+					load_oob = ISI_1936_alexandr_guardy
+				}
+			}
 		}
-
 	}
 	focus = {
 		id = rebuld.0.2.2
@@ -1887,9 +1863,8 @@ add_ideas = monopoly
 		x = 15
 		y = 11
 		completion_reward = {
-		add_research_slot = 1
+			add_research_slot = 1
 		}
-
 	}
 	focus = {
 		id = rebuld.0.3.1
@@ -1901,10 +1876,9 @@ add_ideas = monopoly
 		x = 18
 		y = 10
 		completion_reward = {
-		add_stability = 0.15
-		add_political_power = 150
+			add_stability = 0.15
+			add_political_power = 150
 		}
-
 	}
 	focus = {
 		id = rebuld.0.3.2
@@ -1916,45 +1890,42 @@ add_ideas = monopoly
 		x = 18
 		y = 11
 		completion_reward = {
-		remove_ideas = poor_population
-		add_stability = 0.6
-		add_political_power = 50
+			remove_ideas = poor_population
+			add_stability = 0.6
+			add_political_power = 50
 		}
-
 	}
 	focus = {
 		id = whatnext.3.1
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-		focus = rebuld.0.2.2
+			focus = rebuld.0.2.2
 		}
 		x = 9
 		y = 13
 		completion_reward = {
-		declare_war_on = {
+			declare_war_on = {
 				target = GRE
 				type = take_state_focus
 			}
 		}
-
 	}
 	focus = {
 		id = whatnext.3.2
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-		focus = rebuld.0.2.2
+			focus = rebuld.0.2.2
 		}
 		x = 12
 		y = 13
 		completion_reward = {
-		declare_war_on = {
+			declare_war_on = {
 				target = BUL
 				type = take_state_focus
 			}
 		}
-
 	}
 	focus = {
 		id = whatnext.3.3
@@ -1966,12 +1937,11 @@ add_ideas = monopoly
 		x = 15
 		y = 13
 		completion_reward = {
-		declare_war_on = {
+			declare_war_on = {
 				target = YUG
 				type = take_state_focus
 			}
 		}
-
 	}
 	focus = {
 		id = whatnext.3.4
@@ -1985,12 +1955,12 @@ add_ideas = monopoly
 		}
 		x = 10
 		y = 14
-		completion_reward = {declare_war_on = {
+		completion_reward = {
+			declare_war_on = {
 				target = TUR
 				type = take_state_focus
-			}}
-		
-
+			}
+		}
 	}
 	focus = {
 		id = whatnext.3.5
@@ -2004,11 +1974,12 @@ add_ideas = monopoly
 		}
 		x = 14
 		y = 14
-		completion_reward = {declare_war_on = {
+		completion_reward = {
+			declare_war_on = {
 				target = ROM
 				type = take_state_focus
-			}}
-
+			}
+		}
 	}
 	focus = {
 		id = whatnext.3.6
@@ -2019,11 +1990,12 @@ add_ideas = monopoly
 		}
 		x = 8
 		y = 15
-		completion_reward = {declare_war_on = {
+		completion_reward = {
+			declare_war_on = {
 				target = HUN
 				type = take_state_focus
-			}}
-
+			}
+		}
 	}
 	focus = {
 		id = whatnext.3.7
@@ -2035,10 +2007,8 @@ add_ideas = monopoly
 		x = 10
 		y = 16
 		completion_reward = {
-		add_manpower = 300000
-		
+			add_manpower = 300000
 		}
-
 	}
 	focus = {
 		id = whatnext.3.8
@@ -2053,13 +2023,19 @@ add_ideas = monopoly
 		x = 12
 		y = 15
 		completion_reward = {
-		
-		        78 = { add_core_of = ROOT }
-				79 = { add_core_of = ROOT }
-				80 = { add_core_of = ROOT }
-				76 = { add_core_of = ROOT }
+			78 = {
+				add_core_of = ROOT
+			}
+			79 = {
+				add_core_of = ROOT
+			}
+			80 = {
+				add_core_of = ROOT
+			}
+			76 = {
+				add_core_of = ROOT
+			}
 		}
-
 	}
 	focus = {
 		id = whatnext.3.9
@@ -2074,14 +2050,13 @@ add_ideas = monopoly
 		x = 16
 		y = 15
 		completion_reward = {
-		46 = {
-		add_resource = {
+			46 = {
+				add_resource = {
 					type = oil
 					amount = 50
-					
-				}}
+				}
+			}
 		}
-
 	}
 	focus = {
 		id = whatnext.3.10
@@ -2097,16 +2072,12 @@ add_ideas = monopoly
 		x = 14
 		y = 18
 		completion_reward = {
-		
-		
-		
-		declare_war_on = {
+			declare_war_on = {
 				target = GER
 				type = take_state_focus
-			}}
-
+			}
+		}
 	}
-	
 	focus = {
 		id = proizvod.6.1
 		icon = GFX_focus_proizvod_61
@@ -2118,16 +2089,13 @@ add_ideas = monopoly
 			focus = proizvod.5.2
 		}
 		completion_reward = {
-		hidden_effect ={
-		remove_ideas = industrialization_2
+			hidden_effect = {
+				remove_ideas = industrialization_2
+			}
+			add_ideas = industrialization_3
 		}
-		add_ideas = industrialization_3
-		
-		}
-		
 		x = 102
 		y = 5
-
 	}
 	focus = {
 		id = proizvod.6.2
@@ -2142,18 +2110,14 @@ add_ideas = monopoly
 		x = 104
 		y = 5
 		completion_reward = {
-		44 = {
-		add_building_construction = {
+			44 = {
+				add_building_construction = {
 					type = anti_air_building
 					level = 5
 					instant_build = yes
 				}
+			}
 		}
-	
-		
-		}
-		
-
 	}
 	focus = {
 		id = warfocus.5.6
@@ -2164,7 +2128,6 @@ add_ideas = monopoly
 		}
 		x = 151
 		y = 4
-
 	}
 	focus = {
 		id = warfocus.6.1
@@ -2175,7 +2138,6 @@ add_ideas = monopoly
 		}
 		x = 130
 		y = 5
-
 	}
 	focus = {
 		id = warfocus.6.3
@@ -2186,7 +2148,6 @@ add_ideas = monopoly
 		}
 		x = 148
 		y = 5
-
 	}
 	focus = {
 		id = warfocus.71.1
@@ -2197,7 +2158,6 @@ add_ideas = monopoly
 		}
 		x = 139
 		y = 6
-
 	}
 	focus = {
 		id = artem.0.1
@@ -2206,12 +2166,19 @@ add_ideas = monopoly
 		prerequisite = {
 			focus = choise.0.2
 		}
+		available = {
+			has_country_flag = ISI_artem_anime_flag
+		}
 		mutually_exclusive = {
 			focus = artem.0.2
 		}
 		x = 26
 		y = 4
-
+		completion_reward = {
+			country_event = {
+				id = isi.1489artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.0.2
@@ -2220,12 +2187,14 @@ add_ideas = monopoly
 		prerequisite = {
 			focus = choise.0.2
 		}
+		available = {
+			has_country_flag = ISI_artem_insane
+		}
 		mutually_exclusive = {
 			focus = artem.0.1
 		}
 		x = 53
 		y = 4
-
 	}
 	focus = {
 		id = artem.1.1
@@ -2236,7 +2205,11 @@ add_ideas = monopoly
 		}
 		x = 23
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = isi.1490artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.1.2
@@ -2247,7 +2220,11 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = isi.1491artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.2.1
@@ -2261,7 +2238,9 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 6
-
+		completion_reward = {
+			add_ideas = ISI_artems_time_bomb
+		}
 	}
 	focus = {
 		id = artem.3.1
@@ -2272,7 +2251,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 7
-
+		completion_reward = {
+			country_event = {
+				id = isi.1492artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.4.1
@@ -2283,7 +2266,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 8
-
+		completion_reward = {
+			country_event = {
+				id = isi.1493artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.5.1
@@ -2294,7 +2281,12 @@ add_ideas = monopoly
 		}
 		x = 23
 		y = 9
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = old_power
+				add_idea = ISI_lost_army_control
+			}
+		}
 	}
 	focus = {
 		id = artem.5.2
@@ -2305,7 +2297,9 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 9
-
+		completion_reward = {
+			add_ideas = ISI_polarization_of_cabinet
+		}
 	}
 	focus = {
 		id = artem.6.1
@@ -2319,7 +2313,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 10
-
+		completion_reward = {
+			country_event = {
+				id = isi.1494artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.7.1
@@ -2332,10 +2330,9 @@ add_ideas = monopoly
 		y = 11
 		completion_reward = {
 			country_event = {
-				id = isi.1337artemanime1
+				id = isi.1495artemanime
 			}
 		}
-
 	}
 	focus = {
 		id = artem.8.1
@@ -2346,7 +2343,9 @@ add_ideas = monopoly
 		}
 		x = 20
 		y = 12
-
+		completion_reward = {
+			add_ideas = ISI_frightened_theorists
+		}
 	}
 	focus = {
 		id = artem.9.1
@@ -2359,8 +2358,10 @@ add_ideas = monopoly
 		y = 13
 		completion_reward = {
 			set_country_flag = ISI_stanoc_zazheval
+			country_event = {
+				id = isi.1496artemanime
+			}
 		}
-
 	}
 	focus = {
 		id = artem.9.2
@@ -2373,8 +2374,10 @@ add_ideas = monopoly
 		y = 13
 		completion_reward = {
 			set_country_flag = ISI_amoralno_ubili
-		} 
-
+			country_event = {
+				id = isi.1497artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.8.2
@@ -2385,7 +2388,9 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 12
-
+		completion_reward = {
+			add_ideas = ISI_frightened_ministers
+		}
 	}
 	focus = {
 		id = artem.9.3
@@ -2396,7 +2401,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = isi.1498artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.10.2
@@ -2408,11 +2417,9 @@ add_ideas = monopoly
 		x = 26
 		y = 14
 		completion_reward = {
-			country_event = {
-				id = isi.1340artemanime3
-			}
+			add_ideas = ISI_eat_brains
+			remove_ideas = ISI_frightened_ministers
 		}
-
 	}
 	focus = {
 		id = artem.10.1
@@ -2427,11 +2434,20 @@ add_ideas = monopoly
 		x = 20
 		y = 14
 		completion_reward = {
-			country_event = {
-				id = isi.1339artemanime1
+			hidden_effect = {
+				ROOT = {
+					subtract_from_variable = {
+						ISI_paranoia_weekly_modifiers_amount = 1
+					}
+				}
+				ROOT = {
+					ISI_paranoia_modifier_update_gui_tooltip = yes
+				}
 			}
+			ISI_paranoia_medium_decrease_effect = yes
+			custom_effect_tooltip = ISI_paranoia_calm_down_stalin_cd_tt
+			remove_ideas = ISI_frightened_theorists
 		}
-
 	}
 	focus = {
 		id = artem.8.3
@@ -2442,7 +2458,10 @@ add_ideas = monopoly
 		}
 		x = 31
 		y = 12
-
+		completion_reward = {
+			add_ideas = ISI_frightened_army_nastya
+			add_ideas = ISI_frightened_army_vedma
+		}
 	}
 	focus = {
 		id = artem.9.4
@@ -2453,7 +2472,11 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = isi.1499artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.10.3
@@ -2465,11 +2488,11 @@ add_ideas = monopoly
 		x = 29
 		y = 14
 		completion_reward = {
-			country_event = {
-				id = isi.1341artemanime4
+			swap_ideas = {
+				remove_idea = ISI_frightened_army_nastya
+				add_idea = ISI_piyanaya_army
 			}
 		}
-
 	}
 	focus = {
 		id = artem.9.5
@@ -2480,7 +2503,11 @@ add_ideas = monopoly
 		}
 		x = 33
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = isi.1500artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.10.4
@@ -2492,11 +2519,11 @@ add_ideas = monopoly
 		x = 33
 		y = 14
 		completion_reward = {
-			country_event = {
-				id = isi.1342artemanime2
+			swap_ideas = {
+				remove_idea = ISI_frightened_army_vedma
+				add_idea = ISI_armiya_proklyatih
 			}
 		}
-
 	}
 	focus = {
 		id = artem.11.1
@@ -2518,10 +2545,9 @@ add_ideas = monopoly
 		y = 16
 		completion_reward = {
 			country_event = {
-				id = isi.1343artemanime111
+				id = isi.1501artemanime
 			}
 		}
-
 	}
 	focus = {
 		id = artem.1.3
@@ -2532,7 +2558,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 5
-
 	}
 	focus = {
 		id = artem.2.2
@@ -2546,7 +2571,6 @@ add_ideas = monopoly
 		}
 		x = 51
 		y = 6
-
 	}
 	focus = {
 		id = artem.2.3
@@ -2560,7 +2584,6 @@ add_ideas = monopoly
 		}
 		x = 55
 		y = 6
-
 	}
 	focus = {
 		id = artem.3.2
@@ -2572,7 +2595,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 7
-
 	}
 	focus = {
 		id = artem.4.2
@@ -2583,7 +2605,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 8
-
 	}
 	focus = {
 		id = artem.7.3
@@ -2595,7 +2616,6 @@ add_ideas = monopoly
 		}
 		x = 36
 		y = 11
-
 	}
 	focus = {
 		id = artem.7.4
@@ -2607,7 +2627,6 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 11
-
 	}
 	focus = {
 		id = artem.7.5
@@ -2619,7 +2638,6 @@ add_ideas = monopoly
 		}
 		x = 44
 		y = 11
-
 	}
 	focus = {
 		id = artem.7.2
@@ -2635,7 +2653,6 @@ add_ideas = monopoly
 				id = isi.1338arteminsane1
 			}
 		}
-
 	}
 	focus = {
 		id = artem.8.4
@@ -2649,7 +2666,6 @@ add_ideas = monopoly
 		}
 		x = 47
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.5
@@ -2663,7 +2679,6 @@ add_ideas = monopoly
 		}
 		x = 49
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.6
@@ -2675,7 +2690,6 @@ add_ideas = monopoly
 		}
 		x = 48
 		y = 13
-
 	}
 	focus = {
 		id = artem.8.6
@@ -2689,7 +2703,6 @@ add_ideas = monopoly
 		}
 		x = 52
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.7
@@ -2703,7 +2716,6 @@ add_ideas = monopoly
 		}
 		x = 54
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.7
@@ -2715,7 +2727,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 13
-
 	}
 	focus = {
 		id = artem.8.8
@@ -2729,7 +2740,6 @@ add_ideas = monopoly
 		}
 		x = 57
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.9
@@ -2743,7 +2753,6 @@ add_ideas = monopoly
 		}
 		x = 59
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.8
@@ -2755,7 +2764,6 @@ add_ideas = monopoly
 		}
 		x = 58
 		y = 13
-
 	}
 	focus = {
 		id = artem.10.5
@@ -2772,7 +2780,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 14
-
 	}
 	focus = {
 		id = artem.11.2
@@ -2786,7 +2793,6 @@ add_ideas = monopoly
 		}
 		x = 51
 		y = 16
-
 	}
 	focus = {
 		id = artem.11.3
@@ -2800,7 +2806,6 @@ add_ideas = monopoly
 		}
 		x = 55
 		y = 16
-
 	}
 	focus = {
 		id = artem.12.1
@@ -2811,7 +2816,9 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 18
-
+		completion_reward = {
+			add_country_leader_trait = silneyshiy_leader
+		}
 	}
 	focus = {
 		id = artem.12.2
@@ -2822,7 +2829,6 @@ add_ideas = monopoly
 		}
 		x = 51
 		y = 18
-
 	}
 	focus = {
 		id = artem.12.3
@@ -2833,7 +2839,6 @@ add_ideas = monopoly
 		}
 		x = 55
 		y = 18
-
 	}
 	focus = {
 		id = artem.8.10
@@ -2844,7 +2849,6 @@ add_ideas = monopoly
 		}
 		x = 36
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.11
@@ -2855,7 +2859,6 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.12
@@ -2866,7 +2869,6 @@ add_ideas = monopoly
 		}
 		x = 44
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.9
@@ -2877,7 +2879,6 @@ add_ideas = monopoly
 		}
 		x = 36
 		y = 13
-
 	}
 	focus = {
 		id = artem.9.10
@@ -2888,7 +2889,6 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 13
-
 	}
 	focus = {
 		id = artem.9.11
@@ -2899,7 +2899,6 @@ add_ideas = monopoly
 		}
 		x = 44
 		y = 13
-
 	}
 	focus = {
 		id = artem.10.6
@@ -2916,6 +2915,5 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 14
-
 	}
 }

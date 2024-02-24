@@ -1,149 +1,191 @@
 ideas = {
-
-
 	industrial_concern = {
-	
 		ISI_overcharged = {
-		
 			name = ISI_overcharged
 			picture = portrait_over
-
 			allowed = {
 				original_tag = ISI
 			}
 			available = {
 				has_completed_focus = proizvod.1.5
 			}
-			
 			cost = 150
 			removal_cost = 10
-			
 			research_bonus = {
 				industry = 0.15
 				synth_resources = 0.15
 				electronics = 0.5
 			}
-			
 		}
-		
 		ISI_overcharged_2 = {
-		
 			name = ISI_overcharged_2
 			picture = portrait_over
-
 			allowed = {
 				original_tag = ISI
 			}
 			available = {
 				has_completed_focus = proizvod.6.3
 			}
-			
 			cost = 300
 			removal_cost = 10
-			
 			research_bonus = {
-				industry = 0.30
-				synth_resources = 0.30
+				industry = 0.3
+				synth_resources = 0.3
 				electronics = 0.15
-				
 			}
-			
 		}
 	}
-	
 	country = {
-	
-	
-	
-	
-	
-	ISI_kindjal_add = {
-	
+		ISI_artems_time_bomb = {
 			removal_cost = -1
 			modifier = {
-			political_power_factor = 0.2
-			party_popularity_stability_factor = 0.15
-			compliance_growth_on_our_occupied_states = 0.15
-			
+				communism_drift = 0.03
 			}
-			
 		}
-	
-	
-	
-	
-	
-	
-	
-	
-	ISI_new_laba = {
-	
+		ISI_lost_army_control = {
 			removal_cost = -1
 			modifier = {
-		research_speed_factor = 0.075
+				communism_drift = 0.15
+				stability_factor = -0.2
 			}
-			
 		}
-		
+		ISI_idiomatic_army = {
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.2
+				weekly_manpower = 500
+				experience_gain_army = 0.05
+			}
+		}
+		ISI_polarization_of_cabinet = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.15
+				stability_factor = -0.2
+			}
+		}
+		ISI_loyal_cabinet = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.4
+				political_advisor_cost_factor = -0.3
+				political_power_gain = 0.5
+			}
+		}
+		ISI_artems_doomsday_clock = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.07
+				political_power_factor = 0.05
+			}
+		}
+		ISI_frightened_theorists = {
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		ISI_frightened_ministers = {
+			removal_cost = -1
+			modifier = {
+				political_advisor_cost_factor = 0.7
+				political_power_gain = -0.5
+			}
+		}
+		ISI_eat_brains = {
+			removal_cost = -1
+			modifier = {
+				political_advisor_cost_factor = -0.7
+				political_power_gain = 0.5
+				consumer_goods_factor = -0.3
+				production_speed_buildings_factor = 0.25
+			}
+		}
+		ISI_frightened_army_nastya = {
+			removal_cost = -1
+			modifier = {
+				army_org_factor = -0.3
+				army_org_regain = -0.3
+			}
+		}
+		ISI_frightened_army_vedma = {
+			removal_cost = -1
+			modifier = {
+				army_org_factor = -0.3
+				army_org_regain = -0.3
+			}
+		}
+		ISI_aleksandr_malishev_anime = {
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.3
+				army_org_regain = 0.3
+				experience_gain_army_unit_factor = 0.5
+				special_forces_cap = 0.5
+			}
+		}
+		ISI_armiya_proklyatih = {
+			removal_cost = -1
+			modifier = {
+				army_infantry_attack_factor = 0.5
+				army_infantry_defence_factor = 0.5
+				army_morale_factor = 0.5
+			}
+		}
+		ISI_piyanaya_army = {
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.3
+				army_org_regain = 0.3
+			}
+		}
+		ISI_kindjal_add = {
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.2
+				party_popularity_stability_factor = 0.15
+				compliance_growth_on_our_occupied_states = 0.15
+			}
+		}
+		ISI_new_laba = {
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.075
+			}
+		}
 		ISI_bratstvo = {
-	
 			removal_cost = -1
 			modifier = {
-			supply_node_range = 0.2
-			conscription = 0.05
-			max_command_power = 20
-			
+				supply_node_range = 0.2
+				conscription = 0.05
+				max_command_power = 20
 			}
-			
 		}
-	
-	
-	
-	nikita_want_vlast = {
-			
+		nikita_want_vlast = {
 			removal_cost = -1
-			
-			
 		}
-		
 		armia_protiv = {
-			
 			removal_cost = -1
-			
-			
 		}
-	
-	 big_ambitions = {
-			
+		big_ambitions = {
 			removal_cost = -1
 			modifier = {
-			conscription_factor = 0.10
-			war_support_factor = 0.20
-		   
+				conscription_factor = 0.1
+				war_support_factor = 0.2
 			}
-			
-			
 		}
-	
-	
-	
 		old_power = {
-			
 			allowed = {
 				original_tag = ISI
 			}
-			
 			removal_cost = -1
 			modifier = {
 				political_power_gain = -0.2
 			}
-			
 			rule = {
 				can_create_factions = no
 			}
-			
-			
-			
 		}
 		impending_mutiny = {
 			allowed = {
@@ -155,9 +197,9 @@ ideas = {
 				fascism_drift = 0.02
 				democratic_drift = 0.02
 				neutrality_drift = -0.02
-				
 			}
 		}
+
 		poor_population = {
 			allowed = {
 				original_tag = ISI
@@ -173,123 +215,118 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-			production_factory_max_efficiency_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
 			}
-			
 		}
-		
 		industrialization_2 = {
 			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			production_factory_max_efficiency_factor = 0.15
-			line_change_production_efficiency_factor = 0.10
-			production_lack_of_resource_penalty_factor = -0.05
+				production_factory_max_efficiency_factor = 0.15
+				line_change_production_efficiency_factor = 0.1
+				production_lack_of_resource_penalty_factor = -0.05
 			}
 		}
-		
 		industrialization_3 = {
 			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			production_factory_max_efficiency_factor = 0.20
-			line_change_production_efficiency_factor = 0.15
-			production_lack_of_resource_penalty_factor = -0.1
-			production_factory_efficiency_gain_factor = 0.10 
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.15
+				production_lack_of_resource_penalty_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.1
 			}
 		}
-		
 		industrialization_4 = {
 			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			production_factory_max_efficiency_factor = 0.25
-			line_change_production_efficiency_factor = 0.20
-			production_lack_of_resource_penalty_factor = -0.15
-			production_factory_efficiency_gain_factor = 0.15
-			stability_factor = 0.1
-			fuel_gain_factor_from_states = 0.2
+				production_factory_max_efficiency_factor = 0.25
+				line_change_production_efficiency_factor = 0.2
+				production_lack_of_resource_penalty_factor = -0.15
+				production_factory_efficiency_gain_factor = 0.15
+				stability_factor = 0.1
+				fuel_gain_factor_from_states = 0.2
 			}
 		}
-		
 		monopoly = {
 			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			stability_factor = -0.2
-		base_fuel_gain_factor =  0.3
+				stability_factor = -0.2
+				base_fuel_gain_factor = 0.3
 			}
 		}
-		
 		friend = {
 			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			production_speed_buildings_factor = 0.1
-		consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.1
 			}
 		}
-		
-		
 		#Военные идеи, абсолютно не проработанные#
 		nachdux = {
 			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.1
 			}
 		}
-		nachduxcarabl {
-		allowed = {
+		nachduxcarabl
+		{
+			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 		}
-		nachduxsam {
-		allowed = {
+		nachduxsam
+		{
+			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 		}
-		nachduarm{
-		allowed = {
+		nachduarm
+		{
+			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 		}
-		nachshipcost{
-		allowed = {
+		nachshipcost
+		{
+			allowed = {
 			}
 			removal_cost = -1
 			modifier = {
-			production_cost_max_convoy = 0.15
-			production_cost_max_ship_hull_carrier = 0.15
-			production_cost_max_ship_hull_cruiser = 0.15
-			production_cost_max_ship_hull_heavy = 0.15
-			production_cost_max_ship_hull_light = 0.15
-			production_cost_max_ship_hull_submarine = 0.15
+				production_cost_max_convoy = 0.15
+				production_cost_max_ship_hull_carrier = 0.15
+				production_cost_max_ship_hull_cruiser = 0.15
+				production_cost_max_ship_hull_heavy = 0.15
+				production_cost_max_ship_hull_light = 0.15
+				production_cost_max_ship_hull_submarine = 0.15
 			}
 		}
-		
-		clenvshatbedubaet{
-		allowed = {
+		clenvshatbedubaet
+		{
+			allowed = {
 			}
 			removal_cost = -1
-			modifier = {}
+			modifier = {
+			}
 		}
-		
 	}
-
 }

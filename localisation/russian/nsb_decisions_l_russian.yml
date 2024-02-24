@@ -14,3 +14,4 @@
   ISI_color_green: "§G"
   ISI_paranoia_weekly_modifier_tt: "(Еженедельный прирост: [GetParanoiaModifierValueColor][?ROOT.ISI_paranoia_weekly_modifier_ui]%§!)"
   ISI_anime_men: "Возникает ненависть к мужчинам, еженедельная параноя §R+4§!"
+  ISI_paranoia_calm_down_stalin_cd_tt: "Артём успокаивается... Пока..."

@@ -1,0 +1,119 @@
+ISI_alexandr_war = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = choise.0.1
+	}
+	priority = 10
+}
+
+ISI_paranoia_system = {
+
+	priority = 101
+
+	icon = SOV_paranoia
+
+	scripted_gui = isi_paranoia_system_ui
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		OR = {
+			has_country_flag = ISI_paranoia_system_active_flag
+			has_country_flag = ISI_debug_show_paranoia_system_flag #Debug
+		}
+	}
+
+	visible_when_empty = yes
+}
+
+ISI_civilwar_posledstvia = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_country_flag = ISI_civilwar_posledstvia
+	}
+	priority = 10
+}
+
+ISI_raskopki = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = rebuld.0.1
+	}
+	priority = 9
+}
+
+ISI_posledstvia = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = rebuld.0.2.2
+	}
+	priority = 9
+}
+
+ISI_nationalization = {
+icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = rebuld.0.2.2
+	}
+	priority = 9
+}
+
+ISI_nationalization_annexion = {
+icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_completed_focus = whatnext.3.1
+		has_completed_focus = whatnext.3.2
+		has_completed_focus = whatnext.3.3
+	}
+	priority = 9
+}
+
+
+ISI_war_never_change = {
+icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		 has_war = yes
+	}
+	priority = 9
+}
