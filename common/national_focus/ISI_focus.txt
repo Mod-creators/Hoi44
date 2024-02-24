@@ -365,6 +365,10 @@ focus_tree = {
 		}
 		x = 76
 		y = 11
+		completion_reward = {
+		country_event = {id = isi.81ludahistory}
+		add_ideas = ISI_mesto_vlasti
+		}
 
 	}
 	focus = {
@@ -420,6 +424,15 @@ focus_tree = {
 		}
 		x = 81
 		y = 12
+		completion_reward = {
+		ISI_veronica_vedma = {
+					advisor = {
+		traits = {night_vedma_2}
+
+		}
+			}
+		
+		}
 
 	}
 	focus = {

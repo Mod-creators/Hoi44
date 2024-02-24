@@ -54,7 +54,19 @@ ideas = {
 	country = {
 	
 	
+	ISI_mesto_vlasti = {
 	
+			removal_cost = -1
+			modifier = {
+			democratic_drift = 0.05
+			generate_wargoal_tension = -0.90
+			justify_war_goal_time = -0.40
+			offensive_war_stability_factor = -0.50
+			defensive_war_stability_factor = -0.50
+			
+			}
+			
+		} 
 	
 	
 	ISI_kindjal_add = {
@@ -68,12 +80,6 @@ ideas = {
 			}
 			
 		}
-	
-	
-	
-	
-	
-	
 	
 	
 	ISI_new_laba = {

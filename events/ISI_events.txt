@@ -1699,6 +1699,157 @@ country_event = {
 	
 }
 
-
-
+country_event = {
+	id = isi.81ludahistory
+	title = isi.81ludahistory.t
+	desc = isi.81ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
 	
+
+
+	option = { 
+		name = isi.81ludahistory.a
+				country_event = { id = isi.82ludahistory }
+		
+	}
+}
+
+country_event = {
+	id = isi.82ludahistory
+	title = isi.82ludahistory.t
+	desc = isi.82ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.82ludahistory.a
+		
+	}
+}
+
+country_event = {
+	id = isi.83ludahistory
+	title = isi.83ludahistory.t
+	desc = isi.83ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.83ludahistory.a
+				country_event = { id = isi.84ludahistory }
+		
+	}
+}
+
+country_event = {
+	id = isi.84ludahistory
+	title = isi.84ludahistory.t
+	desc = isi.84ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.84ludahistory.a
+		
+	}
+}
+
+country_event = {
+	id = isi.85ludahistory
+	title = isi.85ludahistory.t
+	desc = isi.85ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.85ludahistory.a
+				country_event = { id = isi.86ludahistory }
+		
+	}
+}
+
+country_event = {
+	id = isi.86ludahistory
+	title = isi.86ludahistory.t
+	desc = isi.86ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.86ludahistory.a
+		
+	}
+}
+
+country_event = {
+	id = isi.87ludahistory
+	title = isi.87ludahistory.t
+	desc = isi.87ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.87ludahistory.a
+	        country_event = { id = isi.88ludahistory }
+		
+	}
+}
+	
+country_event = {
+	id = isi.88ludahistory
+	title = isi.88ludahistory.t
+	desc = isi.88ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.88ludahistory.a
+		
+	}
+}
+
+country_event = {
+	id = isi.89ludahistory
+	title = isi.89ludahistory.t
+	desc = isi.89ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.89ludahistory.a
+		country_event = { id = isi.90ludahistory }
+		
+	}
+}
+
+country_event = {
+	id = isi.90ludahistory
+	title = isi.90ludahistory.t
+	desc = isi.90ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	
+
+
+	option = { 
+		name = isi.90ludahistory.a
+		
+	}
+}

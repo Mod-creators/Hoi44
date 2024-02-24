@@ -297,6 +297,17 @@ leader_traits = {
         }
 	}
 	
+	night_vedma_2 = {
+		random = no
+		air_night_penalty = -0.5
+		air_mission_efficiency = 0.1
+		коэффициент air_ace_bonuses_factor = 0.17
+		ace_effectiveness_factor = 0.15
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
 	vampire = {
 		random = no
 		
