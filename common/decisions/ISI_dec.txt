@@ -23,7 +23,7 @@ ISI_danil{
  available = { has_country_flag = ISI_razvedka_flag}
  remove_effect = {
  hidden_effect = {
-				set_country_flag = ISI_dead_den
+				
 			}
  country_event = { id = isi.5danil }
  }

@@ -116,6 +116,13 @@ country_event = {
 	option = { 
 		name = isi.5danil.a
 		custom_effect_tooltip = ISI_den_dead
+		set_country_flag = ISI_dead_den
+
+
+	}
+	option = { 
+		name = isi.5danil.b
+		custom_effect_tooltip = ISI_den_dead_2
 
 
 	}
