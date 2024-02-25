@@ -2260,26 +2260,8 @@ add_ideas = monopoly
 			country_event = {
 				id = isi.1488artemchoise
 			}
-			promote_character = {
-				character = ISI_artem_anime
-				ideology = stalinism
-			}
 			hidden_effect = {
-				retire_ideology_leader = communism
-				remove_country_leader_role = {
-					character = ISI_artem_naygolnow
-				}
-				add_country_leader_role = {
-					character = ISI_artem_anime
-					promote_leader = yes
-					country_leader = {
-						ideology = communism
-						expire = "1965.1.1.1"
-						traits = {
-							sadistic_anime
-						}
-					}
-				}
+				kill_ideology_leader = communism
 			}
 		}
 	}

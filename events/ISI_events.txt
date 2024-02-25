@@ -60,6 +60,21 @@ country_event = {
 			ISI_artem_anime_tt
 		}
 		set_country_flag = ISI_artem_anime_flag
+		ISI_artem_anime = {
+			add_country_leader_role = {
+				character = ISI_artem_anime
+				promote_leader = yes
+				country_leader = {
+					idea_token = ISI_artem_anime
+					ideology = leninism
+					expire = "1965.1.1"
+					traits = {
+						sadistic_anime
+					}
+					id = -1
+				}
+			}
+		}
 	}
 	option = {
 		name = isi.1488artemchoise.b
@@ -302,7 +317,6 @@ country_event = {
 	option = {
 		name = isi.1501artemanime.a
 		custom_effect_tooltip = ISI_remove_paranoia_anime
-		add_ideas = 
 	}
 }
 

@@ -44,25 +44,6 @@ characters = {
 				large = GFX_artem_anime
 			}
 		}
-		country_leader = {
-			ideology = communism
-			idea_token = ISI_artem_anime
-			traits = {
-				sadistic_anime
-			}
-			expire = "1965.1.1.1"
-			id = -1
-			available = {
-				NOT = {
-					has_country_flag = ISI_artem_anime_flag
-				}
-			}
-			visible = {
-				NOT = {
-					has_country_flag = ISI_artem_anime_flag
-				}
-			}
-		}
 	}
 	ISI_luda_korostina = {
 		name = "ISI_luda_korostina"
@@ -308,19 +289,20 @@ characters = {
 			visible = {
 				NOT = {
 					has_country_flag = ISI_army_women
+					has_country_flag = ISI_not_visible_nika
 				}
 			}
 		}
-		corps_commander = {
-			traits = {
-				urban_assault_specialist
-				career_officer
-			}
-			skill = 4
-			attack_skill = 4;
-			defense_skill = 4;
-			planning_skill = 4;
-			logistics_skill = 4;
+			
+			corps_commander = {
+				traits = {urban_assault_specialist career_officer}
+				skill = 4
+				attack_skill=4;
+				defense_skill=4;
+				planning_skill=4;
+				logistics_skill=4;
+				}
+			
 		}
 	}
 
@@ -356,24 +338,6 @@ characters = {
 			planning_skill = 4;
 			logistics_skill = 4;
 		}
-
-	advisor = {
-	idea_token = ISI_veronica_vedma
-	slot = high_command
-	traits = {night_vedma}
-	cost = 100
-	visible = {NOT = {has_country_flag = ISI_not_visible_nika}}
-	}
-	
-	corps_commander = {
-		traits = {urban_assault_specialist career_officer}
-		skill = 4
-		attack_skill=4;
-		defense_skill=4;
-		planning_skill=4;
-		logistics_skill=4;
-		}
-	
 	
 	
 	}
