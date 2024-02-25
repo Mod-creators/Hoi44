@@ -672,6 +672,16 @@ characters = {
 		traits = {smoke_koko}
 		idea_token = ISI_artem_koko
 		}
+		
+	corps_commander = {
+	
+		traits = {media_personality}
+		skill = 3
+		attack_skill=3;
+		defense_skill=4;
+		planning_skill=2;
+		logistics_skill=5;
+		}
 	}
 	
 	ISI_tox_gandon = {
@@ -701,6 +711,15 @@ characters = {
 		slot=political_advisor
 		traits = {mordoboy}
 		idea_token = ISI_aleksey_morda
+		}
+		
+		corps_commander = {
+		traits = {}
+		skill = 4
+		attack_skill=2;
+		defense_skill=1;
+		planning_skill=2;
+		logistics_skill=3;
 		}
 	}
 	
@@ -762,6 +781,15 @@ characters = {
 		slot=theorist
 		traits = {amoral}
 		idea_token = ISI_andrei_amoral
+		}
+		
+		corps_commander = {
+		traits = {armor_officer commando trait_mountaineer}
+		skill = 6
+		attack_skill=3;
+		defense_skill=4;
+		planning_skill=5;
+		logistics_skill=4;
 		}
 	}
 	
