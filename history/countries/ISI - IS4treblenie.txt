@@ -14,6 +14,16 @@ set_technology = {
 	tech_mountaineers = 1
 	tech_trucks = 1
 	basic_train = 1
+	aa_lmg = 1
+    aa_cannon_1 = 1
+	engines_1 = 1
+	engines_2 = 1
+	early_bombs = 1
+	aircraft_construction = 1
+	iw_small_airframe = 1
+	basic_small_airframe = 1
+	iw_medium_airframe = 1
+	basic_medium_airframe = 1
 }
 add_ideas = {
 	old_power
