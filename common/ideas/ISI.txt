@@ -42,6 +42,33 @@ ideas = {
 				communism_drift = 0.03
 			}
 		}
+	
+	ISI_mesto_vlasti = {
+	
+			removal_cost = -1
+			modifier = {
+			democratic_drift = 0.05
+			generate_wargoal_tension = -0.90
+			justify_war_goal_time = -0.40
+			offensive_war_stability_factor = 0.50
+			defensive_war_stability_factor = 0.50
+			
+			}
+			
+		} 
+	
+	
+	ISI_kindjal_add = {
+	
+			removal_cost = -1
+			modifier = {
+			political_power_factor = 0.2
+			party_popularity_stability_factor = 0.15
+			compliance_growth_on_our_occupied_states = 0.15
+			
+			}
+			
+		}
 		ISI_lost_army_control = {
 			removal_cost = -1
 			modifier = {
