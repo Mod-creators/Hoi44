@@ -9196,7 +9196,14 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/over.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_romino_pravitelstvo"
+		textureFile = "gfx/leaders/ISI/romino_pravit.dds"
+	}
 	
-	
+	spriteType = {
+		name = "GFX_artem_anime"
+		textureFile = "gfx/leaders/ISI/artem_placeholder.dds"
+	}
 	
 }

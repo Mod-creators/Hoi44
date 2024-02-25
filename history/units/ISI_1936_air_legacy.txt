@@ -21,12 +21,5 @@ air_wings = {
 			owner = "ISI" 
 			amount = 1
 		}
-		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
-			modifier="fighter_genius"
-			name="Данил"
-			surname="Прохоров"
-			callsign="Анархист"
-			portrait=2 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
-		}
 	}
 }

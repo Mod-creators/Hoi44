@@ -1,5 +1,363 @@
-
 add_namespace = isi
+country_event = {
+	id = isi.1495artemanime
+	title = isi.1495artemanime.t
+	desc = isi.1495artemanime.desc
+	immediate = {
+		hidden_effect = {
+			ISI_initiate_paranoia_effect = yes
+			ROOT = {
+				add_to_variable = {
+					ISI_paranoia_weekly_modifiers_amount = 4
+				}
+			}
+			ROOT = {
+				ISI_paranoia_modifier_update_gui_tooltip = yes
+			}
+		}
+	}
+	is_triggered_only = yes
+	option = {
+		name = isi.1495artemanime.a
+		add_political_power = 100
+		custom_effect_tooltip = ISI_paranoia_system_intro_tt
+		unlock_decision_category_tooltip = ISI_paranoia_system
+		effect_tooltip = {
+			add_country_leader_trait = stalin_political_paranoia
+		}
+		custom_effect_tooltip = ISI_anime_men
+	}
+}
+
+country_event = {
+	id = isi.1496artemanime
+	title = isi.1496artemanime.t
+	desc = isi.1496artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1496artemanime.a
+	}
+}
+
+country_event = {
+	id = isi.1497artemanime
+	title = isi.1497artemanime.t
+	desc = isi.1497artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1497artemanime.a
+	}
+}
+
+country_event = {
+	id = isi.1488artemchoise
+	title = isi.1488artemchoise.t
+	desc = isi.1488artemchoise.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1488artemchoise.a
+		custom_effect_tooltip = {
+			ISI_artem_anime_tt
+		}
+		set_country_flag = ISI_artem_anime_flag
+	}
+	option = {
+		name = isi.1488artemchoise.b
+		custom_effect_tooltip = {
+			ISI_artem_insane_tt
+		}
+		set_country_flag = ISI_artem_insane_flag
+	}
+}
+
+country_event = {
+	id = isi.1489artemanime
+	title = isi.1489artemanime.t
+	desc = isi.1489artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1489artemanime.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.25
+		}
+	}
+}
+
+country_event = {
+	id = isi.1490artemanime
+	title = isi.1490artemanime.t
+	desc = isi.1490artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1490artemanime.a
+		add_political_power = 100
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+	}
+}
+
+country_event = {
+	id = isi.1491artemanime
+	title = isi.1491artemanime.t
+	desc = isi.1491artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1491artemanime.a
+		add_political_power = 100
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = isi.1492artemanime
+	title = isi.1492artemanime.t
+	desc = isi.1492artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1492artemanime.a
+		add_political_power = 100
+		set_country_flag = ISI_roma_dead
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = ISI_romino_pravitelstvo
+			promote_leader = yes
+			country_leader = {
+				ideology = despotism
+				expire = "1965.1.1.1"
+				traits = {
+					vremennoe_pravitelstvo
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = isi.1494artemanime
+	title = isi.1494artemanime.t
+	desc = isi.1494artemanime.desc
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_country_leader_role = {
+				character = ISI_artem_anime
+				promote_leader = yes
+				country_leader = {
+					ideology = communism
+					idea_token = ISI_artem_anime
+					expire = "1965.1.1.1"
+					traits = {
+						sadistic_anime
+					}
+				}
+			}
+			promote_character = {
+				ideology = communism
+				character = ISI_artem_anime
+			}
+		}
+	}
+	option = {
+		name = isi.1494artemanime.a
+		add_political_power = 100
+		set_politics = {
+			ruling_party = communism
+			election_frequency = no
+			long_name = ISI_communism_party_long
+			name = ISI_communism_party
+		}
+		swap_ideas = {
+			remove_idea = ISI_lost_army_control
+			add_idea = ISI_idiomatic_army
+		}
+		swap_ideas = {
+			remove_idea = ISI_polarization_of_cabinet
+			add_idea = ISI_loyal_cabinet
+		}
+		remove_ideas = ISI_artems_doomsday_clock
+		remove_ideas = impending_mutiny
+		
+	}
+}
+
+country_event = {
+	id = isi.1493artemanime
+	title = isi.1493artemanime.t
+	desc = isi.1493artemanime.desc
+	is_triggered_only = yes
+	option = {
+		name = isi.1493artemanime.a
+		swap_ideas = {
+			remove_idea = ISI_artems_time_bomb
+			add_idea = ISI_artems_doomsday_clock
+		}
+	}
+}
+
+country_event = {
+	id = isi.1498artemanime
+	title = isi.1498artemanime.t
+	desc = isi.1498artemanime.desc
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			ROOT = {
+				subtract_from_variable = {
+					ISI_paranoia_weekly_modifiers_amount = 1
+				}
+			}
+			ROOT = {
+				ISI_paranoia_modifier_update_gui_tooltip = yes
+			}
+		}
+	}
+	option = {
+		name = isi.1498artemanime.a
+		ISI_paranoia_medium_decrease_effect = yes
+		custom_effect_tooltip = ISI_paranoia_calm_down_stalin_cd_tt
+		set_country_flag = ISI_skormili_klei
+		activate_advisor = ISI_daria_kanibal
+		activate_advisor = ISI_daria_theoretic
+	}
+}
+
+country_event = {
+	id = isi.1499artemanime
+	title = isi.1499artemanime.t
+	desc = isi.1499artemanime.desc
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			ROOT = {
+				subtract_from_variable = {
+					ISI_paranoia_weekly_modifiers_amount = 1
+				}
+			}
+			ROOT = {
+				ISI_paranoia_modifier_update_gui_tooltip = yes
+			}
+		}
+	}
+
+	option = {
+		name = isi.1499artemanime.a
+		ISI_paranoia_medium_decrease_effect = yes
+		custom_effect_tooltip = ISI_paranoia_calm_down_stalin_cd_tt
+		set_country_flag = ISI_nastya_women
+		activate_advisor = ISI_nasta_admiral
+	}
+}
+
+country_event = {
+	id = isi.1500artemanime
+	title = isi.1500artemanime.t
+	desc = isi.1500artemanime.desc
+	is_triggered_only = yes
+
+
+	immediate = {
+		hidden_effect = {
+			ROOT = {
+				subtract_from_variable = {
+					ISI_paranoia_weekly_modifiers_amount = 1
+				}
+			}
+			ROOT = {
+				ISI_paranoia_modifier_update_gui_tooltip = yes
+			}
+		}
+	}
+
+	option = {
+		name = isi.1500artemanime.a
+		ISI_paranoia_medium_decrease_effect = yes
+		custom_effect_tooltip = ISI_paranoia_calm_down_stalin_cd_tt
+		set_country_flag = ISI_army_women
+		activate_advisor = ISI_veronica_archiwitch
+	}
+}
+
+country_event = {
+	id = isi.1501artemanime
+	title = isi.1501artemanime.t
+	desc = isi.1501artemanime.desc
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			ISI_remove_paranoia_effect = yes
+			ISI_initiate_paranoia_effect = no
+			ROOT = {
+				ISI_paranoia_weekly_modifiers_amount = 0
+			}
+		}
+	}
+	option = {
+		name = isi.1501artemanime.a
+		custom_effect_tooltip = ISI_remove_paranoia_anime
+		add_ideas = 
+	}
+}
+
+country_event = {
+	id = isi.1338arteminsane1
+	title = isi.1338arteminsane1.t
+	desc = isi.1338arteminsane1.desc
+	immediate = {
+		hidden_effect = {
+			ISI_initiate_paranoia_effect = yes
+			ROOT = {
+				add_to_variable = {
+					ISI_paranoia_weekly_modifiers_amount = 4
+				}
+			}
+			ROOT = {
+				ISI_paranoia_modifier_update_gui_tooltip = yes
+			}
+		}
+	}
+	is_triggered_only = yes
+	option = {
+		name = isi.1338arteminsane1.add
+		add_political_power = 100
+		custom_effect_tooltip = ISI_paranoia_system_intro_tt
+		unlock_decision_category_tooltip = ISI_paranoia_system
+		effect_tooltip = {
+			add_country_leader_trait = stalin_political_paranoia
+		}
+	}
+}
+
+country_event = {
+	id = isi.1344arteminsane84
+	title = isi.1344arteminsane84.t
+	desc = isi.1344arteminsane84.desc
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			ROOT = {
+				subtract_from_variable = {
+					ISI_paranoia_weekly_modifiers_amount = 1
+				}
+			}
+			ROOT = {
+				ISI_paranoia_modifier_update_gui_tooltip = yes
+			}
+		}
+	}
+	option = {
+		name = isi.1344arteminsane84.a
+		ISI_paranoia_medium_decrease_effect = yes
+		custom_effect_tooltip = ISI_paranoia_calm_down_stalin_cd_tt
+	}
+}
 
 country_event = {
 	id = isi.1
@@ -7,18 +365,15 @@ country_event = {
 	desc = isi.1.desc
 	picture = GFX_portrait_first
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.1.a
-				add_stability = -0.1
-		        add_war_support = 0.1
+		add_stability = -0.1
+		add_war_support = 0.1
 	}
-
-	option = { 
+	option = {
 		name = isi.1.b
-				add_stability = 0.1
-		        add_war_support = -0.1
-		
+		add_stability = 0.1
+		add_war_support = -0.1
 	}
 }
 
@@ -26,16 +381,12 @@ country_event = {
 	id = isi.2
 	title = isi.2.t
 	desc = isi.2.desc
-	picture = GFX_portrait_ISI_2	
+	picture = GFX_portrait_ISI_2
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.2.a
 		add_political_power = 58
-
-
 	}
-
 }
 
 country_event = {
@@ -44,34 +395,26 @@ country_event = {
 	desc = isi.3.desc
 	picture = GFX_portrait_ISI_3
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.3.a
-    add_popularity = { 
-				ideology = fascism
-				popularity = 0.15
-			}
-
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.15
+		}
 	}
-
-	option = { 
+	option = {
 		name = isi.3.b
-		add_popularity = { 
-				ideology = communism
-				popularity = 0.15
-			}
-		
-		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
 	}
-	
-	option = { 
+	option = {
 		name = isi.3.c
-		add_popularity = { 
-				ideology = democratic
-				popularity = 0.15
-			}
-		
-		
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.15
+		}
 	}
 }
 
@@ -79,15 +422,11 @@ country_event = {
 	id = isi.alexandr
 	title = isi.alexandr.t
 	desc = isi.alexandr.desc
-	picture = GFX_portrait_ISI_ALEXUNDER			
+	picture = GFX_portrait_ISI_ALEXUNDER
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.alexandr.a
-
-
 	}
-
 }
 
 country_event = {
@@ -96,14 +435,9 @@ country_event = {
 	desc = isi.4razved.desc
 	picture = GFX_portrait_ISI_4
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.4razved.a
-		
-
-
 	}
-
 }
 
 country_event = {
@@ -112,21 +446,10 @@ country_event = {
 	desc = isi.5danil.desc
 	picture = GFX_portrait_ISI_5
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.5danil.a
 		custom_effect_tooltip = ISI_den_dead
-		set_country_flag = ISI_dead_den
-
-
 	}
-	option = { 
-		name = isi.5danil.b
-		custom_effect_tooltip = ISI_den_dead_2
-
-
-	}
-
 }
 
 country_event = {
@@ -135,16 +458,11 @@ country_event = {
 	desc = isi.6dima.desc
 	picture = GFX_portrait_ISI_6
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.6dima.a
 		custom_effect_tooltip = ISI_dima_dead
-
-
 	}
-
 }
-
 
 country_event = {
 	id = isi.7vlad
@@ -152,74 +470,59 @@ country_event = {
 	desc = isi.7vlad.desc
 	picture = GFX_portrait_ISI_7
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.7vlad.a
-custom_effect_tooltip = ISI_vlad_dead
-
+		custom_effect_tooltip = ISI_vlad_dead
 	}
-	
-
 }
+
 country_event = {
-	id = isi.8proizvod #11proizvod#
+	id = isi.8proizvod	#11proizvod#
 	title = isi.8proizvod.t
 	desc = isi.8proizvod.desc
-	
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.8proizvod.a
-
 	}
 }
+
 country_event = {
-	id = isi.9proizvod #21proivod#
+	id = isi.9proizvod	#21proivod#
 	title = isi.9proizvod.t
 	desc = isi.9proizvod.desc
-	
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.9proizvod.a
-
 	}
 }
+
 country_event = {
-	id = isi.10proizvod #41proivod#
+	id = isi.10proizvod	#41proivod#
 	title = isi.10proizvod.t
 	desc = isi.10proizvod.desc
-
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.10proizvod.a
-
 	}
 }
+
 country_event = {
-	id = isi.11proizvod #63proivod#
+	id = isi.11proizvod	#63proivod#
 	title = isi.11proizvod.t
 	desc = isi.11proizvod.desc
-
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.11proizvod.a
-
 	}
 }
 
 country_event = {
-	id = isi.12proizvod #71proivod#
+	id = isi.12proizvod	#71proivod#
 	title = isi.12proizvod.t
 	desc = isi.12proizvod.desc
-
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.12proizvod.a
-
 	}
 }
 
@@ -229,15 +532,13 @@ country_event = {
 	desc = isi.13artemfriend.desc
 	picture = GFX_portrait_ISI_13
 	is_triggered_only = yes
-
-	option = { 
-	add_political_power = 100
+	option = {
+		add_political_power = 100
 		name = isi.13artemfriend.a
 		custom_effect_tooltip = ISI_artem_help
 		hidden_effect = {
-				set_country_flag = ISI_artem_help
-			}
-
+			set_country_flag = ISI_artem_help
+		}
 	}
 }
 
@@ -247,15 +548,13 @@ country_event = {
 	desc = isi.14ludahelp.desc
 	picture = GFX_portrait_ISI_14
 	is_triggered_only = yes
-
-	option = { 
-	add_political_power = 100
+	option = {
+		add_political_power = 100
 		name = isi.14ludahelp.a
 		custom_effect_tooltip = ISI_ludahelp
 		hidden_effect = {
-				set_country_flag = ISI_ludahelp
-			}
-
+			set_country_flag = ISI_ludahelp
+		}
 	}
 }
 
@@ -263,25 +562,25 @@ country_event = {
 	id = isi.15kill_greck
 	title = isi.15kill_greck.t
 	desc = isi.15kill_greck.desc
-	picture = GFX_portrait_ISI_15	
+	picture = GFX_portrait_ISI_15
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.15kill_greck.a
-				country_event = { id = isi.115kill_greck }
-				hidden_effect = {
-				set_country_flag = ISI_attack_day
-			}
-
+		country_event = {
+			id = isi.115kill_greck
+		}
+		hidden_effect = {
+			set_country_flag = ISI_attack_day
+		}
 	}
-	
-	option = { 
+	option = {
 		name = isi.15kill_greck.b
-				country_event = { id = isi.115kill_greck }
-				hidden_effect = {
-				set_country_flag = ISI_attack_night
-			}
-				
+		country_event = {
+			id = isi.115kill_greck
+		}
+		hidden_effect = {
+			set_country_flag = ISI_attack_night
+		}
 	}
 }
 
@@ -291,100 +590,130 @@ country_event = {
 	desc = isi.115kill_greck.desc
 	picture = GFX_portrait_ISI_115
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.115kill_greck.a
-		country_event = { id = isi.116kill_greck }
+		country_event = {
+			id = isi.116kill_greck
+		}
 		hidden_effect = {
-				set_country_flag = ISI_attack_ring
-			}
-
+			set_country_flag = ISI_attack_ring
+		}
 	}
-	
-	option = { 
+	option = {
 		name = isi.115kill_greck.b
-		country_event = { id = isi.116kill_greck }
+		country_event = {
+			id = isi.116kill_greck
+		}
 		hidden_effect = {
-				set_country_flag = ISI_attack_mass
-			}
+			set_country_flag = ISI_attack_mass
+		}
 	}
 }
- ##Ветвитель атаки##
+
+##Ветвитель атаки##
 country_event = {
 	id = isi.116kill_greck
 	title = isi.116kill_greck.t
 	desc = isi.116kill_greck.desc
 	picture = GFX_portrait_ISI_116
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.116kill_greck.a
 		if = {
-		limit = {
-		ISI = { has_country_flag = ISI_attack_day }
-		ISI = { has_country_flag = ISI_attack_ring }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_attack_day
+				}
+				ISI = {
+					has_country_flag = ISI_attack_ring
+				}
+			}
+			country_event = {
+				id = isi.1171kill_greck
+			}
 		}
-		country_event = { id = isi.1171kill_greck }
-		}
-		
 		if = {
-		limit = {
-		ISI = { has_country_flag = ISI_attack_day }
-		ISI = { has_country_flag = ISI_attack_mass }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_attack_day
+				}
+				ISI = {
+					has_country_flag = ISI_attack_mass
+				}
+			}
+			country_event = {
+				id = isi.1172kill_greck
+			}
 		}
-		country_event = { id = isi.1172kill_greck }
-		}
-		
 		if = {
-		limit = {
-		ISI = { has_country_flag = ISI_attack_night }
-		ISI = { has_country_flag = ISI_attack_ring }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_attack_night
+				}
+				ISI = {
+					has_country_flag = ISI_attack_ring
+				}
+			}
+			country_event = {
+				id = isi.1173kill_greck
+			}
 		}
-		country_event = { id = isi.1173kill_greck }
-		}
-		
 		if = {
-		limit = {
-		ISI = { has_country_flag = ISI_attack_night }
-		ISI = { has_country_flag = ISI_attack_mass }
-		ISI = { NOT = {has_country_flag = ISI_ludahelp}}
+			limit = {
+				ISI = {
+					has_country_flag = ISI_attack_night
+				}
+				ISI = {
+					has_country_flag = ISI_attack_mass
+				}
+				ISI = {
+					NOT = {
+						has_country_flag = ISI_ludahelp
+					}
+				}
+			}
+			country_event = {
+				id = isi.1173kill_greck
+			}
 		}
-		country_event = { id = isi.1173kill_greck }
-		}
-		
 		if = {
-		limit = {
-		ISI = { has_country_flag = ISI_attack_night }
-		ISI = { has_country_flag = ISI_attack_mass }
-		ISI = { has_country_flag = ISI_ludahelp}
+			limit = {
+				ISI = {
+					has_country_flag = ISI_attack_night
+				}
+				ISI = {
+					has_country_flag = ISI_attack_mass
+				}
+				ISI = {
+					has_country_flag = ISI_ludahelp
+				}
+			}
+			country_event = {
+				id = isi.1174kill_greck
+			}
 		}
-		country_event = { id = isi.1174kill_greck }
-		}
-
 	}
-	
 }
 
 ##День-круг##
-
 country_event = {
 	id = isi.1171kill_greck
 	title = isi.1171kill_greck.t
 	desc = isi.1171kill_greck.desc
 	picture = GFX_portrait_ISI_1171
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.1171kill_greck.a
-		country_event = { id = isi.117kill_greck }
-
+		country_event = {
+			id = isi.117kill_greck
+		}
 	}
-	option = { 
+	option = {
 		name = isi.1171kill_greck.b
-		country_event = { id = isi.118kill_greck }
-
+		country_event = {
+			id = isi.118kill_greck
+		}
 	}
-	
 }
 
 country_event = {
@@ -393,18 +722,14 @@ country_event = {
 	desc = isi.117kill_greck.desc
 	picture = GFX_portrait_ISI_117
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.117kill_greck.a
 		custom_effect_tooltip = ISI_day_krug_lose
 		hidden_effect = {
-				set_country_flag = ISI_day_krug_lose
-				set_country_flag = ISI_dead_huida
-				
-			}
-
+			set_country_flag = ISI_day_krug_lose
+			set_country_flag = ISI_dead_huida
+		}
 	}
-	
 }
 
 country_event = {
@@ -413,150 +738,114 @@ country_event = {
 	desc = isi.118kill_greck.desc
 	picture = GFX_portrait_ISI_118
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.118kill_greck.a
 		custom_effect_tooltip = ISI_day_krug_lose_little
 		hidden_effect = {
-				set_country_flag = ISI_day_krug_lose_little
-				
-			}
-
+			set_country_flag = ISI_day_krug_lose_little
+		}
 	}
-	
 }
 
 #День-Кулак#
-
 country_event = {
 	id = isi.1172kill_greck
 	title = isi.1172kill_greck.t
 	desc = isi.1172kill_greck.desc
 	picture = GFX_portrait_ISI_1172
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.1172kill_greck.a
 		custom_effect_tooltip = ISI_day_fist_win
 		hidden_effect = {
-				set_country_flag = ISI_day_fist_win
-				set_country_flag = ISI_dead_irina
-				set_country_flag = ISI_dead_student
-				set_country_flag = ISI_dead_grec
-				
-			}
-
-
+			set_country_flag = ISI_day_fist_win
+			set_country_flag = ISI_dead_irina
+			set_country_flag = ISI_dead_student
+			set_country_flag = ISI_dead_grec
+		}
 	}
-	
 }
 
 #Ночь круг#
-
-
 country_event = {
 	id = isi.1173kill_greck
 	title = isi.1173kill_greck.t
 	desc = isi.1173kill_greck.desc
 	picture = GFX_portrait_ISI_1173
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.1173kill_greck.a
 		custom_effect_tooltip = ISI_best_win
 		hidden_effect = {
-				set_country_flag = ISI_best_win
-				set_country_flag = ISI_dead_grec
-				
-			}
-
-
+			set_country_flag = ISI_best_win
+			set_country_flag = ISI_dead_grec
+		}
 	}
-	
 }
 
 ### ночь кулак###
-
 country_event = {
 	id = isi.1174kill_greck
 	title = isi.1174kill_greck.t
 	desc = isi.1174kill_greck.desc
 	picture = GFX_portrait_ISI_1174
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.1174kill_greck.a
 		custom_effect_tooltip = ISI_ludmila_night_attack
 		hidden_effect = {
-				set_country_flag = ISI_ludmila_night_attack
-				set_country_flag = ISI_dead_grec
-			}
-
-
+			set_country_flag = ISI_ludmila_night_attack
+			set_country_flag = ISI_dead_grec
+		}
 	}
-	
 }
 
 #Мирный Вариант Вербовки Грека#
-
-
 country_event = {
 	id = isi.119friend_greck
 	title = isi.119friend_greck.t
 	desc = isi.119friend_greck.desc
 	picture = GFX_portrait_ISI_119
 	is_triggered_only = yes
-
-	option = { 
-	custom_effect_tooltip = ISI_friend_nikita
+	option = {
+		custom_effect_tooltip = ISI_friend_nikita
 		name = isi.119friend_greck.a
-		
 		hidden_effect = {
-				set_country_flag = ISI_friend_nikita
-			}
-
+			set_country_flag = ISI_friend_nikita
+		}
 	}
-	
 }
 
-	
 country_event = {
 	id = isi.20cevilwar
 	title = isi.20cevilwar.t
 	desc = isi.20cevilwar.desc
 	picture = GFX_portrait_ISI_20
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.20cevilwar.a
 		army_experience = 100
 		add_political_power = 100
-		add_stability = -0.10
-		add_war_support = 0.20
-		
-		
-
+		add_stability = -0.1
+		add_war_support = 0.2
 	}
-	
 }
 
 #Штурм дворца, спасииитееее#
-
 country_event = {
 	id = isi.21cevilwar
 	title = isi.21cevilwar.t
 	desc = isi.21cevilwar.desc
 	picture = GFX_portrait_ISI_21
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.21cevilwar.a
-		country_event = { id = isi.22cevilwar }
-
-
+		country_event = {
+			id = isi.22cevilwar
+		}
 	}
-	
 }
+
 #Штурм дворца, первый ветвитель#
 country_event = {
 	id = isi.22cevilwar
@@ -564,47 +853,86 @@ country_event = {
 	desc = isi.22cevilwar.desc
 	picture = GFX_portrait_ISI_22
 	is_triggered_only = yes
- 
- option = { 
+	option = {
 		name = isi.22cevilwar.a
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_ludmila_night_attack } }
-		country_event = { id = isi.23cevilwar }
-		}
-		
-		if = {
-		limit = {ISI = { has_country_flag = ISI_best_win } }
-		country_event = { id = isi.24cevilwar }
-		}
-		
-		if = {
-		limit = {ISI = { has_country_flag = ISI_friend_nikita } }
-		country_event = { id = isi.25cevilwar }
-		}
-		
-		if = {
-		limit = {ISI = { has_country_flag = ISI_day_krug_lose } }
-		country_event = { id = isi.26cevilwar }
-		}
-		
-		if = {
-		limit = {ISI = { has_country_flag = ISI_day_krug_lose_little } }
-		country_event = { id = isi.27cevilwar }
-		}
-		
-		if = {
-		limit = {ISI = { has_country_flag = ISI_day_fist_win } ISI = { has_country_flag = ISI_ludahelp } }
-		country_event = { id = isi.28cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_ludmila_night_attack
+				}
+			}
+			country_event = {
+				id = isi.23cevilwar
+			}
 		}
 		if = {
-		limit = {ISI = { has_country_flag = ISI_day_fist_win } ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.29cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_best_win
+				}
+			}
+			country_event = {
+				id = isi.24cevilwar
+			}
 		}
-		
+		if = {
+			limit = {
+				ISI = {
+					has_country_flag = ISI_friend_nikita
+				}
+			}
+			country_event = {
+				id = isi.25cevilwar
+			}
+		}
+		if = {
+			limit = {
+				ISI = {
+					has_country_flag = ISI_day_krug_lose
+				}
+			}
+			country_event = {
+				id = isi.26cevilwar
+			}
+		}
+		if = {
+			limit = {
+				ISI = {
+					has_country_flag = ISI_day_krug_lose_little
+				}
+			}
+			country_event = {
+				id = isi.27cevilwar
+			}
+		}
+		if = {
+			limit = {
+				ISI = {
+					has_country_flag = ISI_day_fist_win
+				}
+				ISI = {
+					has_country_flag = ISI_ludahelp
+				}
+			}
+			country_event = {
+				id = isi.28cevilwar
+			}
+		}
+		if = {
+			limit = {
+				ISI = {
+					has_country_flag = ISI_day_fist_win
+				}
+				ISI = {
+					has_country_flag = ISI_artem_help
+				}
+			}
+			country_event = {
+				id = isi.29cevilwar
+			}
+		}
 	}
 }
-
 
 country_event = {
 	id = isi.28cevilwar
@@ -612,13 +940,11 @@ country_event = {
 	desc = isi.28cevilwar.desc
 	picture = GFX_portrait_ISI_28
 	is_triggered_only = yes
- 
- option = { 
+	option = {
 		name = isi.28cevilwar.a
-		country_event = { id = isi.36cevilwar }
-		
-		
-		
+		country_event = {
+			id = isi.36cevilwar
+		}
 	}
 }
 
@@ -628,13 +954,11 @@ country_event = {
 	desc = isi.29cevilwar.desc
 	picture = GFX_portrait_ISI_29
 	is_triggered_only = yes
- 
- option = { 
+	option = {
 		name = isi.29cevilwar.a
-		country_event = { id = isi.37cevilwar }
-		
-		
-		
+		country_event = {
+			id = isi.37cevilwar
+		}
 	}
 }
 
@@ -644,14 +968,12 @@ country_event = {
 	desc = isi.23cevilwar.desc
 	picture = GFX_portrait_ISI_23
 	is_triggered_only = yes
-
-	option = { 
-	name = isi.23cevilwar.a
-		country_event = { id = isi.30cevilwar }
-
-
+	option = {
+		name = isi.23cevilwar.a
+		country_event = {
+			id = isi.30cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -660,22 +982,29 @@ country_event = {
 	desc = isi.24cevilwar.desc
 	picture = GFX_portrait_ISI_24
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.24cevilwar.a
 		if = {
-		limit = {ISI = { has_country_flag = ISI_ludahelp } }
-		country_event = { id = isi.31cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_ludahelp
+				}
+			}
+			country_event = {
+				id = isi.31cevilwar
+			}
 		}
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.32cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_artem_help
+				}
+			}
+			country_event = {
+				id = isi.32cevilwar
+			}
 		}
-
-
 	}
-	
 }
 
 country_event = {
@@ -684,23 +1013,29 @@ country_event = {
 	desc = isi.25cevilwar.desc
 	picture = GFX_portrait_ISI_25
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.25cevilwar.a
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_ludahelp } }
-		country_event = { id = isi.31cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_ludahelp
+				}
+			}
+			country_event = {
+				id = isi.31cevilwar
+			}
 		}
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.32cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_artem_help
+				}
+			}
+			country_event = {
+				id = isi.32cevilwar
+			}
 		}
-
-
 	}
-	
 }
 
 country_event = {
@@ -709,23 +1044,29 @@ country_event = {
 	desc = isi.26cevilwar.desc
 	picture = GFX_portrait_ISI_26_27
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.26cevilwar.a
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_ludahelp } }
-		country_event = { id = isi.33cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_ludahelp
+				}
+			}
+			country_event = {
+				id = isi.33cevilwar
+			}
 		}
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.34cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_artem_help
+				}
+			}
+			country_event = {
+				id = isi.34cevilwar
+			}
 		}
-
-
 	}
-	
 }
 
 country_event = {
@@ -734,23 +1075,29 @@ country_event = {
 	desc = isi.27cevilwar.desc
 	picture = GFX_portrait_ISI_26_27
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.27cevilwar.a
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_ludahelp } }
-		country_event = { id = isi.35cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_ludahelp
+				}
+			}
+			country_event = {
+				id = isi.35cevilwar
+			}
 		}
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_artem_help } }
-		country_event = { id = isi.37cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_artem_help
+				}
+			}
+			country_event = {
+				id = isi.37cevilwar
+			}
 		}
-
-
 	}
-	
 }
 
 country_event = {
@@ -759,13 +1106,12 @@ country_event = {
 	desc = isi.30cevilwar.desc
 	picture = GFX_portrait_ISI_30
 	is_triggered_only = yes
-
-	option = { 
-	name = isi.30cevilwar.a
-	country_event = { id = isi.38cevilwar }
-		
+	option = {
+		name = isi.30cevilwar.a
+		country_event = {
+			id = isi.38cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -774,21 +1120,29 @@ country_event = {
 	desc = isi.31cevilwar.desc
 	picture = GFX_portrait_ISI_31
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.31cevilwar.a
 		if = {
-		limit = {ISI = { has_country_flag = ISI_friend_nikita } }
-		country_event = { id = isi.39cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_friend_nikita
+				}
+			}
+			country_event = {
+				id = isi.39cevilwar
+			}
 		}
-		
 		if = {
-		limit = {ISI = { has_country_flag = ISI_best_win } }
-		country_event = { id = isi.46cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_best_win
+				}
+			}
+			country_event = {
+				id = isi.46cevilwar
+			}
 		}
-		
 	}
-	
 }
 
 country_event = {
@@ -797,16 +1151,12 @@ country_event = {
 	desc = isi.32cevilwar.desc
 	picture = GFX_portrait_ISI_32
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.32cevilwar.a
-		country_event = { id = isi.40cevilwar }
-
-	
-		
-		
+		country_event = {
+			id = isi.40cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -815,13 +1165,12 @@ country_event = {
 	desc = isi.33cevilwar.desc
 	picture = GFX_portrait_ISI_33
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.33cevilwar.a
-		country_event = { id = isi.41cevilwar }
-		
+		country_event = {
+			id = isi.41cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -830,13 +1179,12 @@ country_event = {
 	desc = isi.34cevilwar.desc
 	picture = GFX_portrait_ISI_34
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.34cevilwar.a
-		country_event = { id = isi.42cevilwar }
-		
+		country_event = {
+			id = isi.42cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -845,13 +1193,12 @@ country_event = {
 	desc = isi.35cevilwar.desc
 	picture = GFX_portrait_ISI_35
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.35cevilwar.a
-		country_event = { id = isi.38cevilwar }
-		
+		country_event = {
+			id = isi.38cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -860,13 +1207,12 @@ country_event = {
 	desc = isi.36cevilwar.desc
 	picture = GFX_portrait_ISI_36
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.36cevilwar.a
-		country_event = { id = isi.43cevilwar }
-		
+		country_event = {
+			id = isi.43cevilwar
+		}
 	}
-	
 }
 
 country_event = {
@@ -875,13 +1221,12 @@ country_event = {
 	desc = isi.37cevilwar.desc
 	picture = GFX_portrait_ISI_37
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.37cevilwar.a
-		country_event = { id = isi.44cevilwar }
-		
+		country_event = {
+			id = isi.44cevilwar
+		}
 	}
-	
 }
 
 # Смотри ивент 45#
@@ -891,24 +1236,30 @@ country_event = {
 	desc = isi.40cevilwar.desc
 	picture = GFX_portrait_ISI_40
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.40cevilwar.a
-				
-				if = {
-		limit = {ISI = { has_country_flag = ISI_friend_nikita } }
-		country_event = { id = isi.45cevilwar }
+		if = {
+			limit = {
+				ISI = {
+					has_country_flag = ISI_friend_nikita
+				}
+			}
+			country_event = {
+				id = isi.45cevilwar
+			}
 		}
 		if = {
-		limit = {ISI = { has_country_flag = ISI_best_win } }
-		country_event = { id = isi.47cevilwar }
+			limit = {
+				ISI = {
+					has_country_flag = ISI_best_win
+				}
+			}
+			country_event = {
+				id = isi.47cevilwar
+			}
 		}
-		
 	}
-	
 }
-
-
 
 #Александр во всех аспектах позволил Людмиле помочь себе, она запала на него, Роман мертв, Студеникин мертв, Грек мертв#
 country_event = {
@@ -917,24 +1268,20 @@ country_event = {
 	desc = isi.38cevilwar.desc
 	picture = GFX_portrait_ISI_38
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.38cevilwar.a
 		set_politics = {
 			ruling_party = fascism
 		}
-		
 		add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-			set_country_flag = ISI_dead_student
-			set_country_flag = ISI_roma_dead
-			set_country_flag = ISI_luda_like_alexandr
-			set_country_flag = ISI_civilwar_posledstvia
-		
+			ideology = fascism
+			popularity = 0.5
+		}
+		set_country_flag = ISI_dead_student
+		set_country_flag = ISI_roma_dead
+		set_country_flag = ISI_luda_like_alexandr
+		set_country_flag = ISI_civilwar_posledstvia
 	}
-	
 }
 
 #Александр заключил союз с Ниитой, за что Людмила обиделась на него и не пришла на штурм дворца, Роман похоронен заживо, вся команда жива#
@@ -944,25 +1291,21 @@ country_event = {
 	desc = isi.39cevilwar.desc
 	picture = GFX_portrait_ISI_39
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.39cevilwar.a
 		set_politics = {
 			ruling_party = fascism
-		
 		}
-			set_country_flag = ISI_roma_dead
-			set_country_flag = ISI_civilwar_posledstvia
-			set_country_flag = ISI_vedmin_vopros
-			add_ideas = ISI_nikita_want_vlast
-			set_country_flag = ISI_nikita_want_vlast
-			add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
+		set_country_flag = ISI_roma_dead
+		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_vedmin_vopros
+		add_ideas = ISI_nikita_want_vlast
+		set_country_flag = ISI_nikita_want_vlast
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
 
 #Александр идеально взял  военные части, Людмиле не нужен идальный тактик, Грек мертв Роман похоронен заживо, вся команда жива#
@@ -972,36 +1315,51 @@ country_event = {
 	desc = isi.46cevilwar.desc
 	picture = GFX_portrait_ISI_46
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.46cevilwar.a
 		set_politics = {
 			ruling_party = fascism
-			
 		}
 		set_country_flag = ISI_roma_dead
-			set_country_flag = ISI_civilwar_posledstvia
-			set_country_flag = ISI_vedmin_vopros
-			add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
+		set_country_flag = ISI_civilwar_posledstvia
+		set_country_flag = ISI_vedmin_vopros
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
 
-
-
-Александр заключил союз с артемом и прошел через лабаратории, Грек Жив, Ирина осталась без ноги и переведена в роль советника, Роман захвачен живым.
+Александр
+заключил
+союз
+с
+артемом
+и
+прошел
+через
+лабаратории,
+Грек
+Жив,
+Ирина
+осталась
+без
+ноги
+и
+переведена
+в
+роль
+советника,
+Роман
+захвачен
+живым.
 country_event = {
 	id = isi.45cevilwar
 	title = isi.45cevilwar.t
 	desc = isi.45cevilwar.desc
 	picture = GFX_portrait_ISI_45
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.45cevilwar.a
 		set_politics = {
 			ruling_party = fascism
@@ -1009,44 +1367,58 @@ country_event = {
 		set_country_flag = ISI_civilwar_posledstvia
 		set_country_flag = ISI_artem_theorist
 		add_ideas = ISI_nikita_want_vlast
-			set_country_flag = ISI_nikita_want_vlast
-			set_country_flag = ISI_irina_bes_noga
-			add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
-		
+		set_country_flag = ISI_nikita_want_vlast
+		set_country_flag = ISI_irina_bes_noga
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
 
-Александр заключил союз с артемом и прошел через лабаратории, Грек мертв, Ирина осталась без ноги и переведена в роль советника, Роман захвачен живым.
+Александр
+заключил
+союз
+с
+артемом
+и
+прошел
+через
+лабаратории,
+Грек
+мертв,
+Ирина
+осталась
+без
+ноги
+и
+переведена
+в
+роль
+советника,
+Роман
+захвачен
+живым.
 country_event = {
 	id = isi.47cevilwar
 	title = isi.47cevilwar.t
 	desc = isi.47cevilwar.desc
 	picture = GFX_portrait_ISI_47
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.47cevilwar.a
 		set_politics = {
 			ruling_party = fascism
 		}
 		set_country_flag = ISI_civilwar_posledstvia
 		set_country_flag = ISI_artem_theorist
-			set_country_flag = irina_bes_noga
-			add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
+		set_country_flag = irina_bes_noga
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
-
-
 
 #Александр  проиграл Греку, но Людмила спасла енго взамен забрав его душу.  Все боевые товарищи Александра мертвы. Рома сожжен теневым пламенем, Грек жив. Александр стал марионеткой Людмилы. 
 country_event = {
@@ -1055,8 +1427,7 @@ country_event = {
 	desc = isi.41cevilwar.desc
 	picture = GFX_portrait_ISI_41
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.41cevilwar.a
 		set_politics = {
 			ruling_party = fascism
@@ -1072,10 +1443,11 @@ country_event = {
 		set_country_flag = ISI_armia_protiv
 		set_country_flag = ISI_alexandr-marionetka
 		add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		 hidden_effect ={ISI_aleksandr_malishev = {
+			ideology = fascism
+			popularity = 0.5
+		}
+		hidden_effect = {
+			ISI_aleksandr_malishev = {
 				remove_country_leader_role = {
 					ideology = nazism
 				}
@@ -1084,19 +1456,17 @@ country_event = {
 						expire = "1965.1.1"
 						ideology = fascism_ideology
 						traits = {
-							big_ambal soulless_puppet
+							big_ambal
+							soulless_puppet
 						}
 					}
 					promote_leader = yes
 				}
-			}}
-		
-		
-		
-		
+			}
+		}
 	}
-	
 }
+
 #Артем спас Александра в самый последний момент  и показал ему тайные пути. Роман убит, все боевые товарищи Александра мервтвы. Грек жив.
 country_event = {
 	id = isi.42cevilwar
@@ -1104,8 +1474,7 @@ country_event = {
 	desc = isi.42cevilwar.desc
 	picture = GFX_portrait_ISI_42
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.42cevilwar.a
 		set_politics = {
 			ruling_party = fascism
@@ -1120,13 +1489,12 @@ country_event = {
 		add_ideas = armia_protiv
 		set_country_flag = ISI_armia_protiv
 		add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
+
 # Людмила захватила душу Романа и он пропал с радаров. Дворец захвачен почти мирно, Александр имеет исключительно деловые отношение с Людмилой, она преследует только свою выгоду. Ирина и студент умерли еще при штурме части#
 country_event = {
 	id = isi.43cevilwar
@@ -1134,8 +1502,7 @@ country_event = {
 	desc = isi.43cevilwar.desc
 	picture = GFX_portrait_ISI_43
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.43cevilwar.a
 		set_politics = {
 			ruling_party = fascism
@@ -1144,13 +1511,12 @@ country_event = {
 		set_country_flag = ISI_roma_dead
 		set_country_flag = vedmin_udar_spina
 		add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
+
 #Артем Превратил дворец в газовую камеру наполненую хлором, абсолютно все обитатели дворца умерли ужасной смертью. Хлор осен на всех уровнях и неизвестно сколько еще он продержится.#
 country_event = {
 	id = isi.44cevilwar
@@ -1158,8 +1524,7 @@ country_event = {
 	desc = isi.44cevilwar.desc
 	picture = GFX_portrait_ISI_44
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.44cevilwar.a
 		set_politics = {
 			ruling_party = fascism
@@ -1168,14 +1533,11 @@ country_event = {
 		set_country_flag = ISI_roma_dead
 		set_country_flag = gas_toxic
 		add_popularity = {
-   				ideology = fascism
-   	 			popularity = 0.5
-			}
-		
+			ideology = fascism
+			popularity = 0.5
+		}
 	}
-	
 }
-
 
 country_event = {
 	id = isi.50poxron
@@ -1183,15 +1545,11 @@ country_event = {
 	desc = isi.50poxron.desc
 	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.50poxron.a
 		add_war_support = 0.05
 		add_stability = 0.05
-
-		
 	}
-	
 }
 
 country_event = {
@@ -1200,9 +1558,9 @@ country_event = {
 	desc = isi.51vedmin_vopros.desc
 	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.51vedmin_vopros.a
+
 		hidden_effect = {scoped_play_song = mogilas
 		set_politics = {
 			ruling_party = democratic
@@ -1214,34 +1572,20 @@ country_event = {
 			ruling_party = fascism
 		}}
 		
-		
-		
-		
-		
-
-
-		
 	}
-	
 }
+
 country_event = {
 	id = isi.52vostanov_labs
 	title = isi.52vostanov_labs.t
 	desc = isi.52vostanov_labs.desc
 	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.52vostanov_labs.a
 		add_ideas = ISI_new_laba
-
-		
 	}
-	
 }
-
-
-
 
 country_event = {
 	id = isi.55rebild
@@ -1249,14 +1593,12 @@ country_event = {
 	desc = isi.55rebild.desc
 	picture = GFX_portrait_ISI_55
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.55rebild.a
-		hidden_effect = { set_country_flag = ISI_dead_iaroslavna}
-
-		
+		hidden_effect = {
+			set_country_flag = ISI_dead_iaroslavna
+		}
 	}
-	
 }
 
 country_event = {
@@ -1265,14 +1607,9 @@ country_event = {
 	desc = isi.54rackopc.desc
 	picture = GFX_portrait_ISI_54
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.54rackopc.a
-
-
-		
 	}
-	
 }
 
 country_event = {
@@ -1281,12 +1618,10 @@ country_event = {
 	desc = isi.57rackopc.desc
 	picture = GFX_portrait_ISI_57
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.57rackopc.a
 		set_country_flag = ISI_find_musiko
 	}
-	
 }
 
 country_event = {
@@ -1295,13 +1630,9 @@ country_event = {
 	desc = isi.56rackopc.desc
 	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.56rackopc.a
-
-		
 	}
-	
 }
 
 country_event = {
@@ -1310,14 +1641,10 @@ country_event = {
 	desc = isi.60svadba.desc
 	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.60svadba.a
 		add_political_power = 200
-
-		
 	}
-	
 }
 
 country_event = {
@@ -1326,32 +1653,233 @@ country_event = {
 	desc = isi.61svadba.desc
 	picture = GFX_portrait_ISI_56
 	is_triggered_only = yes
-
-	option = { 
+	option = {
 		name = isi.61svadba.a
-		swap_ruler_traits = { remove = nedjenat add = djenat }
+		swap_ruler_traits = {
+			remove = nedjenat
+			add = djenat
+		}
 		ISI_luda_korostina = {
-				add_advisor_role = {
-					advisor = {
-		idea_token = ISI_luda_korostina
-		slot=political_advisor
-		traits = {vedma_like_allexandr full_power}
-		available = {
-			 has_country_flag = ISI_luda_like_alexandr
-			}
-			visible = { 
-			has_country_flag = ISI_luda_like_alexandr
+			add_advisor_role = {
+				advisor = {
+					idea_token = ISI_luda_korostina
+					slot = political_advisor
+					traits = {
+						vedma_like_allexandr
+						full_power
+					}
+					available = {
+						has_country_flag = ISI_luda_like_alexandr
+					}
+					visible = {
+						has_country_flag = ISI_luda_like_alexandr
+					}
+				}
+				promote_leader = yes
 			}
 		}
-					promote_leader = yes
-				}
-			}
-
-		
 	}
-	
 }
 
+country_event = {
+	id = isi.63ludahistory
+	title = isi.63ludahistory.t
+	desc = isi.63ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.63ludahistory.a
+		country_event = {
+			id = isi.64ludahistory
+		}
+	}
+}
+
+country_event = {
+	id = isi.64ludahistory
+	title = isi.64ludahistory.t
+	desc = isi.64ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.64ludahistory.a
+		country_event = {
+			id = isi.65ludahistory
+		}
+	}
+}
+
+country_event = {
+	id = isi.65ludahistory
+	title = isi.65ludahistory.t
+	desc = isi.65ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.65ludahistory.a
+		add_political_power = 100
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = AFG
+			expire = 0
+		}
+	}
+}
+
+country_event = {
+	id = isi.66ludahistory
+	title = isi.66ludahistory.t
+	desc = isi.66ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.66ludahistory.a
+		country_event = {
+			id = isi.67ludahistory
+		}
+	}
+}
+
+country_event = {
+	id = isi.67ludahistory
+	title = isi.67ludahistory.t
+	desc = isi.67ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.67ludahistory.a
+		add_political_power = 100
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = isi.68ludahistory
+	title = isi.68ludahistory.t
+	desc = isi.68ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.68ludahistory.a
+		country_event = {
+			id = isi.69ludahistory
+		}
+	}
+}
+
+country_event = {
+	id = isi.69ludahistory
+	title = isi.69ludahistory.t
+	desc = isi.69ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.69ludahistory.a
+		custom_effect_tooltip = ISI_ludas_father
+		recruit_character = ISI_vampire
+	}
+}
+
+country_event = {
+	id = isi.70ludahistory
+	title = isi.70ludahistory.t
+	desc = isi.70ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.70ludahistory.a
+		custom_effect_tooltip = ISI_kindjal
+		set_country_flag = ISI_kindjal_flag
+	}
+}
+
+country_event = {
+	id = isi.71ludahistory
+	title = isi.71ludahistory.t
+	desc = isi.71ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.71ludahistory.a
+		add_political_power = 50
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = isi.72ludahistory
+	title = isi.72ludahistory.t
+	desc = isi.72ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.72ludahistory.a
+		country_event = {
+			id = isi.73ludahistory
+		}
+	}
+}
+
+country_event = {
+	id = isi.73ludahistory
+	title = isi.73ludahistory.t
+	desc = isi.73ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.73ludahistory.a
+		hidden_effect = {
+			set_country_flag = ISI_dead_grec
+		}
+		custom_effect_tooltip = ISI_deaddd_greack
+		add_war_support = -0.1
+	}
+}
+
+country_event = {
+	id = isi.74ludahistory
+	title = isi.74ludahistory.t
+	desc = isi.74ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.74ludahistory.a
+	}
+}
+
+country_event = {
+	id = isi.75ludahistory
+	title = isi.75ludahistory.t
+	desc = isi.75ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.75ludahistory.a
+		recruit_character = ISI_darc_greck
+		set_country_flag = ISI_darc_greck
+	}
+}
+
+country_event = {
+	id = isi.76ludahistory
+	title = isi.76ludahistory.t
+	desc = isi.76ludahistory.desc
+	picture = GFX_portrait_ISI_56
+	is_triggered_only = yes
+	option = {
+		name = isi.76ludahistory.a
+		country_event = {
+			id = isi.77ludahistory
+		}
+	}
+}
 
 country_event = {
 	id = isi.62greck
@@ -1729,6 +2257,7 @@ country_event = {
 	title = isi.80ludahistory.t
 	desc = isi.80ludahistory.desc
 	picture = GFX_portrait_ISI_56
+
 	
 	trigger = {
    has_completed_focus = luda_11
@@ -1901,3 +2430,4 @@ country_event = {
 		
 	}
 }
+

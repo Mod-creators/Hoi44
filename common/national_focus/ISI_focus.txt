@@ -157,21 +157,6 @@ focus_tree = {
 		}
 
 	}
-	focus = {
-		id = choise.0.2
-		icon = GFX_focus_choise_02
-		cost = 10,00
-		prerequisite = {
-			focus = info0.3
-		}
-		mutually_exclusive = {
-			focus = choise.0.1
-			focus = choise.0.3
-		}
-		x = 29
-		y = 3
-
-	}
 	
 	focus = {
 		id = choise.0.3
@@ -2259,18 +2244,65 @@ add_ideas = monopoly
 
 	}
 	focus = {
+		id = choise.0.2
+		icon = GFX_focus_choise_02
+		cost = 10,00
+		prerequisite = {
+			focus = info0.3
+		}
+		mutually_exclusive = {
+			focus = choise.0.1
+			focus = choise.0.3
+		}
+		x = 29
+		y = 3
+		completion_reward = {
+			country_event = {
+				id = isi.1488artemchoise
+			}
+			promote_character = {
+				character = ISI_artem_anime
+				ideology = stalinism
+			}
+			hidden_effect = {
+				retire_ideology_leader = communism
+				remove_country_leader_role = {
+					character = ISI_artem_naygolnow
+				}
+				add_country_leader_role = {
+					character = ISI_artem_anime
+					promote_leader = yes
+					country_leader = {
+						ideology = communism
+						expire = "1965.1.1.1"
+						traits = {
+							sadistic_anime
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
 		id = artem.0.1
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
 			focus = choise.0.2
 		}
+		available = {
+			has_country_flag = ISI_artem_anime_flag
+		}
 		mutually_exclusive = {
 			focus = artem.0.2
 		}
 		x = 26
 		y = 4
-
+		completion_reward = {
+			country_event = {
+				id = isi.1489artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.0.2
@@ -2279,12 +2311,14 @@ add_ideas = monopoly
 		prerequisite = {
 			focus = choise.0.2
 		}
+		available = {
+			has_country_flag = ISI_artem_insane
+		}
 		mutually_exclusive = {
 			focus = artem.0.1
 		}
 		x = 53
 		y = 4
-
 	}
 	focus = {
 		id = artem.1.1
@@ -2295,7 +2329,11 @@ add_ideas = monopoly
 		}
 		x = 23
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = isi.1490artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.1.2
@@ -2306,7 +2344,11 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 5
-
+		completion_reward = {
+			country_event = {
+				id = isi.1491artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.2.1
@@ -2320,7 +2362,9 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 6
-
+		completion_reward = {
+			add_ideas = ISI_artems_time_bomb
+		}
 	}
 	focus = {
 		id = artem.3.1
@@ -2331,7 +2375,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 7
-
+		completion_reward = {
+			country_event = {
+				id = isi.1492artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.4.1
@@ -2342,7 +2390,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 8
-
+		completion_reward = {
+			country_event = {
+				id = isi.1493artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.5.1
@@ -2353,7 +2405,12 @@ add_ideas = monopoly
 		}
 		x = 23
 		y = 9
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = old_power
+				add_idea = ISI_lost_army_control
+			}
+		}
 	}
 	focus = {
 		id = artem.5.2
@@ -2364,7 +2421,9 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 9
-
+		completion_reward = {
+			add_ideas = ISI_polarization_of_cabinet
+		}
 	}
 	focus = {
 		id = artem.6.1
@@ -2378,7 +2437,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 10
-
+		completion_reward = {
+			country_event = {
+				id = isi.1494artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.7.1
@@ -2389,7 +2452,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 11
-
+		completion_reward = {
+			country_event = {
+				id = isi.1495artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.8.1
@@ -2400,7 +2467,9 @@ add_ideas = monopoly
 		}
 		x = 20
 		y = 12
-
+		completion_reward = {
+			add_ideas = ISI_frightened_theorists
+		}
 	}
 	focus = {
 		id = artem.9.1
@@ -2411,7 +2480,12 @@ add_ideas = monopoly
 		}
 		x = 18
 		y = 13
-
+		completion_reward = {
+			set_country_flag = ISI_stanoc_zazheval
+			country_event = {
+				id = isi.1496artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.9.2
@@ -2422,7 +2496,12 @@ add_ideas = monopoly
 		}
 		x = 22
 		y = 13
-
+		completion_reward = {
+			set_country_flag = ISI_amoralno_ubili
+			country_event = {
+				id = isi.1497artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.8.2
@@ -2433,7 +2512,9 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 12
-
+		completion_reward = {
+			add_ideas = ISI_frightened_ministers
+		}
 	}
 	focus = {
 		id = artem.9.3
@@ -2444,7 +2525,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = isi.1498artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.10.2
@@ -2455,7 +2540,10 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 14
-
+		completion_reward = {
+			add_ideas = ISI_eat_brains
+			remove_ideas = ISI_frightened_ministers
+		}
 	}
 	focus = {
 		id = artem.10.1
@@ -2469,7 +2557,21 @@ add_ideas = monopoly
 		}
 		x = 20
 		y = 14
-
+		completion_reward = {
+			hidden_effect = {
+				ROOT = {
+					subtract_from_variable = {
+						ISI_paranoia_weekly_modifiers_amount = 1
+					}
+				}
+				ROOT = {
+					ISI_paranoia_modifier_update_gui_tooltip = yes
+				}
+			}
+			ISI_paranoia_medium_decrease_effect = yes
+			custom_effect_tooltip = ISI_paranoia_calm_down_stalin_cd_tt
+			remove_ideas = ISI_frightened_theorists
+		}
 	}
 	focus = {
 		id = artem.8.3
@@ -2480,7 +2582,10 @@ add_ideas = monopoly
 		}
 		x = 31
 		y = 12
-
+		completion_reward = {
+			add_ideas = ISI_frightened_army_nastya
+			add_ideas = ISI_frightened_army_vedma
+		}
 	}
 	focus = {
 		id = artem.9.4
@@ -2491,7 +2596,11 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = isi.1499artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.10.3
@@ -2502,7 +2611,12 @@ add_ideas = monopoly
 		}
 		x = 29
 		y = 14
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ISI_frightened_army_nastya
+				add_idea = ISI_piyanaya_army
+			}
+		}
 	}
 	focus = {
 		id = artem.9.5
@@ -2513,7 +2627,11 @@ add_ideas = monopoly
 		}
 		x = 33
 		y = 13
-
+		completion_reward = {
+			country_event = {
+				id = isi.1500artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.10.4
@@ -2524,7 +2642,12 @@ add_ideas = monopoly
 		}
 		x = 33
 		y = 14
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ISI_frightened_army_vedma
+				add_idea = ISI_armiya_proklyatih
+			}
+		}
 	}
 	focus = {
 		id = artem.11.1
@@ -2544,7 +2667,11 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 16
-
+		completion_reward = {
+			country_event = {
+				id = isi.1501artemanime
+			}
+		}
 	}
 	focus = {
 		id = artem.1.3
@@ -2555,7 +2682,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 5
-
 	}
 	focus = {
 		id = artem.2.2
@@ -2569,7 +2695,6 @@ add_ideas = monopoly
 		}
 		x = 51
 		y = 6
-
 	}
 	focus = {
 		id = artem.2.3
@@ -2583,7 +2708,6 @@ add_ideas = monopoly
 		}
 		x = 55
 		y = 6
-
 	}
 	focus = {
 		id = artem.3.2
@@ -2595,7 +2719,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 7
-
 	}
 	focus = {
 		id = artem.4.2
@@ -2606,7 +2729,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 8
-
 	}
 	focus = {
 		id = artem.7.3
@@ -2618,7 +2740,6 @@ add_ideas = monopoly
 		}
 		x = 36
 		y = 11
-
 	}
 	focus = {
 		id = artem.7.4
@@ -2630,7 +2751,6 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 11
-
 	}
 	focus = {
 		id = artem.7.5
@@ -2642,7 +2762,6 @@ add_ideas = monopoly
 		}
 		x = 44
 		y = 11
-
 	}
 	focus = {
 		id = artem.7.2
@@ -2653,7 +2772,11 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 11
-
+		completion_reward = {
+			country_event = {
+				id = isi.1338arteminsane1
+			}
+		}
 	}
 	focus = {
 		id = artem.8.4
@@ -2667,7 +2790,6 @@ add_ideas = monopoly
 		}
 		x = 47
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.5
@@ -2681,7 +2803,6 @@ add_ideas = monopoly
 		}
 		x = 49
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.6
@@ -2693,7 +2814,6 @@ add_ideas = monopoly
 		}
 		x = 48
 		y = 13
-
 	}
 	focus = {
 		id = artem.8.6
@@ -2707,7 +2827,6 @@ add_ideas = monopoly
 		}
 		x = 52
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.7
@@ -2721,7 +2840,6 @@ add_ideas = monopoly
 		}
 		x = 54
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.7
@@ -2733,7 +2851,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 13
-
 	}
 	focus = {
 		id = artem.8.8
@@ -2747,7 +2864,6 @@ add_ideas = monopoly
 		}
 		x = 57
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.9
@@ -2761,7 +2877,6 @@ add_ideas = monopoly
 		}
 		x = 59
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.8
@@ -2773,7 +2888,6 @@ add_ideas = monopoly
 		}
 		x = 58
 		y = 13
-
 	}
 	focus = {
 		id = artem.10.5
@@ -2790,7 +2904,6 @@ add_ideas = monopoly
 		}
 		x = 53
 		y = 14
-
 	}
 	focus = {
 		id = artem.11.2
@@ -2804,7 +2917,6 @@ add_ideas = monopoly
 		}
 		x = 51
 		y = 16
-
 	}
 	focus = {
 		id = artem.11.3
@@ -2818,7 +2930,6 @@ add_ideas = monopoly
 		}
 		x = 55
 		y = 16
-
 	}
 	focus = {
 		id = artem.12.1
@@ -2829,7 +2940,9 @@ add_ideas = monopoly
 		}
 		x = 26
 		y = 18
-
+		completion_reward = {
+			add_country_leader_trait = silneyshiy_leader
+		}
 	}
 	focus = {
 		id = artem.12.2
@@ -2840,7 +2953,6 @@ add_ideas = monopoly
 		}
 		x = 51
 		y = 18
-
 	}
 	focus = {
 		id = artem.12.3
@@ -2851,7 +2963,6 @@ add_ideas = monopoly
 		}
 		x = 55
 		y = 18
-
 	}
 	focus = {
 		id = artem.8.10
@@ -2862,7 +2973,6 @@ add_ideas = monopoly
 		}
 		x = 36
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.11
@@ -2873,7 +2983,6 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 12
-
 	}
 	focus = {
 		id = artem.8.12
@@ -2884,7 +2993,6 @@ add_ideas = monopoly
 		}
 		x = 44
 		y = 12
-
 	}
 	focus = {
 		id = artem.9.9
@@ -2895,7 +3003,6 @@ add_ideas = monopoly
 		}
 		x = 36
 		y = 13
-
 	}
 	focus = {
 		id = artem.9.10
@@ -2906,7 +3013,6 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 13
-
 	}
 	focus = {
 		id = artem.9.11
@@ -2917,7 +3023,6 @@ add_ideas = monopoly
 		}
 		x = 44
 		y = 13
-
 	}
 	focus = {
 		id = artem.10.6
@@ -2934,6 +3039,5 @@ add_ideas = monopoly
 		}
 		x = 40
 		y = 14
-
 	}
 }

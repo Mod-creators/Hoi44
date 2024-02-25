@@ -12,20 +12,6 @@ ISI_alexandr_war = {
 	priority = 10
 }
 
-ISI_civilwar_posledstvia = {
-	
-	icon = saf_anti_colonialist_crusade
-
-	allowed = {
-		original_tag = ISI
-	}
-
-	visible = {
-		has_country_flag = ISI_civilwar_posledstvia
-	}
-	priority = 10
-}
-
 ISI_paranoia_system = {
 
 	priority = 101
@@ -46,6 +32,20 @@ ISI_paranoia_system = {
 	}
 
 	visible_when_empty = yes
+}
+
+ISI_civilwar_posledstvia = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = ISI
+	}
+
+	visible = {
+		has_country_flag = ISI_civilwar_posledstvia
+	}
+	priority = 10
 }
 
 ISI_raskopki = {
@@ -114,19 +114,6 @@ icon = saf_anti_colonialist_crusade
 
 	visible = {
 		 has_war = yes
-	}
-	priority = 9
-}
-
-ISI_magic_items = {
-icon = saf_anti_colonialist_crusade
-
-	allowed = {
-		original_tag = ISI
-	}
-
-	visible = {
-		has_completed_focus = luda_2
 	}
 	priority = 9
 }
