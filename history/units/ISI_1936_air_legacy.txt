@@ -3,9 +3,10 @@
 air_wings = {
 
 	106 = { 		
-		fighter_equipment_0 =  {		# Ar 68
-			owner = "ISI" 
+		small_plane_airframe_0 =  {		# Ar 68
+			owner = "GER" 
 			amount = 100
+			version_name = "He 51"
 		}
 		name = "Металлолом"
 		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
@@ -15,7 +16,6 @@ air_wings = {
 			callsign="Ночная Ведьма"
 			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
 		}
-		name = "Гномолет"
 		# TODO: REMOVE THIS LATER ???
 		transport_plane_equipment_1 = {
 			owner = "ISI" 
