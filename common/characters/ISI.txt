@@ -9,140 +9,213 @@ characters = {
 			}
 		}
 		country_leader = {
-		idea_token = ISI_roman_polivka
+			idea_token = ISI_roman_polivka
 			ideology = despotism
-			traits = {dictator_luser}
-			expire="1965.1.1.1"
+			traits = {
+				dictator_luser
+			}
+			expire = "1965.1.1.1"
 			id = -1
 			available = {
-			NOT = {has_country_flag = ISI_roma_dead}
+				NOT = {
+					has_country_flag = ISI_roma_dead
+				}
 			}
-			visible = { NOT = {has_country_flag = ISI_roma_dead}}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_roma_dead
+				}
+			}
+		}
+	}
+	ISI_romino_pravitelstvo = {
+		name = ISI_romino_pravitelstvo
+		idea_token = ISI_romino_pravitelstvo
+		portraits = {
+			civilian = {
+				large = GFX_romino_pravitelstvo
+			}
+		}
+	}
+	ISI_artem_anime = {
+		name = ISI_artem_anime
+		portraits = {
+			civilian = {
+				large = GFX_artem_anime
+			}
+		}
+		country_leader = {
+			ideology = communism
+			idea_token = ISI_artem_anime
+			traits = {
+				sadistic_anime
+			}
+			expire = "1965.1.1.1"
+			id = -1
+			available = {
+				NOT = {
+					has_country_flag = ISI_artem_anime_flag
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_artem_anime_flag
+				}
+			}
 		}
 	}
 	ISI_luda_korostina = {
-	name = "ISI_luda_korostina"
-	
-	portraits = {
-		civilian = {
-		large = GFX_portrait_luda_korostina
+		name = "ISI_luda_korostina"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_luda_korostina
+			}
+			army = {
+				small = GFX_portrait_luda_korostina_small
+			}
 		}
-		army = {
-		small = GFX_portrait_luda_korostina_small
+		country_leader = {
+			idea_token = ISI_luda_korostina
+			ideology = liberalism
+			traits = {
+				vedma
+			}
+			expire = "1965.1.1.1"
+			id = -1
 		}
-	}
-	country_leader = {
-	idea_token = ISI_luda_korostina
-		ideology = liberalism
-		traits = {vedma}
-		expire="1965.1.1.1"
-		id = -1
-		}
-		
 		advisor = {
-		idea_token = ISI_luda_korostina
-		slot=political_advisor
-		traits = {vedma_like_allexandr}
-		available = {
-			 has_country_flag = ISI_luda_like_alexandr
+			idea_token = ISI_luda_korostina
+			slot = political_advisor
+			traits = {
+				vedma_like_allexandr
 			}
-			visible = { 
-			has_country_flag = ISI_luda_like_alexandr
+			available = {
+				has_country_flag = ISI_luda_like_alexandr
+			}
+			visible = {
+				has_country_flag = ISI_luda_like_alexandr
 			}
 		}
-}
-	
+	}
 	ISI_aleksandr_malishev = {
-	name = "ISI_aleksandr_malishev"
-	
-	portraits = {
-		civilian = {
-		large = GFX_portrait_Sana
+		name = "ISI_aleksandr_malishev"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Sana
+			}
+		}
+		country_leader = {
+			idea_token = ISI_aleksandr_malishev
+			ideology = nazism
+			traits = {
+				big_ambal
+				nedjenat
+			}
+			expire = "1965.1.1.1"
+			id = -1
 		}
 	}
-	country_leader = {
-	idea_token = ISI_aleksandr_malishev
-		ideology = nazism
-		traits = {big_ambal nedjenat}
-		expire="1965.1.1.1"
-		id = -1
-		}
-	}
-	
-	
 	ISI_artem_naygolnow = {
-	
-	name = "ISI_artem_naygolnow"
-	portraits = {
-		civilian = {
-		large = GFX_portrait_Artem
+		name = "ISI_artem_naygolnow"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Artem
+			}
+			army = {
+				small = GFX_portrait_artem_small
+			}
 		}
-		army = {
-		small = GFX_portrait_artem_small
-		}
-	}
-	country_leader = {
-		ideology = stalinism 
-		traits = {}
-		expire="1965.1.1.1"
-		id = -1
+		country_leader = {
+			ideology = stalinism
+			traits = {
+			}
+			expire = "1965.1.1.1"
+			id = -1
 		}
 	}
 	advisor = {
-		slot=theorist
+		slot = theorist
 		idea_token = ISI_artem_naygolnow
-		traits = {very_smart}
+		traits = {
+			very_smart
+		}
 		available = {
-			 has_country_flag = ISI_artem_theorist
-			}
-			visible = { 
 			has_country_flag = ISI_artem_theorist
-			}
 		}
-	
-	
+		visible = {
+			has_country_flag = ISI_artem_theorist
+		}
+	}
 	### Фельдмаршалы и по совместительству главы военного совета ###
-	
 	ISI_nikita_bananow = {
-	
-	name = "ISI_nikita_bananow"
-	
-	portraits = {
-		army = {
-		large = GFX_portrait_nikita_bananow_big
-		small = GFX_portrait_nikita_bananow_small
+		name = "ISI_nikita_bananow"
+		portraits = {
+			army = {
+				large = GFX_portrait_nikita_bananow_big
+				small = GFX_portrait_nikita_bananow_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				war_hero
+				infantry_leader
+			}
+			skill = 9
+			attack_skill = 5;
+			defense_skill = 4;
+			planning_skill = 7;
+			logistics_skill = 5;
+			available = {
+				NOT = {
+					OR = {
+						has_country_flag = ISI_dead_grec
+						has_country_flag = ISI_dead_plen
+						has_country_flag = ISI_greak_vrag
+						has_country_flag = ISI_army_women
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = ISI_dead_grec
+						has_country_flag = ISI_dead_plen
+						has_country_flag = ISI_greak_vrag
+					}
+				}
+			}
+		}
+		advisor = {
+			idea_token = ISI_nikita_bananow
+			slot = high_command
+			traits = {
+				veteran_first_war
+			}
+			cost = 100
+			available = {
+				NOT = {
+					OR = {
+						has_country_flag = ISI_dead_grec
+						has_country_flag = ISI_dead_plen
+						has_country_flag = ISI_greak_vrag
+						has_country_flag = ISI_army_women
+					}
+				}
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = ISI_dead_grec
+						has_country_flag = ISI_dead_plen
+						has_country_flag = ISI_greak_vrag
+					}
+				}
+			}
 		}
 	}
-	field_marshal = {
-	
-		traits = {old_guard war_hero infantry_leader}
-		skill = 9
-		attack_skill=5;
-		defense_skill=4;
-		planning_skill=7;
-		logistics_skill=5;
-		available = {
-			NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
-			}
-			visible = { NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}}
-		}
-	advisor = {
-	idea_token = ISI_nikita_bananow
-	slot = high_command
-	traits = {veteran_first_war}
-	cost = 100
-	available = {
-			NOT = { OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
-			}
-			visible = { NOT = OR = {has_country_flag = ISI_dead_grec has_country_flag = ISI_dead_plen has_country_flag = ISI_greak_vrag }}
-			}
-	}
-	
-	
 	ISI_darc_greck = {
-	
 	name = "ISI_darc_greck"
-	
 	portraits = {
 		army = {
 		large = GFX_portrait_dark_nokita
@@ -158,58 +231,131 @@ characters = {
 		visible = { has_country_flag = ISI_luda_vlast}
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	ISI_nikita_xyida = {
-	
-	name = "ISI_nikita_xyida"
-	portraits = {
-		army = {
-		large = GFX_portrait_nikita_xuida
-		small = GFX_portrait_nikita_xuida_small
+		name = "ISI_nikita_xyida"
+		portraits = {
+			army = {
+				large = GFX_portrait_nikita_xuida
+				small = GFX_portrait_nikita_xuida_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+				mountaineer
+				organization_first
+			}
+			skill = 5
+			attack_skill = 7;
+			defense_skill = 2;
+			planning_skill = 2;
+			logistics_skill = 5;
+			available = {
+				has_government = fascism
+				NOT = {
+					has_country_flag = ISI_dead_huida
+					has_country_flag = ISI_army_women
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_huida
+				}
+				has_government = fascism
+			}
+		}
+		advisor = {
+			idea_token = ISI_nikita_xyida
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_huida
+					has_country_flag = ISI_army_women
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_huida
+				}
+			}
+			slot = high_command
+			traits = {
+				right_arm_alexandr
+			}
+			cost = 100
 		}
 	}
-	field_marshal = {
-	
-		traits = {career_officer mountaineer organization_first}
-		skill = 5
-		attack_skill=7;
-		defense_skill=2;
-		planning_skill=2;
-		logistics_skill=5;
-		available = {
-		has_government = fascism
-			NOT = {has_country_flag = ISI_dead_huida}}
-			visible = { NOT = {has_country_flag = ISI_dead_huida} has_government = fascism}
-		
-		}
-	advisor = {
-	idea_token = ISI_nikita_xyida
-	available = {
-			NOT = {has_country_flag = ISI_dead_huida}}
-			visible = { NOT = {has_country_flag = ISI_dead_huida}}
-	slot = high_command
-	traits = {right_arm_alexandr}
-	cost = 100
-	}
-	}
-	
 	###Просто главы военного правительства###
-	
 	ISI_veronica_vedma = {
-	
-	name = "ISI_veronica_vedma"
-	portraits = {
-		army = {
-		small = GFX_portrait_nika 
+		name = "ISI_veronica_vedma"
+		portraits = {
+			army = {
+				small = GFX_portrait_nika
+			}
+		}
+		advisor = {
+			idea_token = ISI_veronica_vedma
+			slot = high_command
+			traits = {
+				night_vedma
+			}
+			cost = 100
+			available = {
+				NOT = {
+					has_country_flag = ISI_army_women
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_army_women
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				urban_assault_specialist
+				career_officer
+			}
+			skill = 4
+			attack_skill = 4;
+			defense_skill = 4;
+			planning_skill = 4;
+			logistics_skill = 4;
 		}
 	}
+
+	ISI_veronica_archiwitch = {
+		name = "ISI_veronica_archiwitch"
+		portraits = {
+			army = {
+				small = GFX_portrait_nika
+			}
+		}
+		advisor = {
+			idea_token = ISI_veronica_vedma
+			slot = high_command
+			traits = {
+				archiwitch
+			}
+			cost = 100
+			available = {
+				has_country_flag = ISI_army_women
+			}
+			visible = {
+				has_country_flag = ISI_army_women
+			}
+		}
+		corps_commander = {
+			traits = {
+				urban_assault_specialist
+				career_officer
+			}
+			skill = 4
+			attack_skill = 4;
+			defense_skill = 4;
+			planning_skill = 4;
+			logistics_skill = 4;
+		}
+
 	advisor = {
 	idea_token = ISI_veronica_vedma
 	slot = high_command
@@ -230,55 +376,73 @@ characters = {
 	
 	
 	}
-	
 	ISI_danil_proxorod = {
-	
-	name = "ISI_danil_proxorod"
-	portraits = {
-		army = {
-		small = 
+		name = "ISI_danil_proxorod"
+		portraits = {
+		}
+		advisor = {
+			idea_token = ISI_danil_proxorod
+			slot = high_command
+			traits = {
+				hz_proxorov
+			}
+			cost = 100
+			available = {
+				NOT = {
+					has_country_flag = ISI_army_women
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				bearer_of_artillery
+				brilliant_strategist
+			}
+			skill = 3
+			attack_skill = 3;
+			defense_skill = 2;
+			planning_skill = 3;
+			logistics_skill = 2;
+			available = {
+				NOT = {
+					has_country_flag = ISI_army_women
+				}
+			}
 		}
 	}
-	advisor = {
-	idea_token = ISI_danil_proxorod
-	slot = high_command
-	traits = {hz_proxorov}
-	cost = 100
-	}
-	
-	corps_commander = {
-		traits = {bearer_of_artillery brilliant_strategist}
-		skill = 3
-		attack_skill=3;
-		defense_skill=2;
-		planning_skill=3;
-		logistics_skill=2;
-		}
-	
-	
-	
-	}
-	
-	
-	
 	
 	###Главы военных отделений###
 	##Армия##
-	
 	ISI_aleksandr_voitenko = {
-	
-	name = "ISI_aleksandr_voitenko"
-	portraits = {
-		army = {
-		small = GFX_portrait_isus
+		name = "ISI_aleksandr_voitenko"
+		portraits = {
+			army = {
+				small = GFX_portrait_isus
+			}
 		}
-	}
-	advisor = {
-		slot=army_chief
-		idea_token = ISI_aleksandr_voitenko
-		traits = {voitenko}
-		available = {has_government = fascism}
-		visible = {has_government = fascism}
+		advisor = {
+			slot = army_chief
+			idea_token = ISI_aleksandr_voitenko
+			traits = {
+				voitenko
+			}
+			available = {
+				has_government = fascism
+			}
+			visible = {
+				has_government = fascism
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				engineer_officer
+			}
+			skill = 4
+			attack_skill = 3;
+			defense_skill = 3;
+			planning_skill = 4;
+			logistics_skill = 3;
 		}
 		
 		corps_commander = {
@@ -290,20 +454,52 @@ characters = {
 		logistics_skill=3;
 		}
 	}
-	
-	
 	ISI_nasta_vodka = {
-	
-	name = "ISI_nasta_vodka"
-	portraits = {
-		army = {
-		small = GFX_portrait_Nasta
+		name = "ISI_nasta_vodka"
+		portraits = {
+			army = {
+				small = GFX_portrait_Nasta
+			}
+		}
+		advisor = {
+			idea_token = ISI_nasta_vodka
+			slot = army_chief
+			traits = {
+				propiv_imyhestva
+			}
+		}
+		corps_commander = {
+			traits = {
+				swamp_fox
+				jungle_rat
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 2;
+			defense_skill = 2;
+			planning_skill = 4;
+			logistics_skill = 1;
 		}
 	}
-	advisor = {
-	idea_token = ISI_nasta_vodka
-		slot=army_chief
-		traits = {propiv_imyhestva}
+	ISI_nasta_admiral = {
+		name = "ISI_nasta_admiral"
+		portraits = {
+			army = {
+				small = GFX_portrait_Nasta
+			}
+		}
+		advisor = {
+			idea_token = ISI_nasta_vodka
+			slot = navy_chief
+			traits = {
+				pianiy_admiral
+			}
+			available = {
+				has_country_flag = ISI_nastya_women
+			}
+			visible = {
+				has_country_flag = ISI_nastya_women
+			}
 		}
 		
 		
@@ -317,88 +513,130 @@ characters = {
 		logistics_skill=1;
 		}
 	}
-	
-	
 	##Флот##
-	
 	ISI_pavel_pandora = {
-	
-	name = "ISI_pavel_pandora"
-	portraits = {
-		army = {
-		small = GFX_portrait_vino
+		name = "ISI_pavel_pandora"
+		portraits = {
+			army = {
+				small = GFX_portrait_vino
+			}
 		}
-	}
-	advisor = {
-		slot=navy_chief
-		traits = {pandore}
-		idea_token = ISI_pavel_pandora
-		available = {has_government = fascism}
-		visible = {has_government = fascism}
-		}
-		
-		navy_leader={
-			traits={ navy_career_officer seawolf }
-			skill=5
-			attack_skill=1
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=1
-			available = {has_government = fascism}
-		visible = {has_government = fascism}
-		}
-		
-	}
-
-	
-	ISI_dima_groznov = {
-	
-	name = "ISI_dima_groznov"
-	portraits = {
-		army = {
-		small = GFX_portrait_dima_groznov
-		large = GFX_portrait_dima_groznov
-		}
-	}
-	advisor = {
-		slot=navy_chief
-		traits = {grozn}
-		idea_token = ISI_dima_groznov
-		available = {
-			NOT = {has_country_flag = ISI_dead_dima}}
-			visible = { NOT = {has_country_flag = ISI_dead_dima}}
-		}
-		
-		navy_leader={
-			traits={seawolf }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=2
-			coordination_skill=5
+		advisor = {
+			slot = navy_chief
+			traits = {
+				pandore
+			}
+			idea_token = ISI_pavel_pandora
 			available = {
-			NOT = {has_country_flag = ISI_dead_dima}}
-			visible = { NOT = {has_country_flag = ISI_dead_dima}}
+				has_government = fascism
+			}
+			visible = {
+				has_government = fascism
+			}
 		}
-		
+		navy_leader = {
+			traits = {
+				navy_career_officer
+				seawolf
+			}
+			skill = 5
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			available = {
+				has_government = fascism
+			}
+			visible = {
+				has_government = fascism
+			}
+		}
 	}
-	
+	ISI_dima_groznov = {
+		name = "ISI_dima_groznov"
+		portraits = {
+			army = {
+				small = GFX_portrait_dima_groznov
+				large = GFX_portrait_dima_groznov
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			traits = {
+				grozn
+			}
+			idea_token = ISI_dima_groznov
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_dima
+					has_country_flag = ISI_nastya_women
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_dima
+				}
+			}
+		}
+		navy_leader = {
+			traits = {
+				seawolf
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 5
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_dima
+					has_country_flag = ISI_nastya_women
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_dima
+				}
+			}
+		}
+	}
 	##Авиация##
-	
 	ISI_iaroslavna_upala = {
-	
-	name = "ISI_iaroslavna_upala"
-	portraits = {
-		army = {
-		small = GFX_portrait_negr
+		name = "ISI_iaroslavna_upala"
+		portraits = {
+			army = {
+				small = GFX_portrait_negr
+			}
 		}
-	}
-	advisor = {
-		slot=air_chief
-		traits = {upala}
-		idea_token = ISI_iaroslavna_upala
-		available = { NOT = {has_country_flag = ISI_dead_iaroslavna}}
-		visible = {}
+		advisor = {
+			slot = air_chief
+			traits = {
+				upala
+			}
+			idea_token = ISI_iaroslavna_upala
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_iaroslavna
+				}
+			}
+			visible = {
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				hill_fighter
+			}
+			skill = 3
+			attack_skill = 3;
+			defense_skill = 2;
+			planning_skill = 4;
+			logistics_skill = 3;
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_iaroslavna
+				}
+			}
 		}
 		
 		corps_commander = {
@@ -411,19 +649,37 @@ characters = {
 		visible = {NOT = {has_country_flag = ISI_dead_iaroslavna}}
 		}
 	}
-	
 	ISI_danil_minenko = {
-	
-	name = "ISI_danil_minenko"
-	portraits = {
-		army = {
-		small = 
+		name = "ISI_danil_minenko"
+		portraits = {
 		}
-	}
-	advisor = {
-		slot=air_chief
-		traits = {minenko}
-		idea_token = ISI_danil_minenko
+		advisor = {
+			slot = air_chief
+			traits = {
+				minenko
+			}
+			idea_token = ISI_danil_minenko
+			available = {
+				NOT = {
+					has_country_flag = ISI_nastya_women
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				desert_fox
+			}
+			skill = 3
+			attack_skill = 2;
+			defense_skill = 1;
+			planning_skill = 6;
+			logistics_skill = 3;
+		}
+		available = {
+			NOT = {
+				has_country_flag = ISI_nastya_women
+			}
 		}
 		
 		corps_commander = {
@@ -435,242 +691,299 @@ characters = {
 		logistics_skill=3;
 		}
 	}
-	
-	
-	
 	### Обычные коммандиры ###
-	
 	ISI_ruslan_usherbnii = {
-	
-	idea_token = ISI_ruslan_usherbnii
-	name = "ISI_ruslan_usherbnii"
-	portraits = {
-		army = {
-		large = GFX_portrait_ruslan_usherbnii
+		idea_token = ISI_ruslan_usherbnii
+		name = "ISI_ruslan_usherbnii"
+		portraits = {
+			army = {
+				large = GFX_portrait_ruslan_usherbnii
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+			}
+			skill = 1
+			attack_skill = 1;
+			defense_skill = 1;
+			planning_skill = 1;
+			logistics_skill = 1;
 		}
 	}
-	corps_commander = {
-	
-		traits = {media_personality}
-		skill = 1
-		attack_skill=1;
-		defense_skill=1;
-		planning_skill=1;
-		logistics_skill=1;
-		}
-	}
-	
-	
 
-	
-	
-	
-	
 	ISI_nikita_muziko = {
-	name = "ISI_nikita_muziko"
-	portraits = {
-		army = {
-		large = GFX_nikita_musiko
+		name = "ISI_nikita_muziko"
+		portraits = {
+			army = {
+				large = GFX_nikita_musiko
+			}
 		}
-	}
-	corps_commander = {
-		traits = {infantry_officer}
-		skill = 6
-		attack_skill=5;
-		defense_skill=3;
-		planning_skill=6;
-		logistics_skill=8;
-		available = {has_country_flag = ISI_find_musiko}
-		visible = {has_country_flag = ISI_find_musiko}
+		corps_commander = {
+			traits = {
+				infantry_officer
+			}
+			skill = 6
+			attack_skill = 5;
+			defense_skill = 3;
+			planning_skill = 6;
+			logistics_skill = 8;
+			available = {
+				has_country_flag = ISI_find_musiko
+			}
+			visible = {
+				has_country_flag = ISI_find_musiko
+			}
 		}
 	}
 
 	ISI_dan_scala = {
-	
-	idea_token = ISI_dan_scala
-	name = "ISI_dan_scala"
-	
-	portraits = {
-		army = {
-		large = GFX_portrait_dan_scala
+		idea_token = ISI_dan_scala
+		name = "ISI_dan_scala"
+		portraits = {
+			army = {
+				large = GFX_portrait_dan_scala
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				commando
+				trait_mountaineer
+			}
+			skill = 3
+			attack_skill = 3;
+			defense_skill = 4;
+			planning_skill = 4;
+			logistics_skill = 2;
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_den
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_den
+				}
+			}
+
+
 		}
 	}
-	corps_commander = {
-		traits = {armor_officer commando trait_mountaineer}
-		skill = 3
-		attack_skill=3;
-		defense_skill=4;
-		planning_skill=4;
-		logistics_skill=2;
-		available = {
-			NOT = {has_country_flag = ISI_dead_den}}
-			visible = { NOT = {has_country_flag = ISI_dead_den}}
-		}
-	}
-	
 	ISI_lesha_neprixod = {
-	
-	idea_token = ISI_lesha_neprixod
-	name = "ISI_lesha_neprixod"
-	portraits = {
-		army = {
-		large = GFX_portrait_lesha_neprixod
+		idea_token = ISI_lesha_neprixod
+		name = "ISI_lesha_neprixod"
+		portraits = {
+			army = {
+				large = GFX_portrait_lesha_neprixod
+			}
+		}
+		corps_commander = {
+			traits = {
+				paratroopers
+				commando
+			}
+			skill = 2
+			attack_skill = 1;
+			defense_skill = 5;
+			planning_skill = 3;
+			logistics_skill = 2;
 		}
 	}
-	corps_commander = {
-		traits = {paratroopers commando}
-		skill = 2
-		attack_skill=1;
-		defense_skill=5;
-		planning_skill=3;
-		logistics_skill=2;
-		}
-	}
-	
-	
 	ISI_valera_redan = {
-	
-	idea_token = ISI_valera_redan
-	name = "ISI_valera_redan"
-	portraits = {
-		army = {
-		large = GFX_portrait_valera_redan
+		idea_token = ISI_valera_redan
+		name = "ISI_valera_redan"
+		portraits = {
+			army = {
+				large = GFX_portrait_valera_redan
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				engineer
+			}
+			skill = 5
+			attack_skill = 6;
+			defense_skill = 4;
+			planning_skill = 5;
+			logistics_skill = 1;
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_redan
+				}
+				has_government = fascism
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_redan
+				}
+				has_government = fascism
+			}
 		}
 	}
-	corps_commander = {
-		traits = {infantry_officer engineer}
-		skill = 5
-		attack_skill=6;
-		defense_skill=4;
-		planning_skill=5;
-		logistics_skill=1;
-		available = {
-			NOT = {has_country_flag = ISI_dead_redan} has_government = fascism}
-			visible = { NOT = {has_country_flag = ISI_dead_redan} has_government = fascism}
-		}
-	}
-	
 	ISI_vlad_student = {
-	
-	idea_token = ISI_vlad_student
-	name = "ISI_vlad_student"
-	portraits = {
-		army = {
-		large = GFX_portrait_vlad_student
+		idea_token = ISI_vlad_student
+		name = "ISI_vlad_student"
+		portraits = {
+			army = {
+				large = GFX_portrait_vlad_student
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+				panzer_expert
+			}
+			skill = 4
+			attack_skill = 4;
+			defense_skill = 4;
+			planning_skill = 4;
+			logistics_skill = 4;
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_student
+				}
+				has_government = fascism
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_student
+				}
+				has_government = fascism
+			}
 		}
 	}
-	corps_commander = {
-	
-		traits = {panzer_leader panzer_expert}
-		skill = 4
-		attack_skill=4;
-		defense_skill=4;
-		planning_skill=4;
-		logistics_skill=4;
-		available = {
-			NOT = {has_country_flag = ISI_dead_student} has_government = fascism}
-			visible = { NOT = {has_country_flag = ISI_dead_student} has_government = fascism}
-		}
-	}
-	
 	ISI_irina_kovid = {
-	
-	name = "ISI_irina_kovid"
-	portraits = {
-		army = {
-		large = GFX_portrait_irina_kovid
+		name = "ISI_irina_kovid"
+		portraits = {
+			army = {
+				large = GFX_portrait_irina_kovid
+			}
 		}
-	}
-	corps_commander = {
-		traits = {infantry_officer}
-		skill = 6
-		attack_skill=6;
-		defense_skill=2;
-		planning_skill=3;
-		logistics_skill=3;
-		available = {
-			NOT = {OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga}} has_government = fascism}
-			visible = { NOT = OR = {has_country_flag = ISI_dead_irina has_country_flag = ISI_irina_bes_noga} has_government = fascism}
+		corps_commander = {
+			traits = {
+				infantry_officer
+			}
+			skill = 6
+			attack_skill = 6;
+			defense_skill = 2;
+			planning_skill = 3;
+			logistics_skill = 3;
+			available = {
+				NOT = {
+					OR = {
+						has_country_flag = ISI_dead_irina
+						has_country_flag = ISI_irina_bes_noga
+					}
+				}
+				has_government = fascism
+			}
+			visible = {
+				NOT = {
+					OR = {
+						has_country_flag = ISI_dead_irina
+						has_country_flag = ISI_irina_bes_noga
+					}
+					has_government = fascism
+				}
+			}
 		}
-		
 		advisor = {
-		slot=political_advisor
-		idea_token = ISI_irina_kovid
-		traits = { prosheshi_hell}
-		available = {
-			 has_country_flag = ISI_irina_bes_noga
-			 has_government = fascism
+			slot = political_advisor
+			idea_token = ISI_irina_kovid
+			traits = {
+				prosheshi_hell
 			}
-			visible = { 
-			has_country_flag = ISI_irina_bes_noga
-			has_government = fascism
+			available = {
+				has_country_flag = ISI_irina_bes_noga
+				has_government = fascism
+			}
+			visible = {
+				has_country_flag = ISI_irina_bes_noga
+				has_government = fascism
 			}
 		}
 	}
-	
 	###Политические советники###
 	ISI_vlad_neprilotov = {
-	
-	name = "ISI_vlad_neprilotov"
-	portraits = {
-		army = {
-		small = 
+		name = "ISI_vlad_neprilotov"
+		portraits = {
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				prilet_vlad
+			}
+			idea_token = ISI_vlad_neprilotov
+			available = {
+				NOT = {
+					has_country_flag = ISI_dead_vlad
+					has_country_flag = ISI_skormili_klei
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_vlad
+				}
+			}
 		}
 	}
-	advisor = {
-		slot=political_advisor
-		traits = {prilet_vlad}
-		idea_token = ISI_vlad_neprilotov
-		available = {
-			NOT = {has_country_flag = ISI_dead_vlad}}
-			visible = { NOT = {has_country_flag = ISI_dead_vlad}}
-		}
-	}
-	
-	
-	
 	ISI_ivan_chain = {
-	
-	name = "ISI_ivan_chain"
-	portraits = {
-		army = {
-		small = 
+		name = "ISI_ivan_chain"
+		portraits = {
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				sale_chain
+			}
+			idea_token = ISI_ivan_chain
+			available = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
 		}
 	}
-	advisor = {
-		slot=political_advisor
-		traits = {sale_chain}
-		idea_token = ISI_ivan_chain
-		}
-	}
-	
 	ISI_dima_volkov = {
-	
-	name = "ISI_dima_volkov"
-	portraits = {
-		army = {
-		small = GFX_portrait_ia
+		name = "ISI_dima_volkov"
+		portraits = {
+			army = {
+				small = GFX_portrait_ia
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				activ_volk
+			}
+			idea_token = ISI_dima_volkov
+			available = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
 		}
 	}
-	advisor = {
-		slot=political_advisor
-		traits = {activ_volk}
-		idea_token = ISI_dima_volkov
-		}
-	}
-	
 	ISI_artem_koko = {
-	
-	name = "ISI_artem_koko"
-	portraits = {
-		army = {
-		small = GFX_portrait_artem_koko
+		name = "ISI_artem_koko"
+		portraits = {
+			army = {
+				small = GFX_portrait_artem_koko
+			}
 		}
-	}
-	advisor = {
-		slot=political_advisor
-		traits = {smoke_koko}
-		idea_token = ISI_artem_koko
+		advisor = {
+			slot = political_advisor
+			traits = {
+				smoke_koko
+			}
+			idea_token = ISI_artem_koko
+			available = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
 		}
 		
 	corps_commander = {
@@ -683,34 +996,44 @@ characters = {
 		logistics_skill=5;
 		}
 	}
-	
 	ISI_tox_gandon = {
-	
-	name = "ISI_tox_gandon"
-	portraits = {
-		army = {
-		small = GFX_portrait_hz
+		name = "ISI_tox_gandon"
+		portraits = {
+			army = {
+				small = GFX_portrait_hz
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				gan_tox
+			}
+			idea_token = ISI_tox_gandon
+			available = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
 		}
 	}
-	advisor = {
-		slot=political_advisor
-		traits = {gan_tox}
-		idea_token = ISI_tox_gandon
-		}
-	}
-	
 	ISI_aleksey_morda = {
-
-	name = "ISI_aleksey_morda"
-	portraits = {
-		army = {
-		small = GFX_portrait_aleksey_mort
+		name = "ISI_aleksey_morda"
+		portraits = {
+			army = {
+				small = GFX_portrait_aleksey_mort
+			}
 		}
-	}
-	advisor = {
-		slot=political_advisor
-		traits = {mordoboy}
-		idea_token = ISI_aleksey_morda
+		advisor = {
+			slot = political_advisor
+			traits = {
+				mordoboy
+			}
+			idea_token = ISI_aleksey_morda
+			available = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
 		}
 		
 		corps_commander = {
@@ -722,18 +1045,91 @@ characters = {
 		logistics_skill=3;
 		}
 	}
-	
 	ISI_daria_nuxclei = {
-	name = "ISI_daria_nuxclei"
-	portraits = {
-		army = {
-		small = GFX_portrait_daria_nuxclei
+
+		name = "ISI_daria_nuxclei"
+		portraits = {
+			army = {
+				small = GFX_portrait_daria_nuxclei
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				vcid_cleem
+			}
+			idea_token = ISI_daria_nuxclei
+			available = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_flag = ISI_skormili_klei
+				}
+			}
+
 		}
 	}
-	advisor = {
-		slot=political_advisor
-		traits = {vcid_cleem}
+	ISI_daria_kanibal = {
+		name = "ISI_daria_kanibal"
+		portraits = {
+			army = {
+				small = GFX_portrait_daria_nuxclei
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				klei_kanibal
+			}
+			idea_token = ISI_daria_kanibal
+			available = {
+				has_country_flag = ISI_skormili_klei
+			}
+			visible = {
+				has_country_flag = ISI_skormili_klei
+			}
+		}
+	}
+	ISI_daria_theoretic = {
+		name = "ISI_daria_nuxclei"
+		portraits = {
+			army = {
+				small = GFX_portrait_daria_nuxclei
+			}
+		}
+		advisor = {
+			slot = theorist
+			traits = {
+				kleevoi_theoretic
+			}
 			idea_token = ISI_daria_nuxclei
+			available = {
+				has_country_flag = ISI_skormili_klei
+			}
+			visible = {
+				has_country_flag = ISI_skormili_klei
+			}
+		}
+	}
+	ISI_vampire = {
+		name = "ISI_vampire"
+		portraits = {
+			army = {
+				small = GFX_portrait_vampire
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			traits = {
+				vampire
+			}
+			idea_token = ISI_vampire
+			visible = {
+				has_country_flag = ISI_luda_vlast
+			}
 		}
 	}
 	
@@ -751,36 +1147,45 @@ characters = {
 			visible = {has_country_flag = ISI_luda_vlast }
 		}
 	}
-	
 	###Теористы###
-	
 	ISI_nikolai_zurov = {
-
-	name = "ISI_nikolai_zurov"
-	portraits = {
-		army = {
-		small = GFX_portrait_nikolai_zurov
+		name = "ISI_nikolai_zurov"
+		portraits = {
+			army = {
+				small = GFX_portrait_nikolai_zurov
+			}
 		}
-	}
-	advisor = {
-		slot=theorist
-		traits = {zurov_koncilsa}
+		advisor = {
+			slot = theorist
+			traits = {
+				zurov_koncilsa
+			}
 			idea_token = ISI_nikolai_zurov
+			available = {
+				NOT = {
+					has_country_flag = ISI_stanoc_zazheval
+				}
+			}
 		}
 	}
-	
 	ISI_andrei_amoral = {
-	
-	name = "ISI_andrei_amoral"
-	portraits = {
-		army = {
-		small = GFX_portrait_snejok
+		name = "ISI_andrei_amoral"
+		portraits = {
+			army = {
+				small = GFX_portrait_snejok
+			}
 		}
-	}
-	advisor = {
-		slot=theorist
-		traits = {amoral}
-		idea_token = ISI_andrei_amoral
+		advisor = {
+			slot = theorist
+			traits = {
+				amoral
+			}
+			idea_token = ISI_andrei_amoral
+			available = {
+				NOT = {
+					has_country_flag = ISI_amoralno_ubili
+				}
+			}
 		}
 		
 		corps_commander = {
@@ -792,9 +1197,4 @@ characters = {
 		logistics_skill=4;
 		}
 	}
-	
-	
-	
-	
-	
 }

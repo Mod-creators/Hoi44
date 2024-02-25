@@ -1,0 +1,177 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+#####
+##### PARANOIA SYSTEM #####
+#####
+
+
+defined_text = {
+	name = GetParanoiaValueColor
+	text = {
+		trigger = {
+			check_variable = { ISI_paranoia = 70 compare = greater_than_or_equals }
+		}
+		localization_key = ISI_color_red
+	}
+	text = {
+		trigger = {
+			check_variable = { ISI_paranoia = 30 compare = greater_than_or_equals }
+		}
+		localization_key = ISI_color_yellow
+	}
+	text = {
+		localization_key = ISI_color_green
+	}
+}
+
+defined_text = {
+	name = GetParanoiaModifierValueColor
+	text = {
+		trigger = {
+			check_variable = { ISI_paranoia_weekly_modifier_ui = 0 compare = greater_than }
+		}
+		localization_key = ISI_color_red
+	}
+	text = {
+		trigger = {
+			check_variable = { ISI_paranoia_weekly_modifier_ui = 0 compare = less_than }
+		}
+		localization_key = ISI_color_green
+	}
+	text = {
+		localization_key = ISI_color_yellow
+	}
+}
+
+defined_text = {
+	name = GetLeaderTrait
+	text = {
+		trigger = {
+			has_country_leader_with_trait = stalin_political_paranoia
+		}
+		localization_key = ISI_paranoia_tooltip_stalin_default
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = stalin_political_paranoia_advanced
+		}
+		localization_key = ISI_paranoia_tooltip_stalin_advanced
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = stalin_authority_undermined
+		}
+		localization_key = ISI_paranoia_tooltip_stalin_undermined
+	}
+	#text = { # -> Only if Beriya cannot be both NKVD chief and country leader at the same time, and we add the country leader trait (Create country leader trait and uncomment this and string in decision loc)
+	#	trigger = {
+	#		#has_country_leader_with_trait = beriya_political_paranoia
+	#	}
+	#	localization_key = ISI_paranoia_tooltip_beriya
+	#}
+	text = {
+		localization_key = ISI_paranoia_tooltip_null
+	}
+}
+
+defined_text = {
+	name = GetNKVDTrait
+	text = {
+		trigger = {
+			has_idea = ISI_genrikh_yagoda
+			ISI_genrikh_yagoda = { has_trait = head_of_the_nkvd_yagoda }
+		}
+		localization_key = ISI_paranoia_tooltip_nkvd_yagoda
+	}
+	text = {
+		trigger = {
+			has_idea = ISI_nikolay_yezhov
+			ISI_nikolay_yezhov = { has_trait = head_of_the_nkvd_yezhov }
+		}
+		localization_key = ISI_paranoia_tooltip_nkvd_yezhov
+	}
+	text = {
+		trigger = {
+			has_idea = ISI_lavrenty_beriya
+			ISI_lavrenty_beriya = { has_trait = head_of_the_nkvd_beriya }
+		}
+		localization_key = ISI_paranoia_tooltip_nkvd_beriya
+	}
+	text = {
+		localization_key = ISI_paranoia_tooltip_null
+	}
+}
+
+
+defined_text = { #Yes this is nonsense but atm gui loc needs to pass through scripted_loc in order to work with $$ 
+	name = GetAppropriateLastPurgeFocusName
+	text = {
+		localization_key = ISI_last_purge_focus_name
+	}
+}
+
+defined_text = {
+	name = GetMoscowTrialIndex
+	text = {
+		trigger = {
+			check_variable = { ISI_moscow_trial_index = 3 compare = equals }
+		}
+		localization_key = ISI_moscow_trial_index_3
+	}
+	text = {
+		trigger = {
+			check_variable = { ISI_moscow_trial_index = 2 compare = equals }
+		}
+		localization_key = ISI_moscow_trial_index_2
+	}
+	text = {
+		localization_key = ISI_moscow_trial_index_1
+	}
+}
+
+defined_text = {
+	name = GetMoscowTrialPurgeName
+	text = {
+		trigger = {
+			has_country_flag = ISI_purge_event_unavoidable_flag
+		}
+		localization_key = ISI_moscow_trial_real_name
+	}
+	text = {
+		localization_key = ISI_moscow_trial_generic_name
+	}
+}
+
+defined_text = {
+	name = GetParanoiaWeeklyModifier
+	text = {
+		trigger = {
+			check_variable = { ISI_paranoia_modifier_increase = 0 compare = equals }
+		}
+		localization_key = ISI_paranoia_tooltip_null
+	}
+	text = {
+		localization_key = ISI_paranoia_weekly_modifier_tt
+	}
+}
+
+defined_text = {
+	name = GetAppropriateParanoiaTooltip
+	text = {
+		trigger = {
+			has_country_flag = ISI_paranoia_system_active_flag
+		}
+		localization_key = ISI_paranoia_text_tooltip_default
+	}
+	text = {
+		localization_key = ISI_paranoia_text_tooltip_not_active
+	}
+}

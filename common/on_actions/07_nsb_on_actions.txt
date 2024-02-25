@@ -1,0 +1,13 @@
+on_actions = {
+	on_weekly_ISI = {
+		effect ={ #Weekly Paranoia modifiers
+			if = { #If other modifiers affect Paranoia, then use the same flag with different values, which will work as a multiplier
+				limit = {
+					has_country_flag = ISI_paranoia_system_active_flag
+					has_country_flag = ISI_paranoia_modifier_active_flag #Stalin's Paranoid leader trait
+				}
+				ISI_paranoia_modifier_increase_effect = yes
+			}
+		}
+    }
+}
