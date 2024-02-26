@@ -304,7 +304,6 @@ characters = {
 				}
 			
 		}
-	}
 
 	ISI_veronica_archiwitch = {
 		name = "ISI_veronica_archiwitch"
@@ -1098,20 +1097,6 @@ characters = {
 		}
 	}
 	
-	ISI_vampire = {
-	name = "ISI_vampire"
-	portraits = {
-		army = {
-		small = GFX_portrait_vampire
-		}
-	}
-	advisor = {
-		slot=political_advisor
-		traits = {vampire}
-			idea_token = ISI_vampire
-			visible = {has_country_flag = ISI_luda_vlast }
-		}
-	}
 	###Теористы###
 	ISI_nikolai_zurov = {
 		name = "ISI_nikolai_zurov"
