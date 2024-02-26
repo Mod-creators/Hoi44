@@ -1,8 +1,9 @@
 ﻿capital = 44
 set_research_slots = 2
 
+set_air_oob = "ISI_1936_air_legacy"
 set_oob = "ISI_1936_nsb"
-set_oob = "ISI_1936_air_legacy"
+
 
 set_technology = {
 	infantry_weapons = 1
