@@ -2798,43 +2798,6 @@ add_ideas = monopoly
 		y = 13
 	}
 	focus = {
-		id = artem.8.6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.2
-		}
-		mutually_exclusive = {
-			focus = artem.8.7
-		}
-		x = 52
-		y = 12
-	}
-	focus = {
-		id = artem.8.7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.7.2
-		}
-		mutually_exclusive = {
-			focus = artem.8.6
-		}
-		x = 54
-		y = 12
-	}
-	focus = {
-		id = artem.9.7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = artem.8.6
-			focus = artem.8.7
-		}
-		x = 53
-		y = 13
-	}
-	focus = {
 		id = artem.8.8
 		icon = GFX_goal_unknown
 		cost = 10,00
