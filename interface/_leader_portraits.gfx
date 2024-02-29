@@ -9205,5 +9205,10 @@ spriteTypes = {
 		name = "GFX_artem_anime"
 		textureFile = "gfx/leaders/ISI/artem_placeholder.dds"
 	}
+
+	spriteType = {
+		name = "GFX_artem_fail"
+		textureFile = "gfx/leaders/ISI/artem_placeholder.dds"
+	}
 	
 }

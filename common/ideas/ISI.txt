@@ -124,6 +124,130 @@ ideas = {
 				production_speed_buildings_factor = -0.15
 			}
 		}
+		ISI_bio_weapon = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.15
+				stability_factor = -0.3
+				war_support_factor = -0.2
+			}
+		}
+		ISI_bio_lab = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.25
+				stability_factor = -0.4
+				war_support_factor = -0.25
+			}
+		}
+		ISI_vedmi_pravitelstva = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.25
+				intel_from_operatives_factor = 0.5
+				intel_from_combat_factor = 0.5
+				intel_network_gain_factor = 0.3
+				planning_speed = 0.3
+				max_planning_factor = 0.5
+				dig_in_speed_factor = 0.3
+				air_attack_factor = 0.3
+			}
+		}
+		ISI_bio_lab_polezn = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.05
+				consumer_goods_factor = -0.05
+				drift_defence_factor = 0.3
+			}
+		}
+		ISI_podavlenie_naroda = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+			}
+		}
+		ISI_istreblenie = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.4
+				war_support_factor = -0.9
+				weekly_manpower = -500
+				conscription_factor = -0.5
+			}
+		}
+		ISI_istreblenie_zombi = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.5
+				conscription_factor = 0.3
+				consumer_goods_factor = -0.3
+			}
+		}
+		ISI_podchinenie = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.3
+				conscription_factor = 0.3
+			}
+		}
+		ISI_proverki_na_zavode = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.4
+				production_factory_efficiency_gain_factor = -0.5 
+				production_factory_max_efficiency_factor = -0.5
+				production_factory_start_efficiency_factor = -0.5
+				production_lack_of_resource_penalty_factor = 0.5
+				line_change_production_efficiency_factor = -0.3
+			}
+		}
+		ISI_proverki_armii = {
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.3
+				weekly_manpower = -10
+				army_infantry_attack_factor = -0.15
+				army_infantry_defence_factor = -0.15
+				army_morale_factor = -0.15
+				army_org_factor = -0.15
+			}
+		}
+		ISI_legioni_aleksanra = {
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.05
+				war_support_weekly_factor = 0.05
+				army_infantry_attack_factor = 0.15
+				army_infantry_defence_factor = 0.15
+			}
+		}
+		ISI_mestniy_sumashedshiy = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				weekly_manpower = -3
+			}
+		}
+		ISI_ubica_ucheniy = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.4
+				war_support_factor = -0.4
+				weekly_manpower = -10
+				communism_drift = 0.4
+			}
+		}
+		ISI_podstroennaya_poimka = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				communism_drift = 0.4
+			}
+		}
 		ISI_frightened_ministers = {
 			removal_cost = -1
 			modifier = {

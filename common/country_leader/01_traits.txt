@@ -51,6 +51,16 @@ leader_traits = {
         }
 	}
 
+	belaya_goryachka = {
+		random = no
+		communism_drift = 0.05
+		drift_defence_factor = 0.5
+		stability_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	silneyshiy_leader = {
 		random = no
 		weekly_manpower = 500

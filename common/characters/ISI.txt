@@ -30,7 +30,6 @@ characters = {
 	}
 	ISI_romino_pravitelstvo = {
 		name = ISI_romino_pravitelstvo
-		idea_token = ISI_romino_pravitelstvo
 		portraits = {
 			civilian = {
 				large = GFX_romino_pravitelstvo
@@ -113,20 +112,19 @@ characters = {
 			expire = "1965.1.1.1"
 			id = -1
 		}
-	
-	advisor = {
-		slot = theorist
-		idea_token = ISI_artem_naygolnow
-		traits = {
-			very_smart
+		advisor = {
+			slot = theorist
+			idea_token = ISI_artem_naygolnow
+			traits = {
+				very_smart
+			}
+			available = {
+				has_country_flag = ISI_artem_theorist
+			}
+			visible = {
+				has_country_flag = ISI_artem_theorist
+			}
 		}
-		available = {
-			has_country_flag = ISI_artem_theorist
-		}
-		visible = {
-			has_country_flag = ISI_artem_theorist
-		}
-	}
 	}
 	### Фельдмаршалы и по совместительству главы военного совета ###
 	ISI_nikita_bananow = {
@@ -197,20 +195,26 @@ characters = {
 		}
 	}
 	ISI_darc_greck = {
-	name = "ISI_darc_greck"
-	portraits = {
-		army = {
-		large = GFX_portrait_dark_nokita
+		name = "ISI_darc_greck"
+		portraits = {
+			army = {
+				large = GFX_portrait_dark_nokita
+			}
 		}
-	}
-	field_marshal = {
-		traits = {old_guard war_hero infantry_leader}
-		skill = 5
-		attack_skill=7;
-		defense_skill=3;
-		planning_skill=6;
-		logistics_skill=5;
-		visible = { has_country_flag = ISI_luda_vlast}
+		field_marshal = {
+			traits = {
+				old_guard
+				war_hero
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 7;
+			defense_skill = 3;
+			planning_skill = 6;
+			logistics_skill = 5;
+			visible = {
+				has_country_flag = ISI_luda_vlast
+			}
 		}
 	}
 	ISI_nikita_xyida = {
@@ -293,18 +297,7 @@ characters = {
 				}
 			}
 		}
-			
-			corps_commander = {
-				traits = {urban_assault_specialist career_officer}
-				skill = 4
-				attack_skill=4;
-				defense_skill=4;
-				planning_skill=4;
-				logistics_skill=4;
-				}
-			
-		}
-
+	}
 	ISI_veronica_archiwitch = {
 		name = "ISI_veronica_archiwitch"
 		portraits = {
@@ -313,7 +306,7 @@ characters = {
 			}
 		}
 		advisor = {
-			idea_token = ISI_veronica_vedma
+			idea_token = ISI_veronica_archiwitch
 			slot = high_command
 			traits = {
 				archiwitch
@@ -326,19 +319,6 @@ characters = {
 				has_country_flag = ISI_army_women
 			}
 		}
-		corps_commander = {
-			traits = {
-				urban_assault_specialist
-				career_officer
-			}
-			skill = 4
-			attack_skill = 4;
-			defense_skill = 4;
-			planning_skill = 4;
-			logistics_skill = 4;
-		}
-	
-	
 	}
 	ISI_danil_proxorod = {
 		name = "ISI_danil_proxorod"
@@ -374,7 +354,6 @@ characters = {
 			}
 		}
 	}
-	
 	###Главы военных отделений###
 	##Армия##
 	ISI_aleksandr_voitenko = {
@@ -408,14 +387,16 @@ characters = {
 			planning_skill = 4;
 			logistics_skill = 3;
 		}
-		
 		corps_commander = {
-		traits = {armor_officer engineer_officer}
-		skill = 4
-		attack_skill=3;
-		defense_skill=3;
-		planning_skill=4;
-		logistics_skill=3;
+			traits = {
+				armor_officer
+				engineer_officer
+			}
+			skill = 4
+			attack_skill = 3;
+			defense_skill = 3;
+			planning_skill = 4;
+			logistics_skill = 3;
 		}
 	}
 	ISI_nasta_vodka = {
@@ -465,16 +446,29 @@ characters = {
 				has_country_flag = ISI_nastya_women
 			}
 		}
-		
-		
-		
-		corps_commander = {
-		traits = {swamp_fox jungle_rat infantry_officer}
-		skill = 2
-		attack_skill=2;
-		defense_skill=2;
-		planning_skill=4;
-		logistics_skill=1;
+		navy_leader = {
+			traits = {
+				seawolf
+			}
+			skill = 4
+			attack_skill = 5;
+			defense_skill = 5;
+			planning_skill = 3;
+			logistics_skill = 1;
+			available = {
+				has_country_flag = ISI_nastya_women
+			}
+			visible = {
+				has_country_flag = ISI_nastya_women
+			}
+		}
+	}
+	ISI_artem_goryachka = {
+		name = "ISI_artem_goryachka"
+		portraits = {
+			civilian = {
+				large = GFX_artem_fail
+			}
 		}
 	}
 	##Флот##
@@ -602,15 +596,21 @@ characters = {
 				}
 			}
 		}
-		
 		corps_commander = {
-		traits = {commando hill_fighter}
-		skill = 3
-		attack_skill=3;
-		defense_skill=2;
-		planning_skill=4;
-		logistics_skill=3;
-		visible = {NOT = {has_country_flag = ISI_dead_iaroslavna}}
+			traits = {
+				commando
+				hill_fighter
+			}
+			skill = 3
+			attack_skill = 3;
+			defense_skill = 2;
+			planning_skill = 4;
+			logistics_skill = 3;
+			visible = {
+				NOT = {
+					has_country_flag = ISI_dead_iaroslavna
+				}
+			}
 		}
 	}
 	ISI_danil_minenko = {
@@ -645,14 +645,16 @@ characters = {
 				has_country_flag = ISI_nastya_women
 			}
 		}
-		
 		corps_commander = {
-		traits = {cavalry_officer desert_fox}
-		skill = 3
-		attack_skill=2;
-		defense_skill=1;
-		planning_skill=6;
-		logistics_skill=3;
+			traits = {
+				cavalry_officer
+				desert_fox
+			}
+			skill = 3
+			attack_skill = 2;
+			defense_skill = 1;
+			planning_skill = 6;
+			logistics_skill = 3;
 		}
 	}
 	### Обычные коммандиры ###
@@ -675,7 +677,6 @@ characters = {
 			logistics_skill = 1;
 		}
 	}
-
 	ISI_nikita_muziko = {
 		name = "ISI_nikita_muziko"
 		portraits = {
@@ -700,7 +701,6 @@ characters = {
 			}
 		}
 	}
-
 	ISI_dan_scala = {
 		idea_token = ISI_dan_scala
 		name = "ISI_dan_scala"
@@ -730,8 +730,6 @@ characters = {
 					has_country_flag = ISI_dead_den
 				}
 			}
-
-
 		}
 	}
 	ISI_lesha_neprixod = {
@@ -949,15 +947,15 @@ characters = {
 				}
 			}
 		}
-		
-	corps_commander = {
-	
-		traits = {media_personality}
-		skill = 3
-		attack_skill=3;
-		defense_skill=4;
-		planning_skill=2;
-		logistics_skill=5;
+		corps_commander = {
+			traits = {
+				media_personality
+			}
+			skill = 3
+			attack_skill = 3;
+			defense_skill = 4;
+			planning_skill = 2;
+			logistics_skill = 5;
 		}
 	}
 	ISI_tox_gandon = {
@@ -999,18 +997,17 @@ characters = {
 				}
 			}
 		}
-		
 		corps_commander = {
-		traits = {}
-		skill = 4
-		attack_skill=2;
-		defense_skill=1;
-		planning_skill=2;
-		logistics_skill=3;
+			traits = {
+			}
+			skill = 4
+			attack_skill = 2;
+			defense_skill = 1;
+			planning_skill = 2;
+			logistics_skill = 3;
 		}
 	}
 	ISI_daria_nuxclei = {
-
 		name = "ISI_daria_nuxclei"
 		portraits = {
 			army = {
@@ -1033,7 +1030,6 @@ characters = {
 					has_country_flag = ISI_skormili_klei
 				}
 			}
-
 		}
 	}
 	ISI_daria_kanibal = {
@@ -1096,7 +1092,6 @@ characters = {
 			}
 		}
 	}
-	
 	###Теористы###
 	ISI_nikolai_zurov = {
 		name = "ISI_nikolai_zurov"
@@ -1137,14 +1132,17 @@ characters = {
 				}
 			}
 		}
-		
 		corps_commander = {
-		traits = {armor_officer commando trait_mountaineer}
-		skill = 6
-		attack_skill=3;
-		defense_skill=4;
-		planning_skill=5;
-		logistics_skill=4;
+			traits = {
+				armor_officer
+				commando
+				trait_mountaineer
+			}
+			skill = 6
+			attack_skill = 3;
+			defense_skill = 4;
+			planning_skill = 5;
+			logistics_skill = 4;
 		}
 	}
 }

@@ -10,4 +10,49 @@ on_actions = {
 			}
 		}
     }
+	on_daily_ISI{
+		effect = {
+			if = {
+				limit = {
+					check_variable = { ISI_paranoia > 89}
+					is_ai = no # Slight cheat, but the ai needs some support
+				}
+				random = {
+					chance = 5
+					country_event = {
+						id = isi.9999paranoia
+						hours = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { ISI_paranoia > 75}
+					is_ai = no # Slight cheat, but the ai needs some support
+					check_variable = { ISI_paranoia > 89}
+				}
+				random = {
+					chance = 50
+					country_event = {
+						id = isi.9998paranoia
+						hours = 0
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { ISI_paranoia > 50}
+					is_ai = no # Slight cheat, but the ai needs some support
+					check_variable = { ISI_paranoia < 89}
+				}
+				random = {
+					chance = 25
+					country_event = {
+						id = isi.9997paranoia
+						hours = 0
+					}
+				}
+			}
+		}
+	}
 }
