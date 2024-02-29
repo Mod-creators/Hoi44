@@ -241,42 +241,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = luda_5
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda_4
-		}
-		x = 67
-		y = 8
-		completion_reward = {
-		
-		}
-
-	}
-	focus = {
-		id = luda_6
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda_5
-		}
-		x = 67
-		y = 9
-
-	}
-	focus = {
-		id = luda_7
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = luda_6
-		}
-		x = 67
-		y = 11
-
-	}
-	focus = {
 		id = luda_8
 		icon = GFX_focus_luda_8
 		cost = 10,00
@@ -365,6 +329,11 @@ focus_tree = {
 		}
 		x = 72
 		y = 12
+		completion_reward = {
+		custom_effect_tooltip = ISI_unlock_volk_desition_tool
+		add_political_power =  200
+		add_stability = 0.10
+		}
 
 	}
 	focus = {
@@ -376,6 +345,7 @@ focus_tree = {
 		}
 		x = 69
 		y = 13
+		completion_reward = {}
 
 	}
 	focus = {
@@ -387,17 +357,48 @@ focus_tree = {
 		}
 		x = 66
 		y = 14
+		completion_reward = {}
 
 	}
 	focus = {
 		id = luda_30
 		icon = GFX_goal_unknown
+		available = {custom_trigger_tooltip = {
+				tooltip = tooltip_gre_control
+				controls_state = 185
+				controls_state = 731
+				controls_state = 47
+				controls_state = 186
+				controls_state = 184
+				controls_state = 187
+				controls_state = 182
+			
+			}
+				has_equipment = { infantry_equipment > 9999 }}
 		cost = 10,00
 		prerequisite = {
 			focus = luda_13
 		}
 		x = 75
 		y = 13
+		completion_reward = {
+		
+		185 = { add_core_of = ROOT }
+		731 = { add_core_of = ROOT }
+		47 = { add_core_of = ROOT }
+		186 = { add_core_of = ROOT }
+		184 = { add_core_of = ROOT }
+		187 = { add_core_of = ROOT }
+		182 = { add_core_of = ROOT }
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -9999
+				producer = ISI
+			}
+		
+		
+		
+		}
 
 	}
 	focus = {
@@ -548,6 +549,28 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 75
 		y = 15
+		available = {custom_trigger_tooltip = {
+				tooltip = tooltip_bul_control
+				controls_state = 212
+				controls_state = 48
+				controls_state = 801
+				controls_state = 211
+			}
+             has_equipment = { infantry_equipment > 9999 }
+			}
+		completion_reward = {
+		
+		212 = { add_core_of = ROOT }
+		48 = { add_core_of = ROOT }
+		801 = { add_core_of = ROOT }
+		211 = { add_core_of = ROOT }
+		
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -9999
+				producer = ISI
+			}
+		}
 
 	}
 	focus = {
@@ -559,6 +582,104 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 75
 		y = 17
+		available = {custom_trigger_tooltip = {
+				tooltip = tooltip_tur_control
+				controls_state = 797
+				controls_state = 341
+				controls_state = 340
+				controls_state = 339
+				controls_state = 342
+				controls_state = 343
+				controls_state = 347
+				controls_state = 49
+				controls_state = 798
+				controls_state = 346
+				controls_state = 345
+				controls_state = 356
+				controls_state = 348
+				controls_state = 344
+				controls_state = 355
+				controls_state = 349
+				controls_state = 350
+				controls_state = 354
+				controls_state = 353
+				controls_state = 352
+				controls_state = 800
+			}
+			has_equipment = { infantry_equipment > 9999 }
+			
+			}
+		completion_reward = {
+		
+		341 = { add_core_of = ROOT }
+
+				340 = { add_core_of = ROOT }
+			
+				339 = { add_core_of = ROOT }
+			
+	
+				342 = { add_core_of = ROOT }
+		
+		
+				343 = { add_core_of = ROOT }
+			
+			
+				347 = { add_core_of = ROOT }
+			
+			
+				49 = { add_core_of = ROOT }
+			
+				
+				346 = { add_core_of = ROOT }
+		
+				
+				345 = { add_core_of = ROOT }
+		
+	
+				356 = { add_core_of = ROOT }
+			
+			
+				348 = { add_core_of = ROOT }
+			
+			
+				344 = { add_core_of = ROOT }
+			
+			
+				355 = { add_core_of = ROOT }
+			
+				
+				349 = { add_core_of = ROOT }
+			
+			
+				798 = { add_core_of = ROOT }
+			
+				
+				350 = { add_core_of = ROOT }
+				
+				
+				354 = { add_core_of = ROOT }
+			
+			
+				353 = { add_core_of = ROOT }
+				
+				
+				352 = { add_core_of = ROOT }
+			
+		
+				800 = { add_core_of = ROOT }
+			
+				799 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+				
+				add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -9999
+				producer = ISI
+			}
+		
+		
+		
+		}
 
 	}
 	focus = {
@@ -570,6 +691,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 72
 		y = 13
+		completion_reward = {}
 
 	}
 	focus = {
@@ -581,6 +703,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 72
 		y = 15
+		completion_reward = {}
 
 	}
 	focus = {
@@ -592,6 +715,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 72
 		y = 17
+		completion_reward = {}
 
 	}
 	focus = {
@@ -603,6 +727,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 69
 		y = 15
+		completion_reward = {}
 
 	}
 	focus = {
@@ -614,6 +739,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 69
 		y = 17
+		completion_reward = {}
 
 	}
 	focus = {
@@ -625,6 +751,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 66
 		y = 16
+		completion_reward = {}
 
 	}
 	focus = {
@@ -636,6 +763,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 66
 		y = 18
+		completion_reward = {}
 
 	}
 	focus = {
@@ -653,6 +781,7 @@ hidden_effect = {ISI_veronica_vedma = {
 		}
 		x = 72
 		y = 19
+		completion_reward = {}
 
 	}
 

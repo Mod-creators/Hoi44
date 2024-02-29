@@ -36,6 +36,21 @@ ideas = {
 		}
 	}
 	country = {
+	
+	
+	ISI_tipo_sovet = {
+	
+	removal_cost = -1
+			modifier = {
+				stability_weekly = 0.008
+				war_support_factor = 0.10
+			}
+	
+	}
+	
+	
+	
+	
 		ISI_artems_time_bomb = {
 			removal_cost = -1
 			modifier = {
@@ -57,17 +72,13 @@ ideas = {
 			
 		} 
 	
-	
-	ISI_kindjal_add = {
-	
+			ISI_kindjal_add = {
 			removal_cost = -1
 			modifier = {
-			political_power_factor = 0.2
-			party_popularity_stability_factor = 0.15
-			compliance_growth_on_our_occupied_states = 0.15
-			
+				political_power_factor = 0.2
+				party_popularity_stability_factor = 0.15
+				compliance_growth_on_our_occupied_states = 0.15
 			}
-			
 		}
 		ISI_lost_army_control = {
 			removal_cost = -1
@@ -167,14 +178,7 @@ ideas = {
 				army_org_regain = 0.3
 			}
 		}
-		ISI_kindjal_add = {
-			removal_cost = -1
-			modifier = {
-				political_power_factor = 0.2
-				party_popularity_stability_factor = 0.15
-				compliance_growth_on_our_occupied_states = 0.15
-			}
-		}
+	
 		ISI_new_laba = {
 			removal_cost = -1
 			modifier = {
