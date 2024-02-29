@@ -357,22 +357,6 @@ characters = {
 				}
 			}
 		}
-		corps_commander = {
-			traits = {
-				bearer_of_artillery
-				brilliant_strategist
-			}
-			skill = 3
-			attack_skill = 3;
-			defense_skill = 2;
-			planning_skill = 3;
-			logistics_skill = 2;
-			available = {
-				NOT = {
-					has_country_flag = ISI_army_women
-				}
-			}
-		}
 	}
 	
 	###Главы военных отделений###
@@ -906,6 +890,22 @@ characters = {
 			available = {
 				NOT = {
 					has_country_flag = ISI_skormili_klei
+				}
+			}
+		}
+		corps_commander = {
+			traits = {
+				bearer_of_artillery
+				brilliant_strategist
+			}
+			skill = 3
+			attack_skill = 3;
+			defense_skill = 2;
+			planning_skill = 3;
+			logistics_skill = 2;
+			available = {
+				NOT = {
+					has_country_flag = ISI_army_women
 				}
 			}
 		}
