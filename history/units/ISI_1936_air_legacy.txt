@@ -23,9 +23,9 @@ air_wings = {
 		}
 		name = "Говнолет Романа"
 		small_plane_airframe_0 =  {		# Ar 68
-			owner = "GER" 
+			owner = "ENG" 
 			amount = 50
-			version_name = "He 51"
+			version_name = "Hawker Fury"
 		}
 		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
 			modifier="fighter_genius"
