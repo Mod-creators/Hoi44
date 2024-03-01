@@ -1805,7 +1805,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.1
 		cost = 10,00
 		available = {
 				NOT = {has_country_flag = gas_toxic}
@@ -1823,7 +1823,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.2
 		cost = 10,00
 		prerequisite = {
 			focus = cevilwar.0.2
@@ -1840,7 +1840,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.3
 		cost = 10,00
 		prerequisite = {
 			focus = cevilwar.0.2
@@ -1868,7 +1868,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.1.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.1.1
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.1
@@ -1883,7 +1883,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.1.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.1.2
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.1.1
@@ -1899,7 +1899,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.2.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.2.1
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.2
@@ -1914,7 +1914,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.2.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.2.2
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.2.1
@@ -1928,7 +1928,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.3.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.3.1
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.3
@@ -1943,7 +1943,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = rebuld.0.3.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rebuld.0.3.2
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.3.1
@@ -1959,7 +1959,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.1
 		cost = 10,00
 		prerequisite = {
 		focus = rebuld.0.2.2
@@ -1976,7 +1976,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.2
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.2
 		cost = 10,00
 		prerequisite = {
 		focus = rebuld.0.2.2
@@ -1993,7 +1993,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.3
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.3
 		cost = 10,00
 		prerequisite = {
 			focus = rebuld.0.2.2
@@ -2010,7 +2010,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.4
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.4
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.1
@@ -2029,7 +2029,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.5
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.5
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.2
@@ -2047,7 +2047,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.6
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.6
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.4
@@ -2062,7 +2062,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.7
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.7
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.4
@@ -2077,7 +2077,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.8
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.8
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.5
@@ -2098,7 +2098,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.9
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.9
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.5
@@ -2120,7 +2120,7 @@ add_ideas = monopoly
 	}
 	focus = {
 		id = whatnext.3.10
-		icon = GFX_goal_unknown
+		icon = GFX_focus_whatnext.3.10
 		cost = 10,00
 		prerequisite = {
 			focus = whatnext.3.8

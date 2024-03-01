@@ -8512,6 +8512,55 @@ spriteTypes = {
 	}
 	
 	
+	spriteType = {
+		name = "GFX_alex_morda"
+        texturefile = "gfx/leaders/ISI/alex_morda.dds"
+	}
+	spriteType = {
+		name = "GFX_amoral"
+        texturefile = "gfx/leaders/ISI/amoral.dds"
+	}
+	spriteType = {
+		name = "GFX_anastasia"
+        texturefile = "gfx/leaders/ISI/anastasia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_artem_kokos"
+        texturefile = "gfx/leaders/ISI/artem_kokos.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_fanchin"
+        texturefile = "gfx/leaders/ISI/fanchin.dds"
+	}
+	spriteType = {
+		name = "GFX_snigers"
+        texturefile = "gfx/leaders/ISI/snigers.dds"
+	}
+	spriteType = {
+		name = "GFX_minenko"
+        texturefile = "gfx/leaders/ISI/minenko.dds"
+	}
+		spriteType = {
+		name = "GFX_bororda"
+        texturefile = "gfx/leaders/ISI/bororda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dima_agent"
+        texturefile = "gfx/interface/agent/dima_agent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_danil_ace"
+        texturefile = "gfx/interface/agent/danil_ace.dds"
+	}
+	
+
+	
+	
+	
 	
 	
 	
@@ -8598,6 +8647,10 @@ spriteTypes = {
 		name = "GFX_portrait_vampire"
         texturefile = "gfx/interface/ideas/vampire.dds"
 	}
+			spriteType = {
+		name = "GFX_grozn"
+        texturefile = "gfx/interface/ideas/grozn.dds"
+	}
 	
 	
 	
@@ -8654,6 +8707,79 @@ spriteTypes = {
         texturefile = "gfx/interface/focus/GFX_focus_cevilwar_02.dds"
 	}
 	
+		spriteType = {
+		name = "GFX_focus_rebuld.0.1"
+        texturefile = "gfx/interface/focus/rebuld.0.1.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.1.1"
+        texturefile = "gfx/interface/focus/rebuld.0.1.1.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.2"
+        texturefile = "gfx/interface/focus/rebuld.0.2.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.2.1"
+        texturefile = "gfx/interface/focus/rebuld.0.2.1.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.2.2"
+        texturefile = "gfx/interface/focus/rebuld.0.2.2.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.3"
+        texturefile = "gfx/interface/focus/rebuld.0.3.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.3.1"
+        texturefile = "gfx/interface/focus/rebuld.0.3.1.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_rebuld.0.3.2"
+        texturefile = "gfx/interface/focus/rebuld.0.3.2.dds"
+	}
+		spriteType = {
+		name = "GFX_focus_whatnext.3.1"
+        texturefile = "gfx/interface/focus/whatnext.3.1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_whatnext.3.2"
+        texturefile = "gfx/interface/focus/whatnext.3.2.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.3"
+        texturefile = "gfx/interface/focus/whatnext.3.3.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.4"
+        texturefile = "gfx/interface/focus/whatnext.3.4.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.5"
+        texturefile = "gfx/interface/focus/whatnext.3.5.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.6"
+        texturefile = "gfx/interface/focus/whatnext.3.6.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.7"
+        texturefile = "gfx/interface/focus/whatnext.3.7.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.8"
+        texturefile = "gfx/interface/focus/whatnext.3.9.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.9"
+        texturefile = "gfx/interface/focus/whatnext.3.9.1.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_whatnext.3.10"
+        texturefile = "gfx/interface/focus/whatnext.3.10.dds"
+	}
 	
 	
 	

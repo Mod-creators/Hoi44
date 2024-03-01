@@ -164,7 +164,7 @@ set_stability = 0.50
 
 create_operative_leader = {
         name = "ISI_dima_volkov"
-        GFX = GFX_portrait_alexander_rado
+        GFX = GFX_dima_agent
         traits = { operative_natural_orator }
         bypass_recruitment = no
         available_to_spy_master = yes

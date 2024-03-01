@@ -286,3 +286,424 @@ music = {
 	song = "mogilas"
 	
 }
+
+music = {
+	song = "BLACKPINK"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "Creepy Nuts"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "DEAD"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Banknote"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Battery"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Beast Mode"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Belly Dance"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Boing Boing"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Boosted Simpsons"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Burnout"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Capybara"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Chainsaw Man"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Crab"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Earthquake"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Exhaust"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Final Boss"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Force Majeure"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Golem"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Holy Trail"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Inferno"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Interrobang"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Lights Off"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Nightlighter"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Oh Cholera"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Phonky Christmas"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Phonky Town"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Pixelizator"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Short Circuit"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Simulation"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Skybreaker"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Solo Leveling"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Spiral Twirl"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Sword"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "IIIOR - Via"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "GAGA"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}	
+}
+

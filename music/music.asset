@@ -166,3 +166,186 @@ music = {
 	file = "Green_Apelsin_-_Stancuyu_na_tvoejj_mogile_75265153.ogg"
 	volume = 0.65
 }
+
+music = {
+	name = "mogilas"
+	file = "Green_Apelsin_-_Stancuyu_na_tvoejj_mogile_75265153.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "BLACKPINK"
+	file = "BLACKPINK.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Creepy Nuts"
+	file = "Creepy Nuts.ogg"
+	volume = 0.65
+}
+music = {
+	name = "DEAD"
+	file = "DEAD.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Banknote"
+	file = "IIIOR - Banknote.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Battery"
+	file = "IIIOR - Battery.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Beast Mode"
+	file = "IIIOR - Beast Mode.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Belly Dance"
+	file = "IIIOR - Belly Dance.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Boing Boing"
+	file = "IIIOR - Boing Boing.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Boosted Simpsons"
+	file = "IIIOR - Boosted Simpsons.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Burnout"
+	file = "IIIOR - Burnout.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Capybara"
+	file = "IIIOR - Capybara.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Chainsaw Man"
+	file = "IIIOR - Chainsaw Man.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Crab"
+	file = "IIIOR - Crab.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Earthquake"
+	file = "IIIOR - Earthquake.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Exhaust"
+	file = "IIIOR - Exhaust.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Final Boss"
+	file = "IIIOR - Final Boss.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Force Majeure"
+	file = "IIIOR - Force Majeure.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Golem"
+	file = "IIIOR - Golem.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Holy Trail"
+	file = "IIIOR - Holy Trail.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Inferno"
+	file = "IIIOR - Inferno.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Interrobang"
+	file = "IIIOR - Interrobang.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Lights Off"
+	file = "IIIOR - Lights Off.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Nightlighter"
+	file = "IIIOR - Nightlighter.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Oh Cholera"
+	file = "IIIOR - Oh Cholera.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Phonky Christmas"
+	file = "IIIOR - Phonky Christmas.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Phonky Town"
+	file = "IIIOR - Phonky Town.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Pixelizator"
+	file = "IIIOR - Pixelizator.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Short Circuit"
+	file = "IIIOR - Short Circuit.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Simulation"
+	file = "IIIOR - Simulation.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Skybreaker"
+	file = "IIIOR - Skybreaker.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Solo Leveling"
+	file = "IIIOR - Solo Leveling.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Spiral Twirl"
+	file = "IIIOR - Spiral Twirl.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Sword"
+	file = "IIIOR - Sword.ogg"
+	volume = 0.65
+}
+music = {
+	name = "IIIOR - Via"
+	file = "IIIOR - Via.ogg"
+	volume = 0.65
+}
+music = {
+	name = "GAGA"
+	file = "Lady Gaga - Poker Face (IIIOR Bootleg)_(bomb-music.ru).ogg"
+	volume = 0.65
+}

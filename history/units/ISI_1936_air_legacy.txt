@@ -14,7 +14,7 @@ air_wings = {
 			name="Вероника"
 			surname="Металическая"
 			callsign="Ночная Ведьма"
-			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+			portrait = 0
 		}
 		# TODO: REMOVE THIS LATER ???
 		transport_plane_equipment_1 = {
@@ -32,7 +32,7 @@ air_wings = {
 			name="Данил"
 			surname="Прохоровский"
 			callsign="Желтоглазый"
-			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+			portrait=GFX_danil_ace
 		}
 	}
 }
