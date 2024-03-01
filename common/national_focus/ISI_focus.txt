@@ -1324,6 +1324,22 @@ add_ideas = monopoly
 					instant_build = yes
 				}
 			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1436,6 +1452,11 @@ add_ideas = monopoly
 		}
 		x = 115
 		y = 4
+		completion_reward = {
+		set_technology = { armored_train = 1 }
+		set_technology = { railway_gun = 1 }
+		ITA_mobilize_railway_guns = yes
+		}
 
 	}
 	focus = {
@@ -1459,165 +1480,6 @@ add_ideas = monopoly
 		}
 		x = 111
 		y = 5
-
-	}
-	focus = {
-		id = proizvod.2.5
-		icon = GFX_focus_info_25
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.1.2
-		}
-		prerequisite = {
-			focus = proizvod.1.5
-		}
-		
-		completion_reward = {
-		
-		add_tech_bonus = {
-		name = nav_bomber_bonus
-					bonus = 1.0
-					uses = 1
-					category = light_air
-		}
-		}
-		x = 118
-		y = 1
-
-	}
-	focus = {
-		id = proizvod.3.7
-		icon = GFX_focus_info_37
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.2.5
-		}
-		x = 117
-		y = 2
-		completion_reward = {
-		add_ideas = nachduxcarabl
-		}
-	}
-	focus = {
-		id = proizvod.3.8
-		icon = GFX_focus_proizvod_38
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.2.5
-		}
-		x = 119
-		y = 2
-	completion_reward = {
-		add_ideas =	nachduxsam
-			}
-			
-			
-	}
-	focus = {
-		id = proizvod.4.5
-		icon = GFX_focus_proizvod_45
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.3.7
-			focus = proizvod.3.8
-		}
-		x = 118
-		y = 3
-		completion_reward = {
-		add_tech_bonus = {
-				name = uk_carrier_focus
-				bonus = 3.0
-				uses = 1
-				category = cv_tech
-			}
-
-		}
-	}
-	focus = {
-		id = proizvod.3.9
-		icon = GFX_focus_proizvod_39
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.2.5
-		}
-		x = 121
-		y = 2
-		completion_reward = {
-		add_ideas =	nachduarm
-			}
-	}
-	focus = {
-		id = proizvod.4.6
-		icon = GFX_focus_proizvod_46
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.3.8
-		}
-		prerequisite = {
-			focus = proizvod.3.9
-		}
-		x = 120
-		y = 3
-	completion_reward = {
-	add_doctrine_cost_reduction = {
-				name = strat_dest_bonus
-				cost_reduction = 0.25
-				uses = 2
-				category = battlefield_support_tree
-			}
-	}
-	}
-	focus = {
-		id = proizvod.6.5
-		icon = GFX_focus_proizvod_65
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.4.5
-		}
-		prerequisite = {
-			focus = proizvod.5.5
-		}
-		prerequisite = {
-			focus = proizvod.4.6
-		}
-		mutually_exclusive = {
-			focus = proizvod.6.6
-		}
-		x = 117
-		y = 5 
-		
-		completion_reward = {
-		add_ideas = nachshipcost
-		}
-
-	}
-	focus = {
-		id = proizvod.6.6
-		icon = GFX_focus_proizvod_66
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.4.6
-		}
-		prerequisite = {
-			focus = proizvod.4.5
-		}
-		mutually_exclusive = {
-			focus = proizvod.6.5
-		}
-		x = 120
-		y = 5
-
-	}
-	focus = {
-		id = proizvod.7.2
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = proizvod.6.5
-			focus = proizvod.6.6
-		}
-		x = 118
-		y = 6
 
 	}
 	focus = {

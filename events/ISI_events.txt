@@ -710,6 +710,10 @@ country_event = {
 		name = isi.5danil.a
 		custom_effect_tooltip = ISI_den_dead
 	}
+	
+	option = {
+		name = isi.5danil.b
+	}
 }
 
 country_event = {
